@@ -48,7 +48,7 @@ func (s *workerFixture) SetUpTest(c *gc.C) {
 	certPool, err := api.CreateCertPool(coretesting.CACert)
 	c.Assert(err, jc.ErrorIsNil)
 	tlsConfig := api.NewTLSConfig(certPool)
-	tlsConfig.ServerName = "juju-apiserver"
+	tlsConfig.ServerName = "acpoc-apiserver"
 	tlsConfig.Certificates = []tls.Certificate{*coretesting.ServerTLSCert}
 	s.prometheusRegisterer = stubPrometheusRegisterer{}
 	s.mux = apiserverhttp.NewMux()

@@ -89,7 +89,7 @@ func (s *TLSStateAutocertSuite) TestAutocertExceptions(c *gc.C) {
 	)
 	c.Assert(err, jc.ErrorIsNil)
 	s.testGetCertificate(c, tlsConfig, "127.0.0.1")
-	s.testGetCertificate(c, tlsConfig, "juju-apiserver")
+	s.testGetCertificate(c, tlsConfig, "acpoc-apiserver")
 	s.testGetCertificate(c, tlsConfig, "testing1.invalid")
 	c.Assert(s.autocertQueried, jc.IsFalse)
 }

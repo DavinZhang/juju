@@ -42,7 +42,7 @@ func (s *certSuite) SetUpTest(c *gc.C) {
 	// Copy the root CAs across.
 	tlsConfig.RootCAs = s.config.TLSConfig.RootCAs
 	s.config.TLSConfig = tlsConfig
-	s.config.TLSConfig.ServerName = "juju-apiserver"
+	s.config.TLSConfig.ServerName = "acpoc-apiserver"
 	s.config.Mux.AddHandler("GET", "/hey", http.HandlerFunc(s.handler))
 }
 

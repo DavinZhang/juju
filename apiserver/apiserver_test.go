@@ -84,7 +84,7 @@ func (s *apiserverConfigFixture) SetUpTest(c *gc.C) {
 		panic(err)
 	}
 	s.tlsConfig = api.NewTLSConfig(certPool)
-	s.tlsConfig.ServerName = "juju-apiserver"
+	s.tlsConfig.ServerName = "acpoc-apiserver"
 	s.tlsConfig.Certificates = []tls.Certificate{*testing.ServerTLSCert}
 	s.mux = apiserverhttp.NewMux()
 
@@ -325,7 +325,7 @@ func dialWebsocketFromURL(c *gc.C, server string, header http.Header) (*websocke
 	c.Assert(caCerts.AppendCertsFromPEM([]byte(testing.CACert)), jc.IsTrue)
 	tlsConfig := jujuhttp.SecureTLSConfig()
 	tlsConfig.RootCAs = caCerts
-	tlsConfig.ServerName = "juju-apiserver"
+	tlsConfig.ServerName = "acpoc-apiserver"
 
 	dialer := &websocket.Dialer{
 		TLSClientConfig: tlsConfig,

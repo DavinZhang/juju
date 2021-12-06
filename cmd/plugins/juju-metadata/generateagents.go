@@ -44,7 +44,7 @@ generate-agents creates the simplestreams metadata for agents.
 This command works by scanning a directory for agent binary tarballs from which 
 to generate simplestreams agent metadata. The working directory is specified
 using the -d argument (defaults to $JUJU_DATA or if not defined
-$XDG_DATA_HOME/juju or if that is not defined ~/.local/share/juju). The working 
+$XDG_DATA_HOME/juju or if that is not defined ~/.local/share/acpoc). The working 
 directory path must contain a "tools" subdirectory. The "tools" directory is 
 expected to contain a streams release subdirectory (released, devel, proposed) 
 containing agent binary tarballs. The output of the streams metadata will be

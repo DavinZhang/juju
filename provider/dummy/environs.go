@@ -521,7 +521,7 @@ func (s *environState) listenAPI() int {
 		panic(err)
 	}
 	tlsConfig := api.NewTLSConfig(certPool)
-	tlsConfig.ServerName = "juju-apiserver"
+	tlsConfig.ServerName = "acpoc-apiserver"
 	tlsConfig.Certificates = []tls.Certificate{*testing.ServerTLSCert}
 	s.mux = apiserverhttp.NewMux()
 	s.httpServer = httptest.NewUnstartedServer(s.mux)

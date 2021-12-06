@@ -390,14 +390,14 @@ var (
 		MigrationMinionWaitMax,
 	}
 
-	// For backwards compatibility, we must include "anything", "juju-apiserver"
+	// For backwards compatibility, we must include "anything", "acpoc-apiserver"
 	// and "juju-mongodb" as hostnames as that is what clients specify
 	// as the hostname for verification (this certificate is used both
 	// for serving MongoDB and API server connections).  We also
 	// explicitly include localhost.
 	DefaultDNSNames = []string{
 		"localhost",
-		"juju-apiserver",
+		"acpoc-apiserver",
 		"juju-mongodb",
 		"anything",
 	}

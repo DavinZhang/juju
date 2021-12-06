@@ -67,7 +67,7 @@ ENVIRONMENT = (
         -m MODEL, this takes precedence.
         """)),
     ('JUJU_DATA', textwrap.dedent("""\
-        Overrides the default Juju configuration directory of $XDG_DATA_HOME/juju or ~/.local/share/juju
+        Overrides the default Juju configuration directory of $XDG_DATA_HOME/juju or ~/.local/share/acpoc
         if $XDG_DATA_HOME is not defined.
         """)),
     ('AWS_ACCESS_KEY_ID', textwrap.dedent("""\
@@ -150,29 +150,29 @@ OpenStack, and Rackspace. It also works very well with MAAS and LXD.
 man_foot = """\
 .SH "FILES"
 .TP
-.I "~/.local/share/juju/accounts.yaml"
+.I "~/.local/share/acpoc/accounts.yaml"
 Records the current authorised Juju users and their 
 passwords.
 .TP
-.I "~/.local/share/juju/bootstrap-config.yaml"
+.I "~/.local/share/acpoc/bootstrap-config.yaml"
 Records any configuration values which were used in the 
 creation of running controllers.
 .TP
-.I "~/.local/share/juju/clouds.yaml"
+.I "~/.local/share/acpoc/clouds.yaml"
 Records any user-specified clouds which have been 
 added to Juju.
 .TP
-.I "~/.local/share/juju/controllers.yaml"
+.I "~/.local/share/acpoc/controllers.yaml"
 Records all the running controllers, their UUIDS, 
 api-endpoints and CA certificates.
 .TP
-.I "~/.local/share/juju/credentials.yaml"
+.I "~/.local/share/acpoc/credentials.yaml"
 Records all the cloud credentials known to Juju.
 .TP
-.I "~/.local/share/juju/models.yaml"
+.I "~/.local/share/acpoc/models.yaml"
 Records the UUIDs of all models known to Juju.
 .TP
-.I "~/.local/share/juju/ssh/"
+.I "~/.local/share/acpoc/ssh/"
 A directory containing the SSH credentials for the Juju client.
 .SH "SEE ALSO"
 .UR https://jaas.ai/docs

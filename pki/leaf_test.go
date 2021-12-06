@@ -29,18 +29,18 @@ func (l *LeafSuite) TestLeafHasDNSNames(c *gc.C) {
 		Result        bool
 	}{
 		{
-			CertDNSNames:  []string{"juju-apiserver", "mongodb"},
-			CheckDNSNames: []string{"juju-apiserver"},
+			CertDNSNames:  []string{"acpoc-apiserver", "mongodb"},
+			CheckDNSNames: []string{"acpoc-apiserver"},
 			Result:        true,
 		},
 		{
-			CertDNSNames:  []string{"juju-apiserver", "mongodb"},
-			CheckDNSNames: []string{"juju-apiserver", "mongodb"},
+			CertDNSNames:  []string{"acpoc-apiserver", "mongodb"},
+			CheckDNSNames: []string{"acpoc-apiserver", "mongodb"},
 			Result:        true,
 		},
 		{
-			CertDNSNames:  []string{"juju-apiserver", "mongodb"},
-			CheckDNSNames: []string{"juju-apiserver1", "mongodb"},
+			CertDNSNames:  []string{"acpoc-apiserver", "mongodb"},
+			CheckDNSNames: []string{"acpoc-apiserver1", "mongodb"},
 			Result:        false,
 		},
 	}

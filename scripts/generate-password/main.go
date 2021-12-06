@@ -47,7 +47,7 @@ func main() {
 			log.Fatal(err)
 		}
 		hash := utils.UserPasswordHash(passwd, salt)
-		fmt.Printf("Password line for ~/.local/share/juju/accounts.yaml\n")
+		fmt.Printf("Password line for ~/.local/share/acpoc/accounts.yaml\n")
 		fmt.Printf("  password: %s\n", passwd)
 		fmt.Printf(`db.users.update({"_id": "%s"}, {"$set": {"passwordsalt": "%s", "passwordhash": "%s"}})`+"\n",
 			*user, salt, hash)

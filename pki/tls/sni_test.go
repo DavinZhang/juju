@@ -84,7 +84,7 @@ func (s *SNISuite) TestAuthorityTLSGetter(c *gc.C) {
 		},
 		{
 			// Testing default certificate
-			DNSNames:      []string{"juju-apiserver"},
+			DNSNames:      []string{"acpoc-apiserver"},
 			ExpectedGroup: pki.DefaultLeafGroup,
 			Group:         pki.DefaultLeafGroup,
 			ServerName:    "doesnotexist.juju.example",

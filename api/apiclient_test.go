@@ -497,7 +497,7 @@ var openWithSNIHostnameTests = []struct {
 	expectDial: apiDialInfo{
 		location:   "wss://0.1.1.1:1234/api",
 		hasRootCAs: true,
-		serverName: "juju-apiserver",
+		serverName: "acpoc-apiserver",
 	},
 }, {
 	about: "with cert; numeric IP address - use cert",
@@ -510,7 +510,7 @@ var openWithSNIHostnameTests = []struct {
 	expectDial: apiDialInfo{
 		location:   "wss://0.1.2.3:1234/api",
 		hasRootCAs: true,
-		serverName: "juju-apiserver",
+		serverName: "acpoc-apiserver",
 	},
 }}
 
@@ -549,7 +549,7 @@ func (s *apiclientSuite) TestFallbackToSNIHostnameOnCertErrorAndNonNumericHostna
 			check: func(info dialInfo) {
 				c.Assert(info.tlsConfig, gc.NotNil)
 				c.Check(info.tlsConfig.RootCAs.Subjects(), gc.HasLen, 1)
-				c.Check(info.tlsConfig.ServerName, gc.Equals, "juju-apiserver")
+				c.Check(info.tlsConfig.ServerName, gc.Equals, "acpoc-apiserver")
 			},
 			returnError: x509.CertificateInvalidError{
 				Reason: x509.CANotAuthorizedForThisName,
@@ -584,7 +584,7 @@ func (s *apiclientSuite) TestFailImmediatelyOnCertErrorAndNumericHostname(c *gc.
 			check: func(info dialInfo) {
 				c.Assert(info.tlsConfig, gc.NotNil)
 				c.Check(info.tlsConfig.RootCAs.Subjects(), gc.HasLen, 1)
-				c.Check(info.tlsConfig.ServerName, gc.Equals, "juju-apiserver")
+				c.Check(info.tlsConfig.ServerName, gc.Equals, "acpoc-apiserver")
 			},
 			returnError: x509.CertificateInvalidError{
 				Reason: x509.CANotAuthorizedForThisName,
