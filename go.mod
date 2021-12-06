@@ -1,4 +1,4 @@
-module github.com/juju/juju
+module github.com/DavinZhang/juju
 
 go 1.17
 
