@@ -9,16 +9,16 @@ import (
 	"github.com/juju/collections/set"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cloudconfig/instancecfg"
-	"github.com/juju/juju/controller/authentication"
-	"github.com/juju/juju/core/network"
-	coreseries "github.com/juju/juju/core/series"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/stateenvirons"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cloudconfig/instancecfg"
+	"github.com/DavinZhang/juju/controller/authentication"
+	"github.com/DavinZhang/juju/core/network"
+	coreseries "github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/stateenvirons"
 )
 
 // InstanceConfig returns information from the model config that

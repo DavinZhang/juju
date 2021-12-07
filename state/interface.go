@@ -9,12 +9,12 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/tools"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/tools"
 )
 
 // EntityFinder is implemented by *State. See State.FindEntity

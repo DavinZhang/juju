@@ -16,7 +16,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	jujutesting "github.com/juju/juju/testing"
+	jujutesting "github.com/DavinZhang/juju/testing"
 )
 
 func Test(t *testing.T) {

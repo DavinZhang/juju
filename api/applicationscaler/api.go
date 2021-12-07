@@ -8,9 +8,9 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 var logger = loggo.GetLogger("juju.api.applicationscaler")

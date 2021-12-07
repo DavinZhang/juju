@@ -12,10 +12,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/params"
-	apitesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/apiserver/websocket/websockettest"
-	"github.com/juju/juju/testing/factory"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apitesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/apiserver/websocket/websockettest"
+	"github.com/DavinZhang/juju/testing/factory"
 )
 
 type debugLogDBSuite struct {

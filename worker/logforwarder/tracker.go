@@ -7,10 +7,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/base"
-	logfwdapi "github.com/juju/juju/api/logfwd"
-	"github.com/juju/juju/logfwd"
-	"github.com/juju/juju/logfwd/syslog"
+	"github.com/DavinZhang/juju/api/base"
+	logfwdapi "github.com/DavinZhang/juju/api/logfwd"
+	"github.com/DavinZhang/juju/logfwd"
+	"github.com/DavinZhang/juju/logfwd/syslog"
 )
 
 // TrackingSinkArgs holds the args to OpenTrackingSender.

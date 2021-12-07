@@ -12,7 +12,7 @@ import (
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/client-go/informers"
 
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // Constants below are copied from "k8s.io/kubernetes/pkg/kubelet/events"

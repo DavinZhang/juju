@@ -13,8 +13,8 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/fortress"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/fortress"
 )
 
 type OccupySuite struct {

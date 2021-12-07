@@ -12,14 +12,14 @@ import (
 	"gopkg.in/macaroon.v2"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/apiserver/common/firewall"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/common/firewall"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type mockState struct {

@@ -12,11 +12,11 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/instances"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/instances"
 )
 
 // AddressesRefreshAttempt is the attempt strategy used when

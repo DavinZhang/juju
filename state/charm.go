@@ -18,13 +18,13 @@ import (
 	jujutxn "github.com/juju/txn/v2"
 	"gopkg.in/macaroon.v2"
 
-	corecharm "github.com/juju/juju/core/charm"
-	"github.com/juju/juju/feature"
-	"github.com/juju/juju/mongo"
-	mongoutils "github.com/juju/juju/mongo/utils"
-	stateerrors "github.com/juju/juju/state/errors"
-	"github.com/juju/juju/state/storage"
-	jujuversion "github.com/juju/juju/version"
+	corecharm "github.com/DavinZhang/juju/core/charm"
+	"github.com/DavinZhang/juju/feature"
+	"github.com/DavinZhang/juju/mongo"
+	mongoutils "github.com/DavinZhang/juju/mongo/utils"
+	stateerrors "github.com/DavinZhang/juju/state/errors"
+	"github.com/DavinZhang/juju/state/storage"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 type MacaroonCacheState interface {

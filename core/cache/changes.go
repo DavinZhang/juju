@@ -6,15 +6,15 @@ package cache
 import (
 	"time"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/lxdprofile"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/core/settings"
-	"github.com/juju/juju/core/status"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/lxdprofile"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/core/settings"
+	"github.com/DavinZhang/juju/core/status"
 )
 
 // ControllerConfigChange represents the initial controller config,

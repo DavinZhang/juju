@@ -14,7 +14,7 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/utils/v2/keyvalues"
 
-	jujucmd "github.com/juju/juju/cmd"
+	jujucmd "github.com/DavinZhang/juju/cmd"
 )
 
 // Metric represents a single metric set by the charm.

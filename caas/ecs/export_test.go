@@ -4,8 +4,8 @@
 package ecs
 
 import (
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/storage"
 )
 
 type (

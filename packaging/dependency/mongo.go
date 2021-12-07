@@ -8,7 +8,7 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/packaging"
+	"github.com/DavinZhang/juju/packaging"
 )
 
 type mongoDependency struct {

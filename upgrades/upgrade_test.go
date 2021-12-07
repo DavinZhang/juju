@@ -16,15 +16,15 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/mongo"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/upgrades"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/mongo"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/upgrades"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 func TestPackage(t *stdtesting.T) {

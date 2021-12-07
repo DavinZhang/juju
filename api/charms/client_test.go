@@ -13,12 +13,12 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/macaroon.v2"
 
-	basemocks "github.com/juju/juju/api/base/mocks"
-	"github.com/juju/juju/api/charms"
-	apicharm "github.com/juju/juju/api/common/charm"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/arch"
-	coretesting "github.com/juju/juju/testing"
+	basemocks "github.com/DavinZhang/juju/api/base/mocks"
+	"github.com/DavinZhang/juju/api/charms"
+	apicharm "github.com/DavinZhang/juju/api/common/charm"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/arch"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type charmsMockSuite struct {

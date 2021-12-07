@@ -19,22 +19,22 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/proxy"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/secretsmanager"
-	"github.com/juju/juju/api/uniter"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/caas"
-	k8sspecs "github.com/juju/juju/caas/kubernetes/provider/specs"
-	"github.com/juju/juju/core/application"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/quota"
-	coresecrets "github.com/juju/juju/core/secrets"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/juju/sockets"
-	"github.com/juju/juju/version"
-	"github.com/juju/juju/worker/common/charmrunner"
-	"github.com/juju/juju/worker/uniter/runner/jujuc"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/secretsmanager"
+	"github.com/DavinZhang/juju/api/uniter"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/caas"
+	k8sspecs "github.com/DavinZhang/juju/caas/kubernetes/provider/specs"
+	"github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/quota"
+	coresecrets "github.com/DavinZhang/juju/core/secrets"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/juju/sockets"
+	"github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/worker/common/charmrunner"
+	"github.com/DavinZhang/juju/worker/uniter/runner/jujuc"
 )
 
 // Logger is here to stop the desire of creating a package level Logger.
@@ -142,7 +142,7 @@ type HookProcess interface {
 	Kill() error
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/hookunit_mock.go github.com/juju/juju/worker/uniter/runner/context HookUnit
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/hookunit_mock.go github.com/DavinZhang/juju/worker/uniter/runner/context HookUnit
 
 // HookUnit represents the functions needed by a unit in a hook context to
 // call into state.

@@ -10,9 +10,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/os/v2/series"
 
-	"github.com/juju/juju/core/paths"
-	"github.com/juju/juju/service"
-	"github.com/juju/juju/service/systemd"
+	"github.com/DavinZhang/juju/core/paths"
+	"github.com/DavinZhang/juju/service"
+	"github.com/DavinZhang/juju/service/systemd"
 )
 
 // stateStepsFor24 returns upgrade steps for Juju 2.4.0 that manipulate state directly.

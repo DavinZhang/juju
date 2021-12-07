@@ -6,8 +6,8 @@ package provider_test
 import (
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/caas/kubernetes/provider"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type initSuite struct {

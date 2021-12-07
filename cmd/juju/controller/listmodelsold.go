@@ -13,11 +13,11 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cmd/juju/common"
-	"github.com/juju/juju/cmd/output"
-	"github.com/juju/juju/jujuclient"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cmd/juju/common"
+	"github.com/DavinZhang/juju/cmd/output"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 // oldModelsCommandBehaviour is the 'models' behavior for pre Juju 2.3.

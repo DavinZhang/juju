@@ -12,11 +12,11 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/gnuflag"
 
-	actionapi "github.com/juju/juju/api/action"
-	"github.com/juju/juju/apiserver/params"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/watcher"
+	actionapi "github.com/DavinZhang/juju/api/action"
+	"github.com/DavinZhang/juju/apiserver/params"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 func NewShowTaskCommand() cmd.Command {

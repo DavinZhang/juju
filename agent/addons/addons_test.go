@@ -17,10 +17,10 @@ import (
 	"github.com/juju/worker/v3/dependency"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent/addons"
-	agenterrors "github.com/juju/juju/cmd/jujud/agent/errors"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/introspection"
+	"github.com/DavinZhang/juju/agent/addons"
+	agenterrors "github.com/DavinZhang/juju/cmd/jujud/agent/errors"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/introspection"
 )
 
 type introspectionSuite struct {

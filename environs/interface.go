@@ -11,20 +11,20 @@ import (
 	"github.com/juju/version/v2"
 	"gopkg.in/juju/environschema.v1"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/core/assumes"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/network/firewall"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/instances"
-	"github.com/juju/juju/proxy"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/core/assumes"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/network/firewall"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/instances"
+	"github.com/DavinZhang/juju/proxy"
+	"github.com/DavinZhang/juju/storage"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package testing -destination testing/package_mock.go github.com/juju/juju/environs EnvironProvider,CloudEnvironProvider,ProviderSchema,ProviderCredentials,FinalizeCredentialContext,FinalizeCloudContext,CloudFinalizer,CloudDetector,CloudRegionDetector,ModelConfigUpgrader,ConfigGetter,CloudDestroyer,Environ,InstancePrechecker,Firewaller,InstanceTagger,InstanceTypesFetcher,Upgrader,UpgradeStep,DefaultConstraintsChecker,ProviderCredentialsRegister,RequestFinalizeCredential,NetworkingEnviron
+//go:generate go run github.com/golang/mock/mockgen -package testing -destination testing/package_mock.go github.com/DavinZhang/juju/environs EnvironProvider,CloudEnvironProvider,ProviderSchema,ProviderCredentials,FinalizeCredentialContext,FinalizeCloudContext,CloudFinalizer,CloudDetector,CloudRegionDetector,ModelConfigUpgrader,ConfigGetter,CloudDestroyer,Environ,InstancePrechecker,Firewaller,InstanceTagger,InstanceTypesFetcher,Upgrader,UpgradeStep,DefaultConstraintsChecker,ProviderCredentialsRegister,RequestFinalizeCredential,NetworkingEnviron
 
 type ConnectorInfo interface {
 	ConnectionProxyInfo() (proxy.Proxier, error)

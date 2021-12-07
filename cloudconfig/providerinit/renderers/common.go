@@ -10,8 +10,8 @@ import (
 
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/cloudconfig"
-	"github.com/juju/juju/cloudconfig/cloudinit"
+	"github.com/DavinZhang/juju/cloudconfig"
+	"github.com/DavinZhang/juju/cloudconfig/cloudinit"
 )
 
 // ToBase64 just transforms whatever userdata it gets to base64 format

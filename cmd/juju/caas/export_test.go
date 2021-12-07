@@ -11,11 +11,11 @@ import (
 	"github.com/juju/cmd/v3"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/caas/kubernetes/clientconfig"
-	"github.com/juju/juju/cloud"
-	jujucmdcloud "github.com/juju/juju/cmd/juju/cloud"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/jujuclient"
+	"github.com/DavinZhang/juju/caas/kubernetes/clientconfig"
+	"github.com/DavinZhang/juju/cloud"
+	jujucmdcloud "github.com/DavinZhang/juju/cmd/juju/cloud"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 func NewAddCAASCommandForTest(

@@ -6,14 +6,14 @@ package jujuc_test
 import (
 	"time"
 
+	coresecrets "github.com/DavinZhang/juju/core/secrets"
 	"github.com/juju/cmd/v3"
 	"github.com/juju/cmd/v3/cmdtesting"
-	coresecrets "github.com/juju/juju/core/secrets"
 	"github.com/juju/testing"
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/worker/uniter/runner/jujuc"
+	"github.com/DavinZhang/juju/worker/uniter/runner/jujuc"
 )
 
 type SecretUpdateSuite struct {

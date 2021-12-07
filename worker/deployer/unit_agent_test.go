@@ -12,11 +12,11 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/cmd/jujud/agent/engine"
-	jt "github.com/juju/juju/testing"
-	jv "github.com/juju/juju/version"
-	"github.com/juju/juju/worker/deployer"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/engine"
+	jt "github.com/DavinZhang/juju/testing"
+	jv "github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/worker/deployer"
 )
 
 type UnitAgentSuite struct {

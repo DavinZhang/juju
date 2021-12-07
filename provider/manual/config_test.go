@@ -7,9 +7,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	coretesting "github.com/juju/juju/testing"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type configSuite struct {

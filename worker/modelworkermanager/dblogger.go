@@ -12,8 +12,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/logdb"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/logdb"
 )
 
 // newModelLogger returns a buffered database logger that uses the name

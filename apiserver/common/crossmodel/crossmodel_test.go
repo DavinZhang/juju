@@ -10,11 +10,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/common/crossmodel"
-	"github.com/juju/juju/apiserver/params"
-	corecrossmodel "github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/status"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/common/crossmodel"
+	"github.com/DavinZhang/juju/apiserver/params"
+	corecrossmodel "github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/status"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type crossmodelSuite struct {

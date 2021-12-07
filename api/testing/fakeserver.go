@@ -7,8 +7,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/juju/juju/rpc"
-	"github.com/juju/juju/rpc/jsoncodec"
+	"github.com/DavinZhang/juju/rpc"
+	"github.com/DavinZhang/juju/rpc/jsoncodec"
 )
 
 // FakeAPIServer returns a net.Conn implementation

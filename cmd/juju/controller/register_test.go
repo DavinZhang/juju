@@ -23,13 +23,13 @@ import (
 	"golang.org/x/crypto/nacl/secretbox"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cmd/juju/controller"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cmd/juju/controller"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type RegisterSuite struct {

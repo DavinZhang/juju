@@ -11,11 +11,11 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/upgrader"
-	"github.com/juju/juju/upgrades"
-	"github.com/juju/juju/worker/gate"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/upgrader"
+	"github.com/DavinZhang/juju/upgrades"
+	"github.com/DavinZhang/juju/worker/gate"
 )
 
 // Clock represents the clock methods this worker uses.

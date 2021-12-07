@@ -11,10 +11,10 @@ import (
 	lxdapi "github.com/lxc/lxd/shared/api"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/container/lxd"
-	lxdtesting "github.com/juju/juju/container/lxd/testing"
-	corenetwork "github.com/juju/juju/core/network"
-	"github.com/juju/juju/network"
+	"github.com/DavinZhang/juju/container/lxd"
+	lxdtesting "github.com/DavinZhang/juju/container/lxd/testing"
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/network"
 )
 
 type networkSuite struct {

@@ -20,12 +20,12 @@ import (
 	k8sversion "k8s.io/apimachinery/pkg/version"
 	"k8s.io/utils/pointer"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/caas/kubernetes/provider"
-	k8sspecs "github.com/juju/juju/caas/kubernetes/provider/specs"
-	"github.com/juju/juju/core/application"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider"
+	k8sspecs "github.com/DavinZhang/juju/caas/kubernetes/provider/specs"
+	"github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/testing"
 )
 
 func (s *K8sBrokerSuite) assertIngressResources(c *gc.C, ingressResources []k8sspecs.K8sIngress, expectedErrString string, assertCalls ...*gomock.Call) {

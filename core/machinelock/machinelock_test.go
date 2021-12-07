@@ -16,9 +16,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/machinelock"
-	"github.com/juju/juju/core/paths"
-	jujutesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/machinelock"
+	"github.com/DavinZhang/juju/core/paths"
+	jujutesting "github.com/DavinZhang/juju/testing"
 )
 
 type Lock interface {

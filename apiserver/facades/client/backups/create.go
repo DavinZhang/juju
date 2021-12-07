@@ -7,8 +7,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/replicaset/v2"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/state/backups"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/state/backups"
 )
 
 var waitUntilReady = replicaset.WaitUntilReady

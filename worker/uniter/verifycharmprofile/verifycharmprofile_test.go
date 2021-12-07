@@ -8,11 +8,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/worker/uniter/operation"
-	"github.com/juju/juju/worker/uniter/remotestate"
-	"github.com/juju/juju/worker/uniter/resolver"
-	"github.com/juju/juju/worker/uniter/verifycharmprofile"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/worker/uniter/operation"
+	"github.com/DavinZhang/juju/worker/uniter/remotestate"
+	"github.com/DavinZhang/juju/worker/uniter/resolver"
+	"github.com/DavinZhang/juju/worker/uniter/verifycharmprofile"
 )
 
 type verifySuite struct{}

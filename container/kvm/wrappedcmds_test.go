@@ -8,17 +8,17 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/juju/juju/core/paths"
+	"github.com/DavinZhang/juju/core/paths"
 	"github.com/juju/testing"
 	jc "github.com/juju/testing/checkers"
 	"github.com/pkg/errors"
 	gc "gopkg.in/check.v1"
 
-	. "github.com/juju/juju/container/kvm"
-	"github.com/juju/juju/environs/imagedownloads"
-	"github.com/juju/juju/environs/simplestreams"
-	sstesting "github.com/juju/juju/environs/simplestreams/testing"
-	coretesting "github.com/juju/juju/testing"
+	. "github.com/DavinZhang/juju/container/kvm"
+	"github.com/DavinZhang/juju/environs/imagedownloads"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	sstesting "github.com/DavinZhang/juju/environs/simplestreams/testing"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type LibVertSuite struct {

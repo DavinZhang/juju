@@ -9,7 +9,7 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/names/v4"
 
-	jujucmd "github.com/juju/juju/cmd"
+	jujucmd "github.com/DavinZhang/juju/cmd"
 )
 
 type secretRevokeCommand struct {

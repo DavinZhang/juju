@@ -8,11 +8,11 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/testing"
 
-	charmscommon "github.com/juju/juju/apiserver/common/charms"
-	"github.com/juju/juju/apiserver/facades/controller/caasfirewaller"
-	"github.com/juju/juju/core/application"
-	"github.com/juju/juju/state"
-	statetesting "github.com/juju/juju/state/testing"
+	charmscommon "github.com/DavinZhang/juju/apiserver/common/charms"
+	"github.com/DavinZhang/juju/apiserver/facades/controller/caasfirewaller"
+	"github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/state"
+	statetesting "github.com/DavinZhang/juju/state/testing"
 )
 
 type mockState struct {

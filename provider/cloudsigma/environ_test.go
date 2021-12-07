@@ -9,12 +9,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/environs"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/simplestreams"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/environs"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/testing"
 )
 
 var _ environs.Environ = (*environ)(nil)

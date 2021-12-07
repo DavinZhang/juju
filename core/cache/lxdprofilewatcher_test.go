@@ -9,9 +9,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/cache"
-	"github.com/juju/juju/core/lxdprofile"
-	"github.com/juju/juju/core/status"
+	"github.com/DavinZhang/juju/core/cache"
+	"github.com/DavinZhang/juju/core/lxdprofile"
+	"github.com/DavinZhang/juju/core/status"
 )
 
 type lxdProfileWatcherSuite struct {

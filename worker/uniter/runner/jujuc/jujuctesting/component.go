@@ -7,7 +7,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/testing"
 
-	"github.com/juju/juju/worker/uniter/runner/jujuc"
+	"github.com/DavinZhang/juju/worker/uniter/runner/jujuc"
 )
 
 // Components holds the values for the hook context.

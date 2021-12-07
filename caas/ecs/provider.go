@@ -11,13 +11,13 @@ import (
 	"github.com/juju/jsonschema"
 	"github.com/juju/loggo"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/caas/ecs/constants"
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/caas/ecs/constants"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
 )
 
 var logger = loggo.GetLogger("juju.ecs.provider")

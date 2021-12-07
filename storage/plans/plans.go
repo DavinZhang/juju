@@ -6,10 +6,10 @@ package plans
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/storage/plans/common"
-	"github.com/juju/juju/storage/plans/iscsi"
-	"github.com/juju/juju/storage/plans/local"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/storage/plans/common"
+	"github.com/DavinZhang/juju/storage/plans/iscsi"
+	"github.com/DavinZhang/juju/storage/plans/local"
 )
 
 var registry = map[storage.DeviceType]common.Plan{

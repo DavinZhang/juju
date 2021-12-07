@@ -9,21 +9,21 @@ import (
 	"github.com/juju/worker/v3/catacomb"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/common"
-	"github.com/juju/juju/api/provisioner"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/container"
-	"github.com/juju/juju/container/broker"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/machinelock"
-	"github.com/juju/juju/environs"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/common"
+	"github.com/DavinZhang/juju/api/provisioner"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/container"
+	"github.com/DavinZhang/juju/container/broker"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/machinelock"
+	"github.com/DavinZhang/juju/environs"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/state_mock.go github.com/juju/juju/worker/containerbroker State
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/machine_mock.go github.com/juju/juju/api/provisioner MachineProvisioner
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/state_mock.go github.com/DavinZhang/juju/worker/containerbroker State
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/machine_mock.go github.com/DavinZhang/juju/api/provisioner MachineProvisioner
 
 // Config describes the dependencies of a Tracker.
 //

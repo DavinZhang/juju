@@ -8,11 +8,11 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cloudconfig/podcfg"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/cloudconfig/podcfg"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type podcfgSuite struct {

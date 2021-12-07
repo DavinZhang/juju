@@ -8,14 +8,14 @@ import (
 
 	"github.com/juju/replicaset/v2"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/lease"
-	"github.com/juju/juju/core/raftlease"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/state"
-	raftleasestore "github.com/juju/juju/state/raftlease"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/core/raftlease"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/state"
+	raftleasestore "github.com/DavinZhang/juju/state/raftlease"
 )
 
 // StateBackend provides an interface for upgrading the global state database.

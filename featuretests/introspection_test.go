@@ -18,16 +18,16 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	agentcmd "github.com/juju/juju/cmd/jujud/agent"
-	"github.com/juju/juju/cmd/jujud/agent/agentconf"
-	"github.com/juju/juju/cmd/jujud/agent/agenttest"
-	"github.com/juju/juju/cmd/jujud/introspect"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/testing/factory"
-	jujuversion "github.com/juju/juju/version"
-	"github.com/juju/juju/worker/logsender"
+	"github.com/DavinZhang/juju/agent"
+	agentcmd "github.com/DavinZhang/juju/cmd/jujud/agent"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/agentconf"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/agenttest"
+	"github.com/DavinZhang/juju/cmd/jujud/introspect"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/testing/factory"
+	jujuversion "github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/worker/logsender"
 )
 
 type introspectionSuite struct {

@@ -4,8 +4,8 @@
 package testing
 
 import (
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/state"
 )
 
 // CloudCredential is a convenience method to create state.Credential to be used in unit tests.

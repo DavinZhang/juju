@@ -21,11 +21,11 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/logsink"
-	"github.com/juju/juju/apiserver/logsink/mocks"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/apiserver/websocket/websockettest"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/logsink"
+	"github.com/DavinZhang/juju/apiserver/logsink/mocks"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/apiserver/websocket/websockettest"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 var shortAttempt = &utils.AttemptStrategy{

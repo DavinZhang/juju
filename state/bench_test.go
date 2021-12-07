@@ -10,7 +10,7 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/state"
 )
 
 type BenchmarkSuite struct {

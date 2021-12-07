@@ -11,13 +11,13 @@ import (
 
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/core/cache"
-	"github.com/juju/juju/core/leadership"
-	"github.com/juju/juju/core/lease"
-	"github.com/juju/juju/core/multiwatcher"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/core/presence"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/core/cache"
+	"github.com/DavinZhang/juju/core/leadership"
+	"github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/core/multiwatcher"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/core/presence"
+	"github.com/DavinZhang/juju/state"
 )
 
 // Facade could be anything; it will be interpreted by the apiserver
@@ -171,7 +171,7 @@ type RequestRecorder interface {
 	RecordError(method string, url *url.URL, err error)
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/facade_mock.go github.com/juju/juju/apiserver/facade Resources,Authorizer
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/facade_mock.go github.com/DavinZhang/juju/apiserver/facade Resources,Authorizer
 
 // Authorizer represents the authenticated entity using the API server.
 type Authorizer interface {

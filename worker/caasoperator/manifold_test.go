@@ -21,15 +21,15 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/caas/kubernetes/provider/exec"
-	"github.com/juju/juju/core/machinelock"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/caasoperator"
-	"github.com/juju/juju/worker/caasoperator/mocks"
-	"github.com/juju/juju/worker/uniter"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/exec"
+	"github.com/DavinZhang/juju/core/machinelock"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/caasoperator"
+	"github.com/DavinZhang/juju/worker/caasoperator/mocks"
+	"github.com/DavinZhang/juju/worker/uniter"
 )
 
 type ManifoldSuite struct {

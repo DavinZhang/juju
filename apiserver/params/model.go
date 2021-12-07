@@ -8,7 +8,7 @@ import (
 
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/core/life"
+	"github.com/DavinZhang/juju/core/life"
 )
 
 // ConfigValue encapsulates a configuration

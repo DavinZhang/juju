@@ -3,7 +3,7 @@
 
 package cleaner
 
-import "github.com/juju/juju/state"
+import "github.com/DavinZhang/juju/state"
 
 type StateInterface interface {
 	Cleanup() error

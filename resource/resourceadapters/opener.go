@@ -14,10 +14,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/charmstore"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/repositories"
-	corestate "github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/charmstore"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/repositories"
+	corestate "github.com/DavinZhang/juju/state"
 )
 
 // NewResourceOpener returns a new resource.Opener for the given unit.

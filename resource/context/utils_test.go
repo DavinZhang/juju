@@ -16,7 +16,7 @@ import (
 	"github.com/juju/testing/filetesting"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/resource/context"
+	"github.com/DavinZhang/juju/resource/context"
 )
 
 var _ = gc.Suite(&UtilsSuite{})

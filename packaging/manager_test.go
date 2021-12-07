@@ -4,8 +4,8 @@
 package packaging_test
 
 import (
-	"github.com/juju/juju/packaging"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/packaging"
+	coretesting "github.com/DavinZhang/juju/testing"
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 )

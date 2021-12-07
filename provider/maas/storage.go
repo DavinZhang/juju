@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/juju/juju/environs/storage"
+	"github.com/DavinZhang/juju/environs/storage"
 )
 
 func NewStorage(env *maasEnviron) storage.Storage {

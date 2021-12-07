@@ -18,11 +18,11 @@ import (
 	gc "gopkg.in/check.v1"
 	environschema "gopkg.in/juju/environschema.v1"
 
-	"github.com/juju/juju/charmhub"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/juju/osenv"
-	"github.com/juju/juju/testing"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/charmhub"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/juju/osenv"
+	"github.com/DavinZhang/juju/testing"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 func Test(t *stdtesting.T) {

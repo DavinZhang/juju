@@ -11,9 +11,9 @@ import (
 	"runtime"
 	"time"
 
+	"github.com/DavinZhang/juju/network/debinterfaces"
 	"github.com/juju/clock"
 	"github.com/juju/clock/testclock"
-	"github.com/juju/juju/network/debinterfaces"
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 )

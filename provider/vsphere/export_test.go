@@ -7,9 +7,9 @@ import (
 	"github.com/vmware/govmomi/object"
 	"github.com/vmware/govmomi/vim25/types"
 
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/provider/vsphere/internal/vsphereclient"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/provider/vsphere/internal/vsphereclient"
 )
 
 // NewVMTemplateManager returns a new vmTemplateManager. This function

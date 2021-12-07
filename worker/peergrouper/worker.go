@@ -21,11 +21,11 @@ import (
 	"github.com/kr/pretty"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/pubsub/apiserver"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/pubsub/apiserver"
+	"github.com/DavinZhang/juju/state"
 )
 
 var logger = loggo.GetLogger("juju.worker.peergrouper")

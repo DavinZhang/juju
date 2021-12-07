@@ -4,8 +4,8 @@
 package ecs
 
 import (
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/caas/ecs/constants"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/caas/ecs/constants"
 )
 
 func init() {

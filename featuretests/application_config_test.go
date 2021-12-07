@@ -15,10 +15,10 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/api/uniter"
-	"github.com/juju/juju/cmd/juju/application"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/api/uniter"
+	"github.com/DavinZhang/juju/cmd/juju/application"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
 )
 
 type ApplicationConfigSuite struct {

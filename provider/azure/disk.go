@@ -17,11 +17,11 @@ import (
 	"github.com/juju/retry"
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/provider/azure/internal/azureauth"
-	"github.com/juju/juju/provider/azure/internal/errorutils"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/provider/azure/internal/azureauth"
+	"github.com/DavinZhang/juju/provider/azure/internal/errorutils"
+	"github.com/DavinZhang/juju/storage"
 )
 
 const (

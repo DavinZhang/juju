@@ -14,8 +14,8 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/loggo"
 
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/environs/simplestreams"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/environs/simplestreams"
 )
 
 func newSignMetadataCommand() cmd.Command {

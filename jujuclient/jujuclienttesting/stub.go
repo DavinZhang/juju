@@ -6,8 +6,8 @@ package jujuclienttesting
 import (
 	"github.com/juju/testing"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/jujuclient"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 type StubStore struct {

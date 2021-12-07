@@ -11,9 +11,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type ModelsSuite struct {

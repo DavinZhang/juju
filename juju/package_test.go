@@ -6,7 +6,7 @@ package juju_test
 import (
 	stdtesting "testing"
 
-	coretesting "github.com/juju/juju/testing"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 func Test(t *stdtesting.T) {

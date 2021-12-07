@@ -15,10 +15,10 @@ import (
 	"github.com/juju/worker/v3"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/core/lease"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/singular"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/core/lease"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/singular"
 )
 
 type fixture struct {

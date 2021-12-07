@@ -11,11 +11,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	apicommoncharms "github.com/juju/juju/api/common/charms"
-	"github.com/juju/juju/cmd/juju/application/utils"
-	"github.com/juju/juju/cmd/juju/application/utils/mocks"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/resource"
+	apicommoncharms "github.com/DavinZhang/juju/api/common/charms"
+	"github.com/DavinZhang/juju/cmd/juju/application/utils"
+	"github.com/DavinZhang/juju/cmd/juju/application/utils/mocks"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/resource"
 )
 
 type utilsSuite struct{}

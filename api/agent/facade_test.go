@@ -10,10 +10,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/agent"
-	"github.com/juju/juju/api/base"
-	apitesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/apiserver/params"
+	"github.com/DavinZhang/juju/api/agent"
+	"github.com/DavinZhang/juju/api/base"
+	apitesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 type FacadeSuite struct {

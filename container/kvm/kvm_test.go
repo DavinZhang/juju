@@ -9,24 +9,24 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/juju/juju/core/network"
+	"github.com/DavinZhang/juju/core/network"
 
-	"github.com/juju/juju/container/kvm/mock"
+	"github.com/DavinZhang/juju/container/kvm/mock"
 
 	"github.com/juju/loggo"
 	jc "github.com/juju/testing/checkers"
 	"github.com/juju/utils/v2/arch"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/container"
-	"github.com/juju/juju/container/kvm"
-	kvmtesting "github.com/juju/juju/container/kvm/testing"
-	containertesting "github.com/juju/juju/container/testing"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/imagemetadata"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/container"
+	"github.com/DavinZhang/juju/container/kvm"
+	kvmtesting "github.com/DavinZhang/juju/container/kvm/testing"
+	containertesting "github.com/DavinZhang/juju/container/testing"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type KVMSuite struct {

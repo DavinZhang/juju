@@ -8,13 +8,13 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/network/firewall"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/instances"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/network/firewall"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/instances"
 )
 
 // AWS SDK version of instances.Instance.

@@ -8,12 +8,12 @@ import (
 	"net"
 	"strings"
 
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/context"
 	"github.com/juju/collections/set"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/context"
 	"github.com/juju/names/v4"
 	"github.com/packethost/packngo"
 )

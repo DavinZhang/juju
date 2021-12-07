@@ -21,12 +21,12 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/apiserver/authentication"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing/factory"
+	"github.com/DavinZhang/juju/apiserver/authentication"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing/factory"
 )
 
 type userAuthenticatorSuite struct {

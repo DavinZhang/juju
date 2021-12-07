@@ -12,12 +12,12 @@ import (
 	"github.com/vmware/govmomi/vim25/mo"
 	"golang.org/x/net/context"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	callcontext "github.com/juju/juju/environs/context"
-	"github.com/juju/juju/provider/common"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	callcontext "github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/provider/common"
 )
 
 // Note: This provider/environment does *not* implement storage.

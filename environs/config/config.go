@@ -22,13 +22,13 @@ import (
 	"gopkg.in/juju/environschema.v1"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/charmhub"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/environs/tags"
-	"github.com/juju/juju/juju/osenv"
-	"github.com/juju/juju/logfwd/syslog"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/charmhub"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/environs/tags"
+	"github.com/DavinZhang/juju/juju/osenv"
+	"github.com/DavinZhang/juju/logfwd/syslog"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 var logger = loggo.GetLogger("juju.environs.config")

@@ -11,15 +11,15 @@ import (
 	"github.com/juju/names/v4"
 	utilexec "github.com/juju/utils/v2/exec"
 
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/worker/uniter/charm"
-	"github.com/juju/juju/worker/uniter/hook"
-	"github.com/juju/juju/worker/uniter/remotestate"
-	"github.com/juju/juju/worker/uniter/runner"
-	"github.com/juju/juju/worker/uniter/runner/context"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/worker/uniter/charm"
+	"github.com/DavinZhang/juju/worker/uniter/hook"
+	"github.com/DavinZhang/juju/worker/uniter/remotestate"
+	"github.com/DavinZhang/juju/worker/uniter/runner"
+	"github.com/DavinZhang/juju/worker/uniter/runner/context"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/interface_mock.go github.com/juju/juju/worker/uniter/operation Operation,Factory,Callbacks
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/interface_mock.go github.com/DavinZhang/juju/worker/uniter/operation Operation,Factory,Callbacks
 
 // Logger is here to stop the desire of creating a package level Logger.
 // Don't do this, pass one in to the needed functions.

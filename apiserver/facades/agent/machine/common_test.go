@@ -9,10 +9,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 func Test(t *stdtesting.T) {

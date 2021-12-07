@@ -12,16 +12,16 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/params"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/environs/bootstrap"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/provider/dummy"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/environs/bootstrap"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/provider/dummy"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type modelWatcherSuite struct {

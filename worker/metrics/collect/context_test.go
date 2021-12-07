@@ -12,9 +12,9 @@ import (
 	"github.com/juju/utils/v2/keyvalues"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/juju/sockets"
-	"github.com/juju/juju/worker/metrics/collect"
-	"github.com/juju/juju/worker/uniter/runner/context"
+	"github.com/DavinZhang/juju/juju/sockets"
+	"github.com/DavinZhang/juju/worker/metrics/collect"
+	"github.com/DavinZhang/juju/worker/uniter/runner/context"
 )
 
 type ContextSuite struct {

@@ -8,10 +8,10 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/caas"
-	jujucontroller "github.com/juju/juju/controller"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/caas"
+	jujucontroller "github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/state"
 )
 
 // State provides the subset of model state

@@ -14,7 +14,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	k8sconstants "github.com/juju/juju/caas/kubernetes/provider/constants"
+	k8sconstants "github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
 )
 
 // VolumeParams holds PV and PVC related config.

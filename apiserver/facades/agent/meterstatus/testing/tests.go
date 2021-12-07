@@ -7,12 +7,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/facades/agent/meterstatus"
-	"github.com/juju/juju/apiserver/params"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	jujustate "github.com/juju/juju/state"
-	statetesting "github.com/juju/juju/state/testing"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/facades/agent/meterstatus"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	jujustate "github.com/DavinZhang/juju/state"
+	statetesting "github.com/DavinZhang/juju/state/testing"
 )
 
 // TestGetMeterStatus tests unit meter status retrieval.

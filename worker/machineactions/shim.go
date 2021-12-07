@@ -5,8 +5,8 @@
 package machineactions
 
 import (
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/machineactions"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/machineactions"
 )
 
 // NewFacade creates a Facade from a base.APICaller.

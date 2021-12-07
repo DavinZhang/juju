@@ -4,8 +4,8 @@
 package logforwarder
 
 import (
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/logfwd/syslog"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/logfwd/syslog"
 )
 
 // LogForwardConfig provides access to the log forwarding config for a model.

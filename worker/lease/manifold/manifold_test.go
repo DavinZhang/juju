@@ -24,16 +24,16 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api"
-	corelease "github.com/juju/juju/core/lease"
-	"github.com/juju/juju/core/raftlease"
-	"github.com/juju/juju/state"
-	statetesting "github.com/juju/juju/state/testing"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/common"
-	"github.com/juju/juju/worker/lease"
-	leasemanager "github.com/juju/juju/worker/lease/manifold"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api"
+	corelease "github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/core/raftlease"
+	"github.com/DavinZhang/juju/state"
+	statetesting "github.com/DavinZhang/juju/state/testing"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/common"
+	"github.com/DavinZhang/juju/worker/lease"
+	leasemanager "github.com/DavinZhang/juju/worker/lease/manifold"
 )
 
 type manifoldSuite struct {

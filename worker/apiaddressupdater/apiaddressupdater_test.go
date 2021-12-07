@@ -17,13 +17,13 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	apimachiner "github.com/juju/juju/api/machiner"
-	corenetwork "github.com/juju/juju/core/network"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/network"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/apiaddressupdater"
+	apimachiner "github.com/DavinZhang/juju/api/machiner"
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/network"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/apiaddressupdater"
 )
 
 type APIAddressUpdaterSuite struct {

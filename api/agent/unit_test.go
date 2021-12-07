@@ -11,12 +11,12 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	apiagent "github.com/juju/juju/api/agent"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/api"
+	apiagent "github.com/DavinZhang/juju/api/agent"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
 )
 
 var _ = gc.Suite(&unitSuite{})

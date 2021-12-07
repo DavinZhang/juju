@@ -10,7 +10,7 @@ import (
 
 	"github.com/juju/utils/v2/winrm"
 
-	"github.com/juju/juju/apiserver/params"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 var (

@@ -10,10 +10,10 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/api/base"
-	apicaasapplicationprovisioner "github.com/juju/juju/api/caasapplicationprovisioner"
-	caasunitprovisionerapi "github.com/juju/juju/api/caasunitprovisioner"
-	"github.com/juju/juju/caas"
+	"github.com/DavinZhang/juju/api/base"
+	apicaasapplicationprovisioner "github.com/DavinZhang/juju/api/caasapplicationprovisioner"
+	caasunitprovisionerapi "github.com/DavinZhang/juju/api/caasunitprovisioner"
+	"github.com/DavinZhang/juju/caas"
 )
 
 // Logger represents the methods used by the worker to log details.

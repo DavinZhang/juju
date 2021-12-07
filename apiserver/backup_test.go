@@ -15,12 +15,12 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver"
-	"github.com/juju/juju/apiserver/params"
-	apitesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/backups"
-	backupstesting "github.com/juju/juju/state/backups/testing"
+	"github.com/DavinZhang/juju/apiserver"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apitesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/backups"
+	backupstesting "github.com/DavinZhang/juju/state/backups/testing"
 )
 
 var _ = gc.Suite(&backupsSuite{})

@@ -9,10 +9,10 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	basetesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/caasmodeloperator"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/resources"
+	basetesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/caasmodeloperator"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/resources"
 )
 
 type ModelOperatorSuite struct {
@@ -24,7 +24,7 @@ var _ = gc.Suite(&ModelOperatorSuite{})
 func (m *ModelOperatorSuite) TestProvisioningInfo(c *gc.C) {
 	var (
 		apiAddresses = []string{"fe80:abcd::1"}
-		imagePath    = "juju/juju"
+		imagePath    = "DavinZhang/juju"
 	)
 	ver, err := version.Parse("1.2.3")
 	c.Assert(err, jc.ErrorIsNil)

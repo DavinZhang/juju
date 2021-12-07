@@ -9,9 +9,9 @@ import (
 	ocicommon "github.com/oracle/oci-go-sdk/v47/common"
 	gc "gopkg.in/check.v1"
 
+	"github.com/DavinZhang/juju/provider/oci/common"
+	"github.com/DavinZhang/juju/testing"
 	"github.com/juju/errors"
-	"github.com/juju/juju/provider/oci/common"
-	"github.com/juju/juju/testing"
 	jc "github.com/juju/testing/checkers"
 )
 

@@ -8,8 +8,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/facades/client/backups"
-	"github.com/juju/juju/apiserver/params"
+	"github.com/DavinZhang/juju/apiserver/facades/client/backups"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 func (s *backupsSuite) TestCreateOkay(c *gc.C) {

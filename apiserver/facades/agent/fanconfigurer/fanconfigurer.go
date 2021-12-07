@@ -3,12 +3,12 @@
 package fanconfigurer
 
 import (
-	"github.com/juju/juju/apiserver/common/networkingcommon"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/watcher"
+	"github.com/DavinZhang/juju/apiserver/common/networkingcommon"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/watcher"
 )
 
 // FanConfigurer defines the methods on fanconfigurer API endpoint.

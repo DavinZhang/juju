@@ -11,7 +11,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	coreseries "github.com/juju/juju/core/series"
+	coreseries "github.com/DavinZhang/juju/core/series"
 )
 
 var logger = loggo.GetLogger("juju.core.charm")

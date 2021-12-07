@@ -18,8 +18,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	backupsTesting "github.com/juju/juju/state/backups/testing"
-	"github.com/juju/juju/testing"
+	backupsTesting "github.com/DavinZhang/juju/state/backups/testing"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type LegacySuite struct {

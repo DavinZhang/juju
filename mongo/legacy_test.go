@@ -8,10 +8,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/mongo"
-	"github.com/juju/juju/service/common"
-	svctesting "github.com/juju/juju/service/common/testing"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/mongo"
+	"github.com/DavinZhang/juju/service/common"
+	svctesting "github.com/DavinZhang/juju/service/common/testing"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type LegacySuite struct {

@@ -10,10 +10,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cloudconfig/cloudinit/cloudinittest"
-	"github.com/juju/juju/core/os"
-	"github.com/juju/juju/provider/cloudsigma"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/cloudconfig/cloudinit/cloudinittest"
+	"github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/provider/cloudsigma"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type UserdataSuite struct{ testing.BaseSuite }

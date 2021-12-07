@@ -7,14 +7,14 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/common"
-	charmscommon "github.com/juju/juju/api/common/charms"
-	apiwatcher "github.com/juju/juju/api/watcher"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/application"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/common"
+	charmscommon "github.com/DavinZhang/juju/api/common/charms"
+	apiwatcher "github.com/DavinZhang/juju/api/watcher"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // Client allows access to the CAAS firewaller API endpoint.

@@ -20,13 +20,13 @@ import (
 	"gopkg.in/tomb.v2"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/caas"
-	agentconfig "github.com/juju/juju/cmd/jujud/agent/config"
-	"github.com/juju/juju/juju/sockets"
-	"github.com/juju/juju/worker/uniter/operation"
-	"github.com/juju/juju/worker/uniter/runcommands"
-	"github.com/juju/juju/worker/uniter/runner"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/caas"
+	agentconfig "github.com/DavinZhang/juju/cmd/jujud/agent/config"
+	"github.com/DavinZhang/juju/juju/sockets"
+	"github.com/DavinZhang/juju/worker/uniter/operation"
+	"github.com/DavinZhang/juju/worker/uniter/runcommands"
+	"github.com/DavinZhang/juju/worker/uniter/runner"
 )
 
 const JujuExecEndpoint = "JujuExecServer.RunCommands"

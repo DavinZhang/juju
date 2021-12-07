@@ -12,9 +12,9 @@ import (
 	"github.com/juju/names/v4"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/network"
-	stateerrors "github.com/juju/juju/state/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/network"
+	stateerrors "github.com/DavinZhang/juju/state/errors"
 )
 
 func NotSupportedError(tag names.Tag, operation string) error {

@@ -13,8 +13,8 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/apiserver/params"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 // CharmInfoClient allows access to the charms API endpoint.

@@ -6,25 +6,25 @@ package application_test
 import (
 	"fmt"
 
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/feature"
+	"github.com/DavinZhang/juju/testcharms"
+	coretesting "github.com/DavinZhang/juju/testing"
 	"github.com/juju/charm/v9"
 	"github.com/juju/collections/set"
 	"github.com/juju/errors"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/feature"
-	"github.com/juju/juju/testcharms"
-	coretesting "github.com/juju/juju/testing"
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 	"gopkg.in/juju/environschema.v1"
 
-	"github.com/juju/juju/apiserver/facades/client/application"
-	coreapplication "github.com/juju/juju/core/application"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/facades/client/application"
+	coreapplication "github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
 )
 
 // DeployLocalSuite uses a fresh copy of the same local dummy charm for each

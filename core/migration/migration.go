@@ -10,7 +10,7 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/resource"
+	"github.com/DavinZhang/juju/resource"
 )
 
 // MigrationStatus returns the details for a migration as needed by

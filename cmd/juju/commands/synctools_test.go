@@ -15,14 +15,14 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/environs/sync"
-	envtools "github.com/juju/juju/environs/tools"
-	"github.com/juju/juju/jujuclient"
-	coretesting "github.com/juju/juju/testing"
-	coretools "github.com/juju/juju/tools"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/environs/sync"
+	envtools "github.com/DavinZhang/juju/environs/tools"
+	"github.com/DavinZhang/juju/jujuclient"
+	coretesting "github.com/DavinZhang/juju/testing"
+	coretools "github.com/DavinZhang/juju/tools"
 )
 
 type syncToolsSuite struct {

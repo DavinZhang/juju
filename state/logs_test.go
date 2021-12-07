@@ -16,9 +16,9 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 type LogsSuite struct {

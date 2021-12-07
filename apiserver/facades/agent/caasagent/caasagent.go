@@ -6,10 +6,10 @@ package caasagent
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/common/cloudspec"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/common/cloudspec"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
 )
 
 // FacadeV2 is the V2 facade of the caas agent

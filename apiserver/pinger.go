@@ -10,8 +10,8 @@ import (
 	"github.com/juju/errors"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/state"
 )
 
 // NewPinger returns an object that can be pinged by calling its Ping method.

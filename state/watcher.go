@@ -26,13 +26,13 @@ import (
 	"github.com/kr/pretty"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/core/actions"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/lxdprofile"
-	corenetwork "github.com/juju/juju/core/network"
-	corewatcher "github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/mongo"
-	"github.com/juju/juju/state/watcher"
+	"github.com/DavinZhang/juju/core/actions"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/lxdprofile"
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	corewatcher "github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/mongo"
+	"github.com/DavinZhang/juju/state/watcher"
 )
 
 var watchLogger = loggo.GetLogger("juju.state.watch")

@@ -6,14 +6,14 @@ package common
 import (
 	"sort"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/context"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/context"
 )
 
 // ZonedEnviron is an environs.Environ that has support for availability zones.
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/zoned_environ.go github.com/juju/juju/provider/common ZonedEnviron
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/zoned_environ.go github.com/DavinZhang/juju/provider/common ZonedEnviron
 type ZonedEnviron interface {
 	environs.Environ
 

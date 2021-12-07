@@ -11,7 +11,7 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/cmd/output"
+	"github.com/DavinZhang/juju/cmd/output"
 )
 
 // formatPoolListTabular returns a tabular summary of pool instances or

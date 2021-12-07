@@ -7,10 +7,10 @@ import (
 	"github.com/juju/cmd/v3"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/jujuclient/jujuclienttesting"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/jujuclient/jujuclienttesting"
+	"github.com/DavinZhang/juju/storage"
 )
 
 var (

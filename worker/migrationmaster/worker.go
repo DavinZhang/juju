@@ -18,17 +18,17 @@ import (
 	"github.com/juju/version/v2"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/common"
-	"github.com/juju/juju/api/migrationtarget"
-	"github.com/juju/juju/apiserver/params"
-	coremigration "github.com/juju/juju/core/migration"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/migration"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/tools"
-	"github.com/juju/juju/worker/fortress"
-	"github.com/juju/juju/wrench"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/common"
+	"github.com/DavinZhang/juju/api/migrationtarget"
+	"github.com/DavinZhang/juju/apiserver/params"
+	coremigration "github.com/DavinZhang/juju/core/migration"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/migration"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/tools"
+	"github.com/DavinZhang/juju/worker/fortress"
+	"github.com/DavinZhang/juju/wrench"
 )
 
 var (

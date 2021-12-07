@@ -24,11 +24,11 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/apiserver/apiserverhttp"
-	"github.com/juju/juju/pubsub/apiserver"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/httpserver"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/apiserver/apiserverhttp"
+	"github.com/DavinZhang/juju/pubsub/apiserver"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/httpserver"
 )
 
 type workerFixture struct {

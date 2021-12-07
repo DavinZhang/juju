@@ -6,10 +6,10 @@ package services
 import (
 	stdtesting "testing"
 
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/testing"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package services -destination interface_mocks.go github.com/juju/juju/apiserver/facades/client/charms/services StateBackend,ModelBackend,Storage,UploadedCharm
+//go:generate go run github.com/golang/mock/mockgen -package services -destination interface_mocks.go github.com/DavinZhang/juju/apiserver/facades/client/charms/services StateBackend,ModelBackend,Storage,UploadedCharm
 
 func TestAll(t *stdtesting.T) {
 	testing.MgoTestPackage(t)

@@ -6,13 +6,13 @@ package reboot
 import (
 	"github.com/juju/os/v2/series"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/container"
-	"github.com/juju/juju/container/factory"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/service"
-	"github.com/juju/juju/service/common"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/container"
+	"github.com/DavinZhang/juju/container/factory"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/service"
+	"github.com/DavinZhang/juju/service/common"
 )
 
 // rebootWaiterShim wraps the functions required by RebootWaiter

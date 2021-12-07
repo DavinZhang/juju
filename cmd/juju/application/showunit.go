@@ -12,9 +12,9 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/naturalsort"
 
-	"github.com/juju/juju/api/application"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/api/application"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 const showUnitDoc = `

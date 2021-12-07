@@ -8,15 +8,15 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/names/v4"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/state"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/state"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/upgradeseries.go github.com/juju/juju/apiserver/common UpgradeSeriesBackend,UpgradeSeriesMachine,UpgradeSeriesUnit
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/upgradeseries.go github.com/DavinZhang/juju/apiserver/common UpgradeSeriesBackend,UpgradeSeriesMachine,UpgradeSeriesUnit
 
 type UpgradeSeriesBackend interface {
 	Machine(string) (UpgradeSeriesMachine, error)

@@ -13,14 +13,14 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/logfwd"
-	"github.com/juju/juju/logfwd/syslog"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/version"
-	"github.com/juju/juju/worker/logforwarder"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/logfwd"
+	"github.com/DavinZhang/juju/logfwd/syslog"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/worker/logforwarder"
 )
 
 type LogForwarderSuite struct {

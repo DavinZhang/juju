@@ -7,20 +7,20 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/provisioner"
-	"github.com/juju/juju/container/broker"
-	"github.com/juju/juju/core/machinelock"
-	"github.com/juju/juju/environs"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/provisioner"
+	"github.com/DavinZhang/juju/container/broker"
+	"github.com/DavinZhang/juju/core/machinelock"
+	"github.com/DavinZhang/juju/environs"
 )
 
 //go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/worker_mock.go github.com/juju/worker/v3 Worker
 //go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/dependency_mock.go github.com/juju/worker/v3/dependency Context
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/environs_mock.go github.com/juju/juju/environs LXDProfiler,InstanceBroker
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/machine_lock_mock.go github.com/juju/juju/core/machinelock Lock
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/base_mock.go github.com/juju/juju/api/base APICaller
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/agent_mock.go github.com/juju/juju/agent Agent,Config
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/environs_mock.go github.com/DavinZhang/juju/environs LXDProfiler,InstanceBroker
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/machine_lock_mock.go github.com/DavinZhang/juju/core/machinelock Lock
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/base_mock.go github.com/DavinZhang/juju/api/base APICaller
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/agent_mock.go github.com/DavinZhang/juju/agent Agent,Config
 
 // ManifoldConfig describes the resources used by a Tracker.
 type ManifoldConfig struct {

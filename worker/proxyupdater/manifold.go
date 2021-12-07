@@ -9,9 +9,9 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/proxyupdater"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/proxyupdater"
 )
 
 // Logger represents the methods used for logging messages.

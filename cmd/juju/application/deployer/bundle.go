@@ -11,15 +11,15 @@ import (
 	"github.com/juju/cmd/v3"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/api/application"
-	commoncharm "github.com/juju/juju/api/common/charm"
-	"github.com/juju/juju/cmd/juju/application/bundle"
-	"github.com/juju/juju/cmd/juju/application/store"
-	"github.com/juju/juju/cmd/juju/application/utils"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/devices"
-	"github.com/juju/juju/resource/resourceadapters"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/api/application"
+	commoncharm "github.com/DavinZhang/juju/api/common/charm"
+	"github.com/DavinZhang/juju/cmd/juju/application/bundle"
+	"github.com/DavinZhang/juju/cmd/juju/application/store"
+	"github.com/DavinZhang/juju/cmd/juju/application/utils"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/devices"
+	"github.com/DavinZhang/juju/resource/resourceadapters"
+	"github.com/DavinZhang/juju/storage"
 )
 
 type deployBundle struct {

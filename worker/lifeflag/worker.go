@@ -8,9 +8,9 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/api/lifeflag"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api/lifeflag"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // Facade exposes capabilities required by the worker.

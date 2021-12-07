@@ -13,7 +13,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/core/network"
+	"github.com/DavinZhang/juju/core/network"
 )
 
 var (

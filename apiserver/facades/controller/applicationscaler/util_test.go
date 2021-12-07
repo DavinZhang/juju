@@ -8,11 +8,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/facades/controller/applicationscaler"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/facades/controller/applicationscaler"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/state"
 )
 
 // mockAuth implements facade.Authorizer for the tests' convenience.

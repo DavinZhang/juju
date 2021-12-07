@@ -12,17 +12,17 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	apitesting "github.com/juju/juju/api/testing"
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/facades/controller/remoterelations"
-	"github.com/juju/juju/apiserver/params"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
+	apitesting "github.com/DavinZhang/juju/api/testing"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/facades/controller/remoterelations"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 var _ = gc.Suite(&remoteRelationsSuite{})

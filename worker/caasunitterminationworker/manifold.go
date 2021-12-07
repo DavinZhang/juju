@@ -9,10 +9,10 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/caasapplication"
-	"github.com/juju/juju/worker/uniter"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/caasapplication"
+	"github.com/DavinZhang/juju/worker/uniter"
 )
 
 // Logger for logging messages.

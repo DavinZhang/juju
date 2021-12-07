@@ -19,8 +19,8 @@ import (
 	jujutxn "github.com/juju/txn/v2"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/permission"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/permission"
 )
 
 const (

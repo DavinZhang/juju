@@ -14,13 +14,13 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/utils/v2"
 
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/cmd/output"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/environs/simplestreams"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/cmd/output"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/environs/simplestreams"
 )
 
 func newValidateImageMetadataCommand() cmd.Command {

@@ -14,9 +14,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/crossmodel"
-	model "github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/relation"
+	"github.com/DavinZhang/juju/cmd/juju/crossmodel"
+	model "github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/relation"
 )
 
 type ListSuite struct {

@@ -35,16 +35,16 @@ import (
 	"gopkg.in/macaroon.v2"
 	"gopkg.in/retry.v1"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/charmstore"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/charmstore"
 
-	"github.com/juju/juju/core/network"
-	jujuproxy "github.com/juju/juju/proxy"
-	"github.com/juju/juju/rpc"
-	"github.com/juju/juju/rpc/jsoncodec"
-	"github.com/juju/juju/utils/proxy"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/core/network"
+	jujuproxy "github.com/DavinZhang/juju/proxy"
+	"github.com/DavinZhang/juju/rpc"
+	"github.com/DavinZhang/juju/rpc/jsoncodec"
+	"github.com/DavinZhang/juju/utils/proxy"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 // PingPeriod defines how often the internal connection health check

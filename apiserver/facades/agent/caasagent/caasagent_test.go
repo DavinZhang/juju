@@ -7,11 +7,11 @@ import (
 	"github.com/juju/names/v4"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/facade/facadetest"
-	"github.com/juju/juju/apiserver/facades/agent/caasagent"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/facade/facadetest"
+	"github.com/DavinZhang/juju/apiserver/facades/agent/caasagent"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 var _ = gc.Suite(&caasagentSuite{})

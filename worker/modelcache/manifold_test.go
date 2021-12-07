@@ -14,11 +14,11 @@ import (
 	dt "github.com/juju/worker/v3/dependency/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/multiwatcher"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/worker/gate"
-	"github.com/juju/juju/worker/modelcache"
-	workerstate "github.com/juju/juju/worker/state"
+	"github.com/DavinZhang/juju/core/multiwatcher"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/worker/gate"
+	"github.com/DavinZhang/juju/worker/modelcache"
+	workerstate "github.com/DavinZhang/juju/worker/state"
 )
 
 type ManifoldSuite struct {

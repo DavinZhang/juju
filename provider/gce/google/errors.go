@@ -12,8 +12,8 @@ import (
 	"github.com/juju/errors"
 	"google.golang.org/api/googleapi"
 
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/provider/common"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/provider/common"
 )
 
 // InvalidConfigValueError indicates that one of the config values failed validation.

@@ -10,9 +10,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs/manual/sshprovisioner"
-	"github.com/juju/juju/service"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/environs/manual/sshprovisioner"
+	"github.com/DavinZhang/juju/service"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type initialisationSuite struct {

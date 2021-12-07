@@ -7,9 +7,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/agent"
-	apitesting "github.com/juju/juju/api/testing"
-	jujutesting "github.com/juju/juju/juju/testing"
+	"github.com/DavinZhang/juju/api/agent"
+	apitesting "github.com/DavinZhang/juju/api/testing"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
 )
 
 type modelSuite struct {

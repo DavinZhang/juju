@@ -6,11 +6,11 @@ package secrets
 import (
 	stdtesting "testing"
 
-	"github.com/juju/juju/jujuclient"
+	"github.com/DavinZhang/juju/jujuclient"
 	gc "gopkg.in/check.v1"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/secretsapi.go github.com/juju/juju/cmd/juju/secrets ListSecretsAPI
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/secretsapi.go github.com/DavinZhang/juju/cmd/juju/secrets ListSecretsAPI
 
 func TestPackage(t *stdtesting.T) {
 	gc.TestingT(t)

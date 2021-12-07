@@ -6,8 +6,8 @@ package state
 import (
 	"fmt"
 
+	"github.com/DavinZhang/juju/core/status"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/status"
 	"github.com/juju/mgo/v2"
 	"github.com/juju/mgo/v2/bson"
 	"github.com/juju/mgo/v2/txn"

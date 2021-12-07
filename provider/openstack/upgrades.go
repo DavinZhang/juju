@@ -7,7 +7,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/environs"
+	"github.com/DavinZhang/juju/environs"
 )
 
 // PreparePrechecker is part of the environs.JujuUpgradePrechecker

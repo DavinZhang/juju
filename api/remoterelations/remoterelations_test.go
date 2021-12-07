@@ -8,13 +8,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/remoterelations"
-	apitesting "github.com/juju/juju/api/testing"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/status"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/remoterelations"
+	apitesting "github.com/DavinZhang/juju/api/testing"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/status"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 var _ = gc.Suite(&remoteRelationsSuite{})

@@ -12,11 +12,11 @@ import (
 	"github.com/juju/loggo"
 	"golang.org/x/net/context"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	callcontext "github.com/juju/juju/environs/context"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	callcontext "github.com/DavinZhang/juju/environs/context"
 )
 
 var logger = loggo.GetLogger("juju.provider.vmware")

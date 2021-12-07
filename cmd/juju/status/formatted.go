@@ -7,10 +7,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/juju/juju/cmd/juju/storage"
-	"github.com/juju/juju/core/instance"
-	coremodel "github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/status"
+	"github.com/DavinZhang/juju/cmd/juju/storage"
+	"github.com/DavinZhang/juju/core/instance"
+	coremodel "github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/status"
 	"github.com/juju/names/v4"
 )
 

@@ -12,11 +12,11 @@ import (
 	"github.com/juju/worker/v3"
 	gc "gopkg.in/check.v1"
 
-	apitesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/migrationminion"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/migration"
-	coretesting "github.com/juju/juju/testing"
+	apitesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/migrationminion"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/migration"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type ClientSuite struct {

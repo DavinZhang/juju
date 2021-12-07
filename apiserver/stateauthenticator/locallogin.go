@@ -18,10 +18,10 @@ import (
 	"github.com/juju/names/v4"
 	"gopkg.in/httprequest.v1"
 
-	"github.com/juju/juju/apiserver/apiserverhttp"
-	"github.com/juju/juju/apiserver/authentication"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/apiserverhttp"
+	"github.com/DavinZhang/juju/apiserver/authentication"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/state"
 )
 
 var (

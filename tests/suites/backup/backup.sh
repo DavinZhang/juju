@@ -23,7 +23,7 @@ run_basic_backup_create() {
 run_basic_backup_restore() {
 	echo
 
-	wget -O "${TEST_DIR}/juju-restore" https://github.com/juju/juju-restore/releases/latest/download/juju-restore
+	wget -O "${TEST_DIR}/juju-restore" https://github.com/DavinZhang/juju-restore/releases/latest/download/juju-restore
 	chmod +x "${TEST_DIR}/juju-restore"
 
 	file="${TEST_DIR}/test-basic-backup-restore.log"

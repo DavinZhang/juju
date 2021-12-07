@@ -9,12 +9,12 @@ import (
 	"github.com/juju/clock"
 	"github.com/juju/cmd/v3"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/jujuclient"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 // NewListControllersCommandForTest returns a listControllersCommand with the clientstore provided

@@ -19,13 +19,13 @@ import (
 	"github.com/juju/utils/v2/exec"
 	gc "gopkg.in/check.v1"
 
-	actionapi "github.com/juju/juju/api/action"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/cmd/juju/action"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/core/watcher/watchertest"
-	"github.com/juju/juju/jujuclient"
-	coretesting "github.com/juju/juju/testing"
+	actionapi "github.com/DavinZhang/juju/api/action"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/cmd/juju/action"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/core/watcher/watchertest"
+	"github.com/DavinZhang/juju/jujuclient"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 	"github.com/Azure/go-autorest/autorest/to"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/provider/azure/internal/armtemplates"
+	"github.com/DavinZhang/juju/provider/azure/internal/armtemplates"
 )
 
 const (

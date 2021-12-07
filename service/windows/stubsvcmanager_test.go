@@ -7,7 +7,7 @@ package windows
 import (
 	"github.com/juju/testing"
 
-	"github.com/juju/juju/service/common"
+	"github.com/DavinZhang/juju/service/common"
 )
 
 type service struct {

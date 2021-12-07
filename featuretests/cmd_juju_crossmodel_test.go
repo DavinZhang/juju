@@ -16,16 +16,16 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/application"
-	"github.com/juju/juju/cmd/juju/commands"
-	"github.com/juju/juju/cmd/juju/crossmodel"
-	"github.com/juju/juju/cmd/juju/model"
-	jujucrossmodel "github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/permission"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testcharms"
-	"github.com/juju/juju/testing/factory"
+	"github.com/DavinZhang/juju/cmd/juju/application"
+	"github.com/DavinZhang/juju/cmd/juju/commands"
+	"github.com/DavinZhang/juju/cmd/juju/crossmodel"
+	"github.com/DavinZhang/juju/cmd/juju/model"
+	jujucrossmodel "github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/permission"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testcharms"
+	"github.com/DavinZhang/juju/testing/factory"
 )
 
 type crossmodelSuite struct {

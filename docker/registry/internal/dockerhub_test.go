@@ -15,12 +15,12 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/docker"
-	"github.com/juju/juju/docker/registry"
-	"github.com/juju/juju/docker/registry/image"
-	"github.com/juju/juju/docker/registry/internal"
-	"github.com/juju/juju/docker/registry/mocks"
-	"github.com/juju/juju/tools"
+	"github.com/DavinZhang/juju/docker"
+	"github.com/DavinZhang/juju/docker/registry"
+	"github.com/DavinZhang/juju/docker/registry/image"
+	"github.com/DavinZhang/juju/docker/registry/internal"
+	"github.com/DavinZhang/juju/docker/registry/mocks"
+	"github.com/DavinZhang/juju/tools"
 )
 
 type dockerhubSuite struct {

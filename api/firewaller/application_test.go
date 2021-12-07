@@ -8,11 +8,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/firewaller"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/watcher/watchertest"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/api/firewaller"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/watcher/watchertest"
+	"github.com/DavinZhang/juju/state"
 )
 
 type applicationSuite struct {

@@ -6,15 +6,15 @@ package state_test
 import (
 	gc "gopkg.in/check.v1"
 
+	"github.com/DavinZhang/juju/testing/factory"
 	"github.com/juju/errors"
-	"github.com/juju/juju/testing/factory"
 	"github.com/juju/names/v4"
 	jc "github.com/juju/testing/checkers"
 	"github.com/juju/utils/v2/arch"
 
-	"github.com/juju/juju/core/leadership"
-	"github.com/juju/juju/state"
-	statetesting "github.com/juju/juju/state/testing"
+	"github.com/DavinZhang/juju/core/leadership"
+	"github.com/DavinZhang/juju/state"
+	statetesting "github.com/DavinZhang/juju/state/testing"
 )
 
 type PodSpecSuite struct {

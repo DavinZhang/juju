@@ -10,12 +10,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/worker/common/charmrunner"
-	"github.com/juju/juju/worker/uniter/actions"
-	"github.com/juju/juju/worker/uniter/hook"
-	"github.com/juju/juju/worker/uniter/operation"
-	"github.com/juju/juju/worker/uniter/remotestate"
-	"github.com/juju/juju/worker/uniter/resolver"
+	"github.com/DavinZhang/juju/worker/common/charmrunner"
+	"github.com/DavinZhang/juju/worker/uniter/actions"
+	"github.com/DavinZhang/juju/worker/uniter/hook"
+	"github.com/DavinZhang/juju/worker/uniter/operation"
+	"github.com/DavinZhang/juju/worker/uniter/remotestate"
+	"github.com/DavinZhang/juju/worker/uniter/resolver"
 )
 
 type actionsSuite struct {

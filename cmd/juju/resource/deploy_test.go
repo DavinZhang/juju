@@ -19,10 +19,10 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/api/resources/client"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/resources"
-	"github.com/juju/juju/docker"
+	"github.com/DavinZhang/juju/api/resources/client"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/resources"
+	"github.com/DavinZhang/juju/docker"
 )
 
 type DeploySuite struct {

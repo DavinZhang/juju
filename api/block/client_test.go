@@ -8,12 +8,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	basetesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/block"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
+	basetesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/block"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type blockMockSuite struct {

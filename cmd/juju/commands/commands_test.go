@@ -9,8 +9,8 @@ import (
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 var _ = gc.Suite(&commandsSuite{})

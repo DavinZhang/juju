@@ -11,8 +11,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/container/lxd"
-	lxdtesting "github.com/juju/juju/container/lxd/testing"
+	"github.com/DavinZhang/juju/container/lxd"
+	lxdtesting "github.com/DavinZhang/juju/container/lxd/testing"
 )
 
 var _ = gc.Suite(&certSuite{})

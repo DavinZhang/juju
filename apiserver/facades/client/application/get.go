@@ -8,12 +8,12 @@ import (
 	"github.com/juju/schema"
 	"gopkg.in/juju/environschema.v1"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/core/application"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/model"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/model"
 )
 
 // Get returns the charm configuration for an application.

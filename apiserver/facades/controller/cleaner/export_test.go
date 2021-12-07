@@ -4,7 +4,7 @@
 package cleaner
 
 import (
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/state"
 )
 
 type Patcher interface {

@@ -8,8 +8,8 @@ import (
 
 	charmresource "github.com/juju/charm/v9/resource"
 	"github.com/juju/errors"
-	jujuresource "github.com/juju/juju/cmd/juju/resource"
-	"github.com/juju/juju/resource"
+	jujuresource "github.com/DavinZhang/juju/cmd/juju/resource"
+	"github.com/DavinZhang/juju/resource"
 	"github.com/juju/testing"
 )
 

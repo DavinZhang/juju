@@ -14,13 +14,13 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/pki"
-	pkitest "github.com/juju/juju/pki/test"
-	"github.com/juju/juju/state"
-	statetesting "github.com/juju/juju/state/testing"
-	"github.com/juju/juju/worker/certupdater"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/pki"
+	pkitest "github.com/DavinZhang/juju/pki/test"
+	"github.com/DavinZhang/juju/state"
+	statetesting "github.com/DavinZhang/juju/state/testing"
+	"github.com/DavinZhang/juju/worker/certupdater"
 )
 
 type ManifoldSuite struct {

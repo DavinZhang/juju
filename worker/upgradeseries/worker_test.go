@@ -14,13 +14,13 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/testing"
+	workermocks "github.com/DavinZhang/juju/worker/mocks"
+	"github.com/DavinZhang/juju/worker/upgradeseries"
+	. "github.com/DavinZhang/juju/worker/upgradeseries/mocks"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/testing"
-	workermocks "github.com/juju/juju/worker/mocks"
-	"github.com/juju/juju/worker/upgradeseries"
-	. "github.com/juju/juju/worker/upgradeseries/mocks"
 )
 
 type fakeWatcher struct {

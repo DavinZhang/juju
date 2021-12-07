@@ -9,7 +9,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/charmstore"
+	"github.com/DavinZhang/juju/charmstore"
 )
 
 type CharmInfoSuite struct {

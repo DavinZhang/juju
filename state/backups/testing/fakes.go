@@ -6,8 +6,8 @@ package testing
 import (
 	"io"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/state/backups"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/state/backups"
 )
 
 // FakeBackups is an implementation of Backups to use for testing.

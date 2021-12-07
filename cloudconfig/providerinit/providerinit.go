@@ -10,11 +10,11 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	"github.com/juju/juju/cloudconfig"
-	"github.com/juju/juju/cloudconfig/cloudinit"
-	"github.com/juju/juju/cloudconfig/instancecfg"
-	"github.com/juju/juju/cloudconfig/providerinit/renderers"
-	"github.com/juju/juju/core/series"
+	"github.com/DavinZhang/juju/cloudconfig"
+	"github.com/DavinZhang/juju/cloudconfig/cloudinit"
+	"github.com/DavinZhang/juju/cloudconfig/instancecfg"
+	"github.com/DavinZhang/juju/cloudconfig/providerinit/renderers"
+	"github.com/DavinZhang/juju/core/series"
 )
 
 var logger = loggo.GetLogger("juju.cloudconfig.providerinit")

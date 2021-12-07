@@ -12,8 +12,8 @@ import (
 	core "k8s.io/api/core/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/testing"
 )
 
 var _ = gc.Suite(&ResourcesSuite{})

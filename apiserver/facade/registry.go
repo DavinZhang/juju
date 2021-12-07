@@ -11,7 +11,7 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/state"
 )
 
 // record represents an entry in a Registry.

@@ -10,13 +10,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	basetesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/caasfirewaller"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/application"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api/base"
+	basetesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/caasfirewaller"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 type firewallerBaseSuite struct {

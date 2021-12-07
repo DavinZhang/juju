@@ -17,12 +17,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/utils/pointer"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/caas/kubernetes/provider"
-	k8sspecs "github.com/juju/juju/caas/kubernetes/provider/specs"
-	"github.com/juju/juju/core/application"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider"
+	k8sspecs "github.com/DavinZhang/juju/caas/kubernetes/provider/specs"
+	"github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/testing"
 )
 
 func (s *K8sBrokerSuite) assertMutatingWebhookConfigurations(c *gc.C, cfgs []k8sspecs.K8sMutatingWebhook, assertCalls ...*gomock.Call) {

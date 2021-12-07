@@ -12,9 +12,9 @@ import (
 	"github.com/juju/errors"
 	goyaml "gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/storage"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/storage"
 )
 
 // StateFile is the name of the file where the provider's state is stored.

@@ -4,11 +4,11 @@
 package modelgeneration
 
 import (
+	"github.com/DavinZhang/juju/core/cache"
 	"github.com/juju/charm/v9"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/cache"
 
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/state"
 )
 
 type modelShim struct {

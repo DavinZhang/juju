@@ -17,12 +17,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/provider/azure"
-	"github.com/juju/juju/provider/azure/internal/azuretesting"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/provider/azure"
+	"github.com/DavinZhang/juju/provider/azure/internal/azuretesting"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type storageSuite struct {

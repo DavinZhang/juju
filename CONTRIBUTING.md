@@ -38,7 +38,7 @@ Generally, Juju is built against the most recent version of Go, with the caveat 
 For example, the following indicates that Go 1.17 is targeted:
 
 ```
-module github.com/juju/juju
+module github.com/DavinZhang/juju
 
 go 1.17
 ```
@@ -57,7 +57,7 @@ Go can be [installed](https://golang.org/doc/install#install) from the official 
 
 ### Download Juju source
 
-    git clone https://github.com/juju/juju.git
+    git clone https://github.com/DavinZhang/juju.git
 
 Juju uses Go modules and does not depend on GOPATH, therefore you can check juju out anywhere.
 
@@ -108,7 +108,7 @@ there. The following steps will help you get that ready:
 1. Sign up for GitHub (a free account is fine): https://github.com/join
 2. Add your ssh public key to your account: https://github.com/settings/ssh
 3. Hit the "Fork" button on the web page for the Juju repo:
-    https://github.com/juju/juju
+    https://github.com/DavinZhang/juju
 
 At this point you will have your own copy under your github account. Note
 that your fork is not automatically kept in sync with the official Juju repo
@@ -134,7 +134,7 @@ git remote set-url origin git@github.com:<USERNAME>/juju.git
 To simplify staying in sync with upstream, give it a "remote" name:
 
 ```bash
-git remote add upstream https://github.com/juju/juju.git
+git remote add upstream https://github.com/DavinZhang/juju.git
 ```
 
 Add the check script as a git hook:
@@ -198,8 +198,8 @@ group is alphabetically sorted. eg:
         "github.com/juju/loggo"
         gc "gopkg.in/check.v1"
 
-        "github.com/juju/juju/state"
-        "github.com/juju/juju/worker"
+        "github.com/DavinZhang/juju/state"
+        "github.com/DavinZhang/juju/worker"
     )
 ```
 
@@ -263,7 +263,7 @@ each package so the standard `go test` command is used to run `gocheck` tests.
 For example
 
 ```bash
-go test github.com/juju/juju/...
+go test github.com/DavinZhang/juju/...
 ```
 
 will run all the tests in the Juju project. By default `gocheck` prints only
@@ -300,7 +300,7 @@ output.
 ```bash
 cd juju
 go test
-go test github.com/juju/juju
+go test github.com/DavinZhang/juju
 ```
 
 Testing and MongoDB
@@ -321,7 +321,7 @@ supported by `juju-mongodb` and the associated tests will fail unless disabled
 with an environment variable:
 
 ```bash
-JUJU_NOTEST_MONGOJS=1 go test github.com/juju/juju/...
+JUJU_NOTEST_MONGOJS=1 go test github.com/DavinZhang/juju/...
 ```
 
 Pushing

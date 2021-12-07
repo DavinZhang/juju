@@ -12,11 +12,11 @@ import (
 	"golang.org/x/net/context"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs"
-	environscontext "github.com/juju/juju/environs/context"
-	envtesting "github.com/juju/juju/environs/testing"
-	"github.com/juju/juju/provider/vsphere"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/environs"
+	environscontext "github.com/DavinZhang/juju/environs/context"
+	envtesting "github.com/DavinZhang/juju/environs/testing"
+	"github.com/DavinZhang/juju/provider/vsphere"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type environSuite struct {

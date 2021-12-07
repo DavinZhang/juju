@@ -7,17 +7,17 @@ import (
 	jujucharm "github.com/juju/charm/v9"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/core/instance"
-	corenetwork "github.com/juju/juju/core/network"
-	"github.com/juju/juju/network"
-	"github.com/juju/juju/network/containerizer"
+	"github.com/DavinZhang/juju/core/instance"
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/network"
+	"github.com/DavinZhang/juju/network/containerizer"
 )
 
 // Machine is an indirection for use in container provisioning.
 // It is an indirection for both containerizer.Machine and
 // containerizer.Container as well as state.Machine locally.
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/package_mock.go github.com/juju/juju/apiserver/facades/agent/provisioner Machine,BridgePolicy,Unit,Application,Charm
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/containerizer_mock.go github.com/juju/juju/network/containerizer LinkLayerDevice
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/package_mock.go github.com/DavinZhang/juju/apiserver/facades/agent/provisioner Machine,BridgePolicy,Unit,Application,Charm
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/containerizer_mock.go github.com/DavinZhang/juju/network/containerizer LinkLayerDevice
 type Machine interface {
 	containerizer.Container
 

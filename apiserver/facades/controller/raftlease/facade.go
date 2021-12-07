@@ -6,9 +6,9 @@ package raftlease
 import (
 	"context"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/params"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 // RaftLeaseV1 informs users of the API, what is contained in Facade version 1.

@@ -13,11 +13,11 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/model"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/model"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/package_mock.go github.com/juju/juju/worker/upgradeseries Facade,UnitDiscovery,Upgrader
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/package_mock.go github.com/DavinZhang/juju/worker/upgradeseries Facade,UnitDiscovery,Upgrader
 
 var hostSeries = series.HostSeries
 

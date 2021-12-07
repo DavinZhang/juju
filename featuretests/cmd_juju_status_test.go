@@ -10,11 +10,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/commands"
-	"github.com/juju/juju/core/instance"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing/factory"
+	"github.com/DavinZhang/juju/cmd/juju/commands"
+	"github.com/DavinZhang/juju/core/instance"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing/factory"
 )
 
 type StatusSuite struct {

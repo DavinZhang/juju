@@ -12,12 +12,12 @@ import (
 	sshtesting "github.com/juju/utils/v2/ssh/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/keymanager"
-	keymanagerserver "github.com/juju/juju/apiserver/facades/client/keymanager"
-	keymanagertesting "github.com/juju/juju/apiserver/facades/client/keymanager/testing"
-	"github.com/juju/juju/apiserver/params"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/rpc"
+	"github.com/DavinZhang/juju/api/keymanager"
+	keymanagerserver "github.com/DavinZhang/juju/apiserver/facades/client/keymanager"
+	keymanagertesting "github.com/DavinZhang/juju/apiserver/facades/client/keymanager/testing"
+	"github.com/DavinZhang/juju/apiserver/params"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/rpc"
 )
 
 type keymanagerSuite struct {

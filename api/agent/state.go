@@ -9,14 +9,14 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/common"
-	"github.com/juju/juju/api/common/cloudspec"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/model"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/common"
+	"github.com/DavinZhang/juju/api/common/cloudspec"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/model"
 )
 
 // State provides access to an agent's view of the state.

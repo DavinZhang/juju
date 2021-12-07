@@ -11,9 +11,9 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/utils/v2"
 
-	charmdownloader "github.com/juju/juju/core/charm/downloader"
-	"github.com/juju/juju/state"
-	stateerrors "github.com/juju/juju/state/errors"
+	charmdownloader "github.com/DavinZhang/juju/core/charm/downloader"
+	"github.com/DavinZhang/juju/state"
+	stateerrors "github.com/DavinZhang/juju/state/errors"
 )
 
 // CharmStorageConfig encapsulates the information required for creating a

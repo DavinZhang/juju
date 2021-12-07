@@ -11,15 +11,15 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	apitesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/instancepoller"
-	"github.com/juju/juju/apiserver/params"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/status"
-	coretesting "github.com/juju/juju/testing"
+	apitesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/instancepoller"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/status"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type MachineSuite struct {

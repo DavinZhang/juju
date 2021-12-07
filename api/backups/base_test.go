@@ -10,9 +10,9 @@ import (
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base/mocks"
-	"github.com/juju/juju/apiserver/params"
-	stbackups "github.com/juju/juju/state/backups"
+	"github.com/DavinZhang/juju/api/base/mocks"
+	"github.com/DavinZhang/juju/apiserver/params"
+	stbackups "github.com/DavinZhang/juju/state/backups"
 )
 
 type baseSuite struct {

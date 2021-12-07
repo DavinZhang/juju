@@ -7,7 +7,7 @@ import (
 	"github.com/juju/clock"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/storage"
 )
 
 type poolType string

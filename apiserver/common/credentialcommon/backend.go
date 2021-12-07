@@ -7,12 +7,12 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/instances"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/instances"
+	"github.com/DavinZhang/juju/state"
 )
 
 // PersistentBackend defines persisted entities that are accessed

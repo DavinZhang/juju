@@ -7,8 +7,8 @@ import (
 	"github.com/juju/charm/v9"
 	"gopkg.in/macaroon.v2"
 
-	commoncharm "github.com/juju/juju/api/common/charm"
-	corecharm "github.com/juju/juju/core/charm"
+	commoncharm "github.com/DavinZhang/juju/api/common/charm"
+	corecharm "github.com/DavinZhang/juju/core/charm"
 )
 
 // RefresherFactory contains a method to get a refresher.

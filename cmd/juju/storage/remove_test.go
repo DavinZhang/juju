@@ -12,10 +12,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cmd/juju/storage"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/jujuclient/jujuclienttesting"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cmd/juju/storage"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/jujuclient/jujuclienttesting"
 )
 
 type RemoveStorageSuite struct {

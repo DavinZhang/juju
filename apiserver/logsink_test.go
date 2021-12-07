@@ -20,14 +20,14 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver"
-	"github.com/juju/juju/apiserver/apiserverhttp"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/apiserver/websocket/websockettest"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/testing/factory"
-	"github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/apiserver"
+	"github.com/DavinZhang/juju/apiserver/apiserverhttp"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/apiserver/websocket/websockettest"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/testing/factory"
+	"github.com/DavinZhang/juju/version"
 )
 
 type logsinkSuite struct {

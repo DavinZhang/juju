@@ -8,10 +8,10 @@ import (
 	"github.com/juju/names/v4"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	jujucloud "github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api"
+	jujucloud "github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/testing"
 )
 
 // ModelConfig related fake environment for testing.

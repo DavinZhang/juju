@@ -16,10 +16,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	"github.com/juju/juju/apiserver/httpcontext"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/apiserver/websocket"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/httpcontext"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/apiserver/websocket"
+	"github.com/DavinZhang/juju/state"
 )
 
 // debugLogHandler takes requests to watch the debug log.

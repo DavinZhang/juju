@@ -13,14 +13,14 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/highavailability"
-	"github.com/juju/juju/apiserver/params"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/juju/block"
-	"github.com/juju/juju/cmd/juju/common"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/instance"
+	"github.com/DavinZhang/juju/api/highavailability"
+	"github.com/DavinZhang/juju/apiserver/params"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/juju/block"
+	"github.com/DavinZhang/juju/cmd/juju/common"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/instance"
 )
 
 func newEnableHACommand() cmd.Command {

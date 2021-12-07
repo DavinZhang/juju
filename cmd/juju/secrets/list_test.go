@@ -12,11 +12,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	apisecrets "github.com/juju/juju/api/secrets"
-	"github.com/juju/juju/cmd/juju/secrets"
-	"github.com/juju/juju/cmd/juju/secrets/mocks"
-	coresecrets "github.com/juju/juju/core/secrets"
-	"github.com/juju/juju/jujuclient"
+	apisecrets "github.com/DavinZhang/juju/api/secrets"
+	"github.com/DavinZhang/juju/cmd/juju/secrets"
+	"github.com/DavinZhang/juju/cmd/juju/secrets/mocks"
+	coresecrets "github.com/DavinZhang/juju/core/secrets"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 type ListSuite struct {

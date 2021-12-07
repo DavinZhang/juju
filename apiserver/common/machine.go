@@ -8,12 +8,12 @@ import (
 
 	"github.com/juju/errors"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/state"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/state"
 )
 
 // StateJobs translates a slice of multiwatcher jobs to their equivalents in state.

@@ -13,8 +13,8 @@ import (
 	"github.com/juju/txn/v2"
 	"github.com/juju/worker/v3"
 
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/state/cloudimagemetadata"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/state/cloudimagemetadata"
 )
 
 // Register the state tracker as a new profile.

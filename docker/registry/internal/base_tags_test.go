@@ -13,8 +13,8 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/docker/registry/image"
-	"github.com/juju/juju/tools"
+	"github.com/DavinZhang/juju/docker/registry/image"
+	"github.com/DavinZhang/juju/tools"
 )
 
 func (s *baseSuite) TestTagsPublicRegistry(c *gc.C) {

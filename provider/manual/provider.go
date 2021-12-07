@@ -13,12 +13,12 @@ import (
 	"github.com/juju/jsonschema"
 	"github.com/juju/utils/v2/ssh"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/manual/sshprovisioner"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/manual/sshprovisioner"
 )
 
 // ManualProvider contains the logic for using a random ubuntu machine as a

@@ -10,9 +10,9 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/status"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/caasenvironupgrader"
+	"github.com/DavinZhang/juju/core/status"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/caasenvironupgrader"
 )
 
 type WorkerSuite struct {

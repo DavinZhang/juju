@@ -8,9 +8,9 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/payload"
-	"github.com/juju/juju/payload/api"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/payload"
+	"github.com/DavinZhang/juju/payload/api"
 )
 
 type facadeCaller interface {

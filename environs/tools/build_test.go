@@ -22,12 +22,12 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	agenttools "github.com/juju/juju/agent/tools"
-	coreos "github.com/juju/juju/core/os"
-	"github.com/juju/juju/environs/tools"
-	"github.com/juju/juju/juju/names"
-	"github.com/juju/juju/testing"
-	coretools "github.com/juju/juju/tools"
+	agenttools "github.com/DavinZhang/juju/agent/tools"
+	coreos "github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/environs/tools"
+	"github.com/DavinZhang/juju/juju/names"
+	"github.com/DavinZhang/juju/testing"
+	coretools "github.com/DavinZhang/juju/tools"
 )
 
 type buildSuite struct {

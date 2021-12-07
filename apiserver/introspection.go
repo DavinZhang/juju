@@ -6,9 +6,9 @@ package apiserver
 import (
 	"net/http"
 
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/permission"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/permission"
 	"github.com/juju/names/v4"
 )
 

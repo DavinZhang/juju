@@ -4,9 +4,9 @@
 package caasadmission
 
 import (
-	"github.com/juju/juju/apiserver/common"
-	errors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/common"
+	errors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
 )
 
 type Facade struct {

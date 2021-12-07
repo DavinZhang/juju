@@ -11,8 +11,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/network"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/network"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 // TODO (manadart 2020-04-03)
@@ -23,10 +23,10 @@ import (
 // - Replace blanket exports with functions in suites here that supply
 //   behaviour to parent suites that require them.
 
-//go:generate go run github.com/golang/mock/mockgen -package state -destination migration_import_mock_test.go github.com/juju/juju/state TransactionRunner,StateDocumentFactory,DocModelNamespace
-//go:generate go run github.com/golang/mock/mockgen -package state -destination migration_import_input_mock_test.go github.com/juju/juju/state RemoteEntitiesInput,RelationNetworksInput,RemoteApplicationsInput,ApplicationOfferStateDocumentFactory,ApplicationOfferInput,ExternalControllerStateDocumentFactory,ExternalControllersInput,FirewallRulesInput
+//go:generate go run github.com/golang/mock/mockgen -package state -destination migration_import_mock_test.go github.com/DavinZhang/juju/state TransactionRunner,StateDocumentFactory,DocModelNamespace
+//go:generate go run github.com/golang/mock/mockgen -package state -destination migration_import_input_mock_test.go github.com/DavinZhang/juju/state RemoteEntitiesInput,RelationNetworksInput,RemoteApplicationsInput,ApplicationOfferStateDocumentFactory,ApplicationOfferInput,ExternalControllerStateDocumentFactory,ExternalControllersInput,FirewallRulesInput
 //go:generate go run github.com/golang/mock/mockgen -package state -destination migration_description_mock_test.go github.com/juju/description/v3 ApplicationOffer,ExternalController,FirewallRule,RemoteEntity,RelationNetwork,RemoteApplication,RemoteSpace,Status
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/operation_mock.go github.com/juju/juju/state ModelOperation
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/operation_mock.go github.com/DavinZhang/juju/state ModelOperation
 
 func TestPackage(t *testing.T) {
 	if !runStateTests {

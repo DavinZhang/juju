@@ -6,9 +6,9 @@ package upgrades
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/state"
 )
 
 // environConfigUpdater is an interface used atomically write environment

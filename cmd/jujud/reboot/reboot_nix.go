@@ -14,7 +14,7 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/apiserver/params"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 func writeScript(args []string, after int) (string, error) {

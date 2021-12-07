@@ -14,12 +14,12 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/commands"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/testing/factory"
-	coreversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/cmd/juju/commands"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/testing/factory"
+	coreversion "github.com/DavinZhang/juju/version"
 )
 
 type cmdUpgradeSuite struct {

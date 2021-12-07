@@ -10,10 +10,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/jsonschema"
 
-	"github.com/juju/juju/environs"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
+	"github.com/DavinZhang/juju/environs"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
 )
 
 type environProvider struct {

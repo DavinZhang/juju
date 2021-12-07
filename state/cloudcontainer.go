@@ -9,7 +9,7 @@ import (
 	"github.com/juju/mgo/v2/bson"
 	"github.com/juju/mgo/v2/txn"
 
-	"github.com/juju/juju/core/network"
+	"github.com/DavinZhang/juju/core/network"
 )
 
 // CloudContainer represents the state of a CAAS container, eg pod.

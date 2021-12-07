@@ -12,13 +12,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/applicationoffers"
-	basetesting "github.com/juju/juju/api/base/testing"
-	apitesting "github.com/juju/juju/api/testing"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	jujucrossmodel "github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api/applicationoffers"
+	basetesting "github.com/DavinZhang/juju/api/base/testing"
+	apitesting "github.com/DavinZhang/juju/api/testing"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	jujucrossmodel "github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type crossmodelMockSuite struct {

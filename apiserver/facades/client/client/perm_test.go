@@ -14,16 +14,16 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/annotations"
-	"github.com/juju/juju/api/application"
-	"github.com/juju/juju/api/modelconfig"
-	"github.com/juju/juju/apiserver/facades/client/client"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/rpc"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/annotations"
+	"github.com/DavinZhang/juju/api/application"
+	"github.com/DavinZhang/juju/api/modelconfig"
+	"github.com/DavinZhang/juju/apiserver/facades/client/client"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/rpc"
+	"github.com/DavinZhang/juju/state"
 )
 
 type permSuite struct {

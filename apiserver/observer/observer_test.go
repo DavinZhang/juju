@@ -10,8 +10,8 @@ import (
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/observer"
-	"github.com/juju/juju/apiserver/observer/fakeobserver"
+	"github.com/DavinZhang/juju/apiserver/observer"
+	"github.com/DavinZhang/juju/apiserver/observer/fakeobserver"
 )
 
 type multiplexerSuite struct {

@@ -15,10 +15,10 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/apiserver/apiserverhttp"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/pki"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/apiserverhttp"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/pki"
+	"github.com/DavinZhang/juju/state"
 )
 
 // ModelWatcher provides an interface for watching the additiona and

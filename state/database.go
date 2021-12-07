@@ -17,9 +17,9 @@ import (
 	jujutxn "github.com/juju/txn/v2"
 	"github.com/kr/pretty"
 
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/feature"
-	"github.com/juju/juju/mongo"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/feature"
+	"github.com/DavinZhang/juju/mongo"
 )
 
 var txnLogger = loggo.GetLogger("juju.state.txn")
@@ -28,8 +28,8 @@ type SessionCloser func()
 
 func dontCloseAnything() {}
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/database_mock.go github.com/juju/juju/state Database
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/mongo_mock.go github.com/juju/juju/mongo Collection,Query
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/database_mock.go github.com/DavinZhang/juju/state Database
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/mongo_mock.go github.com/DavinZhang/juju/mongo Collection,Query
 //go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/txn_mock.go github.com/juju/txn Runner
 //go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/clock_mock.go github.com/juju/clock Clock
 

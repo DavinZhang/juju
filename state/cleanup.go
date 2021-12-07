@@ -14,9 +14,9 @@ import (
 	"github.com/juju/names/v4"
 	jujutxn "github.com/juju/txn/v2"
 
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/mongo"
-	stateerrors "github.com/juju/juju/state/errors"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/mongo"
+	stateerrors "github.com/DavinZhang/juju/state/errors"
 )
 
 type cleanupKind string

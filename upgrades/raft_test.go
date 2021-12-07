@@ -19,14 +19,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/lease"
-	"github.com/juju/juju/core/raftlease"
-	raftleasestore "github.com/juju/juju/state/raftlease"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/upgrades"
-	raftworker "github.com/juju/juju/worker/raft"
-	"github.com/juju/juju/worker/raft/rafttest"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/core/raftlease"
+	raftleasestore "github.com/DavinZhang/juju/state/raftlease"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/upgrades"
+	raftworker "github.com/DavinZhang/juju/worker/raft"
+	"github.com/DavinZhang/juju/worker/raft/rafttest"
 )
 
 type raftSuite struct {

@@ -4,11 +4,11 @@
 package common
 
 import (
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/watcher"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/watcher"
 )
 
 // APIAddressAccessor describes methods that allow agents to maintain

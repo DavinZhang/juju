@@ -13,12 +13,12 @@ import (
 	"github.com/juju/version/v2"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/api/agent"
-	coreos "github.com/juju/juju/core/os"
-	"github.com/juju/juju/core/watcher"
-	jujuversion "github.com/juju/juju/version"
-	"github.com/juju/juju/worker/gate"
-	"github.com/juju/juju/worker/upgrader"
+	"github.com/DavinZhang/juju/api/agent"
+	coreos "github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/core/watcher"
+	jujuversion "github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/worker/gate"
+	"github.com/DavinZhang/juju/worker/upgrader"
 )
 
 var logger = loggo.GetLogger("juju.worker.caasupgrader")

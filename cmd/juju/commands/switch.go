@@ -10,11 +10,11 @@ import (
 	"github.com/juju/cmd/v3"
 	"github.com/juju/errors"
 
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/juju/common"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/juju/osenv"
-	"github.com/juju/juju/jujuclient"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/juju/common"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/juju/osenv"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 func newSwitchCommand() cmd.Command {

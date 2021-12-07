@@ -6,7 +6,7 @@ package testing
 import (
 	"strings"
 
-	"github.com/juju/juju/core/permission"
+	"github.com/DavinZhang/juju/core/permission"
 	"github.com/juju/names/v4"
 )
 

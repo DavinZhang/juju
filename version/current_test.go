@@ -10,8 +10,8 @@ import (
 	osseries "github.com/juju/os/v2/series"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/os"
-	"github.com/juju/juju/core/series"
+	"github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/core/series"
 )
 
 type CurrentSuite struct{}

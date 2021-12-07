@@ -9,12 +9,12 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/environs"
-	conf "github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/simplestreams"
-	"github.com/juju/juju/environs/storage"
-	envutils "github.com/juju/juju/environs/utils"
-	"github.com/juju/juju/juju/keys"
+	"github.com/DavinZhang/juju/environs"
+	conf "github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/environs/storage"
+	envutils "github.com/DavinZhang/juju/environs/utils"
+	"github.com/DavinZhang/juju/juju/keys"
 )
 
 type toolsDatasourceFuncId struct {

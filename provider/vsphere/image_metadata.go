@@ -6,9 +6,9 @@ package vsphere
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/environs/simplestreams"
 )
 
 /*

@@ -16,8 +16,8 @@ import (
 	"github.com/juju/mgo/v2"
 	"github.com/juju/mgo/v2/bson"
 
-	"github.com/juju/juju/mongo"
-	"github.com/juju/juju/state/imagestorage"
+	"github.com/DavinZhang/juju/mongo"
+	"github.com/DavinZhang/juju/state/imagestorage"
 )
 
 // db is a surrogate for the proverbial DB layer abstraction that we

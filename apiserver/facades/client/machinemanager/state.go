@@ -6,18 +6,18 @@ package machinemanager
 import (
 	"time"
 
+	"github.com/DavinZhang/juju/cloud"
 	"github.com/juju/charm/v9"
 	"github.com/juju/errors"
-	"github.com/juju/juju/cloud"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/apiserver/common/storagecommon"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/common/storagecommon"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/state"
 )
 
 type Backend interface {

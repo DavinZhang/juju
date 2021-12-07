@@ -9,7 +9,7 @@ import (
 	gc "gopkg.in/check.v1"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/mocks.go github.com/juju/juju/resource/repositories EntityRepository,ResourceGetter
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/mocks.go github.com/DavinZhang/juju/resource/repositories EntityRepository,ResourceGetter
 
 func Test(t *testing.T) {
 	gc.TestingT(t)

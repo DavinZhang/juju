@@ -7,12 +7,12 @@ import (
 	"github.com/juju/names/v4"
 	gitjujutesting "github.com/juju/testing"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/worker/machiner"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/worker/machiner"
 )
 
 type mockWatcher struct {

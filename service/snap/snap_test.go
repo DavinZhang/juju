@@ -16,7 +16,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/service/common"
+	"github.com/DavinZhang/juju/service/common"
 )
 
 type validationSuite struct {

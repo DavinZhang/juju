@@ -15,12 +15,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	appFacade "github.com/juju/juju/apiserver/facades/client/application"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cmd/juju/model"
-	coremodel "github.com/juju/juju/core/model"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/testing"
+	appFacade "github.com/DavinZhang/juju/apiserver/facades/client/application"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cmd/juju/model"
+	coremodel "github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type ExportBundleCommandSuite struct {

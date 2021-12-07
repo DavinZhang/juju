@@ -24,9 +24,9 @@ import (
 	"github.com/juju/retry"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/provider/azure/internal/errorutils"
-	"github.com/juju/juju/provider/azure/internal/tracing"
-	"github.com/juju/juju/provider/azure/internal/useragent"
+	"github.com/DavinZhang/juju/provider/azure/internal/errorutils"
+	"github.com/DavinZhang/juju/provider/azure/internal/tracing"
+	"github.com/DavinZhang/juju/provider/azure/internal/useragent"
 )
 
 var logger = loggo.GetLogger("juju.provider.azure.internal.azureauth")

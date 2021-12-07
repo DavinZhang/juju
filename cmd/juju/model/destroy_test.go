@@ -17,17 +17,17 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cmd/cmdtest"
-	"github.com/juju/juju/cmd/juju/model"
-	rcmd "github.com/juju/juju/cmd/juju/romulus"
-	"github.com/juju/juju/cmd/modelcmd"
-	coremodel "github.com/juju/juju/core/model"
-	"github.com/juju/juju/jujuclient"
-	_ "github.com/juju/juju/provider/dummy"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api/base"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cmd/cmdtest"
+	"github.com/DavinZhang/juju/cmd/juju/model"
+	rcmd "github.com/DavinZhang/juju/cmd/juju/romulus"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	coremodel "github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/jujuclient"
+	_ "github.com/DavinZhang/juju/provider/dummy"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type DestroySuite struct {

@@ -18,12 +18,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/caas/kubernetes/provider/exec"
-	"github.com/juju/juju/testing"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/caasoperator"
-	"github.com/juju/juju/worker/caasoperator/mocks"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/exec"
+	"github.com/DavinZhang/juju/testing"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/caasoperator"
+	"github.com/DavinZhang/juju/worker/caasoperator/mocks"
 )
 
 type UnitInitializerSuite struct {

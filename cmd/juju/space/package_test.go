@@ -14,16 +14,16 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cmd/juju/space"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/jujuclient/jujuclienttesting"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cmd/juju/space"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/jujuclient/jujuclienttesting"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/spacesapi_mock.go github.com/juju/juju/cmd/juju/space SpaceAPI,SubnetAPI,API
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/spacesapi_mock.go github.com/DavinZhang/juju/cmd/juju/space SpaceAPI,SubnetAPI,API
 
 func TestPackage(t *stdtesting.T) {
 	gc.TestingT(t)

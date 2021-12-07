@@ -12,9 +12,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	jujuos "github.com/juju/juju/core/os"
-	"github.com/juju/juju/juju/sockets"
-	"github.com/juju/juju/worker/uniter"
+	jujuos "github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/juju/sockets"
+	"github.com/DavinZhang/juju/worker/uniter"
 )
 
 type PathsSuite struct {

@@ -4,28 +4,28 @@
 package caasoperator_test
 
 import (
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/worker/fortress"
 	"github.com/juju/charm/v9"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/worker/fortress"
 	"github.com/juju/names/v4"
 	"github.com/juju/proxy"
 	"github.com/juju/testing"
 	"github.com/juju/version/v2"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	caasoperatorapi "github.com/juju/juju/api/caasoperator"
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/caas/kubernetes/provider/exec"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/core/watcher/watchertest"
-	"github.com/juju/juju/downloader"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/caasoperator"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	caasoperatorapi "github.com/DavinZhang/juju/api/caasoperator"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/exec"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/core/watcher/watchertest"
+	"github.com/DavinZhang/juju/downloader"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/caasoperator"
 )
 
 var (

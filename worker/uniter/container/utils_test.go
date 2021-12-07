@@ -4,9 +4,9 @@
 package container_test
 
 import (
-	"github.com/juju/juju/worker/uniter/hook"
-	"github.com/juju/juju/worker/uniter/operation"
-	"github.com/juju/juju/worker/uniter/remotestate"
+	"github.com/DavinZhang/juju/worker/uniter/hook"
+	"github.com/DavinZhang/juju/worker/uniter/operation"
+	"github.com/DavinZhang/juju/worker/uniter/remotestate"
 )
 
 type mockOperations struct {

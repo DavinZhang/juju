@@ -9,7 +9,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2/ssh"
 
-	"github.com/juju/juju/juju/osenv"
+	"github.com/DavinZhang/juju/juju/osenv"
 )
 
 // InitJujuXDGDataHome initializes the charm cache, environs/config and utils/ssh packages

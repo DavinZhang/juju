@@ -7,9 +7,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/environs/context"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/environs/context"
 )
 
 // SupportsNetworking is a convenience helper to check if an environment

@@ -11,10 +11,10 @@ import (
 	"github.com/juju/worker/v3"
 	"gopkg.in/tomb.v2"
 
-	coreagent "github.com/juju/juju/agent"
-	"github.com/juju/juju/mongo"
-	controllermsg "github.com/juju/juju/pubsub/controller"
-	jworker "github.com/juju/juju/worker"
+	coreagent "github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/mongo"
+	controllermsg "github.com/DavinZhang/juju/pubsub/controller"
+	jworker "github.com/DavinZhang/juju/worker"
 )
 
 // WorkerConfig contains the information necessary to run

@@ -10,7 +10,7 @@ import (
 	"github.com/juju/mgo/v2/txn"
 	jujutxn "github.com/juju/txn/v2"
 
-	"github.com/juju/juju/core/network"
+	"github.com/DavinZhang/juju/core/network"
 )
 
 // MachinePortRanges is implemented by types that can query and/or

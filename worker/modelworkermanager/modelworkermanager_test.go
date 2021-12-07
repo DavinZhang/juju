@@ -17,12 +17,12 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/pki"
-	pkitest "github.com/juju/juju/pki/test"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/modelworkermanager"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/pki"
+	pkitest "github.com/DavinZhang/juju/pki/test"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/modelworkermanager"
 )
 
 var _ = gc.Suite(&suite{})

@@ -7,7 +7,7 @@ import (
 	gc "gopkg.in/check.v1"
 
 	"github.com/juju/errors"
-	"github.com/juju/juju/cmd/juju/space"
+	"github.com/DavinZhang/juju/cmd/juju/space"
 	jc "github.com/juju/testing/checkers"
 )
 

@@ -15,17 +15,17 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	coreapiserver "github.com/juju/juju/apiserver"
-	"github.com/juju/juju/apiserver/apiserverhttp"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/cache"
-	"github.com/juju/juju/core/lease"
-	"github.com/juju/juju/core/multiwatcher"
-	"github.com/juju/juju/core/presence"
-	"github.com/juju/juju/core/raft/queue"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/worker/apiserver"
+	"github.com/DavinZhang/juju/agent"
+	coreapiserver "github.com/DavinZhang/juju/apiserver"
+	"github.com/DavinZhang/juju/apiserver/apiserverhttp"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/cache"
+	"github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/core/multiwatcher"
+	"github.com/DavinZhang/juju/core/presence"
+	"github.com/DavinZhang/juju/core/raft/queue"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/worker/apiserver"
 )
 
 type workerFixture struct {

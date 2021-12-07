@@ -11,11 +11,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	jujucloud "github.com/juju/juju/cloud"
-	"github.com/juju/juju/cmd/juju/cloud"
-	"github.com/juju/juju/jujuclient"
-	_ "github.com/juju/juju/provider/lxd"
-	"github.com/juju/juju/testing"
+	jujucloud "github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/cmd/juju/cloud"
+	"github.com/DavinZhang/juju/jujuclient"
+	_ "github.com/DavinZhang/juju/provider/lxd"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type defaultCredentialSuite struct {

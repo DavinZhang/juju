@@ -9,17 +9,17 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/common/credentialcommon"
-	"github.com/juju/juju/apiserver/facades/client/cloud"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/apiserver/testing"
-	jujucloud "github.com/juju/juju/cloud"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/instances"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/common/credentialcommon"
+	"github.com/DavinZhang/juju/apiserver/facades/client/cloud"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/apiserver/testing"
+	jujucloud "github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/instances"
+	"github.com/DavinZhang/juju/state"
 )
 
 type instanceTypesSuite struct{}

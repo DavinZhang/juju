@@ -15,18 +15,18 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/worker/v3"
 
-	"github.com/juju/juju/api/instancemutater"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/lxdprofile"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/wrench"
+	"github.com/DavinZhang/juju/api/instancemutater"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/lxdprofile"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/wrench"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/mutatercontext_mock.go github.com/juju/juju/worker/instancemutater MutaterContext
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/mutatercontext_mock.go github.com/DavinZhang/juju/worker/instancemutater MutaterContext
 
 // lifetimeContext was extracted to allow the various Context clients to get
 // the benefits of the catacomb encapsulating everything that should happen

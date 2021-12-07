@@ -10,8 +10,8 @@ import (
 
 	"github.com/juju/clock"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/globalclock"
-	"github.com/juju/juju/core/lease"
+	"github.com/DavinZhang/juju/core/globalclock"
+	"github.com/DavinZhang/juju/core/lease"
 	"github.com/juju/pubsub/v2"
 	"github.com/juju/utils/v2"
 	"github.com/prometheus/client_golang/prometheus"

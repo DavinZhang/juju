@@ -13,13 +13,13 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/environs"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	jujutesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/environs"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	jujutesting "github.com/DavinZhang/juju/testing"
 )
 
 type fixture struct {

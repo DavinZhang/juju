@@ -21,17 +21,17 @@ import (
 	"github.com/juju/utils/v2/fs"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/uniter"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/testcharms"
-	"github.com/juju/juju/worker/uniter/runner"
-	"github.com/juju/juju/worker/uniter/runner/context"
-	runnertesting "github.com/juju/juju/worker/uniter/runner/testing"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/uniter"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/testcharms"
+	"github.com/DavinZhang/juju/worker/uniter/runner"
+	"github.com/DavinZhang/juju/worker/uniter/runner/context"
+	runnertesting "github.com/DavinZhang/juju/worker/uniter/runner/testing"
 )
 
 type ContextSuite struct {

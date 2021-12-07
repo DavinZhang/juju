@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/DavinZhang/juju/utils/scriptrunner"
 	"github.com/juju/clock"
-	"github.com/juju/juju/utils/scriptrunner"
 	"github.com/juju/loggo"
 	"github.com/pkg/errors"
 )

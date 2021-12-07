@@ -15,13 +15,13 @@ import (
 	"github.com/juju/worker/v3/dependency"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/juju/juju/apiserver/apiserverhttp"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/pki"
-	pkitls "github.com/juju/juju/pki/tls"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/worker/common"
-	workerstate "github.com/juju/juju/worker/state"
+	"github.com/DavinZhang/juju/apiserver/apiserverhttp"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/pki"
+	pkitls "github.com/DavinZhang/juju/pki/tls"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/worker/common"
+	workerstate "github.com/DavinZhang/juju/worker/state"
 )
 
 type Logger interface {

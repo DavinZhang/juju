@@ -9,10 +9,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/feature"
-	"github.com/juju/juju/jujuclient"
-	jujutesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/feature"
+	"github.com/DavinZhang/juju/jujuclient"
+	jujutesting "github.com/DavinZhang/juju/testing"
 )
 
 // None of the tests in this package require mongo.

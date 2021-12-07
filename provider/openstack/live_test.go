@@ -14,13 +14,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/jujutest"
-	"github.com/juju/juju/environs/storage"
-	envtesting "github.com/juju/juju/environs/testing"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/provider/openstack"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/jujutest"
+	"github.com/DavinZhang/juju/environs/storage"
+	envtesting "github.com/DavinZhang/juju/environs/testing"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/provider/openstack"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 // generate a different bucket name for each config instance, so that

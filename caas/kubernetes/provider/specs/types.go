@@ -13,8 +13,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/apimachinery/pkg/util/validation"
 
-	"github.com/juju/juju/caas/specs"
-	"github.com/juju/juju/core/annotations"
+	"github.com/DavinZhang/juju/caas/specs"
+	"github.com/DavinZhang/juju/core/annotations"
 )
 
 var logger = loggo.GetLogger("juju.kubernetes.provider.specs")
@@ -156,7 +156,7 @@ func ParsePodSpec(in string) (*specs.PodSpec, error) {
 	return parsePodSpec(in, getParser)
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination ./mocks/parsers_mock.go github.com/juju/juju/caas/kubernetes/provider/specs PodSpecConverter
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination ./mocks/parsers_mock.go github.com/DavinZhang/juju/caas/kubernetes/provider/specs PodSpecConverter
 func parsePodSpec(
 	in string,
 	getParser func(specVersion specs.Version) (parserType, error),

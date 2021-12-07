@@ -9,10 +9,10 @@ import (
 	"github.com/golang/mock/gomock"
 	gc "gopkg.in/check.v1"
 
-	containerLXD "github.com/juju/juju/container/lxd"
+	containerLXD "github.com/DavinZhang/juju/container/lxd"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package lxd -destination package_mock_test.go github.com/juju/juju/provider/lxd Server,ServerFactory,InterfaceAddress,CertificateReadWriter,CertificateGenerator,NetLookup,LXCConfigReader
+//go:generate go run github.com/golang/mock/mockgen -package lxd -destination package_mock_test.go github.com/DavinZhang/juju/provider/lxd Server,ServerFactory,InterfaceAddress,CertificateReadWriter,CertificateGenerator,NetLookup,LXCConfigReader
 
 func TestPackage(t *testing.T) {
 	gc.TestingT(t)

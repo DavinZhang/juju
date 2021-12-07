@@ -11,9 +11,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/pki"
-	pkitest "github.com/juju/juju/pki/test"
-	pkitls "github.com/juju/juju/pki/tls"
+	"github.com/DavinZhang/juju/pki"
+	pkitest "github.com/DavinZhang/juju/pki/test"
+	pkitls "github.com/DavinZhang/juju/pki/tls"
 )
 
 type SNISuite struct {

@@ -7,9 +7,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/schema"
 
-	"github.com/juju/juju/caas/ecs/constants"
-	jujucontext "github.com/juju/juju/environs/context"
-	jujustorage "github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/caas/ecs/constants"
+	jujucontext "github.com/DavinZhang/juju/environs/context"
+	jujustorage "github.com/DavinZhang/juju/storage"
 )
 
 const (

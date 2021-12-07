@@ -11,14 +11,14 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/apiserver/common"
-	coremigration "github.com/juju/juju/core/migration"
-	"github.com/juju/juju/core/presence"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/tools"
-	"github.com/juju/juju/upgrades"
+	"github.com/DavinZhang/juju/apiserver/common"
+	coremigration "github.com/DavinZhang/juju/core/migration"
+	"github.com/DavinZhang/juju/core/presence"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/tools"
+	"github.com/DavinZhang/juju/upgrades"
 )
 
 // PrecheckBackend defines the interface to query Juju's state

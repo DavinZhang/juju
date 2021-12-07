@@ -8,7 +8,7 @@ import (
 
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/resource/repositories"
+	"github.com/DavinZhang/juju/resource/repositories"
 )
 
 func NewCSRetryClientForTest(client ResourceClient) *ResourceRetryClient {

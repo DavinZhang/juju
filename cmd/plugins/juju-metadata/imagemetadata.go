@@ -14,17 +14,17 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/utils/v2/arch"
 
-	"github.com/juju/juju/caas"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/filestorage"
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/environs/simplestreams"
-	"github.com/juju/juju/environs/storage"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/caas"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/filestorage"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/environs/storage"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/version"
 )
 
 func prepare(ctx *cmd.Context, controllerName string, store jujuclient.ClientStore) (environs.Environ, error) {

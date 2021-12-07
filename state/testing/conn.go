@@ -10,14 +10,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/mongo"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/storage/provider"
-	dummystorage "github.com/juju/juju/storage/provider/dummy"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/mongo"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/storage/provider"
+	dummystorage "github.com/DavinZhang/juju/storage/provider/dummy"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type InitializeArgs struct {

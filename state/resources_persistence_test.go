@@ -14,10 +14,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/resourcetesting"
-	"github.com/juju/juju/state/statetest"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/resourcetesting"
+	"github.com/DavinZhang/juju/state/statetest"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 var _ = gc.Suite(&ResourcePersistenceSuite{})

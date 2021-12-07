@@ -14,14 +14,14 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/names/v4"
 
-	apicloud "github.com/juju/juju/api/cloud"
-	jujucloud "github.com/juju/juju/cloud"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/juju/common"
-	"github.com/juju/juju/cmd/juju/interact"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/jujuclient"
+	apicloud "github.com/DavinZhang/juju/api/cloud"
+	jujucloud "github.com/DavinZhang/juju/cloud"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/juju/common"
+	"github.com/DavinZhang/juju/cmd/juju/interact"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 var usageAddCredentialSummary = `

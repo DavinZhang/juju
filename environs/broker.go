@@ -4,18 +4,18 @@
 package environs
 
 import (
-	"github.com/juju/juju/cloudconfig/instancecfg"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/lxdprofile"
-	corenetwork "github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/environs/instances"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/tools"
+	"github.com/DavinZhang/juju/cloudconfig/instancecfg"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/lxdprofile"
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/environs/instances"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/tools"
 )
 
 // StatusCallbackFunc represents a function that can be called to report a status.

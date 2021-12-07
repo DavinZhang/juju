@@ -12,9 +12,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	coreglobalclock "github.com/juju/juju/core/globalclock"
-	"github.com/juju/juju/mongo"
-	"github.com/juju/juju/state/globalclock"
+	coreglobalclock "github.com/DavinZhang/juju/core/globalclock"
+	"github.com/DavinZhang/juju/mongo"
+	"github.com/DavinZhang/juju/state/globalclock"
 )
 
 type UpdaterSuite struct {

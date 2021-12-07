@@ -10,11 +10,11 @@ import (
 	"github.com/juju/errors"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/api/base"
-	apicharm "github.com/juju/juju/api/common/charm"
-	commoncharms "github.com/juju/juju/api/common/charms"
-	api "github.com/juju/juju/api/resources"
-	"github.com/juju/juju/apiserver/params"
+	"github.com/DavinZhang/juju/api/base"
+	apicharm "github.com/DavinZhang/juju/api/common/charm"
+	commoncharms "github.com/DavinZhang/juju/api/common/charms"
+	api "github.com/DavinZhang/juju/api/resources"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 // Client allows access to the charms API end point.

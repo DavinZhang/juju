@@ -15,8 +15,8 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/state/watcher"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/state/watcher"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type HubWatcherSuite struct {

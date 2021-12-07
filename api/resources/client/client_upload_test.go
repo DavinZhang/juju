@@ -10,16 +10,16 @@ import (
 	"net/http"
 	"strings"
 
+	apicharm "github.com/DavinZhang/juju/api/common/charm"
 	"github.com/juju/charm/v9"
 	charmresource "github.com/juju/charm/v9/resource"
 	"github.com/juju/errors"
-	apicharm "github.com/juju/juju/api/common/charm"
 	"github.com/juju/testing"
 	jc "github.com/juju/testing/checkers"
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/resources/client"
+	"github.com/DavinZhang/juju/api/resources/client"
 )
 
 var _ = gc.Suite(&UploadSuite{})

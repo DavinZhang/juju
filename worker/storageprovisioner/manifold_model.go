@@ -10,10 +10,10 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/storageprovisioner"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/worker/common"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/storageprovisioner"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/worker/common"
 )
 
 // ModelManifoldConfig defines a storage provisioner's configuration and dependencies.

@@ -13,12 +13,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	provider "github.com/juju/juju/caas/ecs"
-	"github.com/juju/juju/caas/ecs/mocks"
-	"github.com/juju/juju/cloud"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/testing"
+	provider "github.com/DavinZhang/juju/caas/ecs"
+	"github.com/DavinZhang/juju/caas/ecs/mocks"
+	"github.com/DavinZhang/juju/cloud"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type baseSuite struct {

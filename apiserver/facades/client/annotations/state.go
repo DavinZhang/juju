@@ -6,7 +6,7 @@ package annotations
 import (
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/state"
 )
 
 type annotationAccess interface {

@@ -11,11 +11,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	netmocks "github.com/juju/juju/apiserver/common/networkingcommon/mocks"
-	"github.com/juju/juju/apiserver/facades/client/spaces"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/network"
+	netmocks "github.com/DavinZhang/juju/apiserver/common/networkingcommon/mocks"
+	"github.com/DavinZhang/juju/apiserver/facades/client/spaces"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/network"
 )
 
 // moveSubsetOpSuite tests the model operation used to

@@ -14,10 +14,10 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/controller"
-	controllermsg "github.com/juju/juju/pubsub/controller"
-	jworker "github.com/juju/juju/worker"
-	"github.com/juju/juju/worker/agentconfigupdater"
+	"github.com/DavinZhang/juju/controller"
+	controllermsg "github.com/DavinZhang/juju/pubsub/controller"
+	jworker "github.com/DavinZhang/juju/worker"
+	"github.com/DavinZhang/juju/worker/agentconfigupdater"
 )
 
 type WorkerSuite struct {

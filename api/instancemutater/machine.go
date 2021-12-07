@@ -9,19 +9,19 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/common"
-	apiwatcher "github.com/juju/juju/api/watcher"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/lxdprofile"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/common"
+	apiwatcher "github.com/DavinZhang/juju/api/watcher"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/lxdprofile"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/caller_mock.go github.com/juju/juju/api/base APICaller,FacadeCaller
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/machinemutater_mock.go github.com/juju/juju/api/instancemutater MutaterMachine
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/caller_mock.go github.com/DavinZhang/juju/api/base APICaller,FacadeCaller
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/machinemutater_mock.go github.com/DavinZhang/juju/api/instancemutater MutaterMachine
 type MutaterMachine interface {
 
 	// InstanceId returns the provider specific instance id for this machine

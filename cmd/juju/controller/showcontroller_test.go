@@ -13,13 +13,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	apicontroller "github.com/juju/juju/api/controller"
-	"github.com/juju/juju/cmd/juju/controller"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/jujuclient/jujuclienttesting"
+	"github.com/DavinZhang/juju/api/base"
+	apicontroller "github.com/DavinZhang/juju/api/controller"
+	"github.com/DavinZhang/juju/cmd/juju/controller"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/jujuclient/jujuclienttesting"
 )
 
 type ShowControllerSuite struct {

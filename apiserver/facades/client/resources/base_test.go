@@ -13,10 +13,10 @@ import (
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/charmstore"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/resourcetesting"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/charmstore"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/resourcetesting"
 )
 
 type BaseSuite struct {

@@ -13,9 +13,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/core/multiwatcher"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/watcher"
+	"github.com/DavinZhang/juju/core/multiwatcher"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/watcher"
 )
 
 // Config is an argument struct used to create a Worker.

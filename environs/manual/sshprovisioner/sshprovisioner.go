@@ -17,15 +17,15 @@ import (
 	"github.com/juju/utils/v2/shell"
 	"github.com/juju/utils/v2/ssh"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cloudconfig"
-	"github.com/juju/juju/cloudconfig/cloudinit"
-	"github.com/juju/juju/cloudconfig/instancecfg"
-	"github.com/juju/juju/cloudconfig/sshinit"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/environs/manual"
-	"github.com/juju/juju/service"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cloudconfig"
+	"github.com/DavinZhang/juju/cloudconfig/cloudinit"
+	"github.com/DavinZhang/juju/cloudconfig/instancecfg"
+	"github.com/DavinZhang/juju/cloudconfig/sshinit"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/environs/manual"
+	"github.com/DavinZhang/juju/service"
 )
 
 // InitUbuntuUser adds the ubuntu user if it doesn't

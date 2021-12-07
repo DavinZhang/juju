@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/juju/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/facade"
 )
 
 // Resources holds all the resources for a connection.

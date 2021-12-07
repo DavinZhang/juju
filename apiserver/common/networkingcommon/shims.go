@@ -4,9 +4,9 @@
 package networkingcommon
 
 import (
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/state"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/state"
 )
 
 // linkLayerMachine wraps a state.Machine reference in order to

@@ -10,7 +10,7 @@ import (
 	charmresource "github.com/juju/charm/v9/resource"
 	"github.com/juju/mgo/v2/txn"
 
-	"github.com/juju/juju/resource"
+	"github.com/DavinZhang/juju/resource"
 )
 
 // Resources describes the state functionality for resources.

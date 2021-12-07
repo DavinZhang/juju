@@ -4,7 +4,7 @@
 package instance
 
 import (
-	"github.com/juju/juju/core/status"
+	"github.com/DavinZhang/juju/core/status"
 )
 
 // Id is a provider-specific identifier associated with an

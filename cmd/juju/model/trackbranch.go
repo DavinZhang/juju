@@ -12,9 +12,9 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/modelgeneration"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/api/modelgeneration"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 const (
@@ -62,7 +62,7 @@ type trackBranchCommand struct {
 
 // TrackBranchCommandAPI describes API methods required
 // to execute the track command.
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination ./mocks/trackbranch_mock.go github.com/juju/juju/cmd/juju/model TrackBranchCommandAPI
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination ./mocks/trackbranch_mock.go github.com/DavinZhang/juju/cmd/juju/model TrackBranchCommandAPI
 type TrackBranchCommandAPI interface {
 	Close() error
 

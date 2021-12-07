@@ -9,12 +9,12 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/caasoperator"
-	"github.com/juju/juju/api/machiner"
-	"github.com/juju/juju/api/uniter"
-	"github.com/juju/juju/cmd/jujud/agent/engine"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/caasoperator"
+	"github.com/DavinZhang/juju/api/machiner"
+	"github.com/DavinZhang/juju/api/uniter"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/engine"
 )
 
 // Logger represents the methods used for logging messages.

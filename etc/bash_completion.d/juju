@@ -447,7 +447,7 @@ _JUJU_2_complete_with_func() {
 
 # Not used here, available to the user for quick cache removal
 _JUJU_2_rm_completion_cache() {
-    rm -fv $HOME/.cache/juju/juju-status-*
+    rm -fv $HOME/.cache/DavinZhang/juju-status-*
 }
 
 # main completion function entry point

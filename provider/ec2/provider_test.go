@@ -12,13 +12,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/provider/common"
-	"github.com/juju/juju/provider/ec2"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/provider/common"
+	"github.com/DavinZhang/juju/provider/ec2"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type ProviderSuite struct {

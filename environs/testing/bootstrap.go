@@ -12,12 +12,12 @@ import (
 	"github.com/juju/utils/v2/ssh"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cloudconfig/instancecfg"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/environs"
-	envcontext "github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/instances"
-	"github.com/juju/juju/provider/common"
+	"github.com/DavinZhang/juju/cloudconfig/instancecfg"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/environs"
+	envcontext "github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/instances"
+	"github.com/DavinZhang/juju/provider/common"
 )
 
 var logger = loggo.GetLogger("juju.environs.testing")

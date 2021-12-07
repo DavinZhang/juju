@@ -4,8 +4,8 @@
 package rackspace
 
 import (
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/provider/openstack"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/provider/openstack"
 )
 
 func NewProvider(innerProvider environs.CloudEnvironProvider) environs.EnvironProvider {

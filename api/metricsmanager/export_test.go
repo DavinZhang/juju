@@ -4,7 +4,7 @@
 package metricsmanager
 
 import (
-	"github.com/juju/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/base/testing"
 )
 
 // PatchFacadeCall patches the State's facade such that

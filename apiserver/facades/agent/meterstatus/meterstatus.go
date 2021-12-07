@@ -9,14 +9,14 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/common/unitcommon"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/watcher"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/common/unitcommon"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/watcher"
 )
 
 var logger = loggo.GetLogger("juju.apiserver.meterstatus")
@@ -28,7 +28,7 @@ type MeterStatus interface {
 }
 
 // MeterStatusState represents the state of an model required by the MeterStatus.
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/meterstatus_mock.go github.com/juju/juju/apiserver/facades/agent/meterstatus MeterStatusState
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/meterstatus_mock.go github.com/DavinZhang/juju/apiserver/facades/agent/meterstatus MeterStatusState
 type MeterStatusState interface {
 	ApplyOperation(state.ModelOperation) error
 	ControllerConfig() (controller.Config, error)

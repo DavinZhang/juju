@@ -11,8 +11,8 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/core/migration"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/migration"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type TargetInfoSuite struct {

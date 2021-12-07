@@ -7,7 +7,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/mgo/v2/txn"
 
-	"github.com/juju/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/crossmodel"
 )
 
 // Migration import tasks provide a boundary of isolation between the

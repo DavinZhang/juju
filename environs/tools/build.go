@@ -20,9 +20,9 @@ import (
 	"github.com/juju/utils/v2/arch"
 	"github.com/juju/version/v2"
 
-	coreos "github.com/juju/juju/core/os"
-	"github.com/juju/juju/juju/names"
-	jujuversion "github.com/juju/juju/version"
+	coreos "github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/juju/names"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 // Archive writes the executable files found in the given directory in
@@ -246,11 +246,11 @@ func buildJujus(dir string) error {
 	var modArg string
 	var lastErr error
 	for _, m := range []string{"-mod=vendor", "-mod=readonly"} {
-		cmd := exec.Command("go", "list", m, "github.com/juju/juju")
+		cmd := exec.Command("go", "list", m, "github.com/DavinZhang/juju")
 		cmd.Env = append(os.Environ(), "GO111MODULE=on")
 		out, err := cmd.CombinedOutput()
 		if err != nil {
-			info := `cannot build juju agent outside of github.com/juju/juju tree
+			info := `cannot build juju agent outside of github.com/DavinZhang/juju tree
 	cd into the directory containing juju %s %s
 	%s`
 			lastErr = errors.Annotatef(err, info, jujuversion.Current.String(), jujuversion.GitCommit, out)
@@ -268,8 +268,8 @@ func buildJujus(dir string) error {
 	cmds := [][]string{
 		// TODO: jam 2020-03-12 do we want to also default to stripping the binary?
 		//       -ldflags "-s -w"
-		{"go", "build", modArg, "-ldflags", "-extldflags \"-static\"", "-o", filepath.Join(dir, names.Jujud), "github.com/juju/juju/cmd/jujud"},
-		{"go", "build", modArg, "-ldflags", "-extldflags \"-static\"", "-o", filepath.Join(dir, names.Jujuc), "github.com/juju/juju/cmd/jujuc"},
+		{"go", "build", modArg, "-ldflags", "-extldflags \"-static\"", "-o", filepath.Join(dir, names.Jujud), "github.com/DavinZhang/juju/cmd/jujud"},
+		{"go", "build", modArg, "-ldflags", "-extldflags \"-static\"", "-o", filepath.Join(dir, names.Jujuc), "github.com/DavinZhang/juju/cmd/jujuc"},
 	}
 	for _, args := range cmds {
 		cmd := exec.Command(args[0], args[1:]...)

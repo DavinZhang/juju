@@ -8,8 +8,8 @@ import (
 
 	"github.com/juju/charm/v9"
 
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/core/relation"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/core/relation"
 )
 
 // ApplicationOfferAdminDetails represents the details about an

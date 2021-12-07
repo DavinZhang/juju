@@ -8,9 +8,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	apiserverbackups "github.com/juju/juju/apiserver/facades/client/backups"
-	"github.com/juju/juju/apiserver/params"
-	backupstesting "github.com/juju/juju/state/backups/testing"
+	apiserverbackups "github.com/DavinZhang/juju/apiserver/facades/client/backups"
+	"github.com/DavinZhang/juju/apiserver/params"
+	backupstesting "github.com/DavinZhang/juju/state/backups/testing"
 )
 
 type createSuite struct {

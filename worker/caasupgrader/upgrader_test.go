@@ -11,12 +11,12 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	coreos "github.com/juju/juju/core/os"
-	"github.com/juju/juju/core/watcher/watchertest"
-	coretesting "github.com/juju/juju/testing"
-	jujuversion "github.com/juju/juju/version"
-	"github.com/juju/juju/worker/caasupgrader"
-	"github.com/juju/juju/worker/gate"
+	coreos "github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/core/watcher/watchertest"
+	coretesting "github.com/DavinZhang/juju/testing"
+	jujuversion "github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/worker/caasupgrader"
+	"github.com/DavinZhang/juju/worker/gate"
 )
 
 type UpgraderSuite struct {

@@ -11,11 +11,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/diskmanager"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/storage"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/diskmanager"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/storage"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 var _ = gc.Suite(&DiskManagerSuite{})

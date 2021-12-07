@@ -9,8 +9,8 @@ import (
 	"github.com/juju/loggo"
 	gc "gopkg.in/check.v1"
 
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/metricworker"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/metricworker"
 )
 
 type CleanupSuite struct{}

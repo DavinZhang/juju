@@ -6,10 +6,10 @@ package logger
 import (
 	"fmt"
 
-	"github.com/juju/juju/api/base"
-	apiwatcher "github.com/juju/juju/api/watcher"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api/base"
+	apiwatcher "github.com/DavinZhang/juju/api/watcher"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/watcher"
 	"github.com/juju/names/v4"
 )
 

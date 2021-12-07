@@ -12,14 +12,14 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/agent"
-	apiprovisioner "github.com/juju/juju/api/provisioner"
-	"github.com/juju/juju/controller/authentication"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/worker/common"
+	"github.com/DavinZhang/juju/agent"
+	apiprovisioner "github.com/DavinZhang/juju/api/provisioner"
+	"github.com/DavinZhang/juju/controller/authentication"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/worker/common"
 )
 
 // Ensure our structs implement the required Provisioner interface.

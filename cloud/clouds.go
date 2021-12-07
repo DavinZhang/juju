@@ -17,10 +17,10 @@ import (
 	"github.com/juju/utils/v2"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/juju/osenv"
+	"github.com/DavinZhang/juju/juju/osenv"
 )
 
-//go:generate go run github.com/juju/juju/generate/filetoconst fallbackPublicCloudInfo fallback-public-cloud.yaml fallback_public_cloud.go 2015 cloud
+//go:generate go run github.com/DavinZhang/juju/generate/filetoconst fallbackPublicCloudInfo fallback-public-cloud.yaml fallback_public_cloud.go 2015 cloud
 
 // AuthType is the type of authentication used by the cloud.
 type AuthType string

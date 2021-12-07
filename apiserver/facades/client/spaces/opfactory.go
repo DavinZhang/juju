@@ -6,8 +6,8 @@ package spaces
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/apiserver/common/networkingcommon"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/common/networkingcommon"
+	"github.com/DavinZhang/juju/state"
 )
 
 // OpFactory describes a source of model operations

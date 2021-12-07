@@ -9,12 +9,12 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/apiserver/apiserverhttp"
-	"github.com/juju/juju/pki"
-	jworker "github.com/juju/juju/worker"
-	"github.com/juju/juju/worker/common"
-	workerstate "github.com/juju/juju/worker/state"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/apiserver/apiserverhttp"
+	"github.com/DavinZhang/juju/pki"
+	jworker "github.com/DavinZhang/juju/worker"
+	"github.com/DavinZhang/juju/worker/common"
+	workerstate "github.com/DavinZhang/juju/worker/state"
 )
 
 // Logger defines the logging methods used by the worker.

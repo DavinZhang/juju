@@ -16,10 +16,10 @@ import (
 	api "github.com/juju/romulus/api/budget"
 	wireformat "github.com/juju/romulus/wireformat/budget"
 
-	jujucmd "github.com/juju/juju/cmd"
-	rcmd "github.com/juju/juju/cmd/juju/romulus"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/jujuclient"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	rcmd "github.com/DavinZhang/juju/cmd/juju/romulus"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 var logger = loggo.GetLogger("romulus.cmd.showwallet")

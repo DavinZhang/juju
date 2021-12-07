@@ -9,9 +9,9 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	basetesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/caasoperatorupgrader"
-	"github.com/juju/juju/apiserver/params"
+	basetesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/caasoperatorupgrader"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 type provisionerSuite struct {

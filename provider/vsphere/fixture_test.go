@@ -16,12 +16,12 @@ import (
 	"github.com/vmware/govmomi/vim25/types"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/provider/vsphere"
-	"github.com/juju/juju/provider/vsphere/internal/ovatest"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/provider/vsphere"
+	"github.com/DavinZhang/juju/provider/vsphere/internal/ovatest"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type ProviderFixture struct {

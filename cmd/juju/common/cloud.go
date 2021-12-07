@@ -11,9 +11,9 @@ import (
 	"github.com/juju/loggo"
 	"gopkg.in/juju/environschema.v1"
 
-	jujucloud "github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/config"
+	jujucloud "github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/config"
 )
 
 var logger = loggo.GetLogger("juju.cmd.juju.common")

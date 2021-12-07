@@ -15,14 +15,14 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/api/base"
-	apitesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/controller"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/life"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api/base"
+	apitesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/controller"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/life"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type Suite struct {

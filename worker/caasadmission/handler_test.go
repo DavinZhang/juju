@@ -23,9 +23,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/types"
 
-	providerconst "github.com/juju/juju/caas/kubernetes/provider/constants"
-	providerutils "github.com/juju/juju/caas/kubernetes/provider/utils"
-	rbacmappertest "github.com/juju/juju/worker/caasrbacmapper/test"
+	providerconst "github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
+	providerutils "github.com/DavinZhang/juju/caas/kubernetes/provider/utils"
+	rbacmappertest "github.com/DavinZhang/juju/worker/caasrbacmapper/test"
 )
 
 type HandlerSuite struct {

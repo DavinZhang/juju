@@ -19,13 +19,13 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/tags"
-	"github.com/juju/juju/provider/common/mocks"
-	"github.com/juju/juju/provider/openstack"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/tags"
+	"github.com/DavinZhang/juju/provider/common/mocks"
+	"github.com/DavinZhang/juju/provider/openstack"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/testing"
 )
 
 const (

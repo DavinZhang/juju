@@ -4,13 +4,13 @@
 package caasmodelconfigmanager
 
 import (
-	"github.com/juju/juju/apiserver/common"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/params"
+	"github.com/DavinZhang/juju/apiserver/common"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/context_mock.go github.com/juju/juju/apiserver/facade Authorizer,Context,Resources
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/context_mock.go github.com/DavinZhang/juju/apiserver/facade Authorizer,Context,Resources
 
 // Facade allows model config manager clients to watch controller config changes and fetch controller config.
 type Facade struct {

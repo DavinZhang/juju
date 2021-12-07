@@ -4,11 +4,11 @@
 package equinix
 
 import (
+	jujuos "github.com/DavinZhang/juju/core/os"
 	"github.com/juju/errors"
-	jujuos "github.com/juju/juju/core/os"
 
-	"github.com/juju/juju/cloudconfig/cloudinit"
-	"github.com/juju/juju/cloudconfig/providerinit/renderers"
+	"github.com/DavinZhang/juju/cloudconfig/cloudinit"
+	"github.com/DavinZhang/juju/cloudconfig/providerinit/renderers"
 )
 
 type EquinixRenderer struct{}

@@ -12,13 +12,13 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/gnuflag"
 
-	"github.com/juju/juju/api/modelgeneration"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/juju/common"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/cmd/output"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/juju/osenv"
+	"github.com/DavinZhang/juju/api/modelgeneration"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/juju/common"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/cmd/output"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/juju/osenv"
 )
 
 const (
@@ -48,7 +48,7 @@ See also:
 )
 
 // DiffCommandAPI describes API methods required to execute the diff command.
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination ./mocks/diff_mock.go github.com/juju/juju/cmd/juju/model DiffCommandAPI
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination ./mocks/diff_mock.go github.com/DavinZhang/juju/cmd/juju/model DiffCommandAPI
 type DiffCommandAPI interface {
 	Close() error
 

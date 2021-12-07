@@ -8,11 +8,11 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/machineundertaker"
-	"github.com/juju/juju/api/watcher"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/worker/common"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/machineundertaker"
+	"github.com/DavinZhang/juju/api/watcher"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/worker/common"
 )
 
 // Logger represents the methods used by the worker to log details.

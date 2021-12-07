@@ -13,9 +13,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/observer"
-	"github.com/juju/juju/apiserver/observer/metricobserver"
-	"github.com/juju/juju/rpc"
+	"github.com/DavinZhang/juju/apiserver/observer"
+	"github.com/DavinZhang/juju/apiserver/observer/metricobserver"
+	"github.com/DavinZhang/juju/rpc"
 )
 
 type observerSuite struct {

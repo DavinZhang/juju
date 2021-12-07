@@ -11,13 +11,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	apiapplication "github.com/juju/juju/api/application"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cmd/juju/application"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/jujuclient/jujuclienttesting"
-	"github.com/juju/juju/testing"
+	apiapplication "github.com/DavinZhang/juju/api/application"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cmd/juju/application"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/jujuclient/jujuclienttesting"
+	"github.com/DavinZhang/juju/testing"
 )
 
 var _ = gc.Suite(&RemoveApplicationCmdSuite{})

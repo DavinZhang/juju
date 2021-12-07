@@ -8,9 +8,9 @@ import (
 
 	"github.com/juju/charm/v9/hooks"
 
-	"github.com/juju/juju/worker/uniter/hook"
-	"github.com/juju/juju/worker/uniter/operation"
-	"github.com/juju/juju/worker/uniter/remotestate"
+	"github.com/DavinZhang/juju/worker/uniter/hook"
+	"github.com/DavinZhang/juju/worker/uniter/operation"
+	"github.com/DavinZhang/juju/worker/uniter/remotestate"
 )
 
 type mockOperations struct {

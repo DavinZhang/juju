@@ -9,8 +9,8 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/worker/v3"
 
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/state/mgo"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/state/mgo"
 )
 
 // LoggerAPI represents the API calls the logger makes.

@@ -7,7 +7,7 @@ import (
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/payload"
+	"github.com/DavinZhang/juju/payload"
 )
 
 var _ = gc.Suite(&idSuite{})

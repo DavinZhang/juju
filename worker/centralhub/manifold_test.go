@@ -13,7 +13,7 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/worker/centralhub"
+	"github.com/DavinZhang/juju/worker/centralhub"
 )
 
 type ManifoldSuite struct {

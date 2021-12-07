@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/juju/collections/set"
-	"github.com/juju/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/constraints"
 	"github.com/juju/utils/arch"
 )
 

@@ -15,10 +15,10 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/crosscontroller"
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/crosscontroller"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 var logger = loggo.GetLogger("juju.worker.externalcontrollerupdater")

@@ -13,15 +13,15 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/gnuflag"
 
-	cloudapi "github.com/juju/juju/api/cloud"
-	"github.com/juju/juju/apiserver/params"
-	jujucloud "github.com/juju/juju/cloud"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/juju/common"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/cmd/output"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/jujuclient"
+	cloudapi "github.com/DavinZhang/juju/api/cloud"
+	"github.com/DavinZhang/juju/apiserver/params"
+	jujucloud "github.com/DavinZhang/juju/cloud"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/juju/common"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/cmd/output"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 var usageListCredentialsSummary = `

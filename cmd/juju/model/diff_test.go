@@ -11,9 +11,9 @@ import (
 	"github.com/pkg/errors"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/model"
-	"github.com/juju/juju/cmd/juju/model/mocks"
-	coremodel "github.com/juju/juju/core/model"
+	"github.com/DavinZhang/juju/cmd/juju/model"
+	"github.com/DavinZhang/juju/cmd/juju/model/mocks"
+	coremodel "github.com/DavinZhang/juju/core/model"
 )
 
 type diffSuite struct {

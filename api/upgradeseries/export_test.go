@@ -4,8 +4,8 @@
 package upgradeseries
 
 import (
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/common"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/common"
 	"github.com/juju/names/v4"
 )
 

@@ -12,12 +12,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	coresecrets "github.com/juju/juju/core/secrets"
-	"github.com/juju/juju/secrets"
-	"github.com/juju/juju/secrets/provider/juju"
-	"github.com/juju/juju/secrets/provider/juju/mocks"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
+	coresecrets "github.com/DavinZhang/juju/core/secrets"
+	"github.com/DavinZhang/juju/secrets"
+	"github.com/DavinZhang/juju/secrets/provider/juju"
+	"github.com/DavinZhang/juju/secrets/provider/juju/mocks"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type SecretsManagerSuite struct {

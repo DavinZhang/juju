@@ -10,10 +10,10 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/core/instance"
-	corenetwork "github.com/juju/juju/core/network"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/context"
+	"github.com/DavinZhang/juju/core/instance"
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/context"
 )
 
 // TODO(dimitern): The types below should be part of gomaasapi.

@@ -14,16 +14,16 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/common"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/permission"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/jujuclient/jujuclienttesting"
-	coretesting "github.com/juju/juju/testing"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/apiserver/common"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/permission"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/jujuclient/jujuclienttesting"
+	coretesting "github.com/DavinZhang/juju/testing"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 type UpgradeControllerBaseSuite struct {

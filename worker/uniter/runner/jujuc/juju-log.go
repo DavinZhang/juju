@@ -12,11 +12,11 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/loggo"
 
-	jujucmd "github.com/juju/juju/cmd"
+	jujucmd "github.com/DavinZhang/juju/cmd"
 )
 
 // JujuLogContext is the Context for the JujuLogCommand
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/juju-log_mock.go github.com/juju/juju/worker/uniter/runner/jujuc JujuLogContext
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/juju-log_mock.go github.com/DavinZhang/juju/worker/uniter/runner/jujuc JujuLogContext
 type JujuLogContext interface {
 	UnitName() string
 	HookRelation() (ContextRelation, error)

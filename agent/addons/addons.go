@@ -15,10 +15,10 @@ import (
 	"github.com/juju/worker/v3/dependency"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/juju/juju/core/machinelock"
-	"github.com/juju/juju/core/presence"
-	"github.com/juju/juju/core/raftlease"
-	"github.com/juju/juju/worker/introspection"
+	"github.com/DavinZhang/juju/core/machinelock"
+	"github.com/DavinZhang/juju/core/presence"
+	"github.com/DavinZhang/juju/core/raftlease"
+	"github.com/DavinZhang/juju/worker/introspection"
 )
 
 var logger = loggo.GetLogger("juju.cmd.jujud.agent.addons")

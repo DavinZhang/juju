@@ -22,18 +22,18 @@ import (
 	"golang.org/x/crypto/ssh/terminal"
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 
-	cloudapi "github.com/juju/juju/api/cloud"
-	"github.com/juju/juju/caas"
-	k8s "github.com/juju/juju/caas/kubernetes"
-	"github.com/juju/juju/caas/kubernetes/clientconfig"
-	k8scloud "github.com/juju/juju/caas/kubernetes/cloud"
-	"github.com/juju/juju/caas/kubernetes/provider"
-	jujucloud "github.com/juju/juju/cloud"
-	jujucmd "github.com/juju/juju/cmd"
-	jujucmdcloud "github.com/juju/juju/cmd/juju/cloud"
-	"github.com/juju/juju/cmd/juju/common"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/jujuclient"
+	cloudapi "github.com/DavinZhang/juju/api/cloud"
+	"github.com/DavinZhang/juju/caas"
+	k8s "github.com/DavinZhang/juju/caas/kubernetes"
+	"github.com/DavinZhang/juju/caas/kubernetes/clientconfig"
+	k8scloud "github.com/DavinZhang/juju/caas/kubernetes/cloud"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider"
+	jujucloud "github.com/DavinZhang/juju/cloud"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	jujucmdcloud "github.com/DavinZhang/juju/cmd/juju/cloud"
+	"github.com/DavinZhang/juju/cmd/juju/common"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 var logger = loggo.GetLogger("juju.cmd.juju.k8s")
@@ -46,7 +46,7 @@ type CloudMetadataStore interface {
 	WritePersonalCloudMetadata(cloudsMap map[string]jujucloud.Cloud) error
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/storeapi_mock.go github.com/juju/juju/cmd/juju/caas CredentialStoreAPI
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/storeapi_mock.go github.com/DavinZhang/juju/cmd/juju/caas CredentialStoreAPI
 type CredentialStoreAPI interface {
 	UpdateCredential(cloudName string, details jujucloud.CloudCredential) error
 }

@@ -17,14 +17,14 @@ import (
 	k8slabels "k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/juju/juju/caas"
-	k8s "github.com/juju/juju/caas/kubernetes"
-	"github.com/juju/juju/caas/kubernetes/provider/constants"
-	"github.com/juju/juju/caas/kubernetes/provider/storage"
-	"github.com/juju/juju/caas/kubernetes/provider/utils"
-	"github.com/juju/juju/caas/specs"
-	"github.com/juju/juju/core/status"
-	jujustorage "github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/caas"
+	k8s "github.com/DavinZhang/juju/caas/kubernetes"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/storage"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/utils"
+	"github.com/DavinZhang/juju/caas/specs"
+	"github.com/DavinZhang/juju/core/status"
+	jujustorage "github.com/DavinZhang/juju/storage"
 )
 
 // StorageProviderTypes is defined on the jujustorage.ProviderRegistry interface.

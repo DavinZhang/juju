@@ -9,10 +9,10 @@ import (
 	"sort"
 	"time"
 
+	"github.com/DavinZhang/juju/core/arch"
 	"github.com/juju/charm/v9"
 	"github.com/juju/collections/set"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/arch"
 	"github.com/juju/loggo"
 	"github.com/juju/mgo/v2"
 	"github.com/juju/mgo/v2/bson"
@@ -22,15 +22,15 @@ import (
 	"github.com/juju/utils/v2"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/core/actions"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/status"
-	mgoutils "github.com/juju/juju/mongo/utils"
-	stateerrors "github.com/juju/juju/state/errors"
-	"github.com/juju/juju/tools"
+	"github.com/DavinZhang/juju/core/actions"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/status"
+	mgoutils "github.com/DavinZhang/juju/mongo/utils"
+	stateerrors "github.com/DavinZhang/juju/state/errors"
+	"github.com/DavinZhang/juju/tools"
 )
 
 var unitLogger = loggo.GetLogger("juju.state.unit")

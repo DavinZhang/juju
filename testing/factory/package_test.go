@@ -6,7 +6,7 @@ package factory_test
 import (
 	stdtesting "testing"
 
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/testing"
 )
 
 // TestPackage integrates the tests into gotest.

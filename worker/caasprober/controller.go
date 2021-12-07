@@ -11,7 +11,7 @@ import (
 	jujuerrors "github.com/juju/errors"
 	"github.com/juju/worker/v3/catacomb"
 
-	k8sconstants "github.com/juju/juju/caas/kubernetes/provider/constants"
+	k8sconstants "github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
 )
 
 type Mux interface {

@@ -14,9 +14,9 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/loggo"
 
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/resource"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/resource"
 )
 
 var logger = loggo.GetLogger("juju.cmd.juju.application.utils")

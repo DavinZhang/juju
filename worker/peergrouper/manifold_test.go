@@ -18,11 +18,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/state"
-	statetesting "github.com/juju/juju/state/testing"
-	"github.com/juju/juju/worker/peergrouper"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/state"
+	statetesting "github.com/DavinZhang/juju/state/testing"
+	"github.com/DavinZhang/juju/worker/peergrouper"
 )
 
 type ManifoldSuite struct {

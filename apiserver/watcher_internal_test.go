@@ -6,11 +6,11 @@ package apiserver
 import (
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/multiwatcher"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/multiwatcher"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/testing"
 	jc "github.com/juju/testing/checkers"
 )
 

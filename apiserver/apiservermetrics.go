@@ -6,7 +6,7 @@ package apiserver
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/juju/juju/apiserver/observer/metricobserver"
+	"github.com/DavinZhang/juju/apiserver/observer/metricobserver"
 )
 
 const (

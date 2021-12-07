@@ -14,8 +14,8 @@ import (
 	"github.com/juju/utils/v2"
 	"github.com/juju/utils/v2/arch"
 
-	"github.com/juju/juju/core/series"
-	"github.com/juju/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/environs/simplestreams"
 )
 
 func init() {

@@ -22,17 +22,17 @@ import (
 	"k8s.io/client-go/informers"
 	typedcorev1 "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/caas"
-	k8sconstants "github.com/juju/juju/caas/kubernetes/provider/constants"
-	"github.com/juju/juju/caas/kubernetes/provider/storage"
-	"github.com/juju/juju/caas/kubernetes/provider/utils"
-	k8sannotations "github.com/juju/juju/core/annotations"
-	"github.com/juju/juju/core/paths"
-	"github.com/juju/juju/core/resources"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/juju/osenv"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/caas"
+	k8sconstants "github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/storage"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/utils"
+	k8sannotations "github.com/DavinZhang/juju/core/annotations"
+	"github.com/DavinZhang/juju/core/paths"
+	"github.com/DavinZhang/juju/core/resources"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/juju/osenv"
 )
 
 const (

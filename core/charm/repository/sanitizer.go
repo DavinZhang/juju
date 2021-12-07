@@ -9,7 +9,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/os/v2/series"
 
-	corecharm "github.com/juju/juju/core/charm"
+	corecharm "github.com/DavinZhang/juju/core/charm"
 )
 
 // sanitizeCharmOrigin attempts to ensure that any fields we receive from

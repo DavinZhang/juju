@@ -12,8 +12,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	actionapi "github.com/juju/juju/api/action"
-	"github.com/juju/juju/cmd/juju/action"
+	actionapi "github.com/DavinZhang/juju/api/action"
+	"github.com/DavinZhang/juju/cmd/juju/action"
 )
 
 type ShowSuite struct {

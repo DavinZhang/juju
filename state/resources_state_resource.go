@@ -17,8 +17,8 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/core/resources"
-	"github.com/juju/juju/resource"
+	"github.com/DavinZhang/juju/core/resources"
+	"github.com/DavinZhang/juju/resource"
 )
 
 var rLogger = logger.Child("resource")

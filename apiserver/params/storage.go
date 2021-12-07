@@ -6,8 +6,8 @@ package params
 import (
 	"time"
 
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/storage"
 )
 
 // MachineBlockDevices holds a machine tag and the block devices present

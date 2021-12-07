@@ -10,15 +10,15 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cloudconfig/instancecfg"
-	"github.com/juju/juju/container"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/environs/instances"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/tools"
+	"github.com/DavinZhang/juju/cloudconfig/instancecfg"
+	"github.com/DavinZhang/juju/container"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/environs/instances"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/tools"
 )
 
 func MockMachineConfig(machineId string) (*instancecfg.InstanceConfig, error) {

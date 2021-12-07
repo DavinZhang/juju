@@ -8,10 +8,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	basetesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/caasmodelconfigmanager"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/controller"
+	basetesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/caasmodelconfigmanager"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/controller"
 )
 
 type caasmodelconfigmanagerSuite struct {

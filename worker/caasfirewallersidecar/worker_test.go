@@ -13,13 +13,13 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/common/charms"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/core/watcher/watchertest"
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/caasfirewallersidecar"
-	"github.com/juju/juju/worker/caasfirewallersidecar/mocks"
+	"github.com/DavinZhang/juju/api/common/charms"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/core/watcher/watchertest"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/caasfirewallersidecar"
+	"github.com/DavinZhang/juju/worker/caasfirewallersidecar/mocks"
 )
 
 type workerSuite struct {

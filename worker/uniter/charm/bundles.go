@@ -12,7 +12,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/downloader"
+	"github.com/DavinZhang/juju/downloader"
 )
 
 // Download exposes the downloader.Download methods needed here.

@@ -6,7 +6,7 @@ package charmdownloader
 import (
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // CharmDownloaderAPI describes the API exposed by the charm downloader facade.

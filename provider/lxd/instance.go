@@ -7,12 +7,12 @@ import (
 	"github.com/juju/errors"
 	"github.com/lxc/lxd/shared/api"
 
-	"github.com/juju/juju/container/lxd"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/instances"
+	"github.com/DavinZhang/juju/container/lxd"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/instances"
 )
 
 type environInstance struct {

@@ -10,17 +10,17 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/facades/controller/charmrevisionupdater"
-	"github.com/juju/juju/apiserver/facades/controller/charmrevisionupdater/mocks"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/charmhub/transport"
-	"github.com/juju/juju/cloud"
-	charmmetrics "github.com/juju/juju/core/charm/metrics"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/state"
-	statemocks "github.com/juju/juju/state/mocks"
-	"github.com/juju/juju/testing"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/apiserver/facades/controller/charmrevisionupdater"
+	"github.com/DavinZhang/juju/apiserver/facades/controller/charmrevisionupdater/mocks"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/charmhub/transport"
+	"github.com/DavinZhang/juju/cloud"
+	charmmetrics "github.com/DavinZhang/juju/core/charm/metrics"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/state"
+	statemocks "github.com/DavinZhang/juju/state/mocks"
+	"github.com/DavinZhang/juju/testing"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 type updaterSuite struct {

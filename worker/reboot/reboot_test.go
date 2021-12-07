@@ -12,15 +12,15 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	apireboot "github.com/juju/juju/api/reboot"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/machinelock"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/version"
-	"github.com/juju/juju/worker"
-	"github.com/juju/juju/worker/reboot"
+	"github.com/DavinZhang/juju/api"
+	apireboot "github.com/DavinZhang/juju/api/reboot"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/machinelock"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/worker"
+	"github.com/DavinZhang/juju/worker/reboot"
 )
 
 type rebootSuite struct {

@@ -7,10 +7,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/facades/client/application"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/facades/client/application"
+	"github.com/DavinZhang/juju/state"
 )
 
 func applicationAccessor(authorizer facade.Authorizer, st *state.State) common.GetAuthFunc {

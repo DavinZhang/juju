@@ -18,15 +18,15 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	commoncharm "github.com/juju/juju/api/common/charm"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cmd/juju/application"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/jujuclient/jujuclienttesting"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api/base"
+	commoncharm "github.com/DavinZhang/juju/api/common/charm"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cmd/juju/application"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/jujuclient/jujuclienttesting"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type diffSuite struct {

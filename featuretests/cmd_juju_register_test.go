@@ -15,11 +15,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/cmd/juju/commands"
-	"github.com/juju/juju/juju"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/jujuclient"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/cmd/juju/commands"
+	"github.com/DavinZhang/juju/juju"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 type cmdRegistrationSuite struct {

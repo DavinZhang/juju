@@ -4,19 +4,19 @@
 package modelgeneration_test
 
 import (
+	"github.com/DavinZhang/juju/core/cache"
 	"github.com/golang/mock/gomock"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/cache"
 	"github.com/juju/names/v4"
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	facademocks "github.com/juju/juju/apiserver/facade/mocks"
-	"github.com/juju/juju/apiserver/facades/client/modelgeneration"
-	"github.com/juju/juju/apiserver/facades/client/modelgeneration/mocks"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/settings"
+	facademocks "github.com/DavinZhang/juju/apiserver/facade/mocks"
+	"github.com/DavinZhang/juju/apiserver/facades/client/modelgeneration"
+	"github.com/DavinZhang/juju/apiserver/facades/client/modelgeneration/mocks"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/settings"
 )
 
 type modelGenerationSuite struct {

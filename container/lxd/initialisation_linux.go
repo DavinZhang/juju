@@ -22,11 +22,11 @@ import (
 	"github.com/juju/proxy"
 	"github.com/lxc/lxd/shared"
 
-	"github.com/juju/juju/container"
-	"github.com/juju/juju/packaging"
-	"github.com/juju/juju/packaging/dependency"
-	"github.com/juju/juju/service"
-	"github.com/juju/juju/service/common"
+	"github.com/DavinZhang/juju/container"
+	"github.com/DavinZhang/juju/packaging"
+	"github.com/DavinZhang/juju/packaging/dependency"
+	"github.com/DavinZhang/juju/service"
+	"github.com/DavinZhang/juju/service/common"
 )
 
 var hostSeries = series.HostSeries
@@ -40,7 +40,7 @@ type containerInitialiser struct {
 	lxdSnapChannel      string
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/snap_manager_mock.go github.com/juju/juju/container/lxd SnapManager
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/snap_manager_mock.go github.com/DavinZhang/juju/container/lxd SnapManager
 
 // SnapManager defines an interface implemented by types that can query and/or
 // change the channel for installed snaps.

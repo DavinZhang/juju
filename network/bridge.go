@@ -9,8 +9,8 @@ import (
 	"github.com/juju/clock"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/network/debinterfaces"
-	"github.com/juju/juju/network/netplan"
+	"github.com/DavinZhang/juju/network/debinterfaces"
+	"github.com/DavinZhang/juju/network/netplan"
 )
 
 // Bridger creates network bridges to support addressable containers.

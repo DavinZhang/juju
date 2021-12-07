@@ -10,10 +10,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/apiserver/params"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/juju/block"
-	"github.com/juju/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/apiserver/params"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/juju/block"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 func NewRetryProvisioningCommand() cmd.Command {

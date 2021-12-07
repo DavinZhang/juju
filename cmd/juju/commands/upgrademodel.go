@@ -21,25 +21,25 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/version/v2"
 
-	apicontroller "github.com/juju/juju/api/controller"
-	"github.com/juju/juju/api/modelconfig"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/caas"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/juju/block"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/bootstrap"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/sync"
-	"github.com/juju/juju/environs/tools"
-	"github.com/juju/juju/jujuclient"
-	coretools "github.com/juju/juju/tools"
-	"github.com/juju/juju/upgrades"
-	jujuversion "github.com/juju/juju/version"
+	apicontroller "github.com/DavinZhang/juju/api/controller"
+	"github.com/DavinZhang/juju/api/modelconfig"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/caas"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/juju/block"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/bootstrap"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/sync"
+	"github.com/DavinZhang/juju/environs/tools"
+	"github.com/DavinZhang/juju/jujuclient"
+	coretools "github.com/DavinZhang/juju/tools"
+	"github.com/DavinZhang/juju/upgrades"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 var usageUpgradeJujuSummary = `
@@ -283,7 +283,7 @@ type statusAPI interface {
 	Status(patterns []string) (*params.FullStatus, error)
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/client_mock.go github.com/juju/juju/cmd/juju/commands ClientAPI
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/client_mock.go github.com/DavinZhang/juju/cmd/juju/commands ClientAPI
 type ClientAPI interface {
 	toolsAPI
 	upgradeJujuAPI
@@ -300,7 +300,7 @@ type modelManagerAPI interface {
 	Close() error
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/controller_mock.go github.com/juju/juju/cmd/juju/commands ControllerAPI
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/controller_mock.go github.com/DavinZhang/juju/cmd/juju/commands ControllerAPI
 type ControllerAPI interface {
 	CloudSpec(modelTag names.ModelTag) (environscloudspec.CloudSpec, error)
 	ControllerConfig() (controller.Config, error)

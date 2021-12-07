@@ -10,10 +10,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/block"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/model"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/block"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/model"
 )
 
 // BlockHelper helps manage blocks for apiserver tests.

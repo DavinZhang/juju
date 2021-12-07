@@ -7,11 +7,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs/instances"
-	"github.com/juju/juju/provider/gce"
-	"github.com/juju/juju/provider/gce/google"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs/instances"
+	"github.com/DavinZhang/juju/provider/gce"
+	"github.com/DavinZhang/juju/provider/gce/google"
+	"github.com/DavinZhang/juju/storage"
 )
 
 type environAZSuite struct {

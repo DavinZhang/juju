@@ -6,7 +6,7 @@ package client
 import (
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/state"
 )
 
 type lxdStateCharmProfilerSuite struct{}

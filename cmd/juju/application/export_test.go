@@ -11,18 +11,18 @@ import (
 	"github.com/juju/collections/set"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/cmd/juju/application/refresher"
-	"github.com/juju/juju/cmd/juju/application/store"
-	"github.com/juju/juju/cmd/juju/application/utils"
-	"github.com/juju/juju/cmd/modelcmd"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/resource/resourceadapters"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/cmd/juju/application/refresher"
+	"github.com/DavinZhang/juju/cmd/juju/application/store"
+	"github.com/DavinZhang/juju/cmd/juju/application/utils"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/resource/resourceadapters"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/deployer_mock.go github.com/juju/juju/cmd/juju/application/deployer Deployer,DeployerFactory
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/deployer_mock.go github.com/DavinZhang/juju/cmd/juju/application/deployer Deployer,DeployerFactory
 
 func NewRefreshCommandForTest(
 	store jujuclient.ClientStore,

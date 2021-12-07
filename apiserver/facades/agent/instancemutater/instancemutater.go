@@ -4,23 +4,23 @@
 package instancemutater
 
 import (
+	"github.com/DavinZhang/juju/state"
 	"github.com/juju/errors"
-	"github.com/juju/juju/state"
 	"github.com/juju/loggo"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/apiserver/common"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/status"
+	"github.com/DavinZhang/juju/apiserver/common"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/status"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/instancemutater_mock.go github.com/juju/juju/apiserver/facades/agent/instancemutater InstanceMutaterState,Machine,Unit,Application,Charm
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/modelcache_mock.go github.com/juju/juju/apiserver/facades/agent/instancemutater ModelCache,ModelCacheMachine
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/state_mock.go github.com/juju/juju/state EntityFinder,Entity,Lifer
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/watcher_mock.go github.com/juju/juju/core/cache NotifyWatcher,StringsWatcher
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/instancemutater_mock.go github.com/DavinZhang/juju/apiserver/facades/agent/instancemutater InstanceMutaterState,Machine,Unit,Application,Charm
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/modelcache_mock.go github.com/DavinZhang/juju/apiserver/facades/agent/instancemutater ModelCache,ModelCacheMachine
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/state_mock.go github.com/DavinZhang/juju/state EntityFinder,Entity,Lifer
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/watcher_mock.go github.com/DavinZhang/juju/core/cache NotifyWatcher,StringsWatcher
 
 var logger = loggo.GetLogger("juju.apiserver.instancemutater")
 

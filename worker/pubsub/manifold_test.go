@@ -17,9 +17,9 @@ import (
 	dt "github.com/juju/worker/v3/dependency/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api"
-	psworker "github.com/juju/juju/worker/pubsub"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api"
+	psworker "github.com/DavinZhang/juju/worker/pubsub"
 )
 
 type ManifoldSuite struct {

@@ -8,14 +8,14 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/base"
-	cloudapi "github.com/juju/juju/api/cloud"
-	"github.com/juju/juju/api/modelmanager"
-	"github.com/juju/juju/cloud"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/juju/block"
-	"github.com/juju/juju/cmd/juju/common"
-	"github.com/juju/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/api/base"
+	cloudapi "github.com/DavinZhang/juju/api/cloud"
+	"github.com/DavinZhang/juju/api/modelmanager"
+	"github.com/DavinZhang/juju/cloud"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/juju/block"
+	"github.com/DavinZhang/juju/cmd/juju/common"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 // ModelCredentialAPI defines methods used to replace model credential.

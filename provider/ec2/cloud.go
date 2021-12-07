@@ -4,8 +4,8 @@
 package ec2
 
 import (
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs"
 )
 
 type environProviderCloud struct{}

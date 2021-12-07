@@ -8,15 +8,15 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/version/v2"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/simplestreams"
-	"github.com/juju/juju/environs/tools"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/stateenvirons"
-	coretools "github.com/juju/juju/tools"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/environs/tools"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/stateenvirons"
+	coretools "github.com/DavinZhang/juju/tools"
 )
 
 var logger = loggo.GetLogger("juju.apiserver.model")

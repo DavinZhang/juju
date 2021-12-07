@@ -10,11 +10,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	apitesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/subnets"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/network"
-	coretesting "github.com/juju/juju/testing"
+	apitesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/subnets"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/network"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 // SubnetsSuite tests the client side subnets API

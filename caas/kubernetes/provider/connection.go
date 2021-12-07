@@ -6,8 +6,8 @@ package provider
 import (
 	"github.com/juju/errors"
 
-	k8sproxy "github.com/juju/juju/caas/kubernetes/provider/proxy"
-	"github.com/juju/juju/proxy"
+	k8sproxy "github.com/DavinZhang/juju/caas/kubernetes/provider/proxy"
+	"github.com/DavinZhang/juju/proxy"
 )
 
 func (k *kubernetesClient) ConnectionProxyInfo() (proxy.Proxier, error) {

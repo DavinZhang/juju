@@ -8,7 +8,7 @@ import (
 
 	gc "gopkg.in/check.v1"
 
-	coretesting "github.com/juju/juju/testing"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 func Test(t *testing.T) {
@@ -20,6 +20,6 @@ type ImportTest struct{}
 var _ = gc.Suite(&ImportTest{})
 
 func (*ImportTest) TestImports(c *gc.C) {
-	found := coretesting.FindJujuCoreImports(c, "github.com/juju/juju/core/status")
+	found := coretesting.FindJujuCoreImports(c, "github.com/DavinZhang/juju/core/status")
 	c.Assert(found, gc.HasLen, 0)
 }

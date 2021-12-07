@@ -13,13 +13,13 @@ import (
 	"github.com/juju/worker/v3/catacomb"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // remoteApplicationWorker listens for localChanges to relations

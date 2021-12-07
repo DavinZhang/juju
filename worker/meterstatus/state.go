@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/DavinZhang/juju/apiserver/params"
 	"github.com/juju/errors"
-	"github.com/juju/juju/apiserver/params"
 	"github.com/juju/utils/v2"
 	"gopkg.in/yaml.v2"
 )
@@ -31,7 +31,7 @@ func (d Disconnected) When() time.Time {
 	return time.Unix(d.Disconnected, 0)
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/interface_mock.go github.com/juju/juju/worker/meterstatus UnitStateAPI,StateReadWriter
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/interface_mock.go github.com/DavinZhang/juju/worker/meterstatus UnitStateAPI,StateReadWriter
 
 // StateReadWriter is implemented by types that can read and write the meter
 // worker's internal state.

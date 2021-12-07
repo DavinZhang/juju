@@ -14,10 +14,10 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/core/watcher/watchertest"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/caasapplicationprovisioner"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/core/watcher/watchertest"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/caasapplicationprovisioner"
 )
 
 var _ = gc.Suite(&CAASApplicationSuite{})

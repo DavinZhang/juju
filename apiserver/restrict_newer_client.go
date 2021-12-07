@@ -7,8 +7,8 @@ import (
 	"github.com/juju/collections/set"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/apiserver/params"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/apiserver/params"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 // minAgentMinorVersions defines the minimum minor version

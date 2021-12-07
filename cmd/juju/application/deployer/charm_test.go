@@ -13,13 +13,13 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/api/application"
-	"github.com/juju/juju/api/base"
-	commoncharm "github.com/juju/juju/api/common/charm"
-	"github.com/juju/juju/api/common/charms"
-	"github.com/juju/juju/api/resources/client"
-	"github.com/juju/juju/cmd/juju/application/deployer/mocks"
-	"github.com/juju/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/api/application"
+	"github.com/DavinZhang/juju/api/base"
+	commoncharm "github.com/DavinZhang/juju/api/common/charm"
+	"github.com/DavinZhang/juju/api/common/charms"
+	"github.com/DavinZhang/juju/api/resources/client"
+	"github.com/DavinZhang/juju/cmd/juju/application/deployer/mocks"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 type charmSuite struct {

@@ -22,7 +22,7 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/core/permission"
+	"github.com/DavinZhang/juju/core/permission"
 )
 
 const userGlobalKeyPrefix = "us"

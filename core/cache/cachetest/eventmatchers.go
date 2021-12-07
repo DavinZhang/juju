@@ -3,7 +3,7 @@
 
 package cachetest
 
-import "github.com/juju/juju/core/cache"
+import "github.com/DavinZhang/juju/core/cache"
 
 func ControllerEvents(change interface{}) bool {
 	switch change.(type) {

@@ -19,12 +19,12 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/loggo"
 
-	storageapi "github.com/juju/juju/api/storage"
-	"github.com/juju/juju/apiserver/params"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/juju/storage"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/juju/osenv"
+	storageapi "github.com/DavinZhang/juju/api/storage"
+	"github.com/DavinZhang/juju/apiserver/params"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/juju/storage"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/juju/osenv"
 )
 
 var logger = loggo.GetLogger("juju.cmd.juju.status")

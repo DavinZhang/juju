@@ -7,16 +7,16 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/juju/charm/v9"
 	"github.com/juju/cmd/v3/cmdtesting"
-	"github.com/juju/juju/api/base"
-	basemocks "github.com/juju/juju/api/base/mocks"
-	"github.com/juju/juju/core/arch"
-	"github.com/juju/juju/environs/config"
+	"github.com/DavinZhang/juju/api/base"
+	basemocks "github.com/DavinZhang/juju/api/base/mocks"
+	"github.com/DavinZhang/juju/core/arch"
+	"github.com/DavinZhang/juju/environs/config"
 	"github.com/juju/testing"
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/charmhub"
-	"github.com/juju/juju/cmd/juju/charmhub/mocks"
+	"github.com/DavinZhang/juju/api/charmhub"
+	"github.com/DavinZhang/juju/cmd/juju/charmhub/mocks"
 )
 
 type infoSuite struct {

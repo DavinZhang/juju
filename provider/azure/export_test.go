@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/Azure/go-autorest/autorest/adal"
-	"github.com/juju/juju/provider/azure/internal/azureauth"
+	"github.com/DavinZhang/juju/provider/azure/internal/azureauth"
 
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/storage"
 )
 
 func ForceVolumeSourceTokenRefresh(vs storage.VolumeSource) error {

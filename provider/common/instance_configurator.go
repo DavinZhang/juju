@@ -10,13 +10,13 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2/ssh"
 
-	"github.com/juju/juju/core/network/firewall"
-	"github.com/juju/juju/network/iptables"
+	"github.com/DavinZhang/juju/core/network/firewall"
+	"github.com/DavinZhang/juju/network/iptables"
 )
 
 // Implementations of this interface should provide a way to configure external
 // IP allocation and add firewall functionality.
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/instance_configurator.go github.com/juju/juju/provider/common InstanceConfigurator
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/instance_configurator.go github.com/DavinZhang/juju/provider/common InstanceConfigurator
 type InstanceConfigurator interface {
 
 	// Close all ports.

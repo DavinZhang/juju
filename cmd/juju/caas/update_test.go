@@ -17,17 +17,17 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/apiserver/params"
-	k8s "github.com/juju/juju/caas/kubernetes"
-	"github.com/juju/juju/caas/kubernetes/clientconfig"
-	"github.com/juju/juju/caas/kubernetes/provider/proxy"
-	"github.com/juju/juju/cloud"
-	jujucloud "github.com/juju/juju/cloud"
-	"github.com/juju/juju/cmd/juju/caas"
-	"github.com/juju/juju/jujuclient"
+	"github.com/DavinZhang/juju/apiserver/params"
+	k8s "github.com/DavinZhang/juju/caas/kubernetes"
+	"github.com/DavinZhang/juju/caas/kubernetes/clientconfig"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/proxy"
+	"github.com/DavinZhang/juju/cloud"
+	jujucloud "github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/cmd/juju/caas"
+	"github.com/DavinZhang/juju/jujuclient"
 
 	// To allow a maas cloud type to be parsed in the test data.
-	_ "github.com/juju/juju/provider/maas"
+	_ "github.com/DavinZhang/juju/provider/maas"
 )
 
 type updateCAASSuite struct {

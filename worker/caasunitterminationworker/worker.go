@@ -14,8 +14,8 @@ import (
 	"github.com/juju/worker/v3"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/caasapplication"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/caasapplication"
 )
 
 // TerminationSignal is SIGTERM which is sent by most container runtimes when

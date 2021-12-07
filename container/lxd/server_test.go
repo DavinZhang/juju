@@ -9,8 +9,8 @@ import (
 	"github.com/lxc/lxd/shared/api"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/container/lxd"
-	lxdtesting "github.com/juju/juju/container/lxd/testing"
+	"github.com/DavinZhang/juju/container/lxd"
+	lxdtesting "github.com/DavinZhang/juju/container/lxd/testing"
 )
 
 type serverSuite struct {

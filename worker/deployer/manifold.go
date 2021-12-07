@@ -11,10 +11,10 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	apideployer "github.com/juju/juju/api/deployer"
-	"github.com/juju/juju/cmd/jujud/agent/engine"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	apideployer "github.com/DavinZhang/juju/api/deployer"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/engine"
 )
 
 // Hub is a pubsub hub used for internal messaging.

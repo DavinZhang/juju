@@ -11,7 +11,7 @@ import (
 	"github.com/juju/utils/v2"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/juju/osenv"
+	"github.com/DavinZhang/juju/juju/osenv"
 )
 
 // JujuBootstrapConfigPath is the location where bootstrap config is

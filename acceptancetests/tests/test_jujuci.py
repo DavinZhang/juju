@@ -42,7 +42,7 @@ def make_build_data(number='lastSuccessfulBuild'):
                 "parameters": [
                     {
                         "name": "branch",
-                        "value": "gitbranch:master:github.com/juju/juju"
+                        "value": "gitbranch:master:github.com/DavinZhang/juju"
                     },
                     {
                         "name": "revision",
@@ -85,7 +85,7 @@ def make_build_data(number='lastSuccessfulBuild'):
             "kind": None
         },
         "culprits": [],
-        "description": "gitbranch:master:github.com/juju/juju 3c53cf57",
+        "description": "gitbranch:master:github.com/DavinZhang/juju 3c53cf57",
         "duration": 142986,
         "fullDisplayName": "build-revision #2102",
         "id": "2014-11-19_07-35-02",

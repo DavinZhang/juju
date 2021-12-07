@@ -19,7 +19,7 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/juju/osenv"
+	"github.com/DavinZhang/juju/juju/osenv"
 )
 
 const JujuPluginPrefix = "juju-"

@@ -10,8 +10,8 @@ import (
 	charmresource "github.com/juju/charm/v9/resource"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/state"
 )
 
 // EntityRepository exposes the functionality needed to access data from

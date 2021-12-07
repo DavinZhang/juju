@@ -9,7 +9,7 @@ package diskmanager
 import (
 	"runtime"
 
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/storage"
 )
 
 var blockDeviceInUse = func(storage.BlockDevice) (bool, error) {

@@ -9,8 +9,8 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // EgressAddressWatcher reports changes to addresses

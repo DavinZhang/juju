@@ -6,7 +6,7 @@ package usermanager_test
 import (
 	stdtesting "testing"
 
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/testing"
 )
 
 func TestAll(t *stdtesting.T) {

@@ -12,8 +12,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/worker/uniter/runner/jujuc"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/worker/uniter/runner/jujuc"
 )
 
 type RelationIdsSuite struct {

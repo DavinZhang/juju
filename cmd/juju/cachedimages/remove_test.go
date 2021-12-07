@@ -9,9 +9,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/cachedimages"
-	"github.com/juju/juju/jujuclient/jujuclienttesting"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/cmd/juju/cachedimages"
+	"github.com/DavinZhang/juju/jujuclient/jujuclienttesting"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type removeImageCommandSuite struct {

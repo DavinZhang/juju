@@ -8,8 +8,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/logfwd/syslog"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/logfwd/syslog"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type ConfigSuite struct {

@@ -11,15 +11,15 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	coremigration "github.com/juju/juju/core/migration"
-	"github.com/juju/juju/core/presence"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/migration"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/resourcetesting"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/tools"
+	coremigration "github.com/DavinZhang/juju/core/migration"
+	"github.com/DavinZhang/juju/core/presence"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/migration"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/resourcetesting"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/tools"
 )
 
 var (

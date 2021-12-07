@@ -12,12 +12,12 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/gnuflag"
 
-	apisecrets "github.com/juju/juju/api/secrets"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/juju/common"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/cmd/output"
-	"github.com/juju/juju/core/secrets"
+	apisecrets "github.com/DavinZhang/juju/api/secrets"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/juju/common"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/cmd/output"
+	"github.com/DavinZhang/juju/core/secrets"
 )
 
 type listSecretsCommand struct {

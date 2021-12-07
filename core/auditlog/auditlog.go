@@ -16,7 +16,7 @@ import (
 	"github.com/juju/loggo"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/juju/juju/core/paths"
+	"github.com/DavinZhang/juju/core/paths"
 )
 
 var logger = loggo.GetLogger("core.auditlog")

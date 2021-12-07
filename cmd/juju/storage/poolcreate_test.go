@@ -6,12 +6,12 @@ package storage_test
 import (
 	"github.com/juju/cmd/v3"
 	"github.com/juju/cmd/v3/cmdtesting"
-	"github.com/juju/juju/core/model"
+	"github.com/DavinZhang/juju/core/model"
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/storage"
-	_ "github.com/juju/juju/provider/dummy"
+	"github.com/DavinZhang/juju/cmd/juju/storage"
+	_ "github.com/DavinZhang/juju/provider/dummy"
 )
 
 type PoolCreateSuite struct {

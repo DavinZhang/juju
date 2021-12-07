@@ -10,10 +10,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/gnuflag"
 
-	"github.com/juju/juju/apiserver/facades/client/application"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/model"
+	"github.com/DavinZhang/juju/apiserver/facades/client/application"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/model"
 )
 
 const (
@@ -42,7 +42,7 @@ type trustCommand struct {
 	scope       string
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/applicationapi_mock.go github.com/juju/juju/cmd/juju/application ApplicationAPI
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/applicationapi_mock.go github.com/DavinZhang/juju/cmd/juju/application ApplicationAPI
 
 func NewTrustCommand() cmd.Command {
 	return modelcmd.Wrap(&trustCommand{})

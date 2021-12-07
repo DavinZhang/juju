@@ -14,8 +14,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/core/instance"
-	corenetwork "github.com/juju/juju/core/network"
+	"github.com/DavinZhang/juju/core/instance"
+	corenetwork "github.com/DavinZhang/juju/core/network"
 )
 
 type networkingBase struct {

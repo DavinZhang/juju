@@ -13,14 +13,14 @@ import (
 	"gopkg.in/macaroon.v2"
 	"gopkg.in/tomb.v2"
 
-	common "github.com/juju/juju/apiserver/common/crossmodel"
-	"github.com/juju/juju/apiserver/facades/controller/remoterelations"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
+	common "github.com/DavinZhang/juju/apiserver/common/crossmodel"
+	"github.com/DavinZhang/juju/apiserver/facades/controller/remoterelations"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type mockState struct {

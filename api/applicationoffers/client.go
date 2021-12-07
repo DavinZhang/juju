@@ -10,11 +10,11 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/core/relation"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/core/relation"
 )
 
 var logger = loggo.GetLogger("juju.api.applicationoffers")

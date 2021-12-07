@@ -8,9 +8,9 @@ import (
 	"k8s.io/apimachinery/pkg/selection"
 	"k8s.io/klog/v2"
 
-	"github.com/juju/juju/caas"
-	k8s "github.com/juju/juju/caas/kubernetes"
-	"github.com/juju/juju/caas/kubernetes/provider/constants"
+	"github.com/DavinZhang/juju/caas"
+	k8s "github.com/DavinZhang/juju/caas/kubernetes"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
 )
 
 const volBindModeWaitFirstConsumer = "WaitForFirstConsumer"

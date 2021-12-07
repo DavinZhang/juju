@@ -4,8 +4,8 @@
 package state
 
 import (
-	"github.com/juju/juju/core/leadership"
-	mgoutils "github.com/juju/juju/mongo/utils"
+	"github.com/DavinZhang/juju/core/leadership"
+	mgoutils "github.com/DavinZhang/juju/mongo/utils"
 	"github.com/juju/mgo/v2/bson"
 	"github.com/juju/mgo/v2/txn"
 	jujutxn "github.com/juju/txn/v2"

@@ -10,8 +10,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	corelease "github.com/juju/juju/core/lease"
-	"github.com/juju/juju/worker/lease"
+	corelease "github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/worker/lease"
 )
 
 type RevokeSuite struct {

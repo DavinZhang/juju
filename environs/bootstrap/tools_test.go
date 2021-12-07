@@ -10,17 +10,17 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/os"
-	"github.com/juju/juju/core/series"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/bootstrap"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/simplestreams"
-	sstesting "github.com/juju/juju/environs/simplestreams/testing"
-	envtools "github.com/juju/juju/environs/tools"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/tools"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/bootstrap"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	sstesting "github.com/DavinZhang/juju/environs/simplestreams/testing"
+	envtools "github.com/DavinZhang/juju/environs/tools"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/tools"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 type toolsSuite struct {

@@ -14,8 +14,8 @@ import (
 	"github.com/juju/worker/v3"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/mocks"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/mocks"
 )
 
 type residentSuite struct {

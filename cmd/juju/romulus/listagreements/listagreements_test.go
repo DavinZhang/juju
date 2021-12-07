@@ -16,9 +16,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/romulus/listagreements"
-	"github.com/juju/juju/jujuclient"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/cmd/juju/romulus/listagreements"
+	"github.com/DavinZhang/juju/jujuclient"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 var _ = gc.Suite(&listAgreementsSuite{})

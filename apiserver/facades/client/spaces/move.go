@@ -9,11 +9,11 @@ import (
 	"github.com/juju/mgo/v2/txn"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/apiserver/common/networkingcommon"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/common/networkingcommon"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/state"
 )
 
 // MovingSubnet describes a subnet that is to be relocated to a new space.

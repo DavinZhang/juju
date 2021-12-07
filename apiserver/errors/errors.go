@@ -12,10 +12,10 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/txn/v2"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/leadership"
-	"github.com/juju/juju/core/lease"
-	stateerrors "github.com/juju/juju/state/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/leadership"
+	"github.com/DavinZhang/juju/core/lease"
+	stateerrors "github.com/DavinZhang/juju/state/errors"
 )
 
 var logger = loggo.GetLogger("juju.apiserver.common.errors")

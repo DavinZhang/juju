@@ -15,8 +15,8 @@ import (
 	k8slabels "k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/selection"
 
-	k8s "github.com/juju/juju/caas/kubernetes"
-	k8sannotations "github.com/juju/juju/core/annotations"
+	k8s "github.com/DavinZhang/juju/caas/kubernetes"
+	k8sannotations "github.com/DavinZhang/juju/core/annotations"
 )
 
 // newLabelRequirements creates a list of k8s node label requirements.

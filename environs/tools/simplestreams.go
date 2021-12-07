@@ -22,10 +22,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/version/v2"
 
-	coreos "github.com/juju/juju/core/os"
-	"github.com/juju/juju/environs/simplestreams"
-	"github.com/juju/juju/environs/storage"
-	coretools "github.com/juju/juju/tools"
+	coreos "github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/environs/storage"
+	coretools "github.com/DavinZhang/juju/tools"
 )
 
 func init() {

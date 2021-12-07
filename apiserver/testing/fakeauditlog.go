@@ -6,7 +6,7 @@ package testing
 import (
 	"github.com/juju/testing"
 
-	"github.com/juju/juju/core/auditlog"
+	"github.com/DavinZhang/juju/core/auditlog"
 )
 
 // FakeAuditLog implements auditlog.AuditLog.

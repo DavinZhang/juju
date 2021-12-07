@@ -16,12 +16,12 @@ import (
 	"github.com/juju/utils/v2/arch"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/container"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/storage/poolmanager"
-	"github.com/juju/juju/storage/provider"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/container"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/storage/poolmanager"
+	"github.com/DavinZhang/juju/storage/provider"
 )
 
 type AssignSuite struct {

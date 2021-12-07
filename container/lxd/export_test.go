@@ -9,8 +9,8 @@ import (
 	"github.com/juju/clock"
 	lxdclient "github.com/lxc/lxd/client"
 
-	"github.com/juju/juju/container"
-	"github.com/juju/juju/core/network"
+	"github.com/DavinZhang/juju/container"
+	"github.com/DavinZhang/juju/core/network"
 )
 
 var (

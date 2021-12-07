@@ -16,7 +16,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/network"
+	"github.com/DavinZhang/juju/network"
 )
 
 const (

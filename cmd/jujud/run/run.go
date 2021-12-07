@@ -23,15 +23,15 @@ import (
 	"github.com/juju/utils/v2/exec"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/caas"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/jujud/agent/config"
-	"github.com/juju/juju/core/machinelock"
-	jujuos "github.com/juju/juju/core/os"
-	"github.com/juju/juju/core/paths"
-	"github.com/juju/juju/juju/sockets"
-	"github.com/juju/juju/worker/uniter"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/caas"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/config"
+	"github.com/DavinZhang/juju/core/machinelock"
+	jujuos "github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/core/paths"
+	"github.com/DavinZhang/juju/juju/sockets"
+	"github.com/DavinZhang/juju/worker/uniter"
 )
 
 var logger = loggo.GetLogger("juju.cmd.jujud.run")

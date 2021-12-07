@@ -15,10 +15,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/globalclock"
-	"github.com/juju/juju/core/lease"
-	"github.com/juju/juju/core/raftlease"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/globalclock"
+	"github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/core/raftlease"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type storeSuite struct {

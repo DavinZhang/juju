@@ -11,26 +11,26 @@ import (
 	"sync"
 	"time"
 
+	"github.com/DavinZhang/juju/cloudconfig/cloudinit"
+	"github.com/DavinZhang/juju/cloudconfig/instancecfg"
+	"github.com/DavinZhang/juju/cloudconfig/providerinit"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/environs"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/environs/instances"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/provider/common"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/tools"
 	"github.com/juju/clock"
 	"github.com/juju/collections/set"
 	"github.com/juju/errors"
-	"github.com/juju/juju/cloudconfig/cloudinit"
-	"github.com/juju/juju/cloudconfig/instancecfg"
-	"github.com/juju/juju/cloudconfig/providerinit"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/series"
-	"github.com/juju/juju/environs"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/environs/instances"
-	"github.com/juju/juju/environs/simplestreams"
-	"github.com/juju/juju/provider/common"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/tools"
 	"github.com/juju/loggo"
 	"github.com/juju/retry"
 	"github.com/juju/schema"
@@ -614,7 +614,7 @@ nextPlan:
 				// Scale per hour costs so they can be represented as an integer for sorting purposes.
 				Cost: uint64(plan.Pricing.Hour * 1000.0),
 				// The Equinix Metal API returns all plan as legacy today. There is an issue open internally to figure out why.
-				// In the meantime let's comment this https://github.com/juju/juju/pull/12983#discussion_r635324484
+				// In the meantime let's comment this https://github.com/DavinZhang/juju/pull/12983#discussion_r635324484
 				// Deprecated: plan.Legacy,
 			})
 	}

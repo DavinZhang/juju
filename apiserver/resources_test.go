@@ -22,14 +22,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	api "github.com/juju/juju/api/resources"
-	"github.com/juju/juju/apiserver"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/resourcetesting"
-	"github.com/juju/juju/state"
+	api "github.com/DavinZhang/juju/api/resources"
+	"github.com/DavinZhang/juju/apiserver"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/resourcetesting"
+	"github.com/DavinZhang/juju/state"
 )
 
 type ResourcesHandlerSuite struct {

@@ -20,7 +20,7 @@ else
 fi
 
 echo "checking: go build ..."
-go build $(go list github.com/juju/juju/... | grep -v /vendor/)
+go build $(go list github.com/DavinZhang/juju/... | grep -v /vendor/)
 
 echo "checking: tests are wired up ..."
 ./scripts/checktesting.bash

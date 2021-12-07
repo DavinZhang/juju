@@ -10,10 +10,10 @@ import (
 	"github.com/juju/worker/v3/dependency"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/juju/juju/core/cache"
-	"github.com/juju/juju/core/multiwatcher"
-	"github.com/juju/juju/worker/gate"
-	workerstate "github.com/juju/juju/worker/state"
+	"github.com/DavinZhang/juju/core/cache"
+	"github.com/DavinZhang/juju/core/multiwatcher"
+	"github.com/DavinZhang/juju/worker/gate"
+	workerstate "github.com/DavinZhang/juju/worker/state"
 )
 
 // Logger describes the logging methods used in this package by the worker.

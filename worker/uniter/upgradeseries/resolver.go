@@ -6,11 +6,11 @@ package upgradeseries
 import (
 	"github.com/juju/charm/v9/hooks"
 
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/worker/uniter/hook"
-	"github.com/juju/juju/worker/uniter/operation"
-	"github.com/juju/juju/worker/uniter/remotestate"
-	"github.com/juju/juju/worker/uniter/resolver"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/worker/uniter/hook"
+	"github.com/DavinZhang/juju/worker/uniter/operation"
+	"github.com/DavinZhang/juju/worker/uniter/remotestate"
+	"github.com/DavinZhang/juju/worker/uniter/resolver"
 )
 
 // Logger represents the logging methods used by this package.

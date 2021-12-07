@@ -16,13 +16,13 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/container/kvm/mock"
-	kvmtesting "github.com/juju/juju/container/kvm/testing"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/version"
-	"github.com/juju/juju/worker/provisioner"
+	"github.com/DavinZhang/juju/container/kvm/mock"
+	kvmtesting "github.com/DavinZhang/juju/container/kvm/testing"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/worker/provisioner"
 )
 
 type kvmProvisionerSuite struct {

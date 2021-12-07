@@ -7,8 +7,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/worker/v3"
 
-	"github.com/juju/juju/api/meterstatus"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api/meterstatus"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // connectedStatusHandler implements the NotifyWatchHandler interface.

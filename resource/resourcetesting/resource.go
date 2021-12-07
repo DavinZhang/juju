@@ -15,7 +15,7 @@ import (
 	"github.com/juju/testing/filetesting"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/resource"
+	"github.com/DavinZhang/juju/resource"
 )
 
 type newCharmResourceFunc func(c *gc.C, name, content string) charmresource.Resource

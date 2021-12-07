@@ -13,9 +13,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/storage"
-	_ "github.com/juju/juju/provider/dummy"
-	jujustorage "github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/cmd/juju/storage"
+	_ "github.com/DavinZhang/juju/provider/dummy"
+	jujustorage "github.com/DavinZhang/juju/storage"
 )
 
 type ImportFilesystemSuite struct {

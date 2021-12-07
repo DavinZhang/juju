@@ -14,10 +14,10 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/multiwatcher"
-	"github.com/juju/juju/state"
-	mwWorker "github.com/juju/juju/worker/multiwatcher"
-	"github.com/juju/juju/worker/multiwatcher/testbacking"
+	"github.com/DavinZhang/juju/core/multiwatcher"
+	"github.com/DavinZhang/juju/state"
+	mwWorker "github.com/DavinZhang/juju/worker/multiwatcher"
+	"github.com/DavinZhang/juju/worker/multiwatcher/testbacking"
 )
 
 type watcherSuite struct {

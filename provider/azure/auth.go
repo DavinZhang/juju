@@ -13,10 +13,10 @@ import (
 	"github.com/Azure/go-autorest/autorest/adal"
 	"github.com/juju/errors"
 
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/provider/azure/internal/azureauth"
-	"github.com/juju/juju/provider/azure/internal/useragent"
-	"github.com/juju/juju/provider/common"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/provider/azure/internal/azureauth"
+	"github.com/DavinZhang/juju/provider/azure/internal/useragent"
+	"github.com/DavinZhang/juju/provider/common"
 )
 
 // cloudSpecAuth provides an implementation of autorest.Authorizer.

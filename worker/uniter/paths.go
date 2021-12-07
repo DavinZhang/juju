@@ -11,11 +11,11 @@ import (
 
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/agent/tools"
-	caasconstants "github.com/juju/juju/caas/kubernetes/provider/constants"
-	jujuos "github.com/juju/juju/core/os"
-	"github.com/juju/juju/juju/sockets"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/agent/tools"
+	caasconstants "github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
+	jujuos "github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/juju/sockets"
 )
 
 // Paths represents the set of filesystem paths a uniter worker has reason to

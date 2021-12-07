@@ -12,11 +12,11 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2/ssh"
 
-	jujuos "github.com/juju/juju/core/os"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/config"
-	envcontext "github.com/juju/juju/environs/context"
-	"github.com/juju/juju/provider/common"
+	jujuos "github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/config"
+	envcontext "github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/provider/common"
 )
 
 type environ struct {

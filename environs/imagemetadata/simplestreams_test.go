@@ -20,10 +20,10 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/environs/simplestreams"
-	sstesting "github.com/juju/juju/environs/simplestreams/testing"
-	"github.com/juju/juju/juju/keys"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	sstesting "github.com/DavinZhang/juju/environs/simplestreams/testing"
+	"github.com/DavinZhang/juju/juju/keys"
 )
 
 var live = flag.Bool("live", false, "Include live simplestreams tests")

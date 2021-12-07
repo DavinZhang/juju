@@ -8,8 +8,8 @@ import (
 
 	"github.com/juju/worker/v3"
 
-	"github.com/juju/juju/api/metricsmanager"
-	jworker "github.com/juju/juju/worker"
+	"github.com/DavinZhang/juju/api/metricsmanager"
+	jworker "github.com/DavinZhang/juju/worker"
 )
 
 const cleanupPeriod = time.Hour

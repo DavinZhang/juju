@@ -13,14 +13,14 @@ import (
 	"github.com/juju/worker/v3/dependency"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/cmd/jujud/agent/agenttest"
-	"github.com/juju/juju/cmd/jujud/agent/machine"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/testing"
-	jworker "github.com/juju/juju/worker"
-	"github.com/juju/juju/worker/apicaller"
-	"github.com/juju/juju/worker/gate"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/agenttest"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/machine"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/testing"
+	jworker "github.com/DavinZhang/juju/worker"
+	"github.com/DavinZhang/juju/worker/apicaller"
+	"github.com/DavinZhang/juju/worker/gate"
 )
 
 type ManifoldsSuite struct {

@@ -13,12 +13,12 @@ import (
 	utilexec "github.com/juju/utils/v2/exec"
 	gc "gopkg.in/check.v1"
 
-	basetesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/uniter"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/worker/common/charmrunner"
-	"github.com/juju/juju/worker/uniter/hook"
-	"github.com/juju/juju/worker/uniter/operation"
+	basetesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/uniter"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/worker/common/charmrunner"
+	"github.com/DavinZhang/juju/worker/uniter/hook"
+	"github.com/DavinZhang/juju/worker/uniter/operation"
 )
 
 type FactorySuite struct {

@@ -14,13 +14,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	apilogsender "github.com/juju/juju/api/logsender"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/testing/factory"
-	"github.com/juju/juju/version"
-	"github.com/juju/juju/worker/logsender"
+	"github.com/DavinZhang/juju/api"
+	apilogsender "github.com/DavinZhang/juju/api/logsender"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/testing/factory"
+	"github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/worker/logsender"
 )
 
 type workerSuite struct {

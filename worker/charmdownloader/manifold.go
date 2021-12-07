@@ -8,9 +8,9 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/base"
-	client "github.com/juju/juju/api/charmdownloader"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/base"
+	client "github.com/DavinZhang/juju/api/charmdownloader"
 )
 
 // ManifoldConfig describes the resources used by the charmdownloader worker.

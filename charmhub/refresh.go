@@ -18,11 +18,11 @@ import (
 	"github.com/kr/pretty"
 	"golang.org/x/crypto/pbkdf2"
 
-	"github.com/juju/juju/charmhub/path"
-	"github.com/juju/juju/charmhub/transport"
-	charmmetrics "github.com/juju/juju/core/charm/metrics"
-	corelogger "github.com/juju/juju/core/logger"
-	coreseries "github.com/juju/juju/core/series"
+	"github.com/DavinZhang/juju/charmhub/path"
+	"github.com/DavinZhang/juju/charmhub/transport"
+	charmmetrics "github.com/DavinZhang/juju/core/charm/metrics"
+	corelogger "github.com/DavinZhang/juju/core/logger"
+	coreseries "github.com/DavinZhang/juju/core/series"
 )
 
 // Action represents the type of refresh is performed.

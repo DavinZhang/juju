@@ -9,8 +9,8 @@ import (
 	"github.com/juju/cmd/v3"
 	"github.com/juju/errors"
 
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 // NewDisableCommand returns a disable-command command instance

@@ -10,7 +10,7 @@
  Usage: python assess_agent_metadata.py --agent-file=/path/to/juju-*.tgz
 
  Example: python assess_agent_metadata.py
-                --agent-file=/home/juju/juju-2.0.1-xenial-amd64.tgz
+                --agent-file=/home/DavinZhang/juju-2.0.1-xenial-amd64.tgz
 """
 
 from __future__ import print_function

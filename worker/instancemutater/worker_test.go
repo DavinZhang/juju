@@ -18,16 +18,16 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	apiinstancemutater "github.com/juju/juju/api/instancemutater"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/lxdprofile"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/worker/instancemutater"
-	"github.com/juju/juju/worker/instancemutater/mocks"
-	workermocks "github.com/juju/juju/worker/mocks"
+	apiinstancemutater "github.com/DavinZhang/juju/api/instancemutater"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/lxdprofile"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/worker/instancemutater"
+	"github.com/DavinZhang/juju/worker/instancemutater/mocks"
+	workermocks "github.com/DavinZhang/juju/worker/mocks"
 )
 
 type workerConfigSuite struct {

@@ -16,14 +16,14 @@ import (
 	dt "github.com/juju/worker/v3/dependency/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	msapi "github.com/juju/juju/api/meterstatus"
-	"github.com/juju/juju/core/machinelock"
-	"github.com/juju/juju/core/watcher"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/meterstatus"
-	"github.com/juju/juju/worker/uniter/runner"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	msapi "github.com/DavinZhang/juju/api/meterstatus"
+	"github.com/DavinZhang/juju/core/machinelock"
+	"github.com/DavinZhang/juju/core/watcher"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/meterstatus"
+	"github.com/DavinZhang/juju/worker/uniter/runner"
 )
 
 type ManifoldSuite struct {

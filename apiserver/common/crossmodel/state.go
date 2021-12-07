@@ -7,9 +7,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/network/firewall"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/network/firewall"
+	"github.com/DavinZhang/juju/state"
 )
 
 // StatePool provides the subset of a state pool.

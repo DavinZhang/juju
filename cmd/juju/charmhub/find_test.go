@@ -10,11 +10,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	basemocks "github.com/juju/juju/api/base/mocks"
-	"github.com/juju/juju/api/charmhub"
-	"github.com/juju/juju/cmd/juju/charmhub/mocks"
-	"github.com/juju/juju/core/arch"
+	"github.com/DavinZhang/juju/api/base"
+	basemocks "github.com/DavinZhang/juju/api/base/mocks"
+	"github.com/DavinZhang/juju/api/charmhub"
+	"github.com/DavinZhang/juju/cmd/juju/charmhub/mocks"
+	"github.com/DavinZhang/juju/core/arch"
 )
 
 type findSuite struct {

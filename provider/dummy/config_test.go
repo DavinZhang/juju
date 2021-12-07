@@ -9,14 +9,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/bootstrap"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
-	envtesting "github.com/juju/juju/environs/testing"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/provider/dummy"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/bootstrap"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
+	envtesting "github.com/DavinZhang/juju/environs/testing"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/provider/dummy"
+	"github.com/DavinZhang/juju/testing"
 )
 
 var _ = gc.Suite(&ConfigSuite{})

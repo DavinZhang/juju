@@ -12,8 +12,8 @@ import (
 	"github.com/juju/loggo"
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/juju/juju/juju/osenv"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/juju/osenv"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 func init() {
@@ -36,7 +36,7 @@ var DefaultLog = &cmd.Log{
 // it adds juju-specific functionality:
 // - The default logging configuration is taken from the environment;
 // - The version is configured to the current juju version;
-// - The additional version information is sourced from juju/juju/version;
+// - The additional version information is sourced from DavinZhang/juju/version;
 // - The command emits a log message when a command runs.
 func NewSuperCommand(p cmd.SuperCommandParams) *cmd.SuperCommand {
 	if p.NotifyRun != nil {

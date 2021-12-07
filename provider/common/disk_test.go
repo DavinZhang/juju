@@ -6,7 +6,7 @@ package common_test
 import (
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/provider/common"
+	"github.com/DavinZhang/juju/provider/common"
 )
 
 type DiskSuite struct{}

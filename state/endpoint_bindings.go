@@ -14,8 +14,8 @@ import (
 	"github.com/juju/mgo/v2/txn"
 	jujutxn "github.com/juju/txn/v2"
 
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/mongo/utils"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/mongo/utils"
 )
 
 // defaultEndpointName is the key in the bindings map that stores the
@@ -495,7 +495,7 @@ func DefaultEndpointBindingsForCharm(st EndpointBinding, charmMeta *charm.Meta) 
 // EndpointBinding are the methods necessary for exported methods of
 // Bindings to work.
 //
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/endpointbinding_mock.go github.com/juju/juju/state EndpointBinding
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/endpointbinding_mock.go github.com/DavinZhang/juju/state EndpointBinding
 type EndpointBinding interface {
 	network.SpaceLookup
 	DefaultEndpointBindingSpace() (string, error)

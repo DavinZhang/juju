@@ -11,10 +11,10 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/proxy"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/proxy"
 )
 
 var logger = loggo.GetLogger("juju.juju")

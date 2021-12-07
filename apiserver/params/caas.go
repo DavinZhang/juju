@@ -7,7 +7,7 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/constraints"
 )
 
 // CAASUnitIntroductionArgs is used by sidecar units to introduce

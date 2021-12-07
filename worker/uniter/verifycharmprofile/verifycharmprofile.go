@@ -4,11 +4,11 @@
 package verifycharmprofile
 
 import (
-	"github.com/juju/juju/core/lxdprofile"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/worker/uniter/operation"
-	"github.com/juju/juju/worker/uniter/remotestate"
-	"github.com/juju/juju/worker/uniter/resolver"
+	"github.com/DavinZhang/juju/core/lxdprofile"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/worker/uniter/operation"
+	"github.com/DavinZhang/juju/worker/uniter/remotestate"
+	"github.com/DavinZhang/juju/worker/uniter/resolver"
 )
 
 type Logger interface {

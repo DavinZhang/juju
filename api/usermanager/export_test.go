@@ -4,7 +4,7 @@
 package usermanager
 
 import (
-	"github.com/juju/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/base/testing"
 )
 
 // PatchResponses changes the internal FacadeCaller to one that lets you return

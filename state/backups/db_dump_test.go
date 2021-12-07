@@ -11,8 +11,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/state/backups"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/state/backups"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type dumpSuite struct {

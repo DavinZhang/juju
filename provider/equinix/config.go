@@ -3,7 +3,7 @@
 package equinix
 
 import (
-	"github.com/juju/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/config"
 )
 
 func validateConfig(cfg, old *config.Config) (*environConfig, error) {

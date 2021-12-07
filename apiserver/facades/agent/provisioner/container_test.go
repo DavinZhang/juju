@@ -7,12 +7,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/facade/facadetest"
-	"github.com/juju/juju/apiserver/facades/agent/provisioner"
-	"github.com/juju/juju/apiserver/params"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/facade/facadetest"
+	"github.com/DavinZhang/juju/apiserver/facades/agent/provisioner"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/state"
 )
 
 type containerProvisionerSuite struct {

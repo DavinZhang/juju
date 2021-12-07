@@ -10,8 +10,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/environs/config"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/environs/config"
 )
 
 // logger is here to stop the desire of creating a package level logger.
@@ -22,7 +22,7 @@ var (
 	_ logger = struct{}{}
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/mocks_facade.go github.com/juju/juju/worker/pruner Facade
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/mocks_facade.go github.com/DavinZhang/juju/worker/pruner Facade
 
 // Facade represents an API that implements status history pruning.
 type Facade interface {

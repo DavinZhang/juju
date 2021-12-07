@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"strings"
 
+	jujuos "github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/worker/common/charmrunner"
 	"github.com/juju/errors"
-	jujuos "github.com/juju/juju/core/os"
-	"github.com/juju/juju/worker/common/charmrunner"
 )
 
 var windowsSuffixOrder = []string{

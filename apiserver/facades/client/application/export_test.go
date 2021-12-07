@@ -4,10 +4,10 @@
 package application
 
 import (
-	"github.com/juju/juju/core/assumes"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/stateenvirons"
+	"github.com/DavinZhang/juju/core/assumes"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/stateenvirons"
 )
 
 var (

@@ -8,12 +8,12 @@ import (
 	"github.com/vmware/govmomi/vim25/mo"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/network/firewall"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/instances"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/network/firewall"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/instances"
 )
 
 type InstanceSuite struct {

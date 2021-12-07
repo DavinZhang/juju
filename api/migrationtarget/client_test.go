@@ -24,14 +24,14 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/httprequest.v1"
 
-	"github.com/juju/juju/api/base"
-	apitesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/migrationtarget"
-	"github.com/juju/juju/apiserver/params"
-	coremigration "github.com/juju/juju/core/migration"
-	"github.com/juju/juju/resource/resourcetesting"
-	"github.com/juju/juju/tools"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/api/base"
+	apitesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/migrationtarget"
+	"github.com/DavinZhang/juju/apiserver/params"
+	coremigration "github.com/DavinZhang/juju/core/migration"
+	"github.com/DavinZhang/juju/resource/resourcetesting"
+	"github.com/DavinZhang/juju/tools"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 type ClientSuite struct {

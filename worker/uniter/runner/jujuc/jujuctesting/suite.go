@@ -10,7 +10,7 @@ import (
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/application"
+	"github.com/DavinZhang/juju/core/application"
 )
 
 // ContextSuite is the base suite for testing jujuc.Context-related code.

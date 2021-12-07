@@ -11,9 +11,9 @@ import (
 	"github.com/juju/cmd/v3"
 	"github.com/juju/loggo"
 
-	"github.com/juju/juju/cmd/juju/commands"
-	components "github.com/juju/juju/component/all"
-	_ "github.com/juju/juju/provider/all" // Import the providers.
+	"github.com/DavinZhang/juju/cmd/juju/commands"
+	components "github.com/DavinZhang/juju/component/all"
+	_ "github.com/DavinZhang/juju/provider/all" // Import the providers.
 )
 
 var log = loggo.GetLogger("juju.cmd.juju")

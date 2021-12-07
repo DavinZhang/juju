@@ -11,10 +11,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/juju/juju/core/status"
+	"github.com/DavinZhang/juju/core/status"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/resources_mock.go github.com/juju/juju/caas/kubernetes/provider/resources Resource,Applier
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/resources_mock.go github.com/DavinZhang/juju/caas/kubernetes/provider/resources Resource,Applier
 
 const (
 	// JujuFieldManager marks the resource changes were made by Juju.

@@ -4,11 +4,11 @@
 package instancepoller
 
 import (
-	"github.com/juju/juju/apiserver/common/networkingcommon"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/common/networkingcommon"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/state"
 )
 
 // StateMachine represents a machine from state package.

@@ -15,14 +15,14 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/state"
-	statetesting "github.com/juju/juju/state/testing"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/storage/provider"
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/testing/factory"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/state"
+	statetesting "github.com/DavinZhang/juju/state/testing"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/storage/provider"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/testing/factory"
 )
 
 type factorySuite struct {

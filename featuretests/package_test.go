@@ -13,9 +13,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	jujucmd "github.com/juju/juju/cmd/juju/commands"
-	"github.com/juju/juju/component/all"
-	coretesting "github.com/juju/juju/testing"
+	jujucmd "github.com/DavinZhang/juju/cmd/juju/commands"
+	"github.com/DavinZhang/juju/component/all"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 func init() {

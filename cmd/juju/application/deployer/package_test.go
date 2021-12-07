@@ -9,12 +9,12 @@ import (
 	gc "gopkg.in/check.v1"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/deploy_mock.go github.com/juju/juju/cmd/juju/application/deployer DeployerAPI,DeployStepAPI,CharmReader,DeployConfigFlag
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/deployer_mock.go github.com/juju/juju/cmd/juju/application/deployer ModelCommand,ConsumeDetails,ModelConfigGetter
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/resolver_mock.go github.com/juju/juju/cmd/juju/application/deployer Resolver,Bundle
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/store_mock.go github.com/juju/juju/cmd/juju/application/store CharmrepoForDeploy,MacaroonGetter
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/api_mock.go github.com/juju/juju/api AllWatch
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/modelcmd_mock.go github.com/juju/juju/cmd/modelcmd Filesystem
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/deploy_mock.go github.com/DavinZhang/juju/cmd/juju/application/deployer DeployerAPI,DeployStepAPI,CharmReader,DeployConfigFlag
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/deployer_mock.go github.com/DavinZhang/juju/cmd/juju/application/deployer ModelCommand,ConsumeDetails,ModelConfigGetter
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/resolver_mock.go github.com/DavinZhang/juju/cmd/juju/application/deployer Resolver,Bundle
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/store_mock.go github.com/DavinZhang/juju/cmd/juju/application/store CharmrepoForDeploy,MacaroonGetter
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/api_mock.go github.com/DavinZhang/juju/api AllWatch
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/modelcmd_mock.go github.com/DavinZhang/juju/cmd/modelcmd Filesystem
 //go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/write_mock.go io Writer
 //go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/charm_mock.go github.com/juju/charm/v9 Charm
 

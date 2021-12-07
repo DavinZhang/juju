@@ -14,14 +14,14 @@ import (
 	"github.com/juju/utils/v2/exec"
 	"gopkg.in/yaml.v2"
 
-	k8s "github.com/juju/juju/caas/kubernetes"
-	"github.com/juju/juju/caas/kubernetes/clientconfig"
-	k8scloud "github.com/juju/juju/caas/kubernetes/cloud"
-	k8sconstants "github.com/juju/juju/caas/kubernetes/provider/constants"
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
+	k8s "github.com/DavinZhang/juju/caas/kubernetes"
+	"github.com/DavinZhang/juju/caas/kubernetes/clientconfig"
+	k8scloud "github.com/DavinZhang/juju/caas/kubernetes/cloud"
+	k8sconstants "github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
 )
 
 // ClientConfigFuncGetter returns a function returning az reader that will read a k8s cluster config for a given cluster type

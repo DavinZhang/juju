@@ -12,8 +12,8 @@ import (
 	sshtesting "github.com/juju/utils/v2/ssh/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cloudconfig/cloudinit"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/cloudconfig/cloudinit"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 // TODO integration tests, but how?

@@ -8,8 +8,8 @@ import (
 
 	"github.com/juju/clock"
 
-	"github.com/juju/juju/container/lxd"
-	"github.com/juju/juju/environs"
+	"github.com/DavinZhang/juju/container/lxd"
+	"github.com/DavinZhang/juju/environs"
 )
 
 var (

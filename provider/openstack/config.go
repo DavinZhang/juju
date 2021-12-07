@@ -10,8 +10,8 @@ import (
 	"github.com/juju/utils/v2"
 	"gopkg.in/juju/environschema.v1"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/environs/config"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/environs/config"
 )
 
 const (

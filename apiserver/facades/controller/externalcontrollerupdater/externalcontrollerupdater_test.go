@@ -9,13 +9,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/common"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facades/controller/externalcontrollerupdater"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/core/crossmodel"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/common"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facades/controller/externalcontrollerupdater"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 var _ = gc.Suite(&CrossControllerSuite{})

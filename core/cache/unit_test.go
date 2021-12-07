@@ -9,10 +9,10 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/cache"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/settings"
-	"github.com/juju/juju/core/status"
+	"github.com/DavinZhang/juju/core/cache"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/settings"
+	"github.com/DavinZhang/juju/core/status"
 )
 
 type UnitSuite struct {

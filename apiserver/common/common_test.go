@@ -12,8 +12,8 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/common"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/common"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 func TestAll(t *stdtesting.T) {

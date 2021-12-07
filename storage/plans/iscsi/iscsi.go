@@ -20,8 +20,8 @@ import (
 	"github.com/juju/retry"
 	"github.com/juju/utils/v2/exec"
 
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/storage/plans/common"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/storage/plans/common"
 )
 
 var logger = loggo.GetLogger("juju.storage.plans.iscsi")

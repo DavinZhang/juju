@@ -22,10 +22,10 @@ import (
 	"github.com/juju/utils/v2"
 	"github.com/juju/utils/v2/ssh"
 
-	"github.com/juju/juju/api/sshclient"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/network"
-	jujussh "github.com/juju/juju/network/ssh"
+	"github.com/DavinZhang/juju/api/sshclient"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/network"
+	jujussh "github.com/DavinZhang/juju/network/ssh"
 )
 
 var logger = loggo.GetLogger("juju.cmd.juju.ssh")

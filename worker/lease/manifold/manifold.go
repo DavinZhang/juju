@@ -20,15 +20,15 @@ import (
 	"github.com/juju/worker/v3/dependency"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api"
-	apiraftlease "github.com/juju/juju/api/raftlease"
-	corelease "github.com/juju/juju/core/lease"
-	"github.com/juju/juju/core/raftlease"
-	"github.com/juju/juju/feature"
-	"github.com/juju/juju/worker/common"
-	"github.com/juju/juju/worker/lease"
-	workerstate "github.com/juju/juju/worker/state"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api"
+	apiraftlease "github.com/DavinZhang/juju/api/raftlease"
+	corelease "github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/core/raftlease"
+	"github.com/DavinZhang/juju/feature"
+	"github.com/DavinZhang/juju/worker/common"
+	"github.com/DavinZhang/juju/worker/lease"
+	workerstate "github.com/DavinZhang/juju/worker/state"
 )
 
 type Logger interface {

@@ -8,9 +8,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/caas/ecs"
-	"github.com/juju/juju/caas/ecs/constants"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/caas/ecs"
+	"github.com/DavinZhang/juju/caas/ecs/constants"
+	"github.com/DavinZhang/juju/storage"
 )
 
 type storageSuite struct {

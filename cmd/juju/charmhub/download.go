@@ -21,16 +21,16 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/os/v2/series"
 
-	"github.com/juju/juju/charmhub"
-	"github.com/juju/juju/charmhub/transport"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/cmd/output/progress"
-	"github.com/juju/juju/core/arch"
-	corecharm "github.com/juju/juju/core/charm"
-	coreseries "github.com/juju/juju/core/series"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/charmhub"
+	"github.com/DavinZhang/juju/charmhub/transport"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/cmd/output/progress"
+	"github.com/DavinZhang/juju/core/arch"
+	corecharm "github.com/DavinZhang/juju/core/charm"
+	coreseries "github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/version"
 )
 
 const (

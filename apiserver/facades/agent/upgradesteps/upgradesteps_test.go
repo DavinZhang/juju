@@ -4,22 +4,22 @@
 package upgradesteps_test
 
 import (
+	"github.com/DavinZhang/juju/controller"
+	jujutesting "github.com/DavinZhang/juju/testing"
 	"github.com/golang/mock/gomock"
 	"github.com/juju/errors"
-	"github.com/juju/juju/controller"
-	jujutesting "github.com/juju/juju/testing"
 	"github.com/juju/mgo/v2/txn"
 	"github.com/juju/names/v4"
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	facademocks "github.com/juju/juju/apiserver/facade/mocks"
-	"github.com/juju/juju/apiserver/facades/agent/upgradesteps"
-	"github.com/juju/juju/apiserver/facades/agent/upgradesteps/mocks"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/state"
+	facademocks "github.com/DavinZhang/juju/apiserver/facade/mocks"
+	"github.com/DavinZhang/juju/apiserver/facades/agent/upgradesteps"
+	"github.com/DavinZhang/juju/apiserver/facades/agent/upgradesteps/mocks"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/state"
 )
 
 type upgradeStepsSuite struct {

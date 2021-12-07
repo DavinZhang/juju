@@ -13,10 +13,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/rpc"
-	"github.com/juju/juju/testcharms"
-	"github.com/juju/juju/testing"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/rpc"
+	"github.com/DavinZhang/juju/testcharms"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type UnexposeSuite struct {

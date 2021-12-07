@@ -3,7 +3,7 @@
 
 package upgradesteps
 
-import "github.com/juju/juju/state"
+import "github.com/DavinZhang/juju/state"
 
 type upgradeStepsStateShim struct {
 	*state.State

@@ -9,7 +9,7 @@ package reboot_test
 import (
 	"testing"
 
-	"github.com/juju/juju/worker/common/reboot"
+	"github.com/DavinZhang/juju/worker/common/reboot"
 	"github.com/juju/names/v4"
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"

@@ -6,11 +6,11 @@ package internal
 import (
 	"time"
 
-	"github.com/juju/juju/docker"
-	"github.com/juju/juju/tools"
+	"github.com/DavinZhang/juju/docker"
+	"github.com/DavinZhang/juju/tools"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/registry_mock.go github.com/juju/juju/docker/registry/internal Initializer
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/registry_mock.go github.com/DavinZhang/juju/docker/registry/internal Initializer
 
 // Registry provides APIs to interact with the OCI provider client.
 type Registry interface {

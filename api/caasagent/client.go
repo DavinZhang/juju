@@ -6,9 +6,9 @@ package caasagent
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/common"
-	"github.com/juju/juju/api/common/cloudspec"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/common"
+	"github.com/DavinZhang/juju/api/common/cloudspec"
 )
 
 // Client provides access to an agent's view of state.

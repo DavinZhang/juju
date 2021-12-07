@@ -6,8 +6,8 @@ package common
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/context"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/context"
 )
 
 // DefaultProvider exposes the various common implementations found in

@@ -6,11 +6,11 @@ package migrationminion
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/api/base"
-	apiwatcher "github.com/juju/juju/api/watcher"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/migration"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api/base"
+	apiwatcher "github.com/DavinZhang/juju/api/watcher"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/migration"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // NewClient returns a new Client based on an existing API connection.

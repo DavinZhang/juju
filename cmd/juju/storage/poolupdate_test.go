@@ -9,8 +9,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/storage"
-	_ "github.com/juju/juju/provider/dummy"
+	"github.com/DavinZhang/juju/cmd/juju/storage"
+	_ "github.com/DavinZhang/juju/provider/dummy"
 )
 
 type PoolUpdateSuite struct {

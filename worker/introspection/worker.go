@@ -20,11 +20,11 @@ import (
 	"gopkg.in/tomb.v2"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/cmd/output"
-	"github.com/juju/juju/core/machinelock"
-	"github.com/juju/juju/core/presence"
-	"github.com/juju/juju/pubsub/agent"
-	"github.com/juju/juju/worker/introspection/pprof"
+	"github.com/DavinZhang/juju/cmd/output"
+	"github.com/DavinZhang/juju/core/machinelock"
+	"github.com/DavinZhang/juju/core/presence"
+	"github.com/DavinZhang/juju/pubsub/agent"
+	"github.com/DavinZhang/juju/worker/introspection/pprof"
 )
 
 var logger = loggo.GetLogger("juju.worker.introspection")

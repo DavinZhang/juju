@@ -11,9 +11,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/observer"
-	apitesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/core/auditlog"
+	"github.com/DavinZhang/juju/apiserver/observer"
+	apitesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/core/auditlog"
 )
 
 type auditFilterSuite struct {

@@ -4,12 +4,12 @@
 package container
 
 import (
-	"github.com/juju/juju/cloudconfig/instancecfg"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/lxdprofile"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/instances"
+	"github.com/DavinZhang/juju/cloudconfig/instancecfg"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/lxdprofile"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/instances"
 )
 
 const (
@@ -18,7 +18,7 @@ const (
 	ConfigAvailabilityZone = "availability-zone"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package testing -destination testing/package_mock.go github.com/juju/juju/container Manager,Initialiser
+//go:generate go run github.com/golang/mock/mockgen -package testing -destination testing/package_mock.go github.com/DavinZhang/juju/container Manager,Initialiser
 
 // ManagerConfig contains the initialization parameters for the ContainerManager.
 // The name of the manager is used to namespace the containers on the machine.

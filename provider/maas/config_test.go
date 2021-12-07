@@ -8,8 +8,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/testing"
 )
 
 // Ensure MAAS provider supports the expected interfaces.

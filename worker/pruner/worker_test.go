@@ -14,11 +14,11 @@ import (
 	"github.com/juju/worker/v3"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/environs/config"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/pruner"
-	"github.com/juju/juju/worker/statushistorypruner"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/environs/config"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/pruner"
+	"github.com/DavinZhang/juju/worker/statushistorypruner"
 )
 
 type PrunerSuite struct {

@@ -15,14 +15,14 @@ import (
 	ociIdentity "github.com/oracle/oci-go-sdk/v47/identity"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs"
-	envcontext "github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/tags"
-	envtesting "github.com/juju/juju/environs/testing"
-	"github.com/juju/juju/provider/oci"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs"
+	envcontext "github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/tags"
+	envtesting "github.com/DavinZhang/juju/environs/testing"
+	"github.com/DavinZhang/juju/provider/oci"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type environSuite struct {

@@ -8,8 +8,8 @@ import (
 	"github.com/juju/schema"
 	"gopkg.in/juju/environschema.v1"
 
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/provider/vsphere/internal/vsphereclient"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/provider/vsphere/internal/vsphereclient"
 )
 
 // The vmware-specific config keys.

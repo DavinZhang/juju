@@ -4,8 +4,8 @@
 package vsphere
 
 import (
+	"github.com/DavinZhang/juju/core/network/firewall"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/network/firewall"
 )
 
 // OpenPorts is part of the environs.Firewaller interface.

@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/DavinZhang/juju/core/secrets"
 	"github.com/juju/cmd/v3"
 	"github.com/juju/errors"
 	"github.com/juju/gnuflag"
-	"github.com/juju/juju/core/secrets"
 
-	jujucmd "github.com/juju/juju/cmd"
+	jujucmd "github.com/DavinZhang/juju/cmd"
 )
 
 type secretGetCommand struct {

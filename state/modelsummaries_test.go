@@ -14,15 +14,15 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/core/arch"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/testing/factory"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/core/arch"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/testing/factory"
 )
 
 type ModelSummariesSuite struct {

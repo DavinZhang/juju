@@ -18,13 +18,13 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/lease"
-	"github.com/juju/juju/core/raftlease"
-	"github.com/juju/juju/state"
-	raftleasestore "github.com/juju/juju/state/raftlease"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/common"
-	"github.com/juju/juju/worker/globalclockupdater"
+	"github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/core/raftlease"
+	"github.com/DavinZhang/juju/state"
+	raftleasestore "github.com/DavinZhang/juju/state/raftlease"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/common"
+	"github.com/DavinZhang/juju/worker/globalclockupdater"
 )
 
 type ManifoldSuite struct {

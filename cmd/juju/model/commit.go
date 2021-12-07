@@ -10,10 +10,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/gnuflag"
 
-	"github.com/juju/juju/api/modelgeneration"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/model"
+	"github.com/DavinZhang/juju/api/modelgeneration"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/model"
 )
 
 const (
@@ -51,7 +51,7 @@ type commitCommand struct {
 }
 
 // CommitCommandAPI defines an API interface to be used during testing.
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination ./mocks/commit_mock.go github.com/juju/juju/cmd/juju/model CommitCommandAPI
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination ./mocks/commit_mock.go github.com/DavinZhang/juju/cmd/juju/model CommitCommandAPI
 type CommitCommandAPI interface {
 	Close() error
 

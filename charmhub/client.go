@@ -30,11 +30,11 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	charmhubpath "github.com/juju/juju/charmhub/path"
-	"github.com/juju/juju/charmhub/transport"
-	charmmetrics "github.com/juju/juju/core/charm/metrics"
-	corelogger "github.com/juju/juju/core/logger"
-	"github.com/juju/juju/version"
+	charmhubpath "github.com/DavinZhang/juju/charmhub/path"
+	"github.com/DavinZhang/juju/charmhub/transport"
+	charmmetrics "github.com/DavinZhang/juju/core/charm/metrics"
+	corelogger "github.com/DavinZhang/juju/core/logger"
+	"github.com/DavinZhang/juju/version"
 )
 
 // ServerURL holds the default location of the global charm hub.

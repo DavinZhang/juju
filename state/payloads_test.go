@@ -12,9 +12,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/payload"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing/factory"
+	"github.com/DavinZhang/juju/payload"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing/factory"
 )
 
 type PayloadsSuite struct {

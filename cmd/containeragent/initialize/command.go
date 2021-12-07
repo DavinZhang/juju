@@ -14,16 +14,16 @@ import (
 	"github.com/juju/loggo"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/caasapplication"
-	k8sconstants "github.com/juju/juju/caas/kubernetes/provider/constants"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/containeragent/utils"
-	"github.com/juju/juju/worker/apicaller"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/caasapplication"
+	k8sconstants "github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/containeragent/utils"
+	"github.com/DavinZhang/juju/worker/apicaller"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/application_mock.go github.com/juju/juju/cmd/containeragent/initialize ApplicationAPI
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/application_mock.go github.com/DavinZhang/juju/cmd/containeragent/initialize ApplicationAPI
 type initCommand struct {
 	cmd.CommandBase
 

@@ -9,8 +9,8 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/apiserver"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/apiserver"
 )
 
 func getLogSinkConfig(cfg agent.Config) (apiserver.LogSinkConfig, error) {

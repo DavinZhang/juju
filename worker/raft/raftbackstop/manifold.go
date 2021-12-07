@@ -11,7 +11,7 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/agent"
+	"github.com/DavinZhang/juju/agent"
 )
 
 // ManifoldConfig holds the information necessary to run a worker for

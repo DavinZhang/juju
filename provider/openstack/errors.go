@@ -7,8 +7,8 @@ import (
 	gooseerrors "github.com/go-goose/goose/v4/errors"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/provider/common"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/provider/common"
 )
 
 // handleCredentialError wraps the common handler,

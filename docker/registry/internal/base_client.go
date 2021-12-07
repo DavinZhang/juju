@@ -18,7 +18,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	"github.com/juju/juju/docker"
+	"github.com/DavinZhang/juju/docker"
 )
 
 var logger = loggo.GetLogger("juju.docker.registry.internal")

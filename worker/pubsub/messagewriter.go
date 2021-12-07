@@ -8,9 +8,9 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/api"
-	pubsubapi "github.com/juju/juju/api/pubsub"
-	"github.com/juju/juju/apiserver/params"
+	"github.com/DavinZhang/juju/api"
+	pubsubapi "github.com/DavinZhang/juju/api/pubsub"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 // MessageWriter defines the two methods called for message forwarding.

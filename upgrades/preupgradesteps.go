@@ -9,9 +9,9 @@ import (
 	"github.com/juju/packaging/v2/manager"
 	"github.com/juju/utils/v2/du"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/core/series"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/state"
 )
 
 // PreUpgradeStepsFunc is the function type of PreUpgradeSteps. This may be

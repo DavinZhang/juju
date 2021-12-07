@@ -3,7 +3,7 @@
 
 // Package juju is devops distilled.
 //
-// Project homepage: https://github.com/juju/juju
+// Project homepage: https://github.com/DavinZhang/juju
 //
 // For more information please refer to the README file
 // in this directory.

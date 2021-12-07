@@ -10,8 +10,8 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 type applicationWorker struct {

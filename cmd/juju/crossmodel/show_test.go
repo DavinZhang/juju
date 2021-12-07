@@ -11,8 +11,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/crossmodel"
-	jujucrossmodel "github.com/juju/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/cmd/juju/crossmodel"
+	jujucrossmodel "github.com/DavinZhang/juju/core/crossmodel"
 )
 
 type showSuite struct {

@@ -16,7 +16,7 @@ import (
 )
 
 // MacaroonURI is use when register new Juju checkers with the bakery.
-const MacaroonURI = "github.com/juju/juju"
+const MacaroonURI = "github.com/DavinZhang/juju"
 
 // MacaroonNamespace is the namespace Juju uses for managing macaroons.
 var MacaroonNamespace = checkers.NewNamespace(map[string]string{MacaroonURI: ""})

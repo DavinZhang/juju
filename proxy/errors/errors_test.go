@@ -10,7 +10,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/proxy/errors"
+	"github.com/DavinZhang/juju/proxy/errors"
 )
 
 var _ = gc.Suite(&ErrorsSuite{})

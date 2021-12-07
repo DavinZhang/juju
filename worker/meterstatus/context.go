@@ -11,10 +11,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/worker/uniter/runner/context"
-	"github.com/juju/juju/worker/uniter/runner/jujuc"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/worker/uniter/runner/context"
+	"github.com/DavinZhang/juju/worker/uniter/runner/jujuc"
 )
 
 type limitedContext struct {

@@ -14,12 +14,12 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/gnuflag"
 
-	apicontroller "github.com/juju/juju/api/controller"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/juju/common"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/cmd/output"
-	"github.com/juju/juju/controller"
+	apicontroller "github.com/DavinZhang/juju/api/controller"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/juju/common"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/cmd/output"
+	"github.com/DavinZhang/juju/controller"
 )
 
 // NewConfigCommand returns a new command that can retrieve or update

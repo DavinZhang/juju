@@ -13,12 +13,12 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/spaces"
-	"github.com/juju/juju/api/subnets"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/network"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/spaces"
+	"github.com/DavinZhang/juju/api/subnets"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/network"
 )
 
 // SpaceAPI defines the necessary API methods needed by the space

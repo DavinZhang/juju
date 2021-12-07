@@ -7,9 +7,9 @@ import (
 	"context"
 	"net/url"
 
-	apicharmhub "github.com/juju/juju/api/charmhub"
-	"github.com/juju/juju/charmhub"
-	"github.com/juju/juju/charmhub/transport"
+	apicharmhub "github.com/DavinZhang/juju/api/charmhub"
+	"github.com/DavinZhang/juju/charmhub"
+	"github.com/DavinZhang/juju/charmhub/transport"
 )
 
 // Printer defines an interface for printing out values.

@@ -16,9 +16,9 @@ import (
 	"github.com/juju/worker/v3"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/caasapplication"
-	"github.com/juju/juju/worker/caasunitterminationworker"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/caasapplication"
+	"github.com/DavinZhang/juju/worker/caasunitterminationworker"
 )
 
 func TestPackage(t *testing.T) {

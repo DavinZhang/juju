@@ -8,8 +8,8 @@ import (
 	"github.com/juju/utils/v2"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/core/migration"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/core/migration"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // ErrChanged indicates that a Worker has stopped because its

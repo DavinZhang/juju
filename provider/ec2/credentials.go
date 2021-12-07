@@ -14,8 +14,8 @@ import (
 	"github.com/juju/utils/v2"
 	"gopkg.in/ini.v1"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs"
 )
 
 type environProviderCredentials struct{}

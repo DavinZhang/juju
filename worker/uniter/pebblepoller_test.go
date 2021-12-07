@@ -17,9 +17,9 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/uniter"
-	"github.com/juju/juju/worker/uniter/container"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/uniter"
+	"github.com/DavinZhang/juju/worker/uniter/container"
 )
 
 type pebblePollerSuite struct{}

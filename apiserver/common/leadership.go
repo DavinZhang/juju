@@ -7,15 +7,15 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/leadership"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/state"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/leadership"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/state"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/leadership.go github.com/juju/juju/apiserver/common LeadershipPinningBackend,LeadershipMachine
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/leadership.go github.com/DavinZhang/juju/apiserver/common LeadershipPinningBackend,LeadershipMachine
 
 // LeadershipMachine is an indirection for state.machine.
 type LeadershipMachine interface {

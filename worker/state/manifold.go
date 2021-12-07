@@ -14,9 +14,9 @@ import (
 	"github.com/juju/worker/v3/dependency"
 	"gopkg.in/tomb.v2"
 
-	coreagent "github.com/juju/juju/agent"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/wrench"
+	coreagent "github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/wrench"
 )
 
 var logger = loggo.GetLogger("juju.worker.state")

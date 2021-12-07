@@ -4,8 +4,8 @@
 package undertaker_test
 
 import (
+	"github.com/DavinZhang/juju/caas"
 	"github.com/juju/errors"
-	"github.com/juju/juju/caas"
 	"github.com/juju/testing"
 	jc "github.com/juju/testing/checkers"
 	"github.com/juju/worker/v3"
@@ -13,10 +13,10 @@ import (
 	dt "github.com/juju/worker/v3/dependency/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/worker/common"
-	"github.com/juju/juju/worker/undertaker"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/worker/common"
+	"github.com/DavinZhang/juju/worker/undertaker"
 )
 
 type manifoldSuite struct {

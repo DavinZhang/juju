@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/juju/juju/core/status"
+	"github.com/DavinZhang/juju/core/status"
 
 	core "k8s.io/api/core/v1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"

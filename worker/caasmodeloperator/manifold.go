@@ -8,10 +8,10 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/caasmodeloperator"
-	"github.com/juju/juju/caas"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/caasmodeloperator"
+	"github.com/DavinZhang/juju/caas"
 )
 
 // Logger is the interface this work requires for logging.

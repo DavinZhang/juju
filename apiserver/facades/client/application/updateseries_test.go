@@ -11,8 +11,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/charmhub/transport"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/charmhub/transport"
+	"github.com/DavinZhang/juju/state"
 )
 
 type UpdateSeriesSuite struct {

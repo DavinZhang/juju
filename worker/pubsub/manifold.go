@@ -10,7 +10,7 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	coreagent "github.com/juju/juju/agent"
+	coreagent "github.com/DavinZhang/juju/agent"
 )
 
 // Logger represents the logging methods called.

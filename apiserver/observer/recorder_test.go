@@ -11,12 +11,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/observer"
-	"github.com/juju/juju/apiserver/observer/fakeobserver"
-	"github.com/juju/juju/apiserver/params"
-	apitesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/core/auditlog"
-	"github.com/juju/juju/rpc"
+	"github.com/DavinZhang/juju/apiserver/observer"
+	"github.com/DavinZhang/juju/apiserver/observer/fakeobserver"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apitesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/core/auditlog"
+	"github.com/DavinZhang/juju/rpc"
 )
 
 type recorderSuite struct {

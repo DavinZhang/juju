@@ -11,10 +11,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	unitfacade "github.com/juju/juju/apiserver/facades/agent/payloadshookcontext"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/payload"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	unitfacade "github.com/DavinZhang/juju/apiserver/facades/agent/payloadshookcontext"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/payload"
 )
 
 var _ = gc.Suite(&suite{})

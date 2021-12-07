@@ -6,9 +6,9 @@ package gce
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/context"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/context"
 )
 
 // PrecheckInstance verifies that the provided series and constraints

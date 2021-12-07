@@ -13,10 +13,10 @@ import (
 	"github.com/juju/errors"
 	"gopkg.in/macaroon.v2"
 
-	commoncharm "github.com/juju/juju/api/common/charm"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cmd/juju/common"
-	"github.com/juju/juju/version"
+	commoncharm "github.com/DavinZhang/juju/api/common/charm"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cmd/juju/common"
+	"github.com/DavinZhang/juju/version"
 )
 
 // AddCharmFromURL calls the appropriate client API calls to add the

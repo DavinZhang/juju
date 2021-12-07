@@ -19,12 +19,12 @@ import (
 	"github.com/lxc/lxd/shared"
 	"github.com/lxc/lxd/shared/api"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/container/lxd"
-	"github.com/juju/juju/environs"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/juju/osenv"
-	"github.com/juju/juju/provider/lxd/lxdnames"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/container/lxd"
+	"github.com/DavinZhang/juju/environs"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/juju/osenv"
+	"github.com/DavinZhang/juju/provider/lxd/lxdnames"
 )
 
 const (

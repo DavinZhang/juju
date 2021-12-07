@@ -8,11 +8,11 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/api/uniter"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/worker/common/charmrunner"
-	"github.com/juju/juju/worker/uniter/remotestate"
-	"github.com/juju/juju/worker/uniter/runner"
+	"github.com/DavinZhang/juju/api/uniter"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/worker/common/charmrunner"
+	"github.com/DavinZhang/juju/worker/uniter/remotestate"
+	"github.com/DavinZhang/juju/worker/uniter/runner"
 )
 
 type runAction struct {

@@ -4,9 +4,9 @@
 package ec2
 
 import (
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/environs/instances"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/environs/instances"
 )
 
 // filterImages returns only that subset of the input (in the same order) that

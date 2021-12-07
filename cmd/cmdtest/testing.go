@@ -7,7 +7,7 @@ import (
 	"github.com/juju/cmd/v3"
 	"github.com/juju/cmd/v3/cmdtesting"
 
-	"github.com/juju/juju/provider/dummy"
+	"github.com/DavinZhang/juju/provider/dummy"
 )
 
 // RunCommandWithDummyProvider runs the command and returns channels holding the

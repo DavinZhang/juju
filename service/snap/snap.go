@@ -21,8 +21,8 @@ import (
 	"github.com/juju/utils/v2"
 	"github.com/juju/utils/v2/shell"
 
-	"github.com/juju/juju/service/common"
-	"github.com/juju/juju/service/systemd"
+	"github.com/DavinZhang/juju/service/common"
+	"github.com/DavinZhang/juju/service/systemd"
 )
 
 const (

@@ -13,8 +13,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/state/backups"
-	bt "github.com/juju/juju/state/backups/testing"
+	"github.com/DavinZhang/juju/state/backups"
+	bt "github.com/DavinZhang/juju/state/backups/testing"
 )
 
 type archiveDataSuiteV0 struct {

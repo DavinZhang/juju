@@ -14,8 +14,8 @@ import (
 	dt "github.com/juju/worker/v3/dependency/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/worker/metrics/spool"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/worker/metrics/spool"
 )
 
 type ManifoldSuite struct {

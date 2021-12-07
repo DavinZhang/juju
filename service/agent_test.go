@@ -13,9 +13,9 @@ import (
 	"github.com/juju/utils/v2/shell"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/juju/osenv"
-	"github.com/juju/juju/service"
-	"github.com/juju/juju/service/common"
+	"github.com/DavinZhang/juju/juju/osenv"
+	"github.com/DavinZhang/juju/service"
+	"github.com/DavinZhang/juju/service/common"
 )
 
 var (

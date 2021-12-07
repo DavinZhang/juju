@@ -12,11 +12,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/logsender"
-	"github.com/juju/juju/apiserver/params"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/logsender"
+	"github.com/DavinZhang/juju/apiserver/params"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/version"
 )
 
 type LogSenderSuite struct {

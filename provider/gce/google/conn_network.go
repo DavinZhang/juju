@@ -12,7 +12,7 @@ import (
 	"github.com/juju/errors"
 	"google.golang.org/api/compute/v1"
 
-	corefirewall "github.com/juju/juju/core/network/firewall"
+	corefirewall "github.com/DavinZhang/juju/core/network/firewall"
 )
 
 // FirewallRules collects the firewall rules for the given name

@@ -15,13 +15,13 @@ import (
 	"github.com/juju/worker/v3"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cmd/jujud/agent/engine/enginetest"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/worker/common"
-	"github.com/juju/juju/worker/storageprovisioner"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/engine/enginetest"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/worker/common"
+	"github.com/DavinZhang/juju/worker/storageprovisioner"
 )
 
 type MachineManifoldSuite struct {

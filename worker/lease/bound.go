@@ -8,7 +8,7 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/core/lease"
+	"github.com/DavinZhang/juju/core/lease"
 )
 
 // broker describes methods for manipulating and checking leases.

@@ -18,14 +18,14 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/machinemanager"
-	"github.com/juju/juju/apiserver/params"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/series"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/machinemanager"
+	"github.com/DavinZhang/juju/apiserver/params"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // Actions

@@ -12,7 +12,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/resource"
+	"github.com/DavinZhang/juju/resource"
 )
 
 type ResourceSuite struct {

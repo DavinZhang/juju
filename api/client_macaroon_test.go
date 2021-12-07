@@ -11,10 +11,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	apitesting "github.com/juju/juju/api/testing"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/testcharms"
+	"github.com/DavinZhang/juju/api"
+	apitesting "github.com/DavinZhang/juju/api/testing"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/testcharms"
 )
 
 var _ = gc.Suite(&clientMacaroonSuite{})

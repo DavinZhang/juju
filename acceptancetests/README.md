@@ -38,7 +38,7 @@ Defaults currently are:  `(lxd, bionic, tempdir..)`. Those can be changed during
 
 To run `assess_min_version.py` test locally with lxd and locally compiled juju:
 ```shell script
-cd $GOPATH/src/github.com/juju/juju/acceptancetests
+cd $GOPATH/src/github.com/DavinZhang/juju/acceptancetests
 ./assess min_version
 ```
 
@@ -71,7 +71,7 @@ To run a test locally with lxd and locally complied juju:
             test-mode: true
             default-series: bionic
     ```
-  * ```export JUJU_REPOSITORY=$GOPATH/src/github.com/juju/juju/acceptancetests/repository```
+  * ```export JUJU_REPOSITORY=$GOPATH/src/github.com/DavinZhang/juju/acceptancetests/repository```
   * ```mkdir /tmp/artifacts```
   * Now you can run the test with:
      * ```$ ./assess_model_migration.py lxd $GOPATH/bin/juju /tmp/artifacts```

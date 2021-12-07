@@ -11,12 +11,12 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	basetesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/caasoperator"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/model"
+	basetesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/caasoperator"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/model"
 )
 
 type operatorSuite struct {

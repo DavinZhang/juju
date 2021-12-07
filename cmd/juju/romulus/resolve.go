@@ -8,8 +8,8 @@ import (
 	"github.com/juju/charm/v9"
 	"github.com/juju/charmrepo/v7"
 	"github.com/juju/errors"
-	"github.com/juju/juju/api/controller"
-	"github.com/juju/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/api/controller"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 // CharmResolver interface defines the functionality to resolve a charm URL.

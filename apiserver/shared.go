@@ -11,13 +11,13 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	jujucontroller "github.com/juju/juju/controller"
-	"github.com/juju/juju/core/cache"
-	"github.com/juju/juju/core/lease"
-	"github.com/juju/juju/core/multiwatcher"
-	"github.com/juju/juju/core/presence"
-	"github.com/juju/juju/pubsub/controller"
-	"github.com/juju/juju/state"
+	jujucontroller "github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/cache"
+	"github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/core/multiwatcher"
+	"github.com/DavinZhang/juju/core/presence"
+	"github.com/DavinZhang/juju/pubsub/controller"
+	"github.com/DavinZhang/juju/state"
 )
 
 // SharedHub represents the methods of the pubsub.StructuredHub

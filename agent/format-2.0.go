@@ -12,8 +12,8 @@ import (
 	"github.com/juju/version/v2"
 	goyaml "gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/model"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/model"
 )
 
 var format_2_0 = formatter_2_0{}

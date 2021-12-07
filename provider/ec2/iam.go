@@ -20,13 +20,13 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/retry"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/instances"
-	"github.com/juju/juju/environs/tags"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/instances"
+	"github.com/DavinZhang/juju/environs/tags"
 )
 
 // instanceProfileClient is a subset interface of the ec2 client for attaching

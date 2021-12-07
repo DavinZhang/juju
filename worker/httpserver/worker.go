@@ -25,8 +25,8 @@ import (
 	"github.com/juju/worker/v3/catacomb"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/juju/juju/apiserver/apiserverhttp"
-	"github.com/juju/juju/pubsub/apiserver"
+	"github.com/DavinZhang/juju/apiserver/apiserverhttp"
+	"github.com/DavinZhang/juju/pubsub/apiserver"
 )
 
 var (

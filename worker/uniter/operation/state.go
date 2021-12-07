@@ -8,8 +8,8 @@ import (
 	"github.com/juju/errors"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/worker/uniter/hook"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/worker/uniter/hook"
 )
 
 // Kind enumerates the operations the uniter can perform.
@@ -214,7 +214,7 @@ func NewStateOps(readwriter UnitStateReadWriter) *StateOps {
 
 // UnitStateReadWriter encapsulates the methods from a state.Unit
 // required to set and get unit state.
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/uniterstaterw_mock.go github.com/juju/juju/worker/uniter/operation UnitStateReadWriter
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/uniterstaterw_mock.go github.com/DavinZhang/juju/worker/uniter/operation UnitStateReadWriter
 type UnitStateReadWriter interface {
 	State() (params.UnitStateResult, error)
 	SetState(unitState params.SetUnitStateArg) error

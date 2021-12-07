@@ -9,7 +9,7 @@ import (
 	"github.com/juju/worker/v3"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/jujud/agent/engine"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/engine"
 )
 
 type ValueWorkerSuite struct {

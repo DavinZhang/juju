@@ -11,13 +11,13 @@ import (
 	"io"
 	"io/ioutil"
 
+	"github.com/DavinZhang/juju/core/resources"
 	charmresource "github.com/juju/charm/v9/resource"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/resources"
 	"gopkg.in/httprequest.v1"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/resource"
+	"github.com/DavinZhang/juju/resource"
 )
 
 // OpenedResourceClient exposes the API functionality needed by OpenResource.

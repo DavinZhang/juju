@@ -8,17 +8,17 @@
 package cloudinit
 
 import (
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	jujupackaging "github.com/DavinZhang/juju/packaging"
 	"github.com/juju/errors"
-	corenetwork "github.com/juju/juju/core/network"
-	jujupackaging "github.com/juju/juju/packaging"
 	"github.com/juju/packaging/v2"
 	"github.com/juju/packaging/v2/commands"
 	"github.com/juju/packaging/v2/config"
 	"github.com/juju/proxy"
 	"github.com/juju/utils/v2/shell"
 
-	"github.com/juju/juju/core/os"
-	"github.com/juju/juju/core/series"
+	"github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/core/series"
 )
 
 // CloudConfig is the interface of all cloud-init cloudconfig options.

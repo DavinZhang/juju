@@ -7,7 +7,7 @@ import (
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/mongo/utils"
+	"github.com/DavinZhang/juju/mongo/utils"
 )
 
 type dataCleansingSuite struct {

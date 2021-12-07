@@ -12,17 +12,17 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	facadestorage "github.com/juju/juju/apiserver/facades/client/storage"
-	"github.com/juju/juju/apiserver/params"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/storage/provider/dummy"
-	coretesting "github.com/juju/juju/testing"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	facadestorage "github.com/DavinZhang/juju/apiserver/facades/client/storage"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/storage/provider/dummy"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type storageSuite struct {

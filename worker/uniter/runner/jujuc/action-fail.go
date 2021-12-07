@@ -7,7 +7,7 @@ import (
 	"github.com/juju/cmd/v3"
 	"github.com/juju/gnuflag"
 
-	jujucmd "github.com/juju/juju/cmd"
+	jujucmd "github.com/DavinZhang/juju/cmd"
 )
 
 // ActionFailCommand implements the action-fail command.

@@ -14,13 +14,13 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	apitesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/auditlog"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/watcher/watchertest"
-	jujutesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/auditconfigupdater"
+	apitesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/auditlog"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/watcher/watchertest"
+	jujutesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/auditconfigupdater"
 )
 
 type updaterSuite struct {

@@ -11,13 +11,13 @@ import (
 	"github.com/juju/utils/v2/arch"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/core/constraints"
-	coreos "github.com/juju/juju/core/os"
-	coreseries "github.com/juju/juju/core/series"
-	"github.com/juju/juju/environs"
-	envtools "github.com/juju/juju/environs/tools"
-	coretools "github.com/juju/juju/tools"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/core/constraints"
+	coreos "github.com/DavinZhang/juju/core/os"
+	coreseries "github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/environs"
+	envtools "github.com/DavinZhang/juju/environs/tools"
+	coretools "github.com/DavinZhang/juju/tools"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 var (

@@ -8,13 +8,13 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/base"
-	internalclient "github.com/juju/juju/api/resources/private/client"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/context"
-	contextcmd "github.com/juju/juju/resource/context/cmd"
-	unitercontext "github.com/juju/juju/worker/uniter/runner/context"
-	"github.com/juju/juju/worker/uniter/runner/jujuc"
+	"github.com/DavinZhang/juju/api/base"
+	internalclient "github.com/DavinZhang/juju/api/resources/private/client"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/context"
+	contextcmd "github.com/DavinZhang/juju/resource/context/cmd"
+	unitercontext "github.com/DavinZhang/juju/worker/uniter/runner/context"
+	"github.com/DavinZhang/juju/worker/uniter/runner/jujuc"
 )
 
 // resources exposes the registration methods needed

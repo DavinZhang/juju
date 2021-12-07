@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/juju/juju/docker"
+	"github.com/DavinZhang/juju/docker"
 )
 
 type gitlabContainerRegistry struct {

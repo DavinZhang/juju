@@ -14,7 +14,7 @@ import (
 	jujutxn "github.com/juju/txn/v2"
 	"github.com/kr/pretty"
 
-	"github.com/juju/juju/resource"
+	"github.com/DavinZhang/juju/resource"
 )
 
 // ResourcePersistenceBase exposes the core persistence functionality

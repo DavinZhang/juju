@@ -8,10 +8,10 @@ import (
 
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/status"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/status"
 )
 
 // UserModel holds information about a model and the last

@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/Azure/go-autorest/autorest/adal"
+	"github.com/DavinZhang/juju/provider/azure/internal/azurecli"
 	"github.com/juju/errors"
-	"github.com/juju/juju/provider/azure/internal/azurecli"
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 )

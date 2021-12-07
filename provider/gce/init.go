@@ -3,7 +3,7 @@
 
 package gce
 
-import "github.com/juju/juju/environs"
+import "github.com/DavinZhang/juju/environs"
 
 const (
 	providerType = "gce"

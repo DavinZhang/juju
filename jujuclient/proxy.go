@@ -7,7 +7,7 @@ import (
 	"github.com/juju/errors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/juju/juju/proxy"
+	"github.com/DavinZhang/juju/proxy"
 )
 
 const (

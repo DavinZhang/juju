@@ -7,12 +7,12 @@ import (
 	jujuclock "github.com/juju/clock"
 	"github.com/juju/errors"
 
-	k8s "github.com/juju/juju/caas/kubernetes"
-	"github.com/juju/juju/caas/kubernetes/clientconfig"
-	k8scloud "github.com/juju/juju/caas/kubernetes/cloud"
-	"github.com/juju/juju/caas/kubernetes/provider/constants"
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs"
+	k8s "github.com/DavinZhang/juju/caas/kubernetes"
+	"github.com/DavinZhang/juju/caas/kubernetes/clientconfig"
+	k8scloud "github.com/DavinZhang/juju/caas/kubernetes/cloud"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs"
 )
 
 type environProviderCredentials struct {

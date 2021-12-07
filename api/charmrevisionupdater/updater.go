@@ -4,8 +4,8 @@
 package charmrevisionupdater
 
 import (
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/apiserver/params"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 // Client provides access to a worker's view of the state.

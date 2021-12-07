@@ -13,7 +13,7 @@ import (
 	"github.com/juju/mgo/v2"
 	"github.com/juju/mgo/v2/bson"
 
-	"github.com/juju/juju/mongo"
+	"github.com/DavinZhang/juju/mongo"
 )
 
 // pruneCollection removes collection entries until

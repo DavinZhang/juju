@@ -14,10 +14,10 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs/filestorage"
-	"github.com/juju/juju/environs/simplestreams"
-	"github.com/juju/juju/environs/storage"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/environs/filestorage"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/environs/storage"
+	"github.com/DavinZhang/juju/testing"
 )
 
 func TestPackage(t *stdtesting.T) {

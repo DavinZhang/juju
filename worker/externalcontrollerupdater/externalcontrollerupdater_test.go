@@ -14,11 +14,11 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/crosscontroller"
-	"github.com/juju/juju/core/crossmodel"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/externalcontrollerupdater"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/crosscontroller"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/externalcontrollerupdater"
 )
 
 var _ = gc.Suite(&ExternalControllerUpdaterSuite{})

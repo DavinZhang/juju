@@ -11,20 +11,20 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/caas/specs"
-	"github.com/juju/juju/core/application"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/devices"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/resources"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/docker"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/caas/specs"
+	"github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/devices"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/resources"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/docker"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/storage"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/broker_mock.go github.com/juju/juju/caas Broker
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/broker_mock.go github.com/DavinZhang/juju/caas Broker
 
 // ContainerEnvironProvider represents a computing and storage provider
 // for a container runtime.

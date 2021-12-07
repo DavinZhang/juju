@@ -14,10 +14,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/common/charmrunner"
-	"github.com/juju/juju/worker/meterstatus"
-	"github.com/juju/juju/worker/meterstatus/mocks"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/common/charmrunner"
+	"github.com/DavinZhang/juju/worker/meterstatus"
+	"github.com/DavinZhang/juju/worker/meterstatus/mocks"
 )
 
 type ConnectedWorkerSuite struct {

@@ -7,8 +7,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/provider/oci"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/provider/oci"
+	"github.com/DavinZhang/juju/storage"
 )
 
 type storageSuite struct {

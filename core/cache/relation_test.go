@@ -4,7 +4,7 @@
 package cache_test
 
 import (
-	"github.com/juju/juju/core/cache"
+	"github.com/DavinZhang/juju/core/cache"
 )
 
 // Mostly a placeholder file at this stage.

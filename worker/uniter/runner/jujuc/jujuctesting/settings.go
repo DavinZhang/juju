@@ -4,7 +4,7 @@
 package jujuctesting
 
 import (
-	"github.com/juju/juju/apiserver/params"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 // Settings is a test double for jujuc.Settings.

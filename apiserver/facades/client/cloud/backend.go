@@ -6,13 +6,13 @@ package cloud
 import (
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/apiserver/common/credentialcommon"
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/common/credentialcommon"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/state"
 )
 
 type Backend interface {

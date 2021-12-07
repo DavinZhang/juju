@@ -6,7 +6,7 @@ package modelcmd_test
 import (
 	"testing"
 
-	coretesting "github.com/juju/juju/testing"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 func Test(t *testing.T) {

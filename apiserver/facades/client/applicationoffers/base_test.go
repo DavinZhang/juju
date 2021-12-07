@@ -10,16 +10,16 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/common/crossmodel"
-	"github.com/juju/juju/apiserver/facades/client/applicationoffers"
-	"github.com/juju/juju/apiserver/testing"
-	jujucrossmodel "github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/common/crossmodel"
+	"github.com/DavinZhang/juju/apiserver/facades/client/applicationoffers"
+	"github.com/DavinZhang/juju/apiserver/testing"
+	jujucrossmodel "github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 const (

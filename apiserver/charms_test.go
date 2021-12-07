@@ -23,16 +23,16 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/params"
-	apitesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/feature"
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/storage"
-	"github.com/juju/juju/testcharms"
-	"github.com/juju/juju/testing/factory"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apitesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/feature"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/storage"
+	"github.com/DavinZhang/juju/testcharms"
+	"github.com/DavinZhang/juju/testing/factory"
 )
 
 type charmsSuite struct {

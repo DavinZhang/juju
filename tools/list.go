@@ -11,8 +11,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/version/v2"
 
-	coreos "github.com/juju/juju/core/os"
-	coreseries "github.com/juju/juju/core/series"
+	coreos "github.com/DavinZhang/juju/core/os"
+	coreseries "github.com/DavinZhang/juju/core/series"
 )
 
 // List holds tools available in an environment. The order of tools within

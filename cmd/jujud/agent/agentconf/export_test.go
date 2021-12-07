@@ -4,7 +4,7 @@
 package agentconf
 
 import (
-	"github.com/juju/juju/agent"
+	"github.com/DavinZhang/juju/agent"
 )
 
 func NewAgentConfForTest(dataDir string, cfg agent.ConfigSetterWriter) AgentConf {

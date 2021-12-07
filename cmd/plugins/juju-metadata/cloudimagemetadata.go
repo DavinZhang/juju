@@ -4,8 +4,8 @@
 package main
 
 import (
-	"github.com/juju/juju/api/imagemetadatamanager"
-	"github.com/juju/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/api/imagemetadatamanager"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 type cloudImageMetadataCommandBase struct {

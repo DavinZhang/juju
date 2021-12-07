@@ -6,11 +6,11 @@ package caasoperatorprovisioner
 import (
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/apiserver/common"
-	charmscommon "github.com/juju/juju/apiserver/common/charms"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/common"
+	charmscommon "github.com/DavinZhang/juju/apiserver/common/charms"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/state"
 )
 
 // CAASOperatorProvisionerState provides the subset of model state

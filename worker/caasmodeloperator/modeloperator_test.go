@@ -9,10 +9,10 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	modeloperatorapi "github.com/juju/juju/api/caasmodeloperator"
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/core/resources"
-	"github.com/juju/juju/worker/caasmodeloperator"
+	modeloperatorapi "github.com/DavinZhang/juju/api/caasmodeloperator"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/core/resources"
+	"github.com/DavinZhang/juju/worker/caasmodeloperator"
 )
 
 type dummyAPI struct {
@@ -70,7 +70,7 @@ func (m *ModelOperatorManagerSuite) TestModelOperatorManagerConstruction(c *gc.C
 		apiAddresses = []string{"fe80:abcd::1"}
 		apiCalled    = false
 		brokerCalled = false
-		imagePath    = "juju/jujud:1"
+		imagePath    = "DavinZhang/jujud:1"
 		modelUUID    = "deadbeef-0bad-400d-8000-4b1d0d06f00d"
 		ver          = version.MustParse("2.8.2")
 	)

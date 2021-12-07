@@ -17,7 +17,7 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/macaroon.v2"
 
-	corecharm "github.com/juju/juju/core/charm"
+	corecharm "github.com/DavinZhang/juju/core/charm"
 )
 
 var _ = gc.Suite(&downloaderSuite{})

@@ -12,10 +12,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/gnuflag"
 
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/worker/uniter/runner/jujuc"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/worker/uniter/runner/jujuc"
 )
 
 // dummyHookContext implements hooks.Context,

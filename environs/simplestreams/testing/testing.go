@@ -16,9 +16,9 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/series"
-	"github.com/juju/juju/environs/simplestreams"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/testing"
 )
 
 var PrivateKeyPassphrase = "12345"

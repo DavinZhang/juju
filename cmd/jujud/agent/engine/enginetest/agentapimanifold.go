@@ -8,10 +8,10 @@ import (
 	"github.com/juju/worker/v3/dependency"
 	dt "github.com/juju/worker/v3/dependency/testing"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	basetesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/cmd/jujud/agent/engine"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	basetesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/engine"
 )
 
 // AgentAPIManifoldTestConfig returns a AgentAPIManifoldConfig

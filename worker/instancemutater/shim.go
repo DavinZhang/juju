@@ -4,8 +4,8 @@
 package instancemutater
 
 import (
-	"github.com/juju/juju/api/base"
-	apiinstancemutater "github.com/juju/juju/api/instancemutater"
+	"github.com/DavinZhang/juju/api/base"
+	apiinstancemutater "github.com/DavinZhang/juju/api/instancemutater"
 )
 
 func NewClient(apiCaller base.APICaller) InstanceMutaterAPI {

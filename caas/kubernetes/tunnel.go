@@ -26,7 +26,7 @@ import (
 	"k8s.io/client-go/tools/portforward"
 	"k8s.io/client-go/transport/spdy"
 
-	"github.com/juju/juju/caas/kubernetes/pod"
+	"github.com/DavinZhang/juju/caas/kubernetes/pod"
 )
 
 const (

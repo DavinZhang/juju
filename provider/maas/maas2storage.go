@@ -14,7 +14,7 @@ import (
 	"github.com/juju/gomaasapi/v2"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/environs/storage"
+	"github.com/DavinZhang/juju/environs/storage"
 )
 
 type maas2Storage struct {

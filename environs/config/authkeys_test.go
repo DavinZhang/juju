@@ -7,7 +7,7 @@ import (
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/config"
 )
 
 type AuthKeysSuite struct {

@@ -18,8 +18,8 @@ import (
 	"github.com/aws/smithy-go/logging"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/docker"
-	"github.com/juju/juju/tools"
+	"github.com/DavinZhang/juju/docker"
+	"github.com/DavinZhang/juju/tools"
 )
 
 // The ECR auth token expires after 12 hours.
@@ -36,7 +36,7 @@ func (l ecrLogger) Write(p []byte) (n int, err error) {
 	return len(p), nil
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/ecr_mock.go github.com/juju/juju/docker/registry/internal ECRInterface
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/ecr_mock.go github.com/DavinZhang/juju/docker/registry/internal ECRInterface
 type ECRInterface interface {
 	GetAuthorizationToken(context.Context, *ecr.GetAuthorizationTokenInput, ...func(*ecr.Options)) (*ecr.GetAuthorizationTokenOutput, error)
 }

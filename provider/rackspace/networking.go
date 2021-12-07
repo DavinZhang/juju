@@ -6,7 +6,7 @@ package rackspace
 import (
 	"github.com/go-goose/goose/v4/nova"
 
-	"github.com/juju/juju/provider/openstack"
+	"github.com/DavinZhang/juju/provider/openstack"
 )
 
 type rackspaceNetworkingDecorator struct{}

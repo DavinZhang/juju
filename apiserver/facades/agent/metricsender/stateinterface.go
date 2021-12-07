@@ -8,9 +8,9 @@ package metricsender
 import (
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/state"
 )
 
 // ModelBackend contains methods that are used by the metrics sender.

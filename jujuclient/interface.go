@@ -8,9 +8,9 @@ import (
 
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/model"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/model"
 )
 
 // ControllerDetails holds the details needed to connect to a controller.

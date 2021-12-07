@@ -9,8 +9,8 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/catacomb"
 
-	corewatcher "github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/state"
+	corewatcher "github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/state"
 )
 
 type unitIDWatcher struct {

@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
 	"github.com/juju/errors"
 	"github.com/juju/jsonschema"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
 	"github.com/juju/schema"
 
 	"github.com/packethost/packngo"

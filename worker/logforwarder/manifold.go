@@ -8,10 +8,10 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	apiagent "github.com/juju/juju/api/agent"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/logstream"
-	"github.com/juju/juju/apiserver/params"
+	apiagent "github.com/DavinZhang/juju/api/agent"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/logstream"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 // Logger represents the methods used by the worker to log details.

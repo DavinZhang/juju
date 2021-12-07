@@ -26,9 +26,9 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/utils/v2/shell"
 
-	"github.com/juju/juju/core/paths"
-	"github.com/juju/juju/service/common"
-	"github.com/juju/juju/service/systemd"
+	"github.com/DavinZhang/juju/core/paths"
+	"github.com/DavinZhang/juju/service/common"
+	"github.com/DavinZhang/juju/service/systemd"
 )
 
 type SystemdServiceManager interface {

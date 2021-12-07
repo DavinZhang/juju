@@ -10,14 +10,14 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/worker/v3"
 
-	"github.com/juju/juju/api/common"
-	"github.com/juju/juju/apiserver/params"
-	corelife "github.com/juju/juju/core/life"
-	corenetwork "github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/network"
-	jworker "github.com/juju/juju/worker"
+	"github.com/DavinZhang/juju/api/common"
+	"github.com/DavinZhang/juju/apiserver/params"
+	corelife "github.com/DavinZhang/juju/core/life"
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/network"
+	jworker "github.com/DavinZhang/juju/worker"
 )
 
 var logger = loggo.GetLogger("juju.worker.machiner")

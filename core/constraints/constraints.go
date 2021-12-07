@@ -14,7 +14,7 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/utils/v2/arch"
 
-	"github.com/juju/juju/core/instance"
+	"github.com/DavinZhang/juju/core/instance"
 )
 
 // The following constants list the supported constraint attribute names, as defined

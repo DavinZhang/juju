@@ -9,12 +9,12 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/names/v4"
 
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/bootstrap"
-	"github.com/juju/juju/jujuclient"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/bootstrap"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 var usageUpgradeControllerSummary = `

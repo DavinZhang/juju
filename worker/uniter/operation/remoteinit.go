@@ -4,7 +4,7 @@
 package operation
 
 import (
-	"github.com/juju/juju/worker/uniter/remotestate"
+	"github.com/DavinZhang/juju/worker/uniter/remotestate"
 )
 
 type remoteInit struct {

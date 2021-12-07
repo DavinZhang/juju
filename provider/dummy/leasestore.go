@@ -10,8 +10,8 @@ import (
 	"github.com/juju/clock"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/core/lease"
-	"github.com/juju/juju/core/raftlease"
+	"github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/core/raftlease"
 )
 
 // leaseStore implements lease.Store as simply as possible for use in

@@ -26,29 +26,29 @@ import (
 	"github.com/juju/utils/v2/exec"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/agent/addons"
-	k8sexec "github.com/juju/juju/caas/kubernetes/provider/exec"
-	jujucmd "github.com/juju/juju/cmd"
-	agentcmd "github.com/juju/juju/cmd/jujud/agent"
-	"github.com/juju/juju/cmd/jujud/agent/agentconf"
-	"github.com/juju/juju/cmd/jujud/agent/caasoperator"
-	"github.com/juju/juju/cmd/jujud/agent/config"
-	"github.com/juju/juju/cmd/jujud/dumplogs"
-	"github.com/juju/juju/cmd/jujud/introspect"
-	"github.com/juju/juju/cmd/jujud/run"
-	components "github.com/juju/juju/component/all"
-	"github.com/juju/juju/core/machinelock"
-	coreos "github.com/juju/juju/core/os"
-	jujunames "github.com/juju/juju/juju/names"
-	"github.com/juju/juju/juju/sockets"
-	"github.com/juju/juju/upgrades"
-	"github.com/juju/juju/utils/proxy"
-	jujuversion "github.com/juju/juju/version"
-	"github.com/juju/juju/worker/logsender"
-	"github.com/juju/juju/worker/uniter/runner/jujuc"
+	"github.com/DavinZhang/juju/agent/addons"
+	k8sexec "github.com/DavinZhang/juju/caas/kubernetes/provider/exec"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	agentcmd "github.com/DavinZhang/juju/cmd/jujud/agent"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/agentconf"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/caasoperator"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/config"
+	"github.com/DavinZhang/juju/cmd/jujud/dumplogs"
+	"github.com/DavinZhang/juju/cmd/jujud/introspect"
+	"github.com/DavinZhang/juju/cmd/jujud/run"
+	components "github.com/DavinZhang/juju/component/all"
+	"github.com/DavinZhang/juju/core/machinelock"
+	coreos "github.com/DavinZhang/juju/core/os"
+	jujunames "github.com/DavinZhang/juju/juju/names"
+	"github.com/DavinZhang/juju/juju/sockets"
+	"github.com/DavinZhang/juju/upgrades"
+	"github.com/DavinZhang/juju/utils/proxy"
+	jujuversion "github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/worker/logsender"
+	"github.com/DavinZhang/juju/worker/uniter/runner/jujuc"
 
 	// Import the providers.
-	_ "github.com/juju/juju/provider/all"
+	_ "github.com/DavinZhang/juju/provider/all"
 )
 
 var logger = loggo.GetLogger("juju.cmd.jujud")
@@ -196,7 +196,7 @@ func hookToolMain(commandName string, ctx *cmd.Context, args []string) (code int
 	return resp.Code, nil
 }
 
-// versionDetail is populated with version information from juju/juju/cmd
+// versionDetail is populated with version information from DavinZhang/juju/cmd
 // and passed into each SuperCommand. It can be printed using `juju version --all`.
 type versionDetail struct {
 	// Version of the current binary.
@@ -250,7 +250,7 @@ func jujuDMain(args []string, ctx *cmd.Context) (code int, err error) {
 		Doc:  jujudDoc,
 		Log:  jujucmd.DefaultLog,
 		// p.Version should be a version.Binary, but juju/cmd does not
-		// import juju/juju/version so this cannot happen. We have
+		// import DavinZhang/juju/version so this cannot happen. We have
 		// tests to assert that this string value is correct.
 		Version:       detail.Version,
 		VersionDetail: detail,

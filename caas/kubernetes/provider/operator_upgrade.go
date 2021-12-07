@@ -17,9 +17,9 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/caas/kubernetes/provider/utils"
-	"github.com/juju/juju/cloudconfig/podcfg"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/utils"
+	"github.com/DavinZhang/juju/cloudconfig/podcfg"
 )
 
 type upgradeCAASOperatorBridge struct {

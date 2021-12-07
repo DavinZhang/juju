@@ -10,9 +10,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/jujuclient"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 var (
@@ -220,7 +220,7 @@ func RegisterCredentials(provider environs.EnvironProvider, args RegisterCredent
 	return nil, nil
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package modelcmd -destination cloudprovider_mock_test.go github.com/juju/juju/cmd/modelcmd TestCloudProvider
+//go:generate go run github.com/golang/mock/mockgen -package modelcmd -destination cloudprovider_mock_test.go github.com/DavinZhang/juju/cmd/modelcmd TestCloudProvider
 
 // TestCloudProvider is used for testing.
 type TestCloudProvider interface {

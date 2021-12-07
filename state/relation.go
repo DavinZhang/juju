@@ -17,9 +17,9 @@ import (
 	"github.com/juju/names/v4"
 	jujutxn "github.com/juju/txn/v2"
 
-	"github.com/juju/juju/core/leadership"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/core/status"
+	"github.com/DavinZhang/juju/core/leadership"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/core/status"
 )
 
 // relationKey returns a string describing the relation defined by

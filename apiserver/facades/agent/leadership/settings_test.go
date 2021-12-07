@@ -10,9 +10,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/facades/agent/leadership"
-	"github.com/juju/juju/apiserver/params"
-	coreleadership "github.com/juju/juju/core/leadership"
+	"github.com/DavinZhang/juju/apiserver/facades/agent/leadership"
+	"github.com/DavinZhang/juju/apiserver/params"
+	coreleadership "github.com/DavinZhang/juju/core/leadership"
 )
 
 // TODO(fwereade): this is *severely* undertested.

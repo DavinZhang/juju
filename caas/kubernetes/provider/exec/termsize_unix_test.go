@@ -15,9 +15,9 @@ import (
 	gc "gopkg.in/check.v1"
 	"k8s.io/client-go/tools/remotecommand"
 
-	"github.com/juju/juju/caas/kubernetes/provider/exec"
-	"github.com/juju/juju/caas/kubernetes/provider/exec/mocks"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/exec"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/exec/mocks"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type termSizeSuite struct {

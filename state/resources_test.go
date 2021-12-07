@@ -11,14 +11,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/component/all"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/resourcetesting"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/component/all"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/resourcetesting"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/resources_mock.go github.com/juju/juju/state Resources
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/resources_mock.go github.com/DavinZhang/juju/state Resources
 
 func init() {
 	if err := all.RegisterForServer(); err != nil {

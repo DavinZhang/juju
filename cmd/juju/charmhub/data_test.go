@@ -8,7 +8,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/charmhub"
+	"github.com/DavinZhang/juju/api/charmhub"
 )
 
 type filterSuite struct {

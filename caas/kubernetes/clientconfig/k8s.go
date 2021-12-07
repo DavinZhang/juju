@@ -14,8 +14,8 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 
-	k8scloud "github.com/juju/juju/caas/kubernetes/cloud"
-	"github.com/juju/juju/cloud"
+	k8scloud "github.com/DavinZhang/juju/caas/kubernetes/cloud"
+	"github.com/DavinZhang/juju/cloud"
 )
 
 var logger = loggo.GetLogger("juju.caas.kubernetes.clientconfig")

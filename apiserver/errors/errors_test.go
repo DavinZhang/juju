@@ -16,14 +16,14 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/macaroon.v2"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/leadership"
-	"github.com/juju/juju/core/lease"
-	"github.com/juju/juju/core/network"
-	stateerrors "github.com/juju/juju/state/errors"
-	"github.com/juju/juju/testing"
-	jujuversion "github.com/juju/juju/version"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/leadership"
+	"github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/core/network"
+	stateerrors "github.com/DavinZhang/juju/state/errors"
+	"github.com/DavinZhang/juju/testing"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 type errorsSuite struct {

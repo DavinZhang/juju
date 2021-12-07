@@ -21,15 +21,15 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/base"
-	apicommoncharms "github.com/juju/juju/api/common/charms"
-	"github.com/juju/juju/api/resources/client"
-	"github.com/juju/juju/cmd/juju/application/store"
-	"github.com/juju/juju/cmd/juju/application/utils"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/testcharms"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/base"
+	apicommoncharms "github.com/DavinZhang/juju/api/common/charms"
+	"github.com/DavinZhang/juju/api/resources/client"
+	"github.com/DavinZhang/juju/cmd/juju/application/store"
+	"github.com/DavinZhang/juju/cmd/juju/application/utils"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/testcharms"
 )
 
 type RefreshResourceSuite struct {

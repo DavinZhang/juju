@@ -7,7 +7,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/caas/specs"
+	"github.com/DavinZhang/juju/caas/specs"
 )
 
 func (s *typesSuite) TestServiceAccountSpecV2Validate(c *gc.C) {

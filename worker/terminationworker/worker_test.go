@@ -11,8 +11,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/worker"
-	"github.com/juju/juju/worker/terminationworker"
+	"github.com/DavinZhang/juju/worker"
+	"github.com/DavinZhang/juju/worker/terminationworker"
 )
 
 func TestPackage(t *testing.T) {

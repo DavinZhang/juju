@@ -4,11 +4,11 @@
 package filesystemwatcher_test
 
 import (
+	"github.com/DavinZhang/juju/state"
 	"github.com/juju/errors"
-	"github.com/juju/juju/state"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/state/watcher/watchertest"
+	"github.com/DavinZhang/juju/state/watcher/watchertest"
 )
 
 type mockBackend struct {

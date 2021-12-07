@@ -10,17 +10,17 @@ import (
 	"github.com/juju/testing"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/apiserver/common"
-	charmscommon "github.com/juju/juju/apiserver/common/charms"
-	"github.com/juju/juju/apiserver/facades/controller/caasoperatorprovisioner"
-	k8sconstants "github.com/juju/juju/caas/kubernetes/provider/constants"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/storage/poolmanager"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/common"
+	charmscommon "github.com/DavinZhang/juju/apiserver/common/charms"
+	"github.com/DavinZhang/juju/apiserver/facades/controller/caasoperatorprovisioner"
+	k8sconstants "github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/storage/poolmanager"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type mockState struct {

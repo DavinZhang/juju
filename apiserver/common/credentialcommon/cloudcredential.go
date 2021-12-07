@@ -4,8 +4,8 @@
 package credentialcommon
 
 import (
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 // StateBackend exposes State methods needed by credential manager.

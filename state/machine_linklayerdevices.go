@@ -14,7 +14,7 @@ import (
 	"github.com/juju/mgo/v2/txn"
 	jujutxn "github.com/juju/txn/v2"
 
-	corenetwork "github.com/juju/juju/core/network"
+	corenetwork "github.com/DavinZhang/juju/core/network"
 )
 
 // LinkLayerDevice returns the link-layer device matching the given name. An

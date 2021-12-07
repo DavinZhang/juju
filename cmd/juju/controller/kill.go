@@ -13,15 +13,15 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/gnuflag"
 
-	"github.com/juju/juju/api/controller"
-	"github.com/juju/juju/api/credentialmanager"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/cloud"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/config"
+	"github.com/DavinZhang/juju/api/controller"
+	"github.com/DavinZhang/juju/api/credentialmanager"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/cloud"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/config"
 )
 
 const killDoc = `

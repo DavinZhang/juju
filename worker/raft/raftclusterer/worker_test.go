@@ -14,12 +14,12 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/pubsub/apiserver"
-	"github.com/juju/juju/pubsub/centralhub"
-	coretesting "github.com/juju/juju/testing"
-	jujuraft "github.com/juju/juju/worker/raft"
-	"github.com/juju/juju/worker/raft/raftclusterer"
-	"github.com/juju/juju/worker/raft/rafttest"
+	"github.com/DavinZhang/juju/pubsub/apiserver"
+	"github.com/DavinZhang/juju/pubsub/centralhub"
+	coretesting "github.com/DavinZhang/juju/testing"
+	jujuraft "github.com/DavinZhang/juju/worker/raft"
+	"github.com/DavinZhang/juju/worker/raft/raftclusterer"
+	"github.com/DavinZhang/juju/worker/raft/rafttest"
 )
 
 type workerFixture struct {

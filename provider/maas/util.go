@@ -12,9 +12,9 @@ import (
 	"github.com/juju/utils/v2"
 	goyaml "gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/cloudconfig/cloudinit"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/paths"
+	"github.com/DavinZhang/juju/cloudconfig/cloudinit"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/paths"
 )
 
 // extractSystemId extracts the 'system_id' part from an InstanceId.

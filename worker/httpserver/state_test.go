@@ -8,7 +8,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	statetesting "github.com/juju/juju/state/testing"
+	statetesting "github.com/DavinZhang/juju/state/testing"
 )
 
 type stateFixture struct {

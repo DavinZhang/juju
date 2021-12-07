@@ -12,8 +12,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/retry"
 
-	"github.com/juju/juju/charmstore"
-	"github.com/juju/juju/resource/repositories"
+	"github.com/DavinZhang/juju/charmstore"
+	"github.com/DavinZhang/juju/resource/repositories"
 )
 
 // ResourceRetryClient is a wrapper around a Juju repository client that

@@ -6,9 +6,9 @@ package externalcontrollerupdater_test
 import (
 	"gopkg.in/tomb.v2"
 
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/state"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/state"
 )
 
 type mockExternalControllers struct {

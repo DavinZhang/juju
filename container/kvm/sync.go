@@ -14,13 +14,13 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/DavinZhang/juju/core/paths"
+	"github.com/DavinZhang/juju/environs/imagedownloads"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/environs/simplestreams"
 	"github.com/dustin/go-humanize"
 	"github.com/juju/clock"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/paths"
-	"github.com/juju/juju/environs/imagedownloads"
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/environs/simplestreams"
 )
 
 // BIOSFType is the file type we want to fetch and use for kvm instances which

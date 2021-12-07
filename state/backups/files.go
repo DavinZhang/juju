@@ -9,12 +9,12 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/mongo"
+	"github.com/DavinZhang/juju/mongo"
 )
 
 // TODO(ericsnow) lp-1392876
 // Pull these from authoritative sources (see
-// github.com/juju/juju/juju/paths, etc.):
+// github.com/DavinZhang/juju/juju/paths, etc.):
 const (
 	sshDir = "/home/ubuntu/.ssh"
 

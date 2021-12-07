@@ -3,7 +3,7 @@
 
 package lease
 
-import "github.com/juju/juju/core/lease"
+import "github.com/DavinZhang/juju/core/lease"
 
 const (
 	MaxRetries         = maxRetries

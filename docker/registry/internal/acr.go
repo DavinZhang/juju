@@ -10,8 +10,8 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/docker"
-	"github.com/juju/juju/tools"
+	"github.com/DavinZhang/juju/docker"
+	"github.com/DavinZhang/juju/tools"
 )
 
 type azureContainerRegistry struct {

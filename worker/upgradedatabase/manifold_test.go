@@ -4,15 +4,15 @@
 package upgradedatabase_test
 
 import (
+	"github.com/DavinZhang/juju/state"
 	"github.com/golang/mock/gomock"
 	"github.com/juju/clock"
 	"github.com/juju/errors"
-	"github.com/juju/juju/state"
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/worker/upgradedatabase"
-	. "github.com/juju/juju/worker/upgradedatabase/mocks"
+	"github.com/DavinZhang/juju/worker/upgradedatabase"
+	. "github.com/DavinZhang/juju/worker/upgradedatabase/mocks"
 )
 
 type manifoldSuite struct {

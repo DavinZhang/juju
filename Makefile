@@ -2,7 +2,7 @@
 # Makefile for juju-core.
 #
 PROJECT_DIR := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
-PROJECT := github.com/juju/juju
+PROJECT := github.com/DavinZhang/juju
 
 GOOS=$(shell go env GOOS)
 GOARCH=$(shell go env GOARCH)
@@ -14,12 +14,12 @@ BUILD_DIR ?= $(PROJECT_DIR)/_build
 BIN_DIR = ${BUILD_DIR}/${GOOS}_${GOARCH}/bin
 
 define MAIN_PACKAGES
-  github.com/juju/juju/cmd/juju
-  github.com/juju/juju/cmd/jujuc
-  github.com/juju/juju/cmd/jujud
-  github.com/juju/juju/cmd/containeragent
-  github.com/juju/juju/cmd/plugins/juju-metadata
-  github.com/juju/juju/cmd/plugins/juju-wait-for
+  github.com/DavinZhang/juju/cmd/juju
+  github.com/DavinZhang/juju/cmd/jujuc
+  github.com/DavinZhang/juju/cmd/jujud
+  github.com/DavinZhang/juju/cmd/containeragent
+  github.com/DavinZhang/juju/cmd/plugins/juju-metadata
+  github.com/DavinZhang/juju/cmd/plugins/juju-wait-for
 endef
 
 ifeq ($(GOOS),linux)

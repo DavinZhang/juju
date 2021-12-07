@@ -12,8 +12,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/multiwatcher"
-	"github.com/juju/juju/worker/multiwatcher/testbacking"
+	"github.com/DavinZhang/juju/core/multiwatcher"
+	"github.com/DavinZhang/juju/worker/multiwatcher/testbacking"
 )
 
 type workerSuite struct {

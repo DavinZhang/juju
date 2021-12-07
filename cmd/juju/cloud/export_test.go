@@ -6,12 +6,12 @@ package cloud
 import (
 	"github.com/juju/cmd/v3"
 
-	jujucloud "github.com/juju/juju/cloud"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/context"
-	sstesting "github.com/juju/juju/environs/simplestreams/testing"
-	"github.com/juju/juju/jujuclient"
+	jujucloud "github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/context"
+	sstesting "github.com/DavinZhang/juju/environs/simplestreams/testing"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 var (

@@ -10,9 +10,9 @@ import (
 	"github.com/vmware/govmomi/vim25/types"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/provider/vsphere/internal/vsphereclient"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/provider/vsphere/internal/vsphereclient"
 )
 
 type environPolSuite struct {

@@ -17,12 +17,12 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/utils/v2/arch"
 
-	"github.com/juju/juju/core/os"
-	jujuseries "github.com/juju/juju/core/series"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/environs/instances"
-	"github.com/juju/juju/provider/azure/internal/errorutils"
+	"github.com/DavinZhang/juju/core/os"
+	jujuseries "github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/environs/instances"
+	"github.com/DavinZhang/juju/provider/azure/internal/errorutils"
 )
 
 var logger = loggo.GetLogger("juju.provider.azure")

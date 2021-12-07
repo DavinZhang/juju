@@ -11,17 +11,17 @@ import (
 	"gopkg.in/macaroon.v2"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/apiserver/common/cloudspec"
-	"github.com/juju/juju/apiserver/common/firewall"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/network"
-	corefirewall "github.com/juju/juju/core/network/firewall"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/common/cloudspec"
+	"github.com/DavinZhang/juju/apiserver/common/firewall"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/network"
+	corefirewall "github.com/DavinZhang/juju/core/network/firewall"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type mockCloudSpecAPI struct {

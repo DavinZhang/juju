@@ -4,8 +4,8 @@
 package migrationminion
 
 import (
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/state"
 )
 
 // NewFacade provides the signature required for facade registration.

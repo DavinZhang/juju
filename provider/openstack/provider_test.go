@@ -18,13 +18,13 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/network/firewall"
-	"github.com/juju/juju/environs"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/context"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/network/firewall"
+	"github.com/DavinZhang/juju/environs"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/context"
 )
 
 // localTests contains tests which do not require a live service or test double to run.
@@ -34,7 +34,7 @@ type localTests struct {
 
 var _ = gc.Suite(&localTests{})
 
-// ported from lp:juju/juju/providers/openstack/tests/test_machine.py
+// ported from lp:DavinZhang/juju/providers/openstack/tests/test_machine.py
 var addressTests = []struct {
 	summary    string
 	floatingIP string

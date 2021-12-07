@@ -8,5 +8,5 @@ package all
 
 import (
 	// Register the provider.
-	_ "github.com/juju/juju/provider/azure"
+	_ "github.com/DavinZhang/juju/provider/azure"
 )

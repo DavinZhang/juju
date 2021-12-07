@@ -13,12 +13,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/charmhub"
-	"github.com/juju/juju/charmhub/transport"
-	"github.com/juju/juju/core/arch"
-	corecharm "github.com/juju/juju/core/charm"
-	"github.com/juju/juju/core/charm/repository/mocks"
-	"github.com/juju/juju/testcharms"
+	"github.com/DavinZhang/juju/charmhub"
+	"github.com/DavinZhang/juju/charmhub/transport"
+	"github.com/DavinZhang/juju/core/arch"
+	corecharm "github.com/DavinZhang/juju/core/charm"
+	"github.com/DavinZhang/juju/core/charm/repository/mocks"
+	"github.com/DavinZhang/juju/testcharms"
 )
 
 type charmHubRepositorySuite struct {

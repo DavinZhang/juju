@@ -11,8 +11,8 @@ import (
 	"github.com/juju/replicaset/v2"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/mongo"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/mongo"
 )
 
 // TODO(katco): 2016-08-09: lp:1611427

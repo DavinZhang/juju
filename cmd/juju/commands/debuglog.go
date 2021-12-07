@@ -13,16 +13,16 @@ import (
 	"github.com/juju/cmd/v3"
 	"github.com/juju/errors"
 	"github.com/juju/gnuflag"
-	"github.com/juju/juju/jujuclient"
+	"github.com/DavinZhang/juju/jujuclient"
 	"github.com/juju/loggo"
 	"github.com/juju/loggo/loggocolor"
 	"github.com/juju/names/v4"
 	"github.com/mattn/go-isatty"
 
-	"github.com/juju/juju/api/common"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/model"
+	"github.com/DavinZhang/juju/api/common"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/model"
 )
 
 // defaultLineCount is the default number of lines to

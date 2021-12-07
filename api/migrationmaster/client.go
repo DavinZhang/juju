@@ -18,12 +18,12 @@ import (
 	"gopkg.in/httprequest.v1"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/common"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/migration"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/resource"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/common"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/migration"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/resource"
 )
 
 // NewWatcherFunc exists to let us unit test Facade without patching.

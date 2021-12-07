@@ -9,10 +9,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	"github.com/juju/juju/charmhub"
-	corecharm "github.com/juju/juju/core/charm"
-	charmrepo "github.com/juju/juju/core/charm/repository"
-	"github.com/juju/juju/core/logger"
+	"github.com/DavinZhang/juju/charmhub"
+	corecharm "github.com/DavinZhang/juju/core/charm"
+	charmrepo "github.com/DavinZhang/juju/core/charm/repository"
+	"github.com/DavinZhang/juju/core/logger"
 )
 
 // CharmRepoFactoryConfig encapsulates the information required for creating a

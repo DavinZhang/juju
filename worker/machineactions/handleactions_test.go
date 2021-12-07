@@ -13,8 +13,8 @@ import (
 	"github.com/juju/utils/v2/exec"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/actions"
-	"github.com/juju/juju/worker/machineactions"
+	"github.com/DavinZhang/juju/core/actions"
+	"github.com/DavinZhang/juju/worker/machineactions"
 )
 
 type HandleSuite struct {

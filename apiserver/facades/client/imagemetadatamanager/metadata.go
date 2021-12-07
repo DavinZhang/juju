@@ -8,15 +8,15 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/apiserver/common/imagecommon"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/cloudimagemetadata"
-	"github.com/juju/juju/state/stateenvirons"
+	"github.com/DavinZhang/juju/apiserver/common/imagecommon"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/cloudimagemetadata"
+	"github.com/DavinZhang/juju/state/stateenvirons"
 )
 
 // API is the concrete implementation of the api end point

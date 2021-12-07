@@ -10,8 +10,8 @@ import (
 	"github.com/juju/clock"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/core/raft/queue"
-	"github.com/juju/juju/core/raftlease"
+	"github.com/DavinZhang/juju/core/raft/queue"
+	"github.com/DavinZhang/juju/core/raftlease"
 )
 
 const (

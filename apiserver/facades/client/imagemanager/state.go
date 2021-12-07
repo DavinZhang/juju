@@ -6,8 +6,8 @@ package imagemanager
 import (
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/imagestorage"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/imagestorage"
 )
 
 type stateInterface interface {

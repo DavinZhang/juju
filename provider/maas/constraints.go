@@ -11,8 +11,8 @@ import (
 	"github.com/juju/collections/set"
 	"github.com/juju/gomaasapi/v2"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/environs/context"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/environs/context"
 )
 
 var unsupportedConstraints = []string{

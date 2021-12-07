@@ -15,8 +15,8 @@ import (
 	"github.com/juju/worker/v3/dependency"
 	"gopkg.in/tomb.v2"
 
-	coreagent "github.com/juju/juju/agent"
-	"github.com/juju/juju/state"
+	coreagent "github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/state"
 )
 
 var logger = loggo.GetLogger("juju.worker.controller")

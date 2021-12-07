@@ -21,14 +21,14 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/apiserver/apiserverhttp"
-	"github.com/juju/juju/apiserver/httpcontext"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/pubsub/apiserver"
-	"github.com/juju/juju/pubsub/centralhub"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/raft/rafttransport"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/apiserver/apiserverhttp"
+	"github.com/DavinZhang/juju/apiserver/httpcontext"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/pubsub/apiserver"
+	"github.com/DavinZhang/juju/pubsub/centralhub"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/raft/rafttransport"
 )
 
 var controllerTag = names.NewMachineTag("123")

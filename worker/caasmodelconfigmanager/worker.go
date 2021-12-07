@@ -13,11 +13,11 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/api/base"
-	api "github.com/juju/juju/api/caasmodelconfigmanager"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/docker"
-	"github.com/juju/juju/docker/registry"
+	"github.com/DavinZhang/juju/api/base"
+	api "github.com/DavinZhang/juju/api/caasmodelconfigmanager"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/docker"
+	"github.com/DavinZhang/juju/docker/registry"
 )
 
 // Logger represents the methods used by the worker to log details.
@@ -31,12 +31,12 @@ type Logger interface {
 	Child(string) loggo.Logger
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/facade_mock.go github.com/juju/juju/worker/caasmodelconfigmanager Facade
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/facade_mock.go github.com/DavinZhang/juju/worker/caasmodelconfigmanager Facade
 type Facade interface {
 	ControllerConfig() (controller.Config, error)
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/broker_mock.go github.com/juju/juju/worker/caasmodelconfigmanager CAASBroker
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/broker_mock.go github.com/DavinZhang/juju/worker/caasmodelconfigmanager CAASBroker
 type CAASBroker interface {
 	EnsureImageRepoSecret(docker.ImageRepoDetails) error
 }

@@ -9,9 +9,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/vmware/govmomi/vim25/types"
 
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/tags"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/tags"
 )
 
 // UpgradeOperations is part of the upgrades.OperationSource interface.

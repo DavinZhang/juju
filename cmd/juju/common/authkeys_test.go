@@ -15,8 +15,8 @@ import (
 	"github.com/juju/utils/v2/ssh"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/common"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/cmd/juju/common"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type AuthKeysSuite struct {

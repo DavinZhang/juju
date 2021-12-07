@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/DavinZhang/juju/core/snap"
+	jujupackaging "github.com/DavinZhang/juju/packaging"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/snap"
-	jujupackaging "github.com/juju/juju/packaging"
 	"github.com/juju/packaging/v2"
 	"github.com/juju/packaging/v2/config"
 	"github.com/juju/proxy"

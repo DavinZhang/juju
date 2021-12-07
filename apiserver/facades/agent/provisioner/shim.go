@@ -7,8 +7,8 @@ import (
 	jujucharm "github.com/juju/charm/v9"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/network/containerizer"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/network/containerizer"
+	"github.com/DavinZhang/juju/state"
 )
 
 // MachineShim implements Machine.

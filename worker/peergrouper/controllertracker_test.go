@@ -8,8 +8,8 @@ import (
 
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/network"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/network"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type machineTrackerSuite struct {

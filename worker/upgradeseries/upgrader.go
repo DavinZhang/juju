@@ -8,12 +8,12 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/core/paths"
-	"github.com/juju/juju/service"
-	"github.com/juju/juju/service/systemd"
+	"github.com/DavinZhang/juju/core/paths"
+	"github.com/DavinZhang/juju/service"
+	"github.com/DavinZhang/juju/service/systemd"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/servicemanager_mock.go github.com/juju/juju/service SystemdServiceManager
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/servicemanager_mock.go github.com/DavinZhang/juju/service SystemdServiceManager
 
 var systemdMultiUserDir = systemd.EtcSystemdMultiUserDir
 

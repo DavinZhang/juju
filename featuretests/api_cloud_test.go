@@ -8,10 +8,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	apicloud "github.com/juju/juju/api/cloud"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/juju/testing"
+	apicloud "github.com/DavinZhang/juju/api/cloud"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/juju/testing"
 )
 
 // NOTE(axw) this suite only exists because nothing exercises

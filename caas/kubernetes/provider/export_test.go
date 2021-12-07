@@ -16,15 +16,15 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/juju/juju/caas"
-	k8s "github.com/juju/juju/caas/kubernetes"
-	k8sspecs "github.com/juju/juju/caas/kubernetes/provider/specs"
-	"github.com/juju/juju/caas/specs"
-	jujucloud "github.com/juju/juju/cloud"
-	"github.com/juju/juju/cloudconfig/podcfg"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/mongo"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/caas"
+	k8s "github.com/DavinZhang/juju/caas/kubernetes"
+	k8sspecs "github.com/DavinZhang/juju/caas/kubernetes/provider/specs"
+	"github.com/DavinZhang/juju/caas/specs"
+	jujucloud "github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/cloudconfig/podcfg"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/mongo"
+	"github.com/DavinZhang/juju/storage"
 )
 
 var (

@@ -9,10 +9,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/relation"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/relation"
 )
 
 // StatusParams holds parameters for the Status call.

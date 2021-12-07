@@ -11,11 +11,11 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/gnuflag"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/modelconfig"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/arch"
-	"github.com/juju/juju/environs/config"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/modelconfig"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/arch"
+	"github.com/DavinZhang/juju/environs/config"
 )
 
 // ModelConfigClient represents a model config client for requesting model

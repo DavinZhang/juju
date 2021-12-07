@@ -18,12 +18,12 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/pubsub/centralhub"
-	"github.com/juju/juju/pubsub/forwarder"
-	coretesting "github.com/juju/juju/testing"
-	psworker "github.com/juju/juju/worker/pubsub"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/pubsub/centralhub"
+	"github.com/DavinZhang/juju/pubsub/forwarder"
+	coretesting "github.com/DavinZhang/juju/testing"
+	psworker "github.com/DavinZhang/juju/worker/pubsub"
 )
 
 type RemoteServerSuite struct {

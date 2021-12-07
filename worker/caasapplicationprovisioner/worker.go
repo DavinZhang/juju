@@ -20,14 +20,14 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/catacomb"
 
-	api "github.com/juju/juju/api/caasapplicationprovisioner"
-	charmscommon "github.com/juju/juju/api/common/charms"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/resources"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
+	api "github.com/DavinZhang/juju/api/caasapplicationprovisioner"
+	charmscommon "github.com/DavinZhang/juju/api/common/charms"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/resources"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // Logger is here to stop the desire of creating a package level Logger.

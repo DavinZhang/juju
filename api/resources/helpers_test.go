@@ -14,10 +14,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	api "github.com/juju/juju/api/resources"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/resourcetesting"
+	api "github.com/DavinZhang/juju/api/resources"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/resourcetesting"
 )
 
 const fingerprint = "123456789012345678901234567890123456789012345678"

@@ -12,13 +12,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	basetesting "github.com/juju/juju/api/base/testing"
-	cloudapi "github.com/juju/juju/api/cloud"
-	"github.com/juju/juju/apiserver/common"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/cloud"
-	coretesting "github.com/juju/juju/testing"
+	basetesting "github.com/DavinZhang/juju/api/base/testing"
+	cloudapi "github.com/DavinZhang/juju/api/cloud"
+	"github.com/DavinZhang/juju/apiserver/common"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/cloud"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type cloudSuite struct {

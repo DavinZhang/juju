@@ -22,12 +22,12 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/model"
-	coreos "github.com/juju/juju/core/os"
-	"github.com/juju/juju/juju/osenv"
-	"github.com/juju/juju/jujuclient"
-	jujuversion "github.com/juju/juju/version"
-	"github.com/juju/juju/wrench"
+	"github.com/DavinZhang/juju/core/model"
+	coreos "github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/juju/osenv"
+	"github.com/DavinZhang/juju/jujuclient"
+	jujuversion "github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/wrench"
 )
 
 var logger = loggo.GetLogger("juju.testing")

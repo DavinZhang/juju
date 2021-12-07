@@ -4,8 +4,8 @@
 package maas
 
 import (
-	"github.com/juju/juju/cloudconfig/cloudinit"
-	"github.com/juju/juju/environs"
+	"github.com/DavinZhang/juju/cloudconfig/cloudinit"
+	"github.com/DavinZhang/juju/environs"
 )
 
 var (

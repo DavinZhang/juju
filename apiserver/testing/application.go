@@ -8,9 +8,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/state"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/state"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 func AssertPrincipalApplicationDeployed(c *gc.C, st *state.State, applicationName string, curl *charm.URL, forced bool, bundle charm.Charm, cons constraints.Value) *state.Application {

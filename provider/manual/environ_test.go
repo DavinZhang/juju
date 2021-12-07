@@ -13,12 +13,12 @@ import (
 	"github.com/juju/utils/v2/arch"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/manual/sshprovisioner"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/manual/sshprovisioner"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type baseEnvironSuite struct {

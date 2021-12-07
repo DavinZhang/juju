@@ -6,7 +6,7 @@ package cloudsigma
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/storage"
 )
 
 // StorageProviderTypes implements storage.ProviderRegistry.

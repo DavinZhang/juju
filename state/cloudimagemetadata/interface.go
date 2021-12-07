@@ -6,7 +6,7 @@ package cloudimagemetadata
 import (
 	jujutxn "github.com/juju/txn/v2"
 
-	"github.com/juju/juju/mongo"
+	"github.com/DavinZhang/juju/mongo"
 )
 
 // MetadataAttributes contains cloud image metadata attributes.

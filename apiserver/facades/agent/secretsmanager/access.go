@@ -6,7 +6,7 @@ package secretsmanager
 import (
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/common"
 )
 
 func secretAccessor(agentAppName string) common.GetAuthFunc {

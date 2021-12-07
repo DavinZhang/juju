@@ -14,10 +14,10 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/schema"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/provider/azure/internal/errorutils"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/provider/azure/internal/errorutils"
+	"github.com/DavinZhang/juju/storage"
 )
 
 const (

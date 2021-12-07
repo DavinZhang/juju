@@ -9,10 +9,10 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/agent"
-	apiagent "github.com/juju/juju/api/agent"
-	"github.com/juju/juju/api/base"
-	apimachiner "github.com/juju/juju/api/machiner"
+	"github.com/DavinZhang/juju/agent"
+	apiagent "github.com/DavinZhang/juju/api/agent"
+	"github.com/DavinZhang/juju/api/base"
+	apimachiner "github.com/DavinZhang/juju/api/machiner"
 )
 
 // ManifoldConfig defines the names of the manifolds on which a

@@ -11,8 +11,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	. "github.com/juju/juju/container/kvm"
-	"github.com/juju/juju/environs/imagedownloads"
+	. "github.com/DavinZhang/juju/container/kvm"
+	"github.com/DavinZhang/juju/environs/imagedownloads"
 )
 
 // cacheSuite is gocheck boilerplate.

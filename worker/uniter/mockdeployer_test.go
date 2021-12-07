@@ -9,7 +9,7 @@ import (
 
 	jujucharm "github.com/juju/charm/v9"
 
-	"github.com/juju/juju/worker/uniter/charm"
+	"github.com/DavinZhang/juju/worker/uniter/charm"
 )
 
 // mockDeployer implements Deployer.

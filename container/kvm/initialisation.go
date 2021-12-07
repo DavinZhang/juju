@@ -10,10 +10,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/os/v2/series"
 
-	"github.com/juju/juju/container"
-	"github.com/juju/juju/core/paths"
-	"github.com/juju/juju/packaging"
-	"github.com/juju/juju/packaging/dependency"
+	"github.com/DavinZhang/juju/container"
+	"github.com/DavinZhang/juju/core/paths"
+	"github.com/DavinZhang/juju/packaging"
+	"github.com/DavinZhang/juju/packaging/dependency"
 )
 
 type containerInitialiser struct{}

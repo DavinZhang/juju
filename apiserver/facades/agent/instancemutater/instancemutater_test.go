@@ -15,17 +15,17 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	facademocks "github.com/juju/juju/apiserver/facade/mocks"
-	"github.com/juju/juju/apiserver/facades/agent/instancemutater"
-	"github.com/juju/juju/apiserver/facades/agent/instancemutater/mocks"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/lxdprofile"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	facademocks "github.com/DavinZhang/juju/apiserver/facade/mocks"
+	"github.com/DavinZhang/juju/apiserver/facades/agent/instancemutater"
+	"github.com/DavinZhang/juju/apiserver/facades/agent/instancemutater/mocks"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/lxdprofile"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type instanceMutaterAPISuite struct {

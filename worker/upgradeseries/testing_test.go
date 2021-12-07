@@ -6,11 +6,11 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/worker/v3"
 
+	"github.com/DavinZhang/juju/api/base"
+	workermocks "github.com/DavinZhang/juju/worker/mocks"
+	"github.com/DavinZhang/juju/worker/upgradeseries"
+	. "github.com/DavinZhang/juju/worker/upgradeseries/mocks"
 	"github.com/golang/mock/gomock"
-	"github.com/juju/juju/api/base"
-	workermocks "github.com/juju/juju/worker/mocks"
-	"github.com/juju/juju/worker/upgradeseries"
-	. "github.com/juju/juju/worker/upgradeseries/mocks"
 	"github.com/juju/names/v4"
 )
 

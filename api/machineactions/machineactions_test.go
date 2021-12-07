@@ -12,9 +12,9 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	apitesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/machineactions"
-	"github.com/juju/juju/apiserver/params"
+	apitesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/machineactions"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 type ClientSuite struct {

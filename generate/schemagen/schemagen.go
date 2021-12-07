@@ -17,12 +17,12 @@ import (
 	"github.com/juju/names/v4"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/juju/juju/apiserver"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/generate/schemagen/gen"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/generate/schemagen/gen"
+	"github.com/DavinZhang/juju/state"
 )
 
 // Strings represents a way to have multiple values passed to the flags
@@ -78,7 +78,7 @@ func main() {
 	}
 
 	result, err := gen.Generate(defaultPackages{
-		path: "github.com/juju/juju/apiserver",
+		path: "github.com/DavinZhang/juju/apiserver",
 	}, defaultLinker{}, apiServerShim{},
 		gen.WithAdminFacades(*adminFacades),
 		gen.WithFacadeGroups(groups),

@@ -17,10 +17,10 @@ import (
 	"github.com/juju/ratelimit"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/juju/juju/apiserver/httpcontext"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/apiserver/websocket"
-	"github.com/juju/juju/feature"
+	"github.com/DavinZhang/juju/apiserver/httpcontext"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/apiserver/websocket"
+	"github.com/DavinZhang/juju/feature"
 )
 
 const (
@@ -79,7 +79,7 @@ type GaugeVec interface {
 
 // MetricsCollector represents a way to change the metrics for the logsink
 // api handler.
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/metrics_collector_mock.go github.com/juju/juju/apiserver/logsink MetricsCollector
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/metrics_collector_mock.go github.com/DavinZhang/juju/apiserver/logsink MetricsCollector
 //go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/metrics_mock.go github.com/prometheus/client_golang/prometheus Counter,Gauge
 type MetricsCollector interface {
 

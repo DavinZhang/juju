@@ -11,14 +11,14 @@ import (
 	"github.com/juju/names/v4"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/common"
-	"github.com/juju/juju/api/common/cloudspec"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/core/permission"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/common"
+	"github.com/DavinZhang/juju/api/common/cloudspec"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/core/permission"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
 )
 
 // Client provides methods that the Juju client command uses to interact

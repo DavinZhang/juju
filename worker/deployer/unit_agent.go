@@ -19,17 +19,17 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/agent/addons"
-	"github.com/juju/juju/agent/tools"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/uniter"
-	"github.com/juju/juju/core/machinelock"
-	coreos "github.com/juju/juju/core/os"
-	"github.com/juju/juju/core/paths"
-	jujuversion "github.com/juju/juju/version"
-	"github.com/juju/juju/worker/introspection"
-	"github.com/juju/juju/worker/logsender"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/agent/addons"
+	"github.com/DavinZhang/juju/agent/tools"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/uniter"
+	"github.com/DavinZhang/juju/core/machinelock"
+	coreos "github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/core/paths"
+	jujuversion "github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/worker/introspection"
+	"github.com/DavinZhang/juju/worker/logsender"
 )
 
 // UnitAgent wraps the agent config for this unit.

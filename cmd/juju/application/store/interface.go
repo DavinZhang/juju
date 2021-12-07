@@ -6,10 +6,10 @@ package store
 import (
 	"github.com/juju/charm/v9"
 	csparams "github.com/juju/charmrepo/v7/csclient/params"
-	commoncharm "github.com/juju/juju/api/common/charm"
+	commoncharm "github.com/DavinZhang/juju/api/common/charm"
 	"gopkg.in/macaroon.v2"
 
-	apicharm "github.com/juju/juju/api/charms"
+	apicharm "github.com/DavinZhang/juju/api/charms"
 )
 
 // CharmAdder defines a subset of the api client needed to add a

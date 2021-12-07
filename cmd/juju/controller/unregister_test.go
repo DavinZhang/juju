@@ -14,10 +14,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/cmdtest"
-	"github.com/juju/juju/cmd/juju/controller"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/cmd/cmdtest"
+	"github.com/DavinZhang/juju/cmd/juju/controller"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/testing"
 )
 
 // Test that the expected methods are called during unregister:

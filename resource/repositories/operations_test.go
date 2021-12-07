@@ -16,12 +16,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
+	"github.com/DavinZhang/juju/charmstore"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/repositories"
+	"github.com/DavinZhang/juju/resource/repositories/mocks"
+	"github.com/DavinZhang/juju/state"
 	"github.com/juju/errors"
-	"github.com/juju/juju/charmstore"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/repositories"
-	"github.com/juju/juju/resource/repositories/mocks"
-	"github.com/juju/juju/state"
 )
 
 type OperationsSuite struct{}

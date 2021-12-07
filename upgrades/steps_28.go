@@ -16,14 +16,14 @@ import (
 	"github.com/juju/utils/v2"
 	"gopkg.in/yaml.v2"
 
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/upgradesteps"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/service"
+	"github.com/DavinZhang/juju/worker/common/reboot"
+	"github.com/DavinZhang/juju/worker/uniter/operation"
 	"github.com/juju/collections/set"
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/upgradesteps"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/service"
-	"github.com/juju/juju/worker/common/reboot"
-	"github.com/juju/juju/worker/uniter/operation"
 )
 
 // stateStepsFor28 returns upgrade steps for Juju 2.8.0.
@@ -147,7 +147,7 @@ var getUpgradeStepsClient = func(caller base.APICaller) UpgradeStepsClient {
 	return upgradesteps.NewClient(caller)
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/upgradestepsclient_mock.go github.com/juju/juju/upgrades UpgradeStepsClient
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/upgradestepsclient_mock.go github.com/DavinZhang/juju/upgrades UpgradeStepsClient
 type UpgradeStepsClient interface {
 	WriteAgentState([]params.SetUnitStateArg) error
 }

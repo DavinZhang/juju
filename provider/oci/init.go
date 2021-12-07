@@ -3,7 +3,7 @@
 
 package oci
 
-import "github.com/juju/juju/environs"
+import "github.com/DavinZhang/juju/environs"
 
 const (
 	providerType = "oci"

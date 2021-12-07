@@ -8,7 +8,7 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/apiserver/params"
+	"github.com/DavinZhang/juju/apiserver/params"
 )
 
 // RunOnAllMachines runs the command on all the machines with the specified

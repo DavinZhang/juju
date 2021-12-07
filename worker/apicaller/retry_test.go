@@ -12,8 +12,8 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/worker/apicaller"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/worker/apicaller"
 )
 
 // RetryStrategySuite exercises the cases where we need to connect

@@ -6,8 +6,8 @@ package romulus
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/api/controller"
-	"github.com/juju/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/api/controller"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 // GetMeteringURLForModelCmd returns the controller-configured metering URL for

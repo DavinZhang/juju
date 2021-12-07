@@ -12,4 +12,4 @@ func TestPackage(t *testing.T) {
 	gc.TestingT(t)
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package sync_test -destination simplestreams_mock_test.go github.com/juju/juju/environs/tools SimplestreamsFetcher
+//go:generate go run github.com/golang/mock/mockgen -package sync_test -destination simplestreams_mock_test.go github.com/DavinZhang/juju/environs/tools SimplestreamsFetcher

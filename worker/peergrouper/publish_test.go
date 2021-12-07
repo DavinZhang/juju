@@ -6,8 +6,8 @@ package peergrouper
 import (
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/testing"
 	jc "github.com/juju/testing/checkers"
 )
 

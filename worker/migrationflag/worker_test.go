@@ -10,8 +10,8 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/migration"
-	"github.com/juju/juju/worker/migrationflag"
+	"github.com/DavinZhang/juju/core/migration"
+	"github.com/DavinZhang/juju/worker/migrationflag"
 )
 
 type WorkerSuite struct {

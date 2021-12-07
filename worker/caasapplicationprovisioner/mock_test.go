@@ -7,14 +7,14 @@ import (
 	jujutesting "github.com/juju/testing"
 	"github.com/juju/worker/v3"
 
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/core/watcher/watchertest"
-	"github.com/juju/juju/worker/caasapplicationprovisioner"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/core/watcher/watchertest"
+	"github.com/DavinZhang/juju/worker/caasapplicationprovisioner"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/broker_mock.go github.com/juju/juju/worker/caasapplicationprovisioner CAASBroker
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/facade_mock.go github.com/juju/juju/worker/caasapplicationprovisioner CAASProvisionerFacade
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/unitfacade_mock.go github.com/juju/juju/worker/caasapplicationprovisioner CAASUnitProvisionerFacade
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/broker_mock.go github.com/DavinZhang/juju/worker/caasapplicationprovisioner CAASBroker
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/facade_mock.go github.com/DavinZhang/juju/worker/caasapplicationprovisioner CAASProvisionerFacade
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/unitfacade_mock.go github.com/DavinZhang/juju/worker/caasapplicationprovisioner CAASUnitProvisionerFacade
 
 type mockFacade struct {
 	caasapplicationprovisioner.CAASProvisionerFacade

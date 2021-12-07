@@ -8,7 +8,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/series"
+	"github.com/DavinZhang/juju/core/series"
 )
 
 type SeriesSelectorSuite struct{}

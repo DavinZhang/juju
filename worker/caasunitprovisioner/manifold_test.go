@@ -14,8 +14,8 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/worker/caasunitprovisioner"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/worker/caasunitprovisioner"
 )
 
 type ManifoldSuite struct {

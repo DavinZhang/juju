@@ -16,10 +16,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2/arch"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/instances"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/instances"
 )
 
 var _ environs.InstanceTypesFetcher = (*environ)(nil)

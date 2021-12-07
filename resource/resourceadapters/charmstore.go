@@ -8,10 +8,10 @@ import (
 	csparams "github.com/juju/charmrepo/v7/csclient/params"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/charmstore"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/resource/repositories"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/charmstore"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/resource/repositories"
+	"github.com/DavinZhang/juju/state"
 )
 
 type charmStoreOpener struct {

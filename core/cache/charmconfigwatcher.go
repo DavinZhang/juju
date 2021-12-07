@@ -8,7 +8,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/pubsub/v2"
 
-	"github.com/juju/juju/core/settings"
+	"github.com/DavinZhang/juju/core/settings"
 )
 
 type charmConfigModel interface {

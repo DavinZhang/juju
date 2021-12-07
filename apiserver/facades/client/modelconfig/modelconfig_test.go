@@ -10,14 +10,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/facades/client/modelconfig"
-	"github.com/juju/juju/apiserver/params"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/provider/dummy"
-	_ "github.com/juju/juju/provider/dummy"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver/facades/client/modelconfig"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/provider/dummy"
+	_ "github.com/DavinZhang/juju/provider/dummy"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type modelconfigSuite struct {

@@ -22,8 +22,8 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/remotecommand"
 
-	"github.com/juju/juju/caas/kubernetes/provider/exec"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/exec"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 func (s *execSuite) TestFileResourceValidate(c *gc.C) {

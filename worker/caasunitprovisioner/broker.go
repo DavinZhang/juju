@@ -4,9 +4,9 @@
 package caasunitprovisioner
 
 import (
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/core/application"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/core/watcher"
 	"github.com/juju/names/v4"
 )
 

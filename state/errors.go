@@ -7,7 +7,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/mgo/v2/txn"
 
-	stateerrors "github.com/juju/juju/state/errors"
+	stateerrors "github.com/DavinZhang/juju/state/errors"
 )
 
 var (

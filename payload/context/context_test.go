@@ -10,9 +10,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/payload"
-	"github.com/juju/juju/payload/context"
-	"github.com/juju/juju/worker/uniter/runner/jujuc/jujuctesting"
+	"github.com/DavinZhang/juju/payload"
+	"github.com/DavinZhang/juju/payload/context"
+	"github.com/DavinZhang/juju/worker/uniter/runner/jujuc/jujuctesting"
 )
 
 type contextSuite struct {

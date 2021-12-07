@@ -11,7 +11,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver"
+	"github.com/DavinZhang/juju/apiserver"
 )
 
 type apiservermetricsSuite struct {

@@ -18,16 +18,16 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	apicallermocks "github.com/juju/juju/api/base/mocks"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/upgrades"
-	"github.com/juju/juju/upgrades/mocks"
-	"github.com/juju/juju/worker/uniter/hook"
-	"github.com/juju/juju/worker/uniter/operation"
-	configsettermocks "github.com/juju/juju/worker/upgradedatabase/mocks"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	apicallermocks "github.com/DavinZhang/juju/api/base/mocks"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/upgrades"
+	"github.com/DavinZhang/juju/upgrades/mocks"
+	"github.com/DavinZhang/juju/worker/uniter/hook"
+	"github.com/DavinZhang/juju/worker/uniter/operation"
+	configsettermocks "github.com/DavinZhang/juju/worker/upgradedatabase/mocks"
 )
 
 var v280 = version.MustParse("2.8.0")

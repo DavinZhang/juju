@@ -12,14 +12,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/instancemutater"
-	"github.com/juju/juju/api/instancemutater/mocks"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/lxdprofile"
-	"github.com/juju/juju/core/status"
-	jujutesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api/instancemutater"
+	"github.com/DavinZhang/juju/api/instancemutater/mocks"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/lxdprofile"
+	"github.com/DavinZhang/juju/core/status"
+	jujutesting "github.com/DavinZhang/juju/testing"
 )
 
 type instanceMutaterMachineSuite struct {

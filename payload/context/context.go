@@ -9,7 +9,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	"github.com/juju/juju/payload"
+	"github.com/DavinZhang/juju/payload"
 )
 
 var logger = loggo.GetLogger("juju.payload.context")

@@ -8,7 +8,7 @@ import (
 
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/juju/juju/core/paths"
+	"github.com/DavinZhang/juju/core/paths"
 )
 
 // NewFileWriter returns an io.WriteCloser that will write log messages to disk.

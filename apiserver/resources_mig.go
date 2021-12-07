@@ -12,9 +12,9 @@ import (
 	charmresource "github.com/juju/charm/v9/resource"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/state"
 )
 
 // resourcesMigrationUploadHandler handles resources uploads for model migrations.

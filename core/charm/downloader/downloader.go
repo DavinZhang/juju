@@ -16,10 +16,10 @@ import (
 	"github.com/juju/utils/v2"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/core/arch"
-	corecharm "github.com/juju/juju/core/charm"
-	"github.com/juju/juju/core/lxdprofile"
-	"github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/core/arch"
+	corecharm "github.com/DavinZhang/juju/core/charm"
+	"github.com/DavinZhang/juju/core/lxdprofile"
+	"github.com/DavinZhang/juju/version"
 )
 
 // Logger defines the logging methods that the package uses.

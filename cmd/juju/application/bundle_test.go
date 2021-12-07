@@ -20,13 +20,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/application/deployer"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/state/watcher"
-	"github.com/juju/juju/testcharms"
+	"github.com/DavinZhang/juju/cmd/juju/application/deployer"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/state/watcher"
+	"github.com/DavinZhang/juju/testcharms"
 )
 
 // NOTE:

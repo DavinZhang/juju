@@ -12,15 +12,15 @@ import (
 	"gopkg.in/macaroon.v2"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/api"
-	apitesting "github.com/juju/juju/api/testing"
-	apiwatcher "github.com/juju/juju/api/watcher"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api"
+	apitesting "github.com/DavinZhang/juju/api/testing"
+	apiwatcher "github.com/DavinZhang/juju/api/watcher"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 type mockRelationsFacade struct {

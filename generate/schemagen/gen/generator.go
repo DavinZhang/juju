@@ -16,10 +16,10 @@ import (
 	"github.com/juju/rpcreflect"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/juju/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/facade"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package gen -destination describeapi_mock.go github.com/juju/juju/generate/schemagen/gen APIServer,Registry,PackageRegistry,Linker
+//go:generate go run github.com/golang/mock/mockgen -package gen -destination describeapi_mock.go github.com/DavinZhang/juju/generate/schemagen/gen APIServer,Registry,PackageRegistry,Linker
 type APIServer interface {
 	AllFacades() Registry
 	AdminFacadeDetails() []facade.Details

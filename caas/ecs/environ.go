@@ -6,7 +6,7 @@ package ecs
 import (
 	"sync"
 
-	"github.com/juju/juju/docker"
+	"github.com/DavinZhang/juju/docker"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ecs/ecsiface"
@@ -15,14 +15,14 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/core/annotations"
-	"github.com/juju/juju/core/application"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
-	envcontext "github.com/juju/juju/environs/context"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/core/annotations"
+	"github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
+	envcontext "github.com/DavinZhang/juju/environs/context"
 )
 
 type environ struct {

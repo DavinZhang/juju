@@ -9,14 +9,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/machineundertaker"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/watcher"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/machineundertaker"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/watcher"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type undertakerSuite struct {

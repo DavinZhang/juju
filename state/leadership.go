@@ -10,7 +10,7 @@ import (
 	"github.com/juju/mgo/v2/txn"
 	jujutxn "github.com/juju/txn/v2"
 
-	"github.com/juju/juju/core/leadership"
+	"github.com/DavinZhang/juju/core/leadership"
 )
 
 func removeLeadershipSettingsOp(applicationId string) txn.Op {

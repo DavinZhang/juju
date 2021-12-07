@@ -10,17 +10,17 @@ import (
 	"sync"
 	"time"
 
+	"github.com/DavinZhang/juju/core/network/firewall"
+	"github.com/DavinZhang/juju/core/status"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/network/firewall"
-	"github.com/juju/juju/core/status"
 	ociCore "github.com/oracle/oci-go-sdk/v47/core"
 
-	"github.com/juju/juju/core/instance"
-	corenetwork "github.com/juju/juju/core/network"
-	envcontext "github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/instances"
-	"github.com/juju/juju/provider/common"
-	ocicommon "github.com/juju/juju/provider/oci/common"
+	"github.com/DavinZhang/juju/core/instance"
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	envcontext "github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/instances"
+	"github.com/DavinZhang/juju/provider/common"
+	ocicommon "github.com/DavinZhang/juju/provider/oci/common"
 )
 
 const (

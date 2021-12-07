@@ -9,8 +9,8 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	coreagent "github.com/juju/juju/agent"
-	"github.com/juju/juju/core/presence"
+	coreagent "github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/core/presence"
 )
 
 // Logger represents the logging methods called.

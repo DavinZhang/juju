@@ -7,7 +7,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/core/container"
+	"github.com/DavinZhang/juju/core/container"
 )
 
 // AuthFunc returns whether the given entity is available to some operation.
@@ -77,7 +77,7 @@ func AuthFuncForTagKind(kind string) GetAuthFunc {
 	}
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/authorizer_mock.go github.com/juju/juju/apiserver/common Authorizer
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/authorizer_mock.go github.com/DavinZhang/juju/apiserver/common Authorizer
 
 // Authorizer represents the authenticated entity using the API server.
 type Authorizer interface {

@@ -6,7 +6,7 @@ package commands
 import (
 	"github.com/juju/cmd/v3"
 
-	"github.com/juju/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 // TODO(ericsnow) Replace all this with a better registry mechanism,

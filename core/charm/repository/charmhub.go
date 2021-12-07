@@ -17,10 +17,10 @@ import (
 	"github.com/juju/errors"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/charmhub"
-	"github.com/juju/juju/charmhub/transport"
-	corecharm "github.com/juju/juju/core/charm"
-	coreseries "github.com/juju/juju/core/series"
+	"github.com/DavinZhang/juju/charmhub"
+	"github.com/DavinZhang/juju/charmhub/transport"
+	corecharm "github.com/DavinZhang/juju/core/charm"
+	coreseries "github.com/DavinZhang/juju/core/series"
 )
 
 // CharmHubClient describes the API exposed by the charmhub client.

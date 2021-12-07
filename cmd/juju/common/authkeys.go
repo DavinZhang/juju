@@ -15,7 +15,7 @@ import (
 	"github.com/juju/utils/v2"
 	"github.com/juju/utils/v2/ssh"
 
-	"github.com/juju/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/config"
 )
 
 var ErrNoAuthorizedKeys = errors.New("no public ssh keys found")

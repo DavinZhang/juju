@@ -12,10 +12,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/tags"
-	"github.com/juju/juju/provider/gce/google"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/tags"
+	"github.com/DavinZhang/juju/provider/gce/google"
+	"github.com/DavinZhang/juju/storage"
 )
 
 const (

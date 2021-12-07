@@ -21,10 +21,10 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	actionapi "github.com/juju/juju/api/action"
-	"github.com/juju/juju/cmd/juju/action"
-	"github.com/juju/juju/core/actions"
-	"github.com/juju/juju/testing"
+	actionapi "github.com/DavinZhang/juju/api/action"
+	"github.com/DavinZhang/juju/cmd/juju/action"
+	"github.com/DavinZhang/juju/core/actions"
+	"github.com/DavinZhang/juju/testing"
 )
 
 var (

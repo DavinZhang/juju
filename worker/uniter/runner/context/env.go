@@ -10,7 +10,7 @@ import (
 
 	"github.com/juju/os/v2/series"
 
-	jujuos "github.com/juju/juju/core/os"
+	jujuos "github.com/DavinZhang/juju/core/os"
 )
 
 // Environmenter represent the os environ interface for fetching host level environment

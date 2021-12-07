@@ -19,8 +19,8 @@ import (
 	"github.com/juju/terms-client/v2/api"
 	"github.com/juju/terms-client/v2/api/wireformat"
 
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 var (

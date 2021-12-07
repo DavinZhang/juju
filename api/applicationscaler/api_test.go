@@ -9,11 +9,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/applicationscaler"
-	"github.com/juju/juju/api/base"
-	apitesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api/applicationscaler"
+	"github.com/DavinZhang/juju/api/base"
+	apitesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 type APISuite struct {

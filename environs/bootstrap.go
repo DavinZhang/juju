@@ -9,14 +9,14 @@ import (
 	"os"
 	"time"
 
+	"github.com/DavinZhang/juju/cloudconfig/instancecfg"
+	"github.com/DavinZhang/juju/cloudconfig/podcfg"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/environs/imagemetadata"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/tools"
 	"github.com/juju/collections/set"
-	"github.com/juju/juju/cloudconfig/instancecfg"
-	"github.com/juju/juju/cloudconfig/podcfg"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/environs/imagemetadata"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/tools"
 )
 
 // BootstrapParams holds the parameters for bootstrapping an environment.

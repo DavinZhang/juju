@@ -4,7 +4,7 @@
 package resumer
 
 import (
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/state"
 )
 
 type stateInterface interface {

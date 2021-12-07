@@ -8,7 +8,7 @@
 package windows
 
 import (
-	"github.com/juju/juju/service/common"
+	"github.com/DavinZhang/juju/service/common"
 )
 
 // SvcManager implements ServiceManager interface

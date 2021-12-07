@@ -4,12 +4,12 @@
 package upgrades
 
 import (
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/base"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/base"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/context_mock.go github.com/juju/juju/upgrades Context
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/context_mock.go github.com/DavinZhang/juju/upgrades Context
 // Context provides the dependencies used when executing upgrade steps.
 type Context interface {
 	// APIState returns an base APICaller to help make

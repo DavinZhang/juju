@@ -16,7 +16,7 @@ import (
 	"gopkg.in/natefinch/lumberjack.v2"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/core/paths"
+	"github.com/DavinZhang/juju/core/paths"
 )
 
 // Filename represents the name of the logfile that is created in the LOG_DIR.

@@ -7,11 +7,11 @@ import (
 	"github.com/juju/charm/v9"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/core/leadership"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/core/leadership"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/state"
 )
 
 // CAASOperatorState provides the subset of model state

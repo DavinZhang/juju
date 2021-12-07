@@ -9,8 +9,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/testing/factory"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/testing/factory"
 )
 
 type ControllerUserSuite struct {

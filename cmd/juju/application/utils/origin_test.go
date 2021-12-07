@@ -7,9 +7,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/application/utils"
-	corecharm "github.com/juju/juju/core/charm"
-	"github.com/juju/juju/core/constraints"
+	"github.com/DavinZhang/juju/cmd/juju/application/utils"
+	corecharm "github.com/DavinZhang/juju/core/charm"
+	"github.com/DavinZhang/juju/core/constraints"
 )
 
 type originSuite struct{}

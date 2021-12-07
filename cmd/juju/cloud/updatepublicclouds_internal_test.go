@@ -6,8 +6,8 @@ package cloud
 import (
 	gc "gopkg.in/check.v1"
 
-	jujucloud "github.com/juju/juju/cloud"
-	"github.com/juju/juju/testing"
+	jujucloud "github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type cloudChangesSuite struct {

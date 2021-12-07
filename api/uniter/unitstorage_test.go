@@ -9,10 +9,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	basetesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/uniter"
-	"github.com/juju/juju/apiserver/params"
-	coretesting "github.com/juju/juju/testing"
+	basetesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/uniter"
+	"github.com/DavinZhang/juju/apiserver/params"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type unitStorageSuite struct {

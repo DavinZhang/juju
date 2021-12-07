@@ -9,7 +9,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	coretesting "github.com/juju/juju/testing"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 func TestPackage(t *stdtesting.T) {
@@ -21,9 +21,9 @@ type ImportTest struct{}
 var _ = gc.Suite(&ImportTest{})
 
 func (*ImportTest) TestImports(c *gc.C) {
-	found := coretesting.FindJujuCoreImports(c, "github.com/juju/juju/core/watcher")
+	found := coretesting.FindJujuCoreImports(c, "github.com/DavinZhang/juju/core/watcher")
 
-	// This package brings in nothing else from outside juju/juju/core
+	// This package brings in nothing else from outside DavinZhang/juju/core
 	c.Assert(found, jc.SameContents, []string{
 		"core/life",
 		"core/migration",

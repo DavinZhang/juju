@@ -13,8 +13,8 @@ import (
 	"github.com/juju/mgo/v2/bson"
 	"github.com/juju/mgo/v2/txn"
 
-	"github.com/juju/juju/core/resources"
-	"github.com/juju/juju/docker"
+	"github.com/DavinZhang/juju/core/resources"
+	"github.com/DavinZhang/juju/docker"
 )
 
 // dockerMetadataStorage implements DockerMetadataStorage

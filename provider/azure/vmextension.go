@@ -8,7 +8,7 @@ import (
 	"github.com/Azure/go-autorest/autorest/to"
 	"github.com/juju/errors"
 
-	jujuos "github.com/juju/juju/core/os"
+	jujuos "github.com/DavinZhang/juju/core/os"
 )
 
 const extensionName = "JujuCustomScriptExtension"

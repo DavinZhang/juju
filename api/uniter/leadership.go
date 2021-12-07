@@ -7,8 +7,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // NewLeadershipSettingsAccessor returns a new LeadershipSettingsAccessor.

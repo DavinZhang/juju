@@ -17,12 +17,12 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/model"
-	coretesting "github.com/juju/juju/testing"
-	resumer "github.com/juju/juju/worker/resumer"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/model"
+	coretesting "github.com/DavinZhang/juju/testing"
+	resumer "github.com/DavinZhang/juju/worker/resumer"
 )
 
 type ManifoldSuite struct {

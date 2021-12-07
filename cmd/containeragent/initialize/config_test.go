@@ -16,8 +16,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/cmd/containeragent/initialize"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/cmd/containeragent/initialize"
 )
 
 func (s *initCommandSuit) TestConfigFromEnv(c *gc.C) {

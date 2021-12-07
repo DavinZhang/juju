@@ -9,9 +9,9 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/docker/registry"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/docker/registry"
 )
 
 // ManifoldConfig describes how to configure and construct a Worker,

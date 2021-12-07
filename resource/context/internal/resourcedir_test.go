@@ -8,9 +8,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/context/internal"
-	"github.com/juju/juju/resource/resourcetesting"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/context/internal"
+	"github.com/DavinZhang/juju/resource/resourcetesting"
 )
 
 var _ = gc.Suite(&DirectorySpecSuite{})

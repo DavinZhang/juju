@@ -17,9 +17,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/utils/pointer"
 
-	k8sspecs "github.com/juju/juju/caas/kubernetes/provider/specs"
-	"github.com/juju/juju/caas/specs"
-	"github.com/juju/juju/testing"
+	k8sspecs "github.com/DavinZhang/juju/caas/kubernetes/provider/specs"
+	"github.com/DavinZhang/juju/caas/specs"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type v2SpecsSuite struct {

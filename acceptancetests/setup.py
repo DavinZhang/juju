@@ -18,7 +18,7 @@ setup(
         ],
     author='The Juju Team',
     author_email='juju-dev@lists.ubuntu.com',
-    url='https://github.com/juju/juju',
+    url='https://github.com/DavinZhang/juju',
     license='Apache 2',
     classifiers=[
         "License :: OSI Approved :: GNU Lesser General Public License v3"

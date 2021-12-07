@@ -8,15 +8,15 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/names/v4"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/state"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/state"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/unitstate.go github.com/juju/juju/apiserver/common UnitStateBackend,UnitStateUnit
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/modeloperation.go github.com/juju/juju/state ModelOperation
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/unitstate.go github.com/DavinZhang/juju/apiserver/common UnitStateBackend,UnitStateUnit
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/modeloperation.go github.com/DavinZhang/juju/state ModelOperation
 
 // UnitStateUnit describes unit-receiver state methods required
 // for UnitStateAPI.

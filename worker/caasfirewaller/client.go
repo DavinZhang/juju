@@ -4,10 +4,10 @@
 package caasfirewaller
 
 import (
-	"github.com/juju/juju/api/common/charms"
-	"github.com/juju/juju/core/application"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api/common/charms"
+	"github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // Client provides an interface for interacting with the

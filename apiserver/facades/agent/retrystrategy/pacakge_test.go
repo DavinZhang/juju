@@ -7,7 +7,7 @@ package retrystrategy_test
 import (
 	stdtesting "testing"
 
-	coretesting "github.com/juju/juju/testing"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 func TestAll(t *stdtesting.T) {

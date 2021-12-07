@@ -8,7 +8,7 @@ import (
 	"github.com/juju/worker/v3"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/api"
+	"github.com/DavinZhang/juju/api"
 )
 
 // logger is here to stop the desire of creating a package level logger.

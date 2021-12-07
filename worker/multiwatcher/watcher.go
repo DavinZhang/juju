@@ -6,7 +6,7 @@ package multiwatcher
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/core/multiwatcher"
+	"github.com/DavinZhang/juju/core/multiwatcher"
 )
 
 type control interface {

@@ -18,7 +18,7 @@ import (
 	"github.com/juju/utils/v2/exec"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/cmd/juju/caas/mocks"
+	"github.com/DavinZhang/juju/cmd/juju/caas/mocks"
 )
 
 type eksSuite struct {

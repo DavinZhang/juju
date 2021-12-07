@@ -8,14 +8,14 @@ import (
 
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/state"
 )
 
 func TestPackage(t *testing.T) {
 	gc.TestingT(t)
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/secretstore.go github.com/juju/juju/state SecretsStore
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/secretstore.go github.com/DavinZhang/juju/state SecretsStore
 
 func NewTestService(backend state.SecretsStore) *secretsService {
 	return &secretsService{

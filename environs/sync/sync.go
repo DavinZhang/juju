@@ -17,13 +17,13 @@ import (
 	"github.com/juju/utils/v2"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/environs/filestorage"
-	"github.com/juju/juju/environs/simplestreams"
-	"github.com/juju/juju/environs/storage"
-	envtools "github.com/juju/juju/environs/tools"
-	"github.com/juju/juju/juju/keys"
-	coretools "github.com/juju/juju/tools"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/environs/filestorage"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/environs/storage"
+	envtools "github.com/DavinZhang/juju/environs/tools"
+	"github.com/DavinZhang/juju/juju/keys"
+	coretools "github.com/DavinZhang/juju/tools"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 var logger = loggo.GetLogger("juju.environs.sync")
@@ -221,7 +221,7 @@ type UploadFunc func(envtools.SimplestreamsFetcher, storage.Storage, string, *ve
 // Upload is exported for testing.
 var Upload UploadFunc = upload
 
-// upload builds whatever version of github.com/juju/juju is in $GOPATH,
+// upload builds whatever version of github.com/DavinZhang/juju is in $GOPATH,
 // uploads it to the given storage, and returns a Tools instance describing
 // them. If forceVersion is not nil, the uploaded tools bundle will report
 // the given version number.

@@ -12,9 +12,9 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	apilifeflag "github.com/juju/juju/api/lifeflag"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/worker/lifeflag"
+	apilifeflag "github.com/DavinZhang/juju/api/lifeflag"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/worker/lifeflag"
 )
 
 type WorkerSuite struct {

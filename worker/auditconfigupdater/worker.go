@@ -10,9 +10,9 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/auditlog"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/auditlog"
+	"github.com/DavinZhang/juju/state"
 )
 
 // ConfigSource lets us get notifications of changes to controller

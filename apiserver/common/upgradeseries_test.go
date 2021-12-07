@@ -10,13 +10,13 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/tomb.v2"
 
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/common/mocks"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/testing"
 	"github.com/golang/mock/gomock"
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/common/mocks"
-	"github.com/juju/juju/apiserver/params"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/testing"
 )
 
 type upgradeSeriesSuite struct {

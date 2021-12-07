@@ -19,13 +19,13 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/upgrades"
-	jujuversion "github.com/juju/juju/version"
-	"github.com/juju/juju/worker/upgradedatabase"
-	. "github.com/juju/juju/worker/upgradedatabase/mocks"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/upgrades"
+	jujuversion "github.com/DavinZhang/juju/version"
+	"github.com/DavinZhang/juju/worker/upgradedatabase"
+	. "github.com/DavinZhang/juju/worker/upgradedatabase/mocks"
 )
 
 var (

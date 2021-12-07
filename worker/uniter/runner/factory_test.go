@@ -15,13 +15,13 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/uniter"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/worker/common/charmrunner"
-	"github.com/juju/juju/worker/uniter/hook"
-	"github.com/juju/juju/worker/uniter/runner"
-	"github.com/juju/juju/worker/uniter/runner/context"
-	runnertesting "github.com/juju/juju/worker/uniter/runner/testing"
+	"github.com/DavinZhang/juju/api/uniter"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/worker/common/charmrunner"
+	"github.com/DavinZhang/juju/worker/uniter/hook"
+	"github.com/DavinZhang/juju/worker/uniter/runner"
+	"github.com/DavinZhang/juju/worker/uniter/runner/context"
+	runnertesting "github.com/DavinZhang/juju/worker/uniter/runner/testing"
 )
 
 type FactorySuite struct {

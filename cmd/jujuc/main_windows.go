@@ -9,7 +9,7 @@ import (
 
 	"github.com/juju/featureflag"
 
-	"github.com/juju/juju/juju/osenv"
+	"github.com/DavinZhang/juju/juju/osenv"
 )
 
 func init() {

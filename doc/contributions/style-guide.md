@@ -222,7 +222,7 @@ func (s *SomeSuite) TestSomethingc(c *gc.C) {
 
 ## Layout
 
-Imports are grouped into 3 sections: standard library, 3rd party libraries, juju/juju library:
+Imports are grouped into 3 sections: standard library, 3rd party libraries, DavinZhang/juju library:
 
 ```go
 import (
@@ -233,8 +233,8 @@ import (
     "github.com/juju/loggo"
     gc "gopkg.in/check.v1"
 
-    "github.com/juju/juju/environs"
-    "github.com/juju/juju/environs/config"
+    "github.com/DavinZhang/juju/environs"
+    "github.com/DavinZhang/juju/environs/config"
 )
 ```
 

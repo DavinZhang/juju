@@ -8,10 +8,10 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/api/agent"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/api/agent"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/storage"
 )
 
 // Logger defines the methods used by the pruner worker for logging.

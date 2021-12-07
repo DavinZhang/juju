@@ -27,11 +27,11 @@ import (
 	"github.com/vmware/govmomi/vim25/soap"
 	"github.com/vmware/govmomi/vim25/types"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/provider/common"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/provider/common"
 )
 
-//go:generate go run github.com/juju/juju/generate/filetoconst UbuntuOVF ubuntu.ovf ovf_ubuntu.go 2017 vsphereclient
+//go:generate go run github.com/DavinZhang/juju/generate/filetoconst UbuntuOVF ubuntu.ovf ovf_ubuntu.go 2017 vsphereclient
 
 // NetworkDevice defines a single network device attached to a newly created VM.
 type NetworkDevice struct {

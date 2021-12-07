@@ -6,7 +6,7 @@ package globalclock
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/mongo"
+	"github.com/DavinZhang/juju/mongo"
 )
 
 // UpdaterConfig contains the resources and information required to

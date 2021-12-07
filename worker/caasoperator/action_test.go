@@ -18,12 +18,12 @@ import (
 	gc "gopkg.in/check.v1"
 	k8sexec "k8s.io/client-go/util/exec"
 
-	"github.com/juju/juju/caas/kubernetes/provider/exec"
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/caasoperator"
-	"github.com/juju/juju/worker/caasoperator/mocks"
-	"github.com/juju/juju/worker/uniter"
-	"github.com/juju/juju/worker/uniter/runner"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/exec"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/caasoperator"
+	"github.com/DavinZhang/juju/worker/caasoperator/mocks"
+	"github.com/DavinZhang/juju/worker/uniter"
+	"github.com/DavinZhang/juju/worker/uniter/runner"
 )
 
 type actionSuite struct {

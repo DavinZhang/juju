@@ -7,9 +7,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	"github.com/juju/juju/charmhub"
-	corecharm "github.com/juju/juju/core/charm"
-	charmdownloader "github.com/juju/juju/core/charm/downloader"
+	"github.com/DavinZhang/juju/charmhub"
+	corecharm "github.com/DavinZhang/juju/core/charm"
+	charmdownloader "github.com/DavinZhang/juju/core/charm/downloader"
 )
 
 // CharmDownloaderConfig encapsulates the information required for creating a

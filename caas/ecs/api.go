@@ -15,7 +15,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/ecs/ecsiface"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/cloudspec"
 )
 
 type awsLogger struct {

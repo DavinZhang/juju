@@ -8,8 +8,8 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/core/presence"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/core/presence"
 )
 
 func agentAlive(agent string) common.ModelPresence {

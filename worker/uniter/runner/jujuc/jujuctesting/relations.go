@@ -9,8 +9,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/testing"
 
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/worker/uniter/runner/jujuc"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/worker/uniter/runner/jujuc"
 )
 
 // Relations holds the values for the hook context.

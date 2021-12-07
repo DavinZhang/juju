@@ -7,8 +7,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/testing"
 
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/storage"
 )
 
 // FilesystemSource is an implementation of storage.FilesystemSource, suitable for

@@ -17,10 +17,10 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/remotecommand"
 
-	"github.com/juju/juju/caas/kubernetes/provider/exec"
-	execmocks "github.com/juju/juju/caas/kubernetes/provider/exec/mocks"
-	"github.com/juju/juju/caas/kubernetes/provider/mocks"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/exec"
+	execmocks "github.com/DavinZhang/juju/caas/kubernetes/provider/exec/mocks"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/mocks"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type BaseSuite struct {

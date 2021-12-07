@@ -13,8 +13,8 @@ import (
 	"github.com/juju/names/v4"
 	jujutxn "github.com/juju/txn/v2"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/core/status"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/core/status"
 )
 
 // InvalidateModelCredential invalidate cloud credential for the model

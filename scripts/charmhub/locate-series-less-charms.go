@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/juju/juju/charmhub"
+	"github.com/DavinZhang/juju/charmhub"
 	"github.com/juju/loggo"
 	"gopkg.in/yaml.v3"
 )

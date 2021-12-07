@@ -4,8 +4,8 @@
 package machineundertaker
 
 import (
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/state"
 )
 
 // Backend defines the methods the machine undertaker needs from

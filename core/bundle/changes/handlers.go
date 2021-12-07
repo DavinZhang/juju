@@ -13,7 +13,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/naturalsort"
 
-	corecharm "github.com/juju/juju/core/charm"
+	corecharm "github.com/DavinZhang/juju/core/charm"
 )
 
 type resolver struct {

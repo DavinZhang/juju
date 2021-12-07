@@ -15,14 +15,14 @@ import (
 	"github.com/juju/os/v2/series"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/service/common"
-	"github.com/juju/juju/service/snap"
-	"github.com/juju/juju/service/systemd"
-	"github.com/juju/juju/service/upstart"
-	"github.com/juju/juju/service/windows"
+	"github.com/DavinZhang/juju/service/common"
+	"github.com/DavinZhang/juju/service/snap"
+	"github.com/DavinZhang/juju/service/systemd"
+	"github.com/DavinZhang/juju/service/upstart"
+	"github.com/DavinZhang/juju/service/windows"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/service.go github.com/juju/juju/service Service
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/service.go github.com/DavinZhang/juju/service Service
 
 var logger = loggo.GetLogger("juju.service")
 

@@ -13,14 +13,14 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/service"
-	"github.com/juju/juju/service/common"
-	servicemocks "github.com/juju/juju/service/mocks"
-	"github.com/juju/juju/testing"
-	"github.com/juju/juju/upgrades"
-	"github.com/juju/juju/upgrades/mocks"
-	configsettermocks "github.com/juju/juju/worker/upgradedatabase/mocks"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/service"
+	"github.com/DavinZhang/juju/service/common"
+	servicemocks "github.com/DavinZhang/juju/service/mocks"
+	"github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/upgrades"
+	"github.com/DavinZhang/juju/upgrades/mocks"
+	configsettermocks "github.com/DavinZhang/juju/worker/upgradedatabase/mocks"
 )
 
 var v290 = version.MustParse("2.9.0")

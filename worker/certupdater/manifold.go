@@ -8,11 +8,11 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	jujuagent "github.com/juju/juju/agent"
-	"github.com/juju/juju/pki"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/worker/common"
-	workerstate "github.com/juju/juju/worker/state"
+	jujuagent "github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/pki"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/worker/common"
+	workerstate "github.com/DavinZhang/juju/worker/state"
 )
 
 // ManifoldConfig holds the information necessary to run a certupdater

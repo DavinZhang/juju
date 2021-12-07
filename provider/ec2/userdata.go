@@ -8,9 +8,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/cloudconfig/cloudinit"
-	"github.com/juju/juju/cloudconfig/providerinit/renderers"
-	jujuos "github.com/juju/juju/core/os"
+	"github.com/DavinZhang/juju/cloudconfig/cloudinit"
+	"github.com/DavinZhang/juju/cloudconfig/providerinit/renderers"
+	jujuos "github.com/DavinZhang/juju/core/os"
 )
 
 type AmazonRenderer struct{}

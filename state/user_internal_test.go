@@ -8,8 +8,8 @@ import (
 
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/testing"
 	"github.com/juju/names/v4"
 )
 

@@ -9,16 +9,16 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/dependency"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/environs"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/environs"
 )
 
 //go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/worker_mock.go github.com/juju/worker/v3 Worker
 //go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/dependency_mock.go github.com/juju/worker/v3/dependency Context
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/environs_mock.go github.com/juju/juju/environs Environ,LXDProfiler,InstanceBroker
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/base_mock.go github.com/juju/juju/api/base APICaller
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/agent_mock.go github.com/juju/juju/agent Agent,Config
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/environs_mock.go github.com/DavinZhang/juju/environs Environ,LXDProfiler,InstanceBroker
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/base_mock.go github.com/DavinZhang/juju/api/base APICaller
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/agent_mock.go github.com/DavinZhang/juju/agent Agent,Config
 
 // ModelManifoldConfig describes the resources used by the instancemuter worker.
 type ModelManifoldConfig struct {

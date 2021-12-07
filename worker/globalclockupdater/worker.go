@@ -11,7 +11,7 @@ import (
 	"github.com/juju/worker/v3"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/core/globalclock"
+	"github.com/DavinZhang/juju/core/globalclock"
 )
 
 // Logger defines the methods we use from loggo.Logger.

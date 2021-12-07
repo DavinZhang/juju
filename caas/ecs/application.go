@@ -22,12 +22,12 @@ import (
 	"github.com/juju/version/v2"
 	"github.com/kr/pretty"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/core/paths"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/environs/tags"
-	jujustorage "github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/core/paths"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/environs/tags"
+	jujustorage "github.com/DavinZhang/juju/storage"
 )
 
 var (

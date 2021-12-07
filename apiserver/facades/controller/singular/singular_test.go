@@ -14,11 +14,11 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facades/controller/singular"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/lease"
-	coretesting "github.com/juju/juju/testing"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facades/controller/singular"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/lease"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 var otherUUID = utils.MustNewUUID().String()

@@ -7,8 +7,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/state"
 )
 
 // PrecheckShim wraps a pair of *state.States to implement PrecheckBackend.

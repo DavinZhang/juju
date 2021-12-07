@@ -3,7 +3,7 @@
 
 package context
 
-import "github.com/juju/juju/core/instance"
+import "github.com/DavinZhang/juju/core/instance"
 
 // Distributor is an interface that may be used to distribute
 // application units across instances for high availability.

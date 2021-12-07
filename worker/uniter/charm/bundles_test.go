@@ -17,12 +17,12 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/uniter"
-	"github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testcharms"
-	"github.com/juju/juju/worker/uniter/charm"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/uniter"
+	"github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testcharms"
+	"github.com/DavinZhang/juju/worker/uniter/charm"
 )
 
 type BundlesDirSuite struct {

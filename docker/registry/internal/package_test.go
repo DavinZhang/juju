@@ -8,7 +8,7 @@ import (
 
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/docker"
+	"github.com/DavinZhang/juju/docker"
 )
 
 func TestPackage(t *testing.T) {

@@ -6,10 +6,10 @@
 package raftlease
 
 import (
+	"github.com/DavinZhang/juju/api/base"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/params"
 	"github.com/juju/errors"
-	"github.com/juju/juju/api/base"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/params"
 )
 
 const facadeName = "RaftLease"

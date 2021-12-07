@@ -13,9 +13,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/machinelock"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/worker/uniter"
+	"github.com/DavinZhang/juju/core/machinelock"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/worker/uniter"
 )
 
 type ManifoldSuite struct {

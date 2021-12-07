@@ -9,7 +9,7 @@ import (
 	jujuclock "github.com/juju/clock"
 	"github.com/juju/worker/v3/catacomb"
 
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // NotifyWatcherInterface defines the methods of notifyWatcher.

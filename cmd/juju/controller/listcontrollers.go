@@ -13,13 +13,13 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/controller"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/status"
-	"github.com/juju/juju/environs/bootstrap"
-	"github.com/juju/juju/jujuclient"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/controller"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/status"
+	"github.com/DavinZhang/juju/environs/bootstrap"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 var helpControllersSummary = `

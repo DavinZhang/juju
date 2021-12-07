@@ -10,9 +10,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/mongo"
-	"github.com/juju/juju/packaging"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/mongo"
+	"github.com/DavinZhang/juju/packaging"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type adminSuite struct {

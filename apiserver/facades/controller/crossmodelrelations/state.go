@@ -7,9 +7,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	common "github.com/juju/juju/apiserver/common/crossmodel"
-	"github.com/juju/juju/core/crossmodel"
-	"github.com/juju/juju/state"
+	common "github.com/DavinZhang/juju/apiserver/common/crossmodel"
+	"github.com/DavinZhang/juju/core/crossmodel"
+	"github.com/DavinZhang/juju/state"
 )
 
 // RemoteRelationState provides the subset of global state required by the

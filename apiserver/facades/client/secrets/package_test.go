@@ -8,10 +8,10 @@ import (
 
 	gc "gopkg.in/check.v1"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/secrets"
-	coretesting "github.com/juju/juju/testing"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/secrets"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 func TestPackage(t *testing.T) {

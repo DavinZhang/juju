@@ -13,16 +13,16 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base"
-	basemocks "github.com/juju/juju/api/base/mocks"
-	"github.com/juju/juju/charmhub"
-	"github.com/juju/juju/charmhub/transport"
-	"github.com/juju/juju/cmd/juju/charmhub/mocks"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/arch"
-	"github.com/juju/juju/jujuclient"
-	"github.com/juju/juju/jujuclient/jujuclienttesting"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api/base"
+	basemocks "github.com/DavinZhang/juju/api/base/mocks"
+	"github.com/DavinZhang/juju/charmhub"
+	"github.com/DavinZhang/juju/charmhub/transport"
+	"github.com/DavinZhang/juju/cmd/juju/charmhub/mocks"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/arch"
+	"github.com/DavinZhang/juju/jujuclient"
+	"github.com/DavinZhang/juju/jujuclient/jujuclienttesting"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type downloadSuite struct {

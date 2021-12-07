@@ -9,13 +9,13 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/instances"
-	"github.com/juju/juju/environs/tags"
-	"github.com/juju/juju/provider/gce"
-	"github.com/juju/juju/provider/gce/google"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/instances"
+	"github.com/DavinZhang/juju/environs/tags"
+	"github.com/DavinZhang/juju/provider/gce"
+	"github.com/DavinZhang/juju/provider/gce/google"
 )
 
 type environInstSuite struct {

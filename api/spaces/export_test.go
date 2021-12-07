@@ -4,7 +4,7 @@
 package spaces
 
 import (
-	"github.com/juju/juju/api/base"
+	"github.com/DavinZhang/juju/api/base"
 )
 
 func NewAPIFromCaller(caller base.FacadeCaller) *API {

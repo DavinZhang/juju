@@ -17,9 +17,9 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/core/charm/downloader"
-	"github.com/juju/juju/state"
-	stateerrors "github.com/juju/juju/state/errors"
+	"github.com/DavinZhang/juju/core/charm/downloader"
+	"github.com/DavinZhang/juju/state"
+	stateerrors "github.com/DavinZhang/juju/state/errors"
 )
 
 var _ = gc.Suite(&storageTestSuite{})

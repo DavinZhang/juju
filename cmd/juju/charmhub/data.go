@@ -8,8 +8,8 @@ import (
 	"github.com/juju/collections/set"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/api/charmhub"
-	"github.com/juju/juju/core/arch"
+	"github.com/DavinZhang/juju/api/charmhub"
+	"github.com/DavinZhang/juju/core/arch"
 )
 
 const (

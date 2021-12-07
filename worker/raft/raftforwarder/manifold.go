@@ -11,11 +11,11 @@ import (
 	"github.com/juju/worker/v3/dependency"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/juju/juju/core/raftlease"
-	"github.com/juju/juju/state"
-	raftleasestore "github.com/juju/juju/state/raftlease"
-	"github.com/juju/juju/worker/common"
-	workerstate "github.com/juju/juju/worker/state"
+	"github.com/DavinZhang/juju/core/raftlease"
+	"github.com/DavinZhang/juju/state"
+	raftleasestore "github.com/DavinZhang/juju/state/raftlease"
+	"github.com/DavinZhang/juju/worker/common"
+	workerstate "github.com/DavinZhang/juju/worker/state"
 )
 
 // ManifoldConfig holds the resources needed to start a raft forwarder

@@ -8,7 +8,7 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/yaml.v3"
 
-	"github.com/juju/juju/caas/kubernetes/provider/proxy"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/proxy"
 )
 
 type proxySuite struct {

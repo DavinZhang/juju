@@ -1177,7 +1177,7 @@ gopkg.in/juju/environschema.v1 v1.0.0/go.mod h1:WTgU3KXKCVoO9bMmG/4KHzoaRvLeoxfj
 gopkg.in/juju/environschema.v1 v1.0.1-0.20201027142642-c89a4490670a h1:tOwxh73E6us6t6MJHVe/erls2255hEwFKY8TJ40wcWY=
 gopkg.in/juju/environschema.v1 v1.0.1-0.20201027142642-c89a4490670a/go.mod h1:WTgU3KXKCVoO9bMmG/4KHzoaRvLeoxfjArpgd1MGWFA=
 gopkg.in/juju/idmclient.v1 v1.0.0-20180320161856-203d20774ce8/go.mod h1:yZ1Jx1AYkBmv6lrKV6jWBKHZAeF9SgPj6QiqAiJo3ew=
-gopkg.in/juju/jujusvg.v3 v3.0.0-20180629065738-1ebf5c5481e8/go.mod h1:uIEctZrm7CelaLTco1ugaXeigXUtGguk99joF/Epxc4=
+gopkg.in/DavinZhang/jujusvg.v3 v3.0.0-20180629065738-1ebf5c5481e8/go.mod h1:uIEctZrm7CelaLTco1ugaXeigXUtGguk99joF/Epxc4=
 gopkg.in/juju/names.v2 v2.0.0-20160525230723-e38bc90539f2/go.mod h1:XXa/v5qG1IsStRg5KTE8JkDMndoDMOKH1YYw0jSUWaM=
 gopkg.in/juju/names.v2 v2.0.0-20170814040430-73ecf03dfbe6/go.mod h1:XXa/v5qG1IsStRg5KTE8JkDMndoDMOKH1YYw0jSUWaM=
 gopkg.in/juju/names.v2 v2.0.0-20180621093930-fd59336b4621/go.mod h1:XXa/v5qG1IsStRg5KTE8JkDMndoDMOKH1YYw0jSUWaM=

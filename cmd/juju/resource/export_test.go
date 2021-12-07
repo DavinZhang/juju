@@ -4,8 +4,8 @@
 package resource
 
 import (
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/jujuclient/jujuclienttesting"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/jujuclient/jujuclienttesting"
 )
 
 func CharmResourcesCommandChannel(c modelcmd.Command) string {

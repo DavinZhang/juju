@@ -12,7 +12,7 @@ import (
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/apiserverhttp"
+	"github.com/DavinZhang/juju/apiserver/apiserverhttp"
 )
 
 type MuxBenchSuite struct {

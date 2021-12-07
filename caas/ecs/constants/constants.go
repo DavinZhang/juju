@@ -4,7 +4,7 @@
 package constants
 
 import (
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/storage"
 )
 
 const (

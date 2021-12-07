@@ -14,9 +14,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	jujuresource "github.com/juju/juju/cmd/juju/resource"
-	resourcecmd "github.com/juju/juju/cmd/juju/resource"
-	corecharm "github.com/juju/juju/core/charm"
+	jujuresource "github.com/DavinZhang/juju/cmd/juju/resource"
+	resourcecmd "github.com/DavinZhang/juju/cmd/juju/resource"
+	corecharm "github.com/DavinZhang/juju/core/charm"
 )
 
 var _ = gc.Suite(&CharmResourcesSuite{})

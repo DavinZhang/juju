@@ -6,9 +6,9 @@ package applicationoffers
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/environs"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/environs"
 )
 
 // paramsFromProviderSpaceInfo converts a ProviderSpaceInfo into the

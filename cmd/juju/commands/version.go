@@ -9,8 +9,8 @@ import (
 	"github.com/juju/utils/v2/arch"
 	"github.com/juju/version/v2"
 
-	coreos "github.com/juju/juju/core/os"
-	jujuversion "github.com/juju/juju/version"
+	coreos "github.com/DavinZhang/juju/core/os"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 const versionDoc = `
@@ -26,7 +26,7 @@ See also:
     show-controller
     show-model`
 
-// versionDetail is populated with version information from juju/juju/cmd
+// versionDetail is populated with version information from DavinZhang/juju/cmd
 // and passed into each SuperCommand. It can be printed using `juju version --all`.
 type versionDetail struct {
 	// Version of the current binary.

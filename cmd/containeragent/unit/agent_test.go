@@ -20,14 +20,14 @@ import (
 	"github.com/juju/utils/v2/voyeur"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	k8sconstants "github.com/juju/juju/caas/kubernetes/provider/constants"
-	"github.com/juju/juju/cmd/containeragent/unit"
-	utilsmocks "github.com/juju/juju/cmd/containeragent/utils/mocks"
-	"github.com/juju/juju/cmd/jujud/agent/agentconf"
-	jnames "github.com/juju/juju/juju/names"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/logsender"
+	"github.com/DavinZhang/juju/agent"
+	k8sconstants "github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
+	"github.com/DavinZhang/juju/cmd/containeragent/unit"
+	utilsmocks "github.com/DavinZhang/juju/cmd/containeragent/utils/mocks"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/agentconf"
+	jnames "github.com/DavinZhang/juju/juju/names"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/logsender"
 )
 
 type containerUnitAgentSuite struct {

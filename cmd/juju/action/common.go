@@ -23,10 +23,10 @@ import (
 	"github.com/juju/names/v4"
 	"gopkg.in/yaml.v2"
 
-	actionapi "github.com/juju/juju/api/action"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/actions"
-	"github.com/juju/juju/core/watcher"
+	actionapi "github.com/DavinZhang/juju/api/action"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/actions"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 var logger = loggo.GetLogger("juju.cmd.juju.action")

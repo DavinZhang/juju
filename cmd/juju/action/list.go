@@ -16,9 +16,9 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/naturalsort"
 
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/cmd/output"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/cmd/output"
 )
 
 func NewListCommand() cmd.Command {

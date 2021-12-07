@@ -11,13 +11,13 @@ import (
 	"github.com/juju/utils/v2/arch"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs/context"
-	sstesting "github.com/juju/juju/environs/simplestreams/testing"
-	envtesting "github.com/juju/juju/environs/testing"
-	envtools "github.com/juju/juju/environs/tools"
-	"github.com/juju/juju/juju/keys"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/environs/context"
+	sstesting "github.com/DavinZhang/juju/environs/simplestreams/testing"
+	envtesting "github.com/DavinZhang/juju/environs/testing"
+	envtools "github.com/DavinZhang/juju/environs/tools"
+	"github.com/DavinZhang/juju/juju/keys"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/version"
 )
 
 type baseProviderSuite struct {

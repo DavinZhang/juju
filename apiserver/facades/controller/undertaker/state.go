@@ -8,8 +8,8 @@ import (
 
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/state"
 )
 
 // State defines the needed methods of state.State

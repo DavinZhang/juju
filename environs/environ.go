@@ -8,8 +8,8 @@ import (
 
 	"github.com/juju/errors"
 
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/environs/config"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/environs/config"
 )
 
 // EnvironConfigGetter exposes a model configuration to its clients.

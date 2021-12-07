@@ -10,8 +10,8 @@ import (
 	"github.com/juju/collections/set"
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/core/auditlog"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/core/auditlog"
 )
 
 // bufferedLog defers writing records to its destination audit log

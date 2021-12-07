@@ -13,11 +13,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/facades/agent/metricsender"
-	"github.com/juju/juju/apiserver/facades/agent/metricsender/testing"
-	jujujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing/factory"
+	"github.com/DavinZhang/juju/apiserver/facades/agent/metricsender"
+	"github.com/DavinZhang/juju/apiserver/facades/agent/metricsender/testing"
+	jujujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing/factory"
 )
 
 type MetricSenderSuite struct {

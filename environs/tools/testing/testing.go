@@ -22,17 +22,17 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/series"
-	"github.com/juju/juju/environs/filestorage"
-	"github.com/juju/juju/environs/simplestreams"
-	sstesting "github.com/juju/juju/environs/simplestreams/testing"
-	"github.com/juju/juju/environs/storage"
-	"github.com/juju/juju/environs/sync"
-	envtesting "github.com/juju/juju/environs/testing"
-	"github.com/juju/juju/environs/tools"
-	"github.com/juju/juju/juju/names"
-	coretesting "github.com/juju/juju/testing"
-	coretools "github.com/juju/juju/tools"
+	"github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/environs/filestorage"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	sstesting "github.com/DavinZhang/juju/environs/simplestreams/testing"
+	"github.com/DavinZhang/juju/environs/storage"
+	"github.com/DavinZhang/juju/environs/sync"
+	envtesting "github.com/DavinZhang/juju/environs/testing"
+	"github.com/DavinZhang/juju/environs/tools"
+	"github.com/DavinZhang/juju/juju/names"
+	coretesting "github.com/DavinZhang/juju/testing"
+	coretools "github.com/DavinZhang/juju/tools"
 )
 
 func GetMockBundleTools(c *gc.C, expectedForceVersion *version.Number) tools.BundleToolsFunc {

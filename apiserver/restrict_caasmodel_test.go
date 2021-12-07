@@ -8,9 +8,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver"
-	"github.com/juju/juju/rpc"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/apiserver"
+	"github.com/DavinZhang/juju/rpc"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type RestrictCAASModelSuite struct {

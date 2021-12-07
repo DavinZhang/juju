@@ -6,7 +6,7 @@ package common
 import (
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/core/leadership"
+	"github.com/DavinZhang/juju/core/leadership"
 )
 
 // RevokeLeadershipFunc returns a function that revokes leadership for dead units.

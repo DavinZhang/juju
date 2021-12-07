@@ -7,7 +7,7 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/workertest"
 
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/state"
 )
 
 // FakeNotifyWatcher is an implementation of state.NotifyWatcher which

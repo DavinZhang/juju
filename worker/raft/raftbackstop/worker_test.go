@@ -19,10 +19,10 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/pubsub/apiserver"
-	"github.com/juju/juju/pubsub/centralhub"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/raft/raftbackstop"
+	"github.com/DavinZhang/juju/pubsub/apiserver"
+	"github.com/DavinZhang/juju/pubsub/centralhub"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/raft/raftbackstop"
 )
 
 type workerFixture struct {

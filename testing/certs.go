@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-//go:generate go run github.com/juju/juju/generate/certgen
+//go:generate go run github.com/DavinZhang/juju/generate/certgen
 
 // NewCA returns a random one of the pre-generated certs to speed up
 // tests. The comment on the certs are not going to match the args.

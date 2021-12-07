@@ -10,8 +10,8 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/juju/environschema.v1"
 
-	"github.com/juju/juju/core/application"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/application"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type ApplicationSuite struct {

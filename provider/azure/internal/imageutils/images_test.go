@@ -12,10 +12,10 @@ import (
 	"github.com/juju/utils/v2/arch"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/instances"
-	"github.com/juju/juju/provider/azure/internal/imageutils"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/instances"
+	"github.com/DavinZhang/juju/provider/azure/internal/imageutils"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type imageutilsSuite struct {

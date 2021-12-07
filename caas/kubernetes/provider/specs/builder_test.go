@@ -29,15 +29,15 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/rest/fake"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/caas/kubernetes/provider"
-	providermocks "github.com/juju/juju/caas/kubernetes/provider/mocks"
-	k8sspecs "github.com/juju/juju/caas/kubernetes/provider/specs"
-	k8sspecsmocks "github.com/juju/juju/caas/kubernetes/provider/specs/mocks"
-	"github.com/juju/juju/cloud"
-	k8sannotations "github.com/juju/juju/core/annotations"
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider"
+	providermocks "github.com/DavinZhang/juju/caas/kubernetes/provider/mocks"
+	k8sspecs "github.com/DavinZhang/juju/caas/kubernetes/provider/specs"
+	k8sspecsmocks "github.com/DavinZhang/juju/caas/kubernetes/provider/specs/mocks"
+	"github.com/DavinZhang/juju/cloud"
+	k8sannotations "github.com/DavinZhang/juju/core/annotations"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type builderSuite struct {

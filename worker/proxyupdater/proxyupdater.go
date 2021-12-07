@@ -18,10 +18,10 @@ import (
 	"github.com/juju/utils/v2/exec"
 	"github.com/juju/worker/v3"
 
-	"github.com/juju/juju/api/proxyupdater"
-	"github.com/juju/juju/core/os"
-	"github.com/juju/juju/core/snap"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api/proxyupdater"
+	"github.com/DavinZhang/juju/core/os"
+	"github.com/DavinZhang/juju/core/snap"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 // Overridden by tests

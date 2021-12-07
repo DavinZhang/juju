@@ -11,8 +11,8 @@ import (
 	"github.com/vmware/govmomi/vim25/mo"
 	"github.com/vmware/govmomi/vim25/types"
 
-	environscloudspec "github.com/juju/juju/environs/cloudspec"
-	"github.com/juju/juju/provider/vsphere/internal/vsphereclient"
+	environscloudspec "github.com/DavinZhang/juju/environs/cloudspec"
+	"github.com/DavinZhang/juju/provider/vsphere/internal/vsphereclient"
 )
 
 // DialFunc is a function type for dialing vSphere client connections.
@@ -42,7 +42,7 @@ type Client interface {
 	FindFolder(ctx context.Context, folderPath string) (vmFolder *object.Folder, err error)
 }
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/client_mock.go github.com/juju/juju/provider/vsphere Client
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/client_mock.go github.com/DavinZhang/juju/provider/vsphere Client
 func dialClient(
 	ctx context.Context,
 	cloudSpec environscloudspec.CloudSpec,

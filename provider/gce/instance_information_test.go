@@ -9,7 +9,7 @@ import (
 	"github.com/juju/clock/testclock"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/provider/gce/google"
+	"github.com/DavinZhang/juju/provider/gce/google"
 	jc "github.com/juju/testing/checkers"
 )
 

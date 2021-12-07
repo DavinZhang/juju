@@ -10,10 +10,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/cmd/jujud/agent/model"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/model"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type WrapAgentSuite struct {

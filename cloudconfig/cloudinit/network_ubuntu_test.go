@@ -19,10 +19,10 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/cloudconfig/cloudinit"
-	"github.com/juju/juju/container"
-	corenetwork "github.com/juju/juju/core/network"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/cloudconfig/cloudinit"
+	"github.com/DavinZhang/juju/container"
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type NetworkUbuntuSuite struct {

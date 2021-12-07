@@ -4,7 +4,7 @@
 package maas
 
 import (
-	"github.com/juju/juju/environs"
+	"github.com/DavinZhang/juju/environs"
 )
 
 const (

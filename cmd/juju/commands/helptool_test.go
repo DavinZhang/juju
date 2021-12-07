@@ -10,8 +10,8 @@ import (
 
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/feature"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/feature"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type HelpToolSuite struct {

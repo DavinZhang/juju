@@ -17,16 +17,16 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/uniter"
-	"github.com/juju/juju/core/life"
-	corerelation "github.com/juju/juju/core/relation"
-	"github.com/juju/juju/core/watcher/watchertest"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/uniter/hook"
-	"github.com/juju/juju/worker/uniter/relation"
-	"github.com/juju/juju/worker/uniter/relation/mocks"
-	"github.com/juju/juju/worker/uniter/remotestate"
-	"github.com/juju/juju/worker/uniter/runner/context"
+	"github.com/DavinZhang/juju/api/uniter"
+	"github.com/DavinZhang/juju/core/life"
+	corerelation "github.com/DavinZhang/juju/core/relation"
+	"github.com/DavinZhang/juju/core/watcher/watchertest"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/uniter/hook"
+	"github.com/DavinZhang/juju/worker/uniter/relation"
+	"github.com/DavinZhang/juju/worker/uniter/relation/mocks"
+	"github.com/DavinZhang/juju/worker/uniter/remotestate"
+	"github.com/DavinZhang/juju/worker/uniter/runner/context"
 )
 
 type stateTrackerSuite struct {

@@ -6,8 +6,8 @@ import (
 	reflect "reflect"
 	"strings"
 
+	facade "github.com/DavinZhang/juju/apiserver/facade"
 	"github.com/juju/errors"
-	facade "github.com/juju/juju/apiserver/facade"
 	"github.com/juju/rpcreflect"
 )
 
@@ -99,7 +99,7 @@ func clientFacades(facades []facade.Details, registry Registry) []facade.Details
 			}
 		}
 		pkg := packageName(objType.GoType())
-		if !strings.HasPrefix(pkg, "github.com/juju/juju/apiserver/facades/client/") {
+		if !strings.HasPrefix(pkg, "github.com/DavinZhang/juju/apiserver/facades/client/") {
 			continue
 		}
 		results = append(results, v)

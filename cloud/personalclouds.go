@@ -12,7 +12,7 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/juju/osenv"
+	"github.com/DavinZhang/juju/juju/osenv"
 )
 
 // JujuPersonalCloudsPath is the location where personal cloud information is

@@ -3,7 +3,7 @@
 
 package resolver
 
-import "github.com/juju/juju/worker/uniter/operation"
+import "github.com/DavinZhang/juju/worker/uniter/operation"
 
 type ResolverOpFactory struct {
 	*resolverOpFactory

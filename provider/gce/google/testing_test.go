@@ -8,8 +8,8 @@ import (
 	"google.golang.org/api/compute/v1"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/network"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/testing"
 )
 
 type BaseSuite struct {

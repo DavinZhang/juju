@@ -14,10 +14,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/docker"
-	"github.com/juju/juju/docker/registry"
-	"github.com/juju/juju/docker/registry/internal"
-	"github.com/juju/juju/docker/registry/mocks"
+	"github.com/DavinZhang/juju/docker"
+	"github.com/DavinZhang/juju/docker/registry"
+	"github.com/DavinZhang/juju/docker/registry/internal"
+	"github.com/DavinZhang/juju/docker/registry/mocks"
 )
 
 type baseSuite struct {

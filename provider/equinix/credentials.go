@@ -6,9 +6,9 @@ package equinix
 import (
 	"os"
 
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs"
 	"github.com/juju/errors"
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs"
 )
 
 type environProviderCredentials struct{}

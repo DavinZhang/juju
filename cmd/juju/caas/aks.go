@@ -12,9 +12,9 @@ import (
 	"github.com/juju/collections/set"
 	"github.com/juju/errors"
 
-	k8s "github.com/juju/juju/caas/kubernetes"
-	"github.com/juju/juju/caas/kubernetes/clientconfig"
-	"github.com/juju/juju/cmd/juju/interact"
+	k8s "github.com/DavinZhang/juju/caas/kubernetes"
+	"github.com/DavinZhang/juju/caas/kubernetes/clientconfig"
+	"github.com/DavinZhang/juju/cmd/juju/interact"
 )
 
 type aks struct {

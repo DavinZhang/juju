@@ -9,16 +9,16 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/state"
 
 	"github.com/juju/collections/set"
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	"github.com/juju/juju/core/instance"
-	corenetwork "github.com/juju/juju/core/network"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/network"
+	"github.com/DavinZhang/juju/core/instance"
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/network"
 )
 
 var logger = loggo.GetLogger("juju.network.containerizer")

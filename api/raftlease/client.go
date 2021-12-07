@@ -18,12 +18,12 @@ import (
 	"github.com/juju/worker/v3/catacomb"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/base"
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/core/lease"
-	"github.com/juju/juju/core/raftlease"
-	"github.com/juju/juju/pubsub/apiserver"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/base"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/core/lease"
+	"github.com/DavinZhang/juju/core/raftlease"
+	"github.com/DavinZhang/juju/pubsub/apiserver"
 )
 
 // Logger is a in place interface to represent a logger for consuming.

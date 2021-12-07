@@ -10,7 +10,7 @@ import (
 	"github.com/juju/ansiterm"
 	"github.com/juju/cmd/v3"
 
-	"github.com/juju/juju/core/status"
+	"github.com/DavinZhang/juju/core/status"
 )
 
 // DefaultFormatters holds the formatters that can be

@@ -14,13 +14,13 @@ import (
 	"github.com/juju/gnuflag"
 	"github.com/mattn/go-isatty"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/apiserver/params"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/jujuclient"
-	jujussh "github.com/juju/juju/network/ssh"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/apiserver/params"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/jujuclient"
+	jujussh "github.com/DavinZhang/juju/network/ssh"
 )
 
 var usageSSHSummary = `

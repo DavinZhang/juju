@@ -17,10 +17,10 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api"
-	"github.com/juju/juju/api/leadership"
-	coreleadership "github.com/juju/juju/core/leadership"
-	"github.com/juju/juju/core/lease"
+	"github.com/DavinZhang/juju/api"
+	"github.com/DavinZhang/juju/api/leadership"
+	coreleadership "github.com/DavinZhang/juju/core/leadership"
+	"github.com/DavinZhang/juju/core/lease"
 )
 
 var unit = gnuflag.String("unit", "ubuntu-lite/0", "set the unit name that we will connect as")

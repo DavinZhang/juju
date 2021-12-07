@@ -4,14 +4,14 @@
 package featuretests
 
 import (
+	"github.com/DavinZhang/juju/cmd/juju/application"
 	"github.com/juju/cmd/v3/cmdtesting"
-	"github.com/juju/juju/cmd/juju/application"
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	jujutesting "github.com/juju/juju/juju/testing"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing/factory"
+	jujutesting "github.com/DavinZhang/juju/juju/testing"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing/factory"
 )
 
 type cmdApplicationSuite struct {

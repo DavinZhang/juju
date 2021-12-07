@@ -11,14 +11,14 @@ import (
 	"github.com/go-goose/goose/v4/swift"
 	"github.com/juju/collections/set"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/instances"
-	envstorage "github.com/juju/juju/environs/storage"
-	"github.com/juju/juju/provider/common"
-	"github.com/juju/juju/storage"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/instances"
+	envstorage "github.com/DavinZhang/juju/environs/storage"
+	"github.com/DavinZhang/juju/provider/common"
+	"github.com/DavinZhang/juju/storage"
+	"github.com/DavinZhang/juju/testing"
 )
 
 var (

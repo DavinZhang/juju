@@ -10,8 +10,8 @@ import (
 	"github.com/juju/errors"
 	core "k8s.io/api/core/v1"
 
-	k8spod "github.com/juju/juju/caas/kubernetes/pod"
-	"github.com/juju/juju/core/status"
+	k8spod "github.com/DavinZhang/juju/caas/kubernetes/pod"
+	"github.com/DavinZhang/juju/core/status"
 )
 
 type EventGetter func() ([]core.Event, error)

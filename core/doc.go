@@ -17,8 +17,8 @@ what should *not* go here. In particular:
 
 ...and more generally, when adding to core:
 
-  * it's fine to import from any subpackage of "github.com/juju/juju/core"
-  * but *never* import from any *other* subpackage of "github.com/juju/juju"
+  * it's fine to import from any subpackage of "github.com/DavinZhang/juju/core"
+  * but *never* import from any *other* subpackage of "github.com/DavinZhang/juju"
   * don't you *dare* introduce mutable global state or I will hunt you down
   * like a dog
 

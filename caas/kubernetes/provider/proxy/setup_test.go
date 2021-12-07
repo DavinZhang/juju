@@ -14,7 +14,7 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/juju/juju/caas/kubernetes/provider/proxy"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/proxy"
 )
 
 type setupSuite struct {

@@ -10,9 +10,9 @@ import (
 	"github.com/juju/clock"
 	"github.com/juju/errors"
 
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/core/raft/queue"
-	"github.com/juju/juju/worker/raft"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/core/raft/queue"
+	"github.com/DavinZhang/juju/worker/raft"
 )
 
 const (

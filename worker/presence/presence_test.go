@@ -18,12 +18,12 @@ import (
 	"github.com/kr/pretty"
 	gc "gopkg.in/check.v1"
 
-	corepresence "github.com/juju/juju/core/presence"
-	"github.com/juju/juju/pubsub/apiserver"
-	"github.com/juju/juju/pubsub/centralhub"
-	"github.com/juju/juju/pubsub/forwarder"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/presence"
+	corepresence "github.com/DavinZhang/juju/core/presence"
+	"github.com/DavinZhang/juju/pubsub/apiserver"
+	"github.com/DavinZhang/juju/pubsub/centralhub"
+	"github.com/DavinZhang/juju/pubsub/forwarder"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/presence"
 )
 
 type PresenceSuite struct {

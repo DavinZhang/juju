@@ -14,13 +14,13 @@ import (
 	"github.com/lxc/lxd/shared/osarch"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/container/lxd"
-	"github.com/juju/juju/container/lxd/mocks"
-	lxdtesting "github.com/juju/juju/container/lxd/testing"
-	"github.com/juju/juju/core/constraints"
-	corenetwork "github.com/juju/juju/core/network"
-	"github.com/juju/juju/environs/tags"
-	"github.com/juju/juju/network"
+	"github.com/DavinZhang/juju/container/lxd"
+	"github.com/DavinZhang/juju/container/lxd/mocks"
+	lxdtesting "github.com/DavinZhang/juju/container/lxd/testing"
+	"github.com/DavinZhang/juju/core/constraints"
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/environs/tags"
+	"github.com/DavinZhang/juju/network"
 )
 
 type containerSuite struct {

@@ -7,7 +7,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/juju/juju/worker/caasprober"
+	"github.com/DavinZhang/juju/worker/caasprober"
 )
 
 func TestProbeNotImplemented(t *testing.T) {

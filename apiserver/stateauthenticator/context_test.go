@@ -18,9 +18,9 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/apiserver/stateauthenticator"
-	"github.com/juju/juju/controller"
-	statetesting "github.com/juju/juju/state/testing"
+	"github.com/DavinZhang/juju/apiserver/stateauthenticator"
+	"github.com/DavinZhang/juju/controller"
+	statetesting "github.com/DavinZhang/juju/state/testing"
 )
 
 // TODO(babbageclunk): These have been extracted pretty mechanically

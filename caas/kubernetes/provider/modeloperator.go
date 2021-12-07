@@ -21,13 +21,13 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/utils/pointer"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/caas/kubernetes/provider/constants"
-	"github.com/juju/juju/caas/kubernetes/provider/resources"
-	"github.com/juju/juju/caas/kubernetes/provider/utils"
-	"github.com/juju/juju/core/paths"
-	coreresources "github.com/juju/juju/core/resources"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/resources"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/utils"
+	"github.com/DavinZhang/juju/core/paths"
+	coreresources "github.com/DavinZhang/juju/core/resources"
 )
 
 // ModelOperatorBroker defines a broker for Executing Kubernetes ensure

@@ -13,10 +13,10 @@ import (
 	"github.com/juju/names/v4"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/core/network"
-	jujuproxy "github.com/juju/juju/proxy"
-	"github.com/juju/juju/rpc/jsoncodec"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/core/network"
+	jujuproxy "github.com/DavinZhang/juju/proxy"
+	"github.com/DavinZhang/juju/rpc/jsoncodec"
 )
 
 var (

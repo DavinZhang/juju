@@ -14,12 +14,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/agent"
-	"github.com/juju/juju/cmd/jujud/agent/agenttest"
-	"github.com/juju/juju/cmd/jujud/dumplogs"
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/testing/factory"
-	"github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/agent"
+	"github.com/DavinZhang/juju/cmd/jujud/agent/agenttest"
+	"github.com/DavinZhang/juju/cmd/jujud/dumplogs"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/testing/factory"
+	"github.com/DavinZhang/juju/version"
 )
 
 type dumpLogsCommandSuite struct {

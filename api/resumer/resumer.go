@@ -4,7 +4,7 @@
 package resumer
 
 import (
-	"github.com/juju/juju/api/base"
+	"github.com/DavinZhang/juju/api/base"
 )
 
 const resumerFacade = "Resumer"

@@ -19,11 +19,11 @@ import (
 	"github.com/juju/schema"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/core/instance"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/environs/tags"
-	"github.com/juju/juju/provider/common"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/core/instance"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/environs/tags"
+	"github.com/DavinZhang/juju/provider/common"
+	"github.com/DavinZhang/juju/storage"
 )
 
 const (

@@ -10,9 +10,9 @@ import (
 	"github.com/juju/worker/v3"
 	"github.com/juju/worker/v3/workertest"
 
-	"github.com/juju/juju/api/machineactions"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/watcher"
+	"github.com/DavinZhang/juju/api/machineactions"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/watcher"
 )
 
 func mockHandleAction(stub *testing.Stub) func(string, map[string]interface{}) (map[string]interface{}, error) {

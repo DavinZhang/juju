@@ -12,9 +12,9 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/yaml.v2"
 
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/worker/uniter/operation/mocks"
-	"github.com/juju/juju/worker/uniter/storage"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/worker/uniter/operation/mocks"
+	"github.com/DavinZhang/juju/worker/uniter/storage"
 )
 
 type mockStateOpsSuite struct {

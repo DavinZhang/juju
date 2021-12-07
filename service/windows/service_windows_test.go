@@ -18,9 +18,9 @@ import (
 	"golang.org/x/sys/windows/svc"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/service/common"
-	"github.com/juju/juju/service/windows"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/service/common"
+	"github.com/DavinZhang/juju/service/windows"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type serviceManagerSuite struct {

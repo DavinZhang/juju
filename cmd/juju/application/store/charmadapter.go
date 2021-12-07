@@ -11,10 +11,10 @@ import (
 	csparams "github.com/juju/charmrepo/v7/csclient/params"
 	"github.com/juju/errors"
 
-	apicharm "github.com/juju/juju/api/charms"
-	commoncharm "github.com/juju/juju/api/common/charm"
-	"github.com/juju/juju/charmhub"
-	"github.com/juju/juju/charmhub/transport"
+	apicharm "github.com/DavinZhang/juju/api/charms"
+	commoncharm "github.com/DavinZhang/juju/api/common/charm"
+	"github.com/DavinZhang/juju/charmhub"
+	"github.com/DavinZhang/juju/charmhub/transport"
 )
 
 // CharmStoreRepoFunc lazily creates a charm store repo.

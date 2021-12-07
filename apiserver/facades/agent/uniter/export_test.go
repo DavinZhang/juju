@@ -4,11 +4,11 @@
 package uniter
 
 import (
-	"github.com/juju/juju/apiserver/common"
-	"github.com/juju/juju/apiserver/facade"
-	"github.com/juju/juju/apiserver/facades/agent/meterstatus"
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/common"
+	"github.com/DavinZhang/juju/apiserver/facade"
+	"github.com/DavinZhang/juju/apiserver/facades/agent/meterstatus"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/state"
 )
 
 var (

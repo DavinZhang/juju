@@ -12,11 +12,11 @@ import (
 	"github.com/juju/utils/v2/arch"
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/core/series"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/environs/simplestreams"
-	coretools "github.com/juju/juju/tools"
-	jujuversion "github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	coretools "github.com/DavinZhang/juju/tools"
+	jujuversion "github.com/DavinZhang/juju/version"
 )
 
 var logger = loggo.GetLogger("juju.environs.tools")

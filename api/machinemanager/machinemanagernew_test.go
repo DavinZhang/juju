@@ -21,10 +21,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base/mocks"
-	"github.com/juju/juju/api/machinemanager"
-	"github.com/juju/juju/apiserver/params"
-	jujutesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api/base/mocks"
+	"github.com/DavinZhang/juju/api/machinemanager"
+	"github.com/DavinZhang/juju/apiserver/params"
+	jujutesting "github.com/DavinZhang/juju/testing"
 )
 
 var _ = gc.Suite(&NewMachineManagerSuite{})

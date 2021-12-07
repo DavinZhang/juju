@@ -16,9 +16,9 @@ import (
 	"github.com/juju/errors"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/juju/juju/charmstore"
-	corecharm "github.com/juju/juju/core/charm"
-	"github.com/juju/juju/version"
+	"github.com/DavinZhang/juju/charmstore"
+	corecharm "github.com/DavinZhang/juju/core/charm"
+	"github.com/DavinZhang/juju/version"
 )
 
 // CharmStoreClient describes the API exposed by the charmstore client.

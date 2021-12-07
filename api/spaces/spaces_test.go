@@ -13,11 +13,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/api/base/mocks"
-	apitesting "github.com/juju/juju/api/base/testing"
-	"github.com/juju/juju/api/spaces"
-	"github.com/juju/juju/apiserver/params"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/api/base/mocks"
+	apitesting "github.com/DavinZhang/juju/api/base/testing"
+	"github.com/DavinZhang/juju/api/spaces"
+	"github.com/DavinZhang/juju/apiserver/params"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 // spacesSuite are using mocks instead of the apicaller stubs

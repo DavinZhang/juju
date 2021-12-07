@@ -10,10 +10,10 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2/exec"
 
-	k8s "github.com/juju/juju/caas/kubernetes"
-	"github.com/juju/juju/caas/kubernetes/clientconfig"
-	k8scloud "github.com/juju/juju/caas/kubernetes/cloud"
-	jujucloud "github.com/juju/juju/cloud"
+	k8s "github.com/DavinZhang/juju/caas/kubernetes"
+	"github.com/DavinZhang/juju/caas/kubernetes/clientconfig"
+	k8scloud "github.com/DavinZhang/juju/caas/kubernetes/cloud"
+	jujucloud "github.com/DavinZhang/juju/cloud"
 )
 
 func attemptMicroK8sCloud(cmdRunner CommandRunner) (jujucloud.Cloud, error) {

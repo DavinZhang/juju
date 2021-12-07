@@ -12,14 +12,14 @@ import (
 	charmresource "github.com/juju/charm/v9/resource"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/charmhub"
-	"github.com/juju/juju/charmhub/transport"
-	"github.com/juju/juju/charmstore"
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/repositories"
-	corestate "github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/charmhub"
+	"github.com/DavinZhang/juju/charmhub/transport"
+	"github.com/DavinZhang/juju/charmstore"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/repositories"
+	corestate "github.com/DavinZhang/juju/state"
 )
 
 // ResourceOpenerState represents methods from state required to implement

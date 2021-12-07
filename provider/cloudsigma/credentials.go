@@ -6,8 +6,8 @@ package cloudsigma
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/cloud"
-	"github.com/juju/juju/environs"
+	"github.com/DavinZhang/juju/cloud"
+	"github.com/DavinZhang/juju/environs"
 )
 
 type environProviderCredentials struct{}

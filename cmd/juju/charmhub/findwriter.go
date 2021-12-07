@@ -14,7 +14,7 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/cmd/output"
+	"github.com/DavinZhang/juju/cmd/output"
 )
 
 // ColumnName describes the column name when outputting the find query.

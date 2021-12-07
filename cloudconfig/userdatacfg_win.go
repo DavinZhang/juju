@@ -16,14 +16,14 @@ import (
 	"github.com/juju/names/v4"
 	"github.com/juju/utils/v2/cert"
 
-	"github.com/juju/juju/core/paths"
-	"github.com/juju/juju/core/series"
-	"github.com/juju/juju/juju/osenv"
-	"github.com/juju/juju/tools"
+	"github.com/DavinZhang/juju/core/paths"
+	"github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/juju/osenv"
+	"github.com/DavinZhang/juju/tools"
 )
 
-//go:generate go run github.com/juju/juju/generate/filetoconst UserDataScript windowsuserdatafiles/userdata.ps1 winuserdatawrapper.go 2016 cloudconfig
-//go:generate go run github.com/juju/juju/generate/winuserdata 2016 winuserdata.go cloudconfig
+//go:generate go run github.com/DavinZhang/juju/generate/filetoconst UserDataScript windowsuserdatafiles/userdata.ps1 winuserdatawrapper.go 2016 cloudconfig
+//go:generate go run github.com/DavinZhang/juju/generate/winuserdata 2016 winuserdata.go cloudconfig
 
 type aclType string
 

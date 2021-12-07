@@ -10,7 +10,7 @@ import (
 
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/environs/simplestreams"
 )
 
 // RemoveAll is a default implementation for StorageWriter.RemoveAll.

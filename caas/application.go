@@ -6,14 +6,14 @@ package caas
 import (
 	"github.com/juju/version/v2"
 
-	"github.com/juju/juju/core/constraints"
-	"github.com/juju/juju/core/devices"
-	"github.com/juju/juju/core/resources"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/core/constraints"
+	"github.com/DavinZhang/juju/core/devices"
+	"github.com/DavinZhang/juju/core/resources"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/storage"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/application_mock.go github.com/juju/juju/caas Application
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/application_mock.go github.com/DavinZhang/juju/caas Application
 
 // Application is for interacting with the CAAS substrate.
 type Application interface {

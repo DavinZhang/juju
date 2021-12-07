@@ -4,8 +4,8 @@
 package charms
 
 import (
-	"github.com/juju/juju/api/base"
-	commoncharms "github.com/juju/juju/api/common/charms"
+	"github.com/DavinZhang/juju/api/base"
+	commoncharms "github.com/DavinZhang/juju/api/common/charms"
 )
 
 func NewClientWithFacade(facade base.FacadeCaller) *Client {

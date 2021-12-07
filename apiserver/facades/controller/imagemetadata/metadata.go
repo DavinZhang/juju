@@ -4,8 +4,8 @@
 package imagemetadata
 
 import (
-	apiservererrors "github.com/juju/juju/apiserver/errors"
-	"github.com/juju/juju/apiserver/facade"
+	apiservererrors "github.com/DavinZhang/juju/apiserver/errors"
+	"github.com/DavinZhang/juju/apiserver/facade"
 )
 
 // API is a dummy struct for compatibility.

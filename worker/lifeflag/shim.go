@@ -7,9 +7,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/worker/v3"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/lifeflag"
-	"github.com/juju/juju/api/watcher"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/lifeflag"
+	"github.com/DavinZhang/juju/api/watcher"
 )
 
 func NewWorker(config Config) (worker.Worker, error) {

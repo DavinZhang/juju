@@ -7,10 +7,10 @@ import (
 	"github.com/juju/charm/v9"
 	"github.com/juju/testing"
 
-	"github.com/juju/juju/worker/fortress"
-	"github.com/juju/juju/worker/uniter/hook"
-	"github.com/juju/juju/worker/uniter/operation"
-	"github.com/juju/juju/worker/uniter/remotestate"
+	"github.com/DavinZhang/juju/worker/fortress"
+	"github.com/DavinZhang/juju/worker/uniter/hook"
+	"github.com/DavinZhang/juju/worker/uniter/operation"
+	"github.com/DavinZhang/juju/worker/uniter/remotestate"
 )
 
 type mockRemoteStateWatcher struct {

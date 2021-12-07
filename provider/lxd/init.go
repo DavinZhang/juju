@@ -4,8 +4,8 @@
 package lxd
 
 import (
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/provider/lxd/lxdnames"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/provider/lxd/lxdnames"
 )
 
 func init() {

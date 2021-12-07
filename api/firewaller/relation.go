@@ -4,7 +4,7 @@
 package firewaller
 
 import (
-	"github.com/juju/juju/core/life"
+	"github.com/DavinZhang/juju/core/life"
 	"github.com/juju/names/v4"
 )
 

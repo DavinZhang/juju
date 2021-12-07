@@ -10,9 +10,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/worker/v3"
 
-	corenetwork "github.com/juju/juju/core/network"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/network"
+	corenetwork "github.com/DavinZhang/juju/core/network"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/network"
 )
 
 // APIAddresser is an interface that is provided to NewAPIAddressUpdater

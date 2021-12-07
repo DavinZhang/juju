@@ -14,10 +14,10 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/caas/kubernetes/provider/constants"
-	"github.com/juju/juju/core/resources"
-	"github.com/juju/juju/docker"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/caas/kubernetes/provider/constants"
+	"github.com/DavinZhang/juju/core/resources"
+	"github.com/DavinZhang/juju/docker"
 )
 
 type ModelOperatorSuite struct {
@@ -47,7 +47,7 @@ func (m *ModelOperatorSuite) assertEnsure(c *gc.C, isPrivateImageRepo bool) {
 
 	config := caas.ModelOperatorConfig{
 		AgentConf:    []byte("testconf"),
-		ImageDetails: resources.DockerImageDetails{RegistryPath: "juju/juju:123"},
+		ImageDetails: resources.DockerImageDetails{RegistryPath: "DavinZhang/juju:123"},
 		Port:         int32(5497),
 	}
 	if isPrivateImageRepo {

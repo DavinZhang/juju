@@ -8,8 +8,8 @@ import (
 
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/core/leadership"
-	"github.com/juju/juju/core/lease"
+	"github.com/DavinZhang/juju/core/leadership"
+	"github.com/DavinZhang/juju/core/lease"
 )
 
 // leadershipChecker implements leadership.Checker by wrapping a lease.Checker.

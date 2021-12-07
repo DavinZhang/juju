@@ -8,8 +8,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/utils/v2/keyvalues"
 
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
 )
 
 const (

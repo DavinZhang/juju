@@ -13,8 +13,8 @@ import (
 	gc "gopkg.in/check.v1"
 	"gopkg.in/tomb.v2"
 
-	"github.com/juju/juju/core/watcher"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/watcher"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 type stringsWorkerSuite struct {

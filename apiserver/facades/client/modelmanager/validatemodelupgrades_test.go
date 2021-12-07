@@ -4,21 +4,21 @@
 package modelmanager_test
 
 import (
+	jujuversion "github.com/DavinZhang/juju/version"
 	"github.com/golang/mock/gomock"
-	jujuversion "github.com/juju/juju/version"
 	"github.com/juju/names/v4"
 	jujutesting "github.com/juju/testing"
 	jc "github.com/juju/testing/checkers"
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/facades/client/modelmanager"
-	"github.com/juju/juju/apiserver/facades/client/modelmanager/mocks"
-	"github.com/juju/juju/apiserver/params"
-	apiservertesting "github.com/juju/juju/apiserver/testing"
-	"github.com/juju/juju/environs/config"
-	"github.com/juju/juju/environs/context"
-	"github.com/juju/juju/provider/dummy"
+	"github.com/DavinZhang/juju/apiserver/facades/client/modelmanager"
+	"github.com/DavinZhang/juju/apiserver/facades/client/modelmanager/mocks"
+	"github.com/DavinZhang/juju/apiserver/params"
+	apiservertesting "github.com/DavinZhang/juju/apiserver/testing"
+	"github.com/DavinZhang/juju/environs/config"
+	"github.com/DavinZhang/juju/environs/context"
+	"github.com/DavinZhang/juju/provider/dummy"
 )
 
 type ValidateModelUpgradesSuite struct {

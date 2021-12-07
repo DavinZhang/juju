@@ -4,7 +4,7 @@
 package broker
 
 import (
-	"github.com/juju/juju/cloudconfig"
+	"github.com/DavinZhang/juju/cloudconfig"
 )
 
 var (

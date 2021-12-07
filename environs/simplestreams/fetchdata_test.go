@@ -11,9 +11,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs/simplestreams"
-	"github.com/juju/juju/environs/simplestreams/testing"
-	"github.com/juju/juju/juju/keys"
+	"github.com/DavinZhang/juju/environs/simplestreams"
+	"github.com/DavinZhang/juju/environs/simplestreams/testing"
+	"github.com/DavinZhang/juju/juju/keys"
 )
 
 type fetchDataSuite struct {

@@ -9,9 +9,9 @@ import (
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 
-	apicommoncharms "github.com/juju/juju/api/common/charms"
-	"github.com/juju/juju/cmd/juju/application/deployer"
-	"github.com/juju/juju/cmd/juju/application/deployer/mocks"
+	apicommoncharms "github.com/DavinZhang/juju/api/common/charms"
+	"github.com/DavinZhang/juju/cmd/juju/application/deployer"
+	"github.com/DavinZhang/juju/cmd/juju/application/deployer/mocks"
 )
 
 type ValidateLXDProfileCharmSuite struct {

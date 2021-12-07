@@ -7,7 +7,7 @@ import (
 	"github.com/juju/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver"
+	"github.com/DavinZhang/juju/apiserver"
 )
 
 type AllFacadesSuite struct {

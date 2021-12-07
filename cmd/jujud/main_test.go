@@ -22,12 +22,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/environs"
-	"github.com/juju/juju/juju/names"
-	"github.com/juju/juju/juju/sockets"
-	coretesting "github.com/juju/juju/testing"
-	"github.com/juju/juju/worker/uniter/runner/jujuc"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/environs"
+	"github.com/DavinZhang/juju/juju/names"
+	"github.com/DavinZhang/juju/juju/sockets"
+	coretesting "github.com/DavinZhang/juju/testing"
+	"github.com/DavinZhang/juju/worker/uniter/runner/jujuc"
 )
 
 func TestPackage(t *stdtesting.T) {
@@ -158,7 +158,7 @@ func runForTest(c *gc.C, sockPath sockets.Socket, contextId string, exit int, st
 		fmt.Sprintf("JUJU_AGENT_SOCKET_ADDRESS=%s", sockPath.Address),
 		fmt.Sprintf("JUJU_AGENT_SOCKET_NETWORK=%s", sockPath.Network),
 		fmt.Sprintf("JUJU_CONTEXT_ID=%s", contextId),
-		// Code that imports github.com/juju/juju/testing needs to
+		// Code that imports github.com/DavinZhang/juju/testing needs to
 		// be able to find that module at runtime (via build.Import),
 		// so we have to preserve that env variable.
 		os.ExpandEnv("GOPATH=${GOPATH}"),

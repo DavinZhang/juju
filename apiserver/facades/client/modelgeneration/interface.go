@@ -7,11 +7,11 @@ import (
 	"github.com/juju/charm/v9"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/core/cache"
-	"github.com/juju/juju/core/settings"
+	"github.com/DavinZhang/juju/core/cache"
+	"github.com/DavinZhang/juju/core/settings"
 )
 
-//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/package_mock.go github.com/juju/juju/apiserver/facades/client/modelgeneration State,Model,Generation,Application,ModelCache
+//go:generate go run github.com/golang/mock/mockgen -package mocks -destination mocks/package_mock.go github.com/DavinZhang/juju/apiserver/facades/client/modelgeneration State,Model,Generation,Application,ModelCache
 
 // State represents the state of a model required by the model generation API.
 type State interface {

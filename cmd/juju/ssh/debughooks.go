@@ -15,15 +15,15 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/names/v4"
 
-	"github.com/juju/juju/api/application"
-	"github.com/juju/juju/api/charms"
-	apicharm "github.com/juju/juju/api/common/charm"
-	charmscommon "github.com/juju/juju/api/common/charms"
-	jujucmd "github.com/juju/juju/cmd"
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/core/model"
-	"github.com/juju/juju/network/ssh"
-	unitdebug "github.com/juju/juju/worker/uniter/runner/debug"
+	"github.com/DavinZhang/juju/api/application"
+	"github.com/DavinZhang/juju/api/charms"
+	apicharm "github.com/DavinZhang/juju/api/common/charm"
+	charmscommon "github.com/DavinZhang/juju/api/common/charms"
+	jujucmd "github.com/DavinZhang/juju/cmd"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/core/model"
+	"github.com/DavinZhang/juju/network/ssh"
+	unitdebug "github.com/DavinZhang/juju/worker/uniter/runner/debug"
 )
 
 // NewDebugHooksCommand creates a juju debug-hooks command.

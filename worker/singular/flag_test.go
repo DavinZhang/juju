@@ -13,7 +13,7 @@ import (
 	"github.com/juju/worker/v3/workertest"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/worker/singular"
+	"github.com/DavinZhang/juju/worker/singular"
 )
 
 type FlagSuite struct {

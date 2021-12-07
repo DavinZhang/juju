@@ -10,9 +10,9 @@ import (
 	"github.com/juju/utils/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/state"
-	"github.com/juju/juju/state/testing"
-	"github.com/juju/juju/testing/factory"
+	"github.com/DavinZhang/juju/state"
+	"github.com/DavinZhang/juju/state/testing"
+	"github.com/DavinZhang/juju/testing/factory"
 )
 
 type ApplicationLeaderSuite struct {

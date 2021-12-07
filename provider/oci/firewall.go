@@ -6,8 +6,8 @@ package oci
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/core/network/firewall"
-	"github.com/juju/juju/environs/context"
+	"github.com/DavinZhang/juju/core/network/firewall"
+	"github.com/DavinZhang/juju/environs/context"
 )
 
 func (e *Environ) OpenPorts(ctx context.ProviderCallContext, rules firewall.IngressRules) error {

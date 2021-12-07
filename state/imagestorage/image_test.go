@@ -21,8 +21,8 @@ import (
 	txntesting "github.com/juju/txn/v2/testing"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/state/imagestorage"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/state/imagestorage"
+	"github.com/DavinZhang/juju/testing"
 )
 
 var _ = gc.Suite(&ImageSuite{})

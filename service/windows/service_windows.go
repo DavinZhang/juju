@@ -16,8 +16,8 @@ import (
 	"golang.org/x/sys/windows/svc"
 	"golang.org/x/sys/windows/svc/mgr"
 
-	coreseries "github.com/juju/juju/core/series"
-	"github.com/juju/juju/service/common"
+	coreseries "github.com/DavinZhang/juju/core/series"
+	"github.com/DavinZhang/juju/service/common"
 )
 
 type SC_ENUM_TYPE int

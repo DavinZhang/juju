@@ -8,12 +8,12 @@ import (
 
 	"github.com/juju/charm/v9"
 	"github.com/juju/errors"
-	"github.com/juju/juju/core/arch"
+	"github.com/DavinZhang/juju/core/arch"
 	osseries "github.com/juju/os/v2/series"
 
-	commoncharm "github.com/juju/juju/api/common/charm"
-	corecharm "github.com/juju/juju/core/charm"
-	"github.com/juju/juju/core/constraints"
+	commoncharm "github.com/DavinZhang/juju/api/common/charm"
+	corecharm "github.com/DavinZhang/juju/core/charm"
+	"github.com/DavinZhang/juju/core/constraints"
 )
 
 // DeduceOrigin attempts to deduce the origin from a channel and a platform.

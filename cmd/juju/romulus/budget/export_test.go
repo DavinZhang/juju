@@ -6,8 +6,8 @@ package budget
 import (
 	"github.com/juju/cmd/v3"
 
-	"github.com/juju/juju/cmd/modelcmd"
-	"github.com/juju/juju/jujuclient"
+	"github.com/DavinZhang/juju/cmd/modelcmd"
+	"github.com/DavinZhang/juju/jujuclient"
 )
 
 func NewBudgetCommandForTest(api apiClient, store jujuclient.ClientStore) cmd.Command {

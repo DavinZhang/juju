@@ -9,12 +9,12 @@ import (
 	"github.com/juju/names/v4"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/apiserver/common/charms"
-	"github.com/juju/juju/apiserver/common/charms/mocks"
-	facademocks "github.com/juju/juju/apiserver/facade/mocks"
-	"github.com/juju/juju/apiserver/params"
-	"github.com/juju/juju/core/permission"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/apiserver/common/charms"
+	"github.com/DavinZhang/juju/apiserver/common/charms/mocks"
+	facademocks "github.com/DavinZhang/juju/apiserver/facade/mocks"
+	"github.com/DavinZhang/juju/apiserver/params"
+	"github.com/DavinZhang/juju/core/permission"
+	"github.com/DavinZhang/juju/state"
 )
 
 type appCharmInfoSuite struct{}

@@ -9,8 +9,8 @@ import (
 	lxdapi "github.com/lxc/lxd/shared/api"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/core/status"
-	coretesting "github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/core/status"
+	coretesting "github.com/DavinZhang/juju/testing"
 )
 
 const ETag = "eTag"

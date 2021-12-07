@@ -7,14 +7,14 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/testing"
 
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/api/common/charms"
-	"github.com/juju/juju/caas"
-	"github.com/juju/juju/core/application"
-	"github.com/juju/juju/core/life"
-	"github.com/juju/juju/core/watcher"
-	"github.com/juju/juju/core/watcher/watchertest"
-	"github.com/juju/juju/worker/caasfirewaller"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/api/common/charms"
+	"github.com/DavinZhang/juju/caas"
+	"github.com/DavinZhang/juju/core/application"
+	"github.com/DavinZhang/juju/core/life"
+	"github.com/DavinZhang/juju/core/watcher"
+	"github.com/DavinZhang/juju/core/watcher/watchertest"
+	"github.com/DavinZhang/juju/worker/caasfirewaller"
 )
 
 type fakeAPICaller struct {

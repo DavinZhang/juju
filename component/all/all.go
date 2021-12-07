@@ -16,7 +16,7 @@ import (
 )
 
 // run "go generate" from the package directory.
-//go:generate go run github.com/golang/mock/mockgen -package all -destination component_mock.go github.com/juju/juju/component/all Component
+//go:generate go run github.com/golang/mock/mockgen -package all -destination component_mock.go github.com/DavinZhang/juju/component/all Component
 type Component interface {
 	registerForServer() error
 	registerForClient() error

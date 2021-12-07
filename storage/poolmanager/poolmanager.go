@@ -6,7 +6,7 @@ package poolmanager
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/storage"
+	"github.com/DavinZhang/juju/storage"
 )
 
 // Pool configuration attribute names.

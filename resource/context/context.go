@@ -13,8 +13,8 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/utils/v2"
 
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/context/internal"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/context/internal"
 )
 
 var logger = loggo.GetLogger("juju.resource.context")

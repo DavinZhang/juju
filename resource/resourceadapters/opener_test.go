@@ -15,11 +15,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/charmstore"
-	"github.com/juju/juju/resource"
-	"github.com/juju/juju/resource/resourceadapters"
-	"github.com/juju/juju/resource/resourceadapters/mocks"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/charmstore"
+	"github.com/DavinZhang/juju/resource"
+	"github.com/DavinZhang/juju/resource/resourceadapters"
+	"github.com/DavinZhang/juju/resource/resourceadapters/mocks"
+	"github.com/DavinZhang/juju/state"
 )
 
 type OpenerSuite struct {

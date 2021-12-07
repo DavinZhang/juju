@@ -6,8 +6,8 @@
 package hostkeyreporter
 
 import (
-	"github.com/juju/juju/api/base"
-	"github.com/juju/juju/apiserver/params"
+	"github.com/DavinZhang/juju/api/base"
+	"github.com/DavinZhang/juju/apiserver/params"
 	"github.com/juju/names/v4"
 )
 

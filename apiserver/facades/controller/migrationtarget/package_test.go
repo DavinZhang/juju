@@ -6,8 +6,8 @@ package migrationtarget_test
 import (
 	stdtesting "testing"
 
-	"github.com/juju/juju/component/all"
-	"github.com/juju/juju/testing"
+	"github.com/DavinZhang/juju/component/all"
+	"github.com/DavinZhang/juju/testing"
 )
 
 func TestAll(t *stdtesting.T) {

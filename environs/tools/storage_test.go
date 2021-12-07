@@ -8,11 +8,11 @@ import (
 	"github.com/juju/version/v2"
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/juju/environs/filestorage"
-	envtesting "github.com/juju/juju/environs/testing"
-	envtools "github.com/juju/juju/environs/tools"
-	coretesting "github.com/juju/juju/testing"
-	coretools "github.com/juju/juju/tools"
+	"github.com/DavinZhang/juju/environs/filestorage"
+	envtesting "github.com/DavinZhang/juju/environs/testing"
+	envtools "github.com/DavinZhang/juju/environs/tools"
+	coretesting "github.com/DavinZhang/juju/testing"
+	coretools "github.com/DavinZhang/juju/tools"
 )
 
 type StorageSuite struct {

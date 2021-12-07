@@ -5,8 +5,8 @@ package modelworkermanager
 import (
 	"github.com/juju/errors"
 
-	"github.com/juju/juju/controller"
-	"github.com/juju/juju/state"
+	"github.com/DavinZhang/juju/controller"
+	"github.com/DavinZhang/juju/state"
 )
 
 // StatePoolController implements Controller in terms of a *state.StatePool.
