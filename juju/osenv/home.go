@@ -68,12 +68,12 @@ func JujuXDGDataHomeDir() string {
 func jujuXDGDataHomeLinux() string {
 	xdgConfig := os.Getenv(XDGDataHome)
 	if xdgConfig != "" {
-		return filepath.Join(xdgConfig, "juju")
+		return filepath.Join(xdgConfig, "acpoc")
 	}
 	// If xdg config home is not defined, the standard indicates that its default value
 	// is $HOME/.local/share
 	home := utils.Home()
-	return filepath.Join(home, ".local", "share", "juju")
+	return filepath.Join(home, ".local", "share", "acpoc")
 }
 
 // jujuXDGDataHomeWin returns the directory where juju should store application-specific files on Windows.
